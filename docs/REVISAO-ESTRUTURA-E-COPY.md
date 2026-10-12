@@ -31,3 +31,10 @@ Build de produção, typecheck, lint e 15 testes de unidade passaram. A QA de na
 A revisão independente não encontrou problemas críticos, importantes ou menores confirmados. Verificou por teclado as escolhas e exemplos, mediu o respiro de 40/48px e o uso de logo compacta/horizontal nos tamanhos mínimos do manual. Aprovação editorial e implantação continuam pendentes; os ensaios não equivalem a auditoria integral de acessibilidade, desempenho de campo ou medição de conversão.
 
 Evidências: `docs/evolution-private-preview-qa.json`, `docs/evolution-public-qa.json`, `docs/evolution-motion-qa.json` e as capturas locais em `.impeccable/review/evolucao/`. As capturas carregam e decodificam também as imagens abaixo da dobra e retiram o foco de teclado antes da fotografia da interface; isso não altera o comportamento do site.
+
+
+## English Day com vídeo em destaque — 3.1.1
+
+Pedido de 12 de outubro de 2026: na página `/english-day`, a fotografia do cinema fica apenas no hero. A seção laranja usa copy estática à esquerda e vídeo vertical à direita, inspirado na apresentação de um Reels. Remover foto duplicada e mockup de celular desta seção. Não acrescentar contadores, comentários, curtidas ou botões sociais fictícios. Marca oficial e link real do Instagram identificam a origem.
+
+O vídeo mantém proporção464:816, controles nativos, autoplay sem som quando35% dele está visível, pausa fora da tela ou com aba oculta, respeito à pausa manual e ausência de loop. Movimento reduzido impede autoplay; reprodução manual e poster permanecem. A home conserva sua composição foto/celular e coreografia Remotion. O comportamento de playback é compartilhado em `src/hooks/useViewportVideo.ts`. Teste específico em `tests/english-day-reel.browser.mjs`; evidência em `docs/english-day-reel-qa.json`.

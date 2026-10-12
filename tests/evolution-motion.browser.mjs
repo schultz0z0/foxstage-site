@@ -8,7 +8,8 @@ const base=process.env.FOXSTAGE_QA_URL || 'http://127.0.0.1:3001';
 const evidence={base,testedAt:new Date().toISOString(),media:[],errors:[],checks:[]};
 fs.mkdirSync('.impeccable/review/evolucao',{recursive:true});
 try {
-  for(const route of ['/','/english-day']) for(const width of [1440,390]) {
+  // The home keeps its photo/phone composition. Internal Day has its own Reel QA.
+  for(const route of ['/']) for(const width of [1440,390]) {
     const context=await browser.newContext({viewport:{width,height:1000}}); const page=await context.newPage();
     page.on('pageerror',e=>evidence.errors.push(e.message));
     await page.goto(base+route,{waitUntil:'domcontentloaded'});
@@ -16,7 +17,7 @@ try {
     if(route==='/') assert.equal(await page.locator('.english-day-enhancement').count(),0,'Day Player stays deferred below fold');
     await page.locator('#english-day-title').scrollIntoViewIfNeeded();
     await page.waitForFunction(()=>Number(document.querySelector('.english-day-enhancement')?.getAttribute('data-motion-frame'))>10);
-    const quietCopy=()=>page.locator(route==='/'?'.english-day-copy':'.day-story-header').evaluate(e=>({transform:getComputedStyle(e).transform,opacity:getComputedStyle(e).opacity,children:[...e.querySelectorAll('h1,h2,p,a')].map(n=>({transform:getComputedStyle(n).transform,opacity:getComputedStyle(n).opacity}))}));
+    const quietCopy=()=>page.locator('.english-day-copy').evaluate(e=>({transform:getComputedStyle(e).transform,opacity:getComputedStyle(e).opacity,children:[...e.querySelectorAll('h1,h2,p,a')].map(n=>({transform:getComputedStyle(n).transform,opacity:getComputedStyle(n).opacity}))}));
     const initialCopy=await quietCopy(); assert.equal(initialCopy.transform,'none'); assert.equal(initialCopy.opacity,'1');
     const photo=page.locator('.english-day-enhancement svg image');
     assert.equal(await photo.getAttribute('preserveAspectRatio'),'xMidYMid meet');
@@ -54,7 +55,7 @@ try {
   await page.locator('.hero-dot').first().click(); assert.equal(await page.locator('.hero-dot').first().getAttribute('aria-pressed'),'true');
   assert.ok(await page.locator('.hero-dot').first().evaluate(e=>e!==document.activeElement),'Pointer click does not leave a focus ring');
   assert.equal(await page.locator('.hero-slide:not([hidden]) a[data-contact-origin]').count(),1);
-  evidence.checks.push('home and internal Day playback at 1440/390px','photo overflow remains visible and whole photograph uses meet','copy static throughout movement','phone advances with hover and focus','muted video autoplay and persistent manual pause','one-shot frame 359 and no replay','hero rotation interval and manual selection','one hero CTA and no persistent pointer focus');
+  evidence.checks.push('home photo/phone playback at 1440/390px; internal video covered by english-day-reel.browser.mjs','photo overflow remains visible and whole photograph uses meet','copy static throughout movement','phone advances with hover and focus','muted video autoplay and persistent manual pause','one-shot frame 359 and no replay','hero rotation interval and manual selection','one hero CTA and no persistent pointer focus');
   assert.deepEqual(evidence.errors,[]); evidence.result='pass';
   fs.writeFileSync('docs/evolution-motion-qa.json',JSON.stringify(evidence,null,2)+'\n');
   console.log('Institutional motion QA passed.');

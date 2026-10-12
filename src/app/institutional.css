@@ -178,6 +178,21 @@ details[open] > summary .disclosure-chevron { transform: rotate(225deg); margin-
 .day-participation-grid { display: grid; grid-template-columns: minmax(0, 1fr) minmax(0, 1fr); gap: 64px; align-items: start; }
 .day-participation .body-copy { margin-top: 20px; }
 .day-participation .button { margin-top: 24px; }
+.day-reel-grid { display: grid; grid-template-columns: minmax(0, 1fr) minmax(0, 1fr); gap: 80px; align-items: center; }
+.day-reel-copy { min-width: 0; }
+.day-reel-copy .body-copy { font-size: 20px; max-width: 38ch; margin-top: 28px; }
+.day-reel-audio-hint { margin-top: 24px; font-size: 16px; }
+.day-reel { width: min(100%, var(--layout-institutional-reel-max-width)); justify-self: center; border-radius: 20px; overflow: hidden; box-shadow: var(--primitive-shadow-photo); }
+.reel-header { display: flex; justify-content: space-between; gap: 12px; align-items: center; padding: 16px; }
+.reel-header img { width: 160px; height: auto; }
+.reel-header > span { font-size: 14px; color: var(--semantic-color-text-inverse-muted); }
+.day-reel video { display: block; width: 100%; height: auto; aspect-ratio: var(--layout-institutional-reel-video-aspect-ratio); background: var(--semantic-color-surface-dark); }
+.day-reel figcaption { padding: 16px; }
+.day-reel figcaption > span { display: block; font-size: 13px; color: var(--semantic-color-text-inverse-muted); margin-bottom: 8px; }
+.day-reel figcaption a { display: flex; justify-content: space-between; gap: 16px; align-items: center; min-height: 44px; color: var(--semantic-color-text-inverse); font-weight: 600; text-decoration: none; }
+.day-reel figcaption a:hover { color: var(--semantic-color-accent-text-on-dark); }
+.day-reel-section :focus-visible { outline-color: var(--semantic-color-text); }
+.day-reel :focus-visible { outline-color: var(--semantic-color-focus-on-dark); }
 .contact-hub-grid { display: grid; grid-template-columns: minmax(0, 1.25fr) minmax(0, 0.75fr); gap: 80px; align-items: start; }
 .contact-hub .body-copy { margin-top: 20px; max-width: 46ch; }
 .contact-destinations { margin-top: 32px; border-top: 1px solid var(--semantic-color-border); }
@@ -204,6 +219,7 @@ details[open] > summary .disclosure-chevron { transform: rotate(225deg); margin-
   .conversation-scene figcaption { max-width: calc(100% - 225px); }
   .individual-goal-chooser, .contact-channels { padding: 24px; }
   .school-brand-panel { padding: 32px; }
+  .day-reel-grid { gap: 40px; }
 }
 @media (max-width: 767px) {
   :is(.group-conversation-grid, .group-practice-grid, .group-enquiry-grid, .individual-brief-grid, .individual-study-grid, .school-statement-grid, .school-teacher-grid, .school-community-grid, .day-story-header, .day-participation-grid, .contact-hub-grid) { grid-template-columns: minmax(0, 1fr); }
@@ -221,4 +237,7 @@ details[open] > summary .disclosure-chevron { transform: rotate(225deg); margin-
   .day-story-header .body-copy { font-size: var(--type-body-font-size); }
   .goal-answer .button { padding-inline: 18px; font-size: 16px; }
   .contact-destination strong { font-size: 22px; }
+  .day-reel-grid { grid-template-columns: minmax(0, 1fr); gap: 32px; }
+  .day-reel-copy .body-copy { font-size: var(--type-body-font-size); }
+  .day-reel { max-width: var(--layout-institutional-reel-mobile-max-width); }
 }

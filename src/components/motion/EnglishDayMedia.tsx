@@ -1,16 +1,11 @@
 "use client";
 
 import dynamic from "next/dynamic";
-import { Component, useEffect, useRef, useState, useSyncExternalStore } from "react";
+import { Component, useEffect, useRef, useState } from "react";
 import { EnglishDayArtwork } from "./EnglishDayArtwork";
+import { useVideoReducedMotion, useViewportVideo } from "@/hooks/useViewportVideo";
 
 const EnglishDayPlayer = dynamic(() => import("./EnglishDayPlayer"), { ssr: false });
-function subscribeMotion(update: () => void) {
-  const preference = matchMedia("(prefers-reduced-motion: reduce)");
-  preference.addEventListener("change", update);
-  return () => preference.removeEventListener("change", update);
-}
-const readMotion = () => matchMedia("(prefers-reduced-motion: reduce)").matches;
 class MotionBoundary extends Component<{ children: React.ReactNode }, { failed: boolean }> {
   state = { failed: false };
   static getDerivedStateFromError() { return { failed: true }; }
@@ -25,22 +20,13 @@ type MediaProps = {
 export function EnglishDayMedia({ photo, video }: MediaProps) {
   const seat = useRef<HTMLDivElement>(null);
   const media = useRef<HTMLVideoElement>(null);
-  const userPaused = useRef(false);
-  const environmentPaused = useRef(false);
   const [near, setNear] = useState(false);
   const [visible, setVisible] = useState(false);
   const [sceneVisible, setSceneVisible] = useState(false);
   const [eligible, setEligible] = useState(false);
   const [compact, setCompact] = useState(false);
-  const reduced = useSyncExternalStore(subscribeMotion, readMotion, () => true);
-  useEffect(() => {
-    const element = media.current;
-    if (!element) return;
-    const pause = () => { if (!environmentPaused.current && !element.ended) userPaused.current = true; };
-    const play = () => { userPaused.current = false; environmentPaused.current = false; };
-    element.addEventListener("pause", pause); element.addEventListener("play", play);
-    return () => { element.removeEventListener("pause", pause); element.removeEventListener("play", play); };
-  }, []);
+  const reduced = useVideoReducedMotion();
+  useViewportVideo(media, visible, reduced);
   useEffect(() => {
     const element = seat.current;
     const videoElement = media.current;
@@ -57,24 +43,6 @@ export function EnglishDayMedia({ photo, video }: MediaProps) {
     resize(); nearby.observe(section ?? element); scene.observe(section ?? element); entrance.observe(heading ?? element); inView.observe(videoElement); mobile.addEventListener("change", resize);
     return () => { nearby.disconnect(); scene.disconnect(); entrance.disconnect(); inView.disconnect(); mobile.removeEventListener("change", resize); };
   }, []);
-  useEffect(() => {
-    const videoElement = media.current;
-    if (!videoElement) return;
-    let disposed = false;
-    const sync = () => {
-      if (disposed) return;
-      if (!visible || document.hidden || reduced) { environmentPaused.current = true; videoElement.pause(); return; }
-      if (!reduced && !userPaused.current && !videoElement.ended) {
-        environmentPaused.current = false;
-        void videoElement.play().then(() => {
-          if (disposed || document.hidden) { environmentPaused.current = true; videoElement.pause(); }
-        }).catch(() => { /* Native controls remain the autoplay fallback. */ });
-      }
-    };
-    sync();
-    document.addEventListener("visibilitychange", sync);
-    return () => { disposed = true; document.removeEventListener("visibilitychange", sync); };
-  }, [visible, reduced]);
   return <div className="english-day-stage" ref={seat}>
     <figure className="english-day-artwork" aria-label={photo.alt}>
       <div className="english-day-poster english-day-poster-desktop" aria-hidden="true"><EnglishDayArtwork photoSrc={photo.src} /></div>

@@ -190,6 +190,9 @@
   --layout-institutional-mockup-screen-aspect-ratio: 16 / 10;
   --layout-institutional-mockup-phone-max-width: 320px;
   --layout-institutional-teacher-panel-padding: 40px;
+  --layout-institutional-reel-max-width: 360px;
+  --layout-institutional-reel-mobile-max-width: 340px;
+  --layout-institutional-reel-video-aspect-ratio: 464 / 816;
   --type-display-weight: 400;
   --type-hero-font-size: clamp(2.75rem, 7.8vw, 7rem);
   --type-hero-line-height: 0.98;

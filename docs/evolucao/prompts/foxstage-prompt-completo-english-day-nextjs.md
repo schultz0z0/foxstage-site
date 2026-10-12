@@ -131,3 +131,10 @@ Produzir prévia no website real e capturas de desktop/mobile quando a tarefa fo
 Esta nota substitui a composição anterior após a crítica do usuário sobre repetição. Manter o hero fotográfico aprovado; usar a home como referência de marca. Faixa curta de fatos; relato do cinema com fotografia e celular/vídeo centralizados, mantendo as trajetórias e copy estática; participação e duas dúvidas próprias. Sem repetir a assinatura final da home.
 
 Consultar [a revisão de estrutura e copy](../../REVISAO-ESTRUTURA-E-COPY.md), o contrato canônico 3.1.0 e a ficha factual. Omitir conteúdo não confirmado.
+
+
+## English Day com vídeo em destaque — 3.1.1
+
+Pedido de 12 de outubro de 2026: na página `/english-day`, a fotografia do cinema fica apenas no hero. A seção laranja usa copy estática à esquerda e vídeo vertical à direita, inspirado na apresentação de um Reels. Remover foto duplicada e mockup de celular desta seção. Não acrescentar contadores, comentários, curtidas ou botões sociais fictícios. Marca oficial e link real do Instagram identificam a origem.
+
+O vídeo mantém proporção464:816, controles nativos, autoplay sem som quando35% dele está visível, pausa fora da tela ou com aba oculta, respeito à pausa manual e ausência de loop. Movimento reduzido impede autoplay; reprodução manual e poster permanecem. A home conserva sua composição foto/celular e coreografia Remotion. O comportamento de playback é compartilhado em `src/hooks/useViewportVideo.ts`. Teste específico em `tests/english-day-reel.browser.mjs`; evidência em `docs/english-day-reel-qa.json`.

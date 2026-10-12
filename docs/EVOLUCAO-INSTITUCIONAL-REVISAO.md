@@ -16,3 +16,7 @@ Evidências reproduzíveis: testes de unidade em `tests/evolution-*.test.mjs`, n
 ## Revisão das estruturas próprias — 3.1.0
 
 Revisão independente posterior, em relação à versão `b6bdab5`. As cinco internas possuem funções e composições distintas, sem o pacote repetido de método, comparação e assinatura final. Nenhum achado crítico, importante ou menor foi confirmado. Foram verificados: escolha de objetivo por setas e Tab com/sem JavaScript, uma única resposta visível, contexto correto no WhatsApp, disclosures dos exemplos em grupo, oito larguras, respiro inicial, mínimos de logo e 404 público sem canonical. A aprovação vale para a entrega privada; publicação editorial permanece pendente. Trajetórias de mídia foram preservadas e testadas pelo ensaio de movimento do projeto.
+
+## Vídeo vertical na página English Day — 3.1.1
+
+Revisão independente da substituição da foto/celular por um Reel nativo, com copy lateral. Sem achados críticos, importantes ou menores confirmados. Verificados: vídeo integral464:816, logo compacta160px, seis larguras320–1920px, autoplay sem som, continuidade sob hover, pausa manual preservada depois de sair/voltar à seção, controles nativos com movimento reduzido e sem JavaScript. O comportamento da home foi conferido após extrair o hook compartilhado de playback. Build, lint, 15 testes de unidade, navegação privada/pública, movimento da home e teste específico do Reel passaram. As limitações preexistentes de legendas selecionáveis, auditoria integral entre navegadores e desempenho de campo permanecem fora desta conclusão.

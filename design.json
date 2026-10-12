@@ -1,6 +1,6 @@
 {
   "schemaVersion": "1.0.0",
-  "designVersion": "3.1.0",
+  "designVersion": "3.1.1",
   "id": "foxstage-website",
   "language": "pt-BR",
   "status": "user-approved-website-with-brand-manual-b-v1",
@@ -856,7 +856,7 @@
         "englishDay": [
           "real photographic hero",
           "white short event facts",
-          "orange cinema story with centered photo and native video",
+          "orange lateral copy and standalone vertical video Reel",
           "cream participation questions",
           "black footer"
         ],
@@ -874,7 +874,11 @@
         "englishDay": "Documentary cinema media and participation information",
         "contact": "Direct contextual routing to the same confirmed WhatsApp number"
       },
-      "reuseRule": "Share brand tokens, hero, header, footer, links and media behavior. Do not share a full body sequence or require every page to contain method/comparison/EnglishDay/FAQ/closing."
+      "reuseRule": "Share brand tokens, hero, header, footer, links and media behavior. Do not share a full body sequence or require every page to contain method/comparison/EnglishDay/FAQ/closing.",
+      "reelMaxWidth": "360px",
+      "reelMobileMaxWidth": "340px",
+      "reelVideoAspectRatio": "464 / 816",
+      "englishDayReel": "Internal page only: left static copy, right vertical native video, official compact reversed logo and real Instagram profile link. No repeated cinema photograph, hardware mockup, fabricated counters or social actions."
     }
   },
   "composition": {

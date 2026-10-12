@@ -1,6 +1,6 @@
-# Implementação do contrato Foxstage 3.1.0
+# Implementação do contrato Foxstage 3.1.1
 
-**Conteúdo vigente:** versão 3.1.0, home preservada e evolução institucional em prévia privada. Consultar a nota final desta versão antes de reutilizar especificações históricas.
+**Conteúdo vigente:** versão 3.1.1, home preservada e evolução institucional em prévia privada. Consultar a nota final desta versão antes de reutilizar especificações históricas.
 
 Registro de 10 de outubro de 2026. Esta implementação preserva a composição aprovada e aplica a direção B escolhida pelo usuário, conforme o kit completo fornecido em assets. A direção é editorial para um curso de inglês, com fotografia, títulos condensados, laranja/preto/creme/branco e contato direto. Cores e fontes seguem agora o manual B v1.0 aprovado neste projeto. A pesquisa inicial do Instagram não é apresentada como origem desse manual.
 
@@ -209,3 +209,10 @@ Revisão solicitada em 12 de outubro de 2026: a home é referência da marca, n�
 Grupo: cena de conversa, exemplos cotidianos e consulta sobre turma. Individual: objetivo escolhido pelo visitante com mensagem contextual no WhatsApp, seguido de uma explicação breve do formato com fotografia. A Foxstage: posicionamento institucional, identidade oficial, professor confirmado e comunidade real. English Day: fatos essenciais, registro do cinema com mídias centrais e participação. Contato: uma seção de destinos e canais oficiais.
 
 Não repetir em todas as internas o bloco de método, a comparação completa, o destaque laranja de English Day e a assinatura final da home. A quantidade e as cores das seções seguem o conteúdo da página. Detalhes em [Revisão de estrutura e copy](REVISAO-ESTRUTURA-E-COPY.md). Valores e funções atualizados em `design.json`; conteúdo das aulas em `src/content/evolution/courses.ts`. As páginas continuam como prévias privadas para revisão editorial.
+
+
+## English Day com vídeo em destaque — 3.1.1
+
+Pedido de 12 de outubro de 2026: na página `/english-day`, a fotografia do cinema fica apenas no hero. A seção laranja usa copy estática à esquerda e vídeo vertical à direita, inspirado na apresentação de um Reels. Remover foto duplicada e mockup de celular desta seção. Não acrescentar contadores, comentários, curtidas ou botões sociais fictícios. Marca oficial e link real do Instagram identificam a origem.
+
+O vídeo mantém proporção464:816, controles nativos, autoplay sem som quando35% dele está visível, pausa fora da tela ou com aba oculta, respeito à pausa manual e ausência de loop. Movimento reduzido impede autoplay; reprodução manual e poster permanecem. A home conserva sua composição foto/celular e coreografia Remotion. O comportamento de playback é compartilhado em `src/hooks/useViewportVideo.ts`. Teste específico em `tests/english-day-reel.browser.mjs`; evidência em `docs/english-day-reel-qa.json`.
