@@ -1,0 +1,26 @@
+import sharp from "sharp";
+import { mkdir, copyFile, readFile, writeFile, unlink } from "node:fs/promises";
+import path from "node:path";
+
+const root = process.cwd();
+const source = "C:/Users/rapha/.codex/generated_images/01a12707-3614-7680-9070-37fb4cd53210/exec-da6b0978-4590-4ee2-9055-71d73455ee73.png";
+const original = path.join(root, "assets/generated/hero-ingles.png");
+const destination = path.join(root, "public/images/foxstage/hero-ingles.webp");
+await mkdir(path.dirname(original), { recursive: true });
+await copyFile(source, original);
+await sharp(original).webp({ quality: 88 }).toFile(destination);
+const originalLogo = path.join(root, "assets/logo.png");
+await sharp(originalLogo).resize(64, 64, { fit: "contain" }).png().toFile(path.join(root, "src/app/icon.png"));
+await sharp(originalLogo).resize(180, 180, { fit: "contain" }).png().toFile(path.join(root, "src/app/apple-icon.png"));
+const manifestPath = path.join(root, "docs/assets-manifest.json");
+const manifest = JSON.parse(await readFile(manifestPath, "utf8"));
+manifest.photos = manifest.photos.filter(photo => photo.role !== "hero");
+const prompt = "Create a single high quality editorial photographic illustration for the hero of an English course website. Landscape 16:9, 2000x1125 or highest native landscape resolution. Scene: two fictional adults, a dark-haired Brazilian-looking woman and an Afro-Brazilian-looking man approximately 25-35 years old, studying and talking naturally with one simple notebook and an unbranded closed book at a wooden table in a quiet neutral study space. They are both exclusively in the RIGHT HALF of the composition, seated slightly right of center, faces clearly visible, relaxed candid expressions, anatomically correct hands. The entire LEFT 42 percent of the image is a calm slightly out-of-focus near-dark neutral wall and table edge with NO PEOPLE, NO FACES, NO OBJECTS in front of where website text will be placed. Natural afternoon side light, rich near-black clothes and neutral tones, one subtle warm orange clothing detail, understated honest editorial style rather than advertising stock exaggeration. It should look like a real photograph but depicts fictional people, no reference to real Foxstage students or premises. Keep the people both within the right-middle region so a vertical center-right mobile crop preserves them. No children. No flags, landmarks, certificates, branding, logos, watermarks, numbers, legible book text, written text, UI, overlays, buttons or borders. Return the generated asset saved to a local file suitable for use in the website.";
+const info = await sharp(destination).metadata();
+manifest.generatedHero = { name: "hero-ingles.webp", original: "assets/generated/hero-ingles.png", origin: "image_gen built-in tool", generatedAt: "2026-10-10", prompt, width: info.width, height: info.height, bytes: (await readFile(destination)).length, use: "Fictional photographic illustration, visibly labelled as AI-generated; not school evidence.", treatment: "Format conversion to WebP only; composition unchanged." };
+await writeFile(manifestPath, JSON.stringify(manifest, null, 2) + "\n");
+await writeFile(original + ".prompt.txt", prompt + "\n");
+const unusedStockHero = path.resolve(root, "public/images/foxstage/hero-ingles.jpg");
+if (!unusedStockHero.startsWith(path.resolve(root, "public/images/foxstage") + path.sep)) throw new Error("Unexpected cleanup target.");
+await unlink(unusedStockHero).catch(error => { if (error.code !== "ENOENT") throw error; });
+console.log(`Generated hero optimized: ${info.width}x${info.height}, ${manifest.generatedHero.bytes} bytes. Original and prompt preserved; favicon derivatives created.`);

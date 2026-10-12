@@ -1,0 +1,38 @@
+{
+  "version": "1.0.0",
+  "direction": "B",
+  "status": "Developed from the direction selected by the user; website migration not performed",
+  "colors": {
+    "orange": "#F65A0B",
+    "ink": "#101314",
+    "cream": "#F3EFE8",
+    "light": "#FFF8EC",
+    "white": "#FFFFFF",
+    "textOrange": "#A83A08",
+    "lightOrange": "#FFB077"
+  },
+  "typography": {
+    "wordmark": "Source Sans 3 700, optically adjusted and supplied as paths",
+    "descriptor": "Source Sans 3 600, supplied as paths",
+    "heading": "Bebas Neue 400",
+    "body": "Source Sans 3 400/600/700"
+  },
+  "clearSpace": {
+    "unit": "x = one quarter of the visible symbol height",
+    "minimum": "1x on all sides"
+  },
+  "minimumSizes": {
+    "horizontalWithDescriptorPx": 360,
+    "compactWithoutDescriptorPx": 160,
+    "symbolPx": 32,
+    "microFaviconPx": 16
+  },
+  "contrast": {
+    "inkOnOrange": 5.67,
+    "creamOnOrange": 3.11,
+    "inkOnCream": 16.28,
+    "textOrangeOnCream": 5.6,
+    "orangeOnInk": 5.67
+  },
+  "print": "RGB reference. CMYK/Pantone must be proofed for the chosen paper/profile; no universal equivalence supplied."
+}

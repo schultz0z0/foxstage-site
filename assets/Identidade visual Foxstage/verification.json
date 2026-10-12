@@ -1,0 +1,11 @@
+{
+  "testedAt": "2026-10-10T22:28:23.925Z",
+  "pdfPages": 12,
+  "pdfFormat": "A4 landscape",
+  "svgChecks": "Pure paths, no bitmap or font dependency",
+  "pngChecks": "All decoded; logos/icons have transparent backgrounds",
+  "smallSizes": "Compact160px, icon32px, favicon16/32px and avatar128px rendered",
+  "printProof": "Not performed",
+  "websiteChanged": false,
+  "issues": []
+}

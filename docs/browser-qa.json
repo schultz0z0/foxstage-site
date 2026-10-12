@@ -1,0 +1,203 @@
+{
+  "date": "2026-10-10T19:59:26.757Z",
+  "environment": "Chromium headless, local Next.js production, no network/CPU throttling",
+  "widths": [
+    {
+      "width": 320,
+      "documentWidth": 320,
+      "heroHeight": 741.515625,
+      "h1": {
+        "font": "display, \"display Fallback\", \"Arial Narrow\", Arial",
+        "lineHeight": "43.12px",
+        "height": 129.328125
+      },
+      "brokenImages": [],
+      "clippedText": [],
+      "columns": [
+        "280px",
+        "280px",
+        "280px"
+      ],
+      "anchors": []
+    },
+    {
+      "width": 360,
+      "documentWidth": 360,
+      "heroHeight": 698.40625,
+      "h1": {
+        "font": "display, \"display Fallback\", \"Arial Narrow\", Arial",
+        "lineHeight": "43.12px",
+        "height": 86.21875
+      },
+      "brokenImages": [],
+      "clippedText": [],
+      "columns": [
+        "312px",
+        "312px",
+        "312px"
+      ],
+      "anchors": []
+    },
+    {
+      "width": 390,
+      "documentWidth": 390,
+      "heroHeight": 698.40625,
+      "h1": {
+        "font": "display, \"display Fallback\", \"Arial Narrow\", Arial",
+        "lineHeight": "43.12px",
+        "height": 86.21875
+      },
+      "brokenImages": [],
+      "clippedText": [],
+      "columns": [
+        "342px",
+        "342px",
+        "342px"
+      ],
+      "anchors": []
+    },
+    {
+      "width": 430,
+      "documentWidth": 430,
+      "heroHeight": 698.40625,
+      "h1": {
+        "font": "display, \"display Fallback\", \"Arial Narrow\", Arial",
+        "lineHeight": "43.12px",
+        "height": 86.21875
+      },
+      "brokenImages": [],
+      "clippedText": [],
+      "columns": [
+        "382px",
+        "382px",
+        "382px"
+      ],
+      "anchors": []
+    },
+    {
+      "width": 768,
+      "documentWidth": 768,
+      "heroHeight": 600,
+      "h1": {
+        "font": "display, \"display Fallback\", \"Arial Narrow\", Arial",
+        "lineHeight": "58.7059px",
+        "height": 117.40625
+      },
+      "brokenImages": [],
+      "clippedText": [],
+      "columns": [
+        "340px 340px",
+        "340px 340px",
+        "319.188px 352.797px"
+      ],
+      "anchors": []
+    },
+    {
+      "width": 1024,
+      "documentWidth": 1024,
+      "heroHeight": 640,
+      "h1": {
+        "font": "display, \"display Fallback\", \"Arial Narrow\", Arial",
+        "lineHeight": "78.2746px",
+        "height": 156.53125
+      },
+      "brokenImages": [],
+      "clippedText": [],
+      "columns": [
+        "298.656px 298.672px 298.656px",
+        "298.656px 298.672px 298.656px",
+        "418px 461.984px"
+      ],
+      "anchors": []
+    },
+    {
+      "width": 1440,
+      "documentWidth": 1440,
+      "heroHeight": 640,
+      "h1": {
+        "font": "display, \"display Fallback\", \"Arial Narrow\", Arial",
+        "lineHeight": "109.76px",
+        "height": 329.25
+      },
+      "brokenImages": [],
+      "clippedText": [],
+      "columns": [
+        "384px 384px 384px",
+        "384px 384px 384px",
+        "539.594px 596.391px"
+      ],
+      "anchors": []
+    },
+    {
+      "width": 1920,
+      "documentWidth": 1920,
+      "heroHeight": 640,
+      "h1": {
+        "font": "display, \"display Fallback\", \"Arial Narrow\", Arial",
+        "lineHeight": "109.76px",
+        "height": 329.25
+      },
+      "brokenImages": [],
+      "clippedText": [],
+      "columns": [
+        "384px 384px 384px",
+        "384px 384px 384px",
+        "539.594px 596.391px"
+      ],
+      "anchors": []
+    }
+  ],
+  "routes": [
+    {
+      "route": "/",
+      "status": 200,
+      "contentType": "text/html; charset=utf-8"
+    },
+    {
+      "route": "/robots.txt",
+      "status": 200,
+      "contentType": "text/plain"
+    },
+    {
+      "route": "/sitemap.xml",
+      "status": 200,
+      "contentType": "application/xml"
+    },
+    {
+      "route": "/opengraph-image",
+      "status": 200,
+      "contentType": "image/png"
+    },
+    {
+      "route": "/icon.png",
+      "status": 200,
+      "contentType": "image/png"
+    },
+    {
+      "route": "/apple-icon.png",
+      "status": 200,
+      "contentType": "image/png"
+    },
+    {
+      "route": "/pagina-inexistente",
+      "status": 404,
+      "contentType": "text/html; charset=utf-8"
+    }
+  ],
+  "menuEscapeFocus": true,
+  "menuNavigationFocus": true,
+  "skipLink": true,
+  "noJavaScript": true,
+  "reducedMotion": {
+    "transition": "0s",
+    "scroll": "auto"
+  },
+  "zoomSimulation": {
+    "originalViewport": 1280,
+    "equivalentZoom": "200%",
+    "viewport": 640,
+    "width": 640,
+    "scroll": 640
+  },
+  "consoleErrors": []
+}

@@ -1,0 +1,428 @@
+[
+  {
+    "file": "logos/horizontal/foxstage-horizontal-color.svg",
+    "format": "svg",
+    "viewBox": [
+      945.428,
+      280
+    ],
+    "transparent": true
+  },
+  {
+    "file": "logos/horizontal/foxstage-horizontal-color-1891.png",
+    "format": "png",
+    "width": 1891,
+    "height": 560
+  },
+  {
+    "file": "logos/compact/foxstage-compact-color.svg",
+    "format": "svg",
+    "viewBox": [
+      729.038,
+      190
+    ],
+    "transparent": true
+  },
+  {
+    "file": "logos/compact/foxstage-compact-color-1600.png",
+    "format": "png",
+    "width": 1600,
+    "height": 417
+  },
+  {
+    "file": "logos/stacked/foxstage-stacked-color.svg",
+    "format": "svg",
+    "viewBox": [
+      760,
+      530
+    ],
+    "transparent": true
+  },
+  {
+    "file": "logos/stacked/foxstage-stacked-color-1520.png",
+    "format": "png",
+    "width": 1520,
+    "height": 1060
+  },
+  {
+    "file": "logos/horizontal/foxstage-horizontal-reverse.svg",
+    "format": "svg",
+    "viewBox": [
+      945.428,
+      280
+    ],
+    "transparent": true
+  },
+  {
+    "file": "logos/horizontal/foxstage-horizontal-reverse-1891.png",
+    "format": "png",
+    "width": 1891,
+    "height": 560
+  },
+  {
+    "file": "logos/compact/foxstage-compact-reverse.svg",
+    "format": "svg",
+    "viewBox": [
+      729.038,
+      190
+    ],
+    "transparent": true
+  },
+  {
+    "file": "logos/compact/foxstage-compact-reverse-1600.png",
+    "format": "png",
+    "width": 1600,
+    "height": 417
+  },
+  {
+    "file": "logos/stacked/foxstage-stacked-reverse.svg",
+    "format": "svg",
+    "viewBox": [
+      760,
+      530
+    ],
+    "transparent": true
+  },
+  {
+    "file": "logos/stacked/foxstage-stacked-reverse-1520.png",
+    "format": "png",
+    "width": 1520,
+    "height": 1060
+  },
+  {
+    "file": "logos/horizontal/foxstage-horizontal-mono-dark.svg",
+    "format": "svg",
+    "viewBox": [
+      945.428,
+      280
+    ],
+    "transparent": true
+  },
+  {
+    "file": "logos/horizontal/foxstage-horizontal-mono-dark-1891.png",
+    "format": "png",
+    "width": 1891,
+    "height": 560
+  },
+  {
+    "file": "logos/compact/foxstage-compact-mono-dark.svg",
+    "format": "svg",
+    "viewBox": [
+      729.038,
+      190
+    ],
+    "transparent": true
+  },
+  {
+    "file": "logos/compact/foxstage-compact-mono-dark-1600.png",
+    "format": "png",
+    "width": 1600,
+    "height": 417
+  },
+  {
+    "file": "logos/stacked/foxstage-stacked-mono-dark.svg",
+    "format": "svg",
+    "viewBox": [
+      760,
+      530
+    ],
+    "transparent": true
+  },
+  {
+    "file": "logos/stacked/foxstage-stacked-mono-dark-1520.png",
+    "format": "png",
+    "width": 1520,
+    "height": 1060
+  },
+  {
+    "file": "logos/horizontal/foxstage-horizontal-mono-light.svg",
+    "format": "svg",
+    "viewBox": [
+      945.428,
+      280
+    ],
+    "transparent": true
+  },
+  {
+    "file": "logos/horizontal/foxstage-horizontal-mono-light-1891.png",
+    "format": "png",
+    "width": 1891,
+    "height": 560
+  },
+  {
+    "file": "logos/compact/foxstage-compact-mono-light.svg",
+    "format": "svg",
+    "viewBox": [
+      729.038,
+      190
+    ],
+    "transparent": true
+  },
+  {
+    "file": "logos/compact/foxstage-compact-mono-light-1600.png",
+    "format": "png",
+    "width": 1600,
+    "height": 417
+  },
+  {
+    "file": "logos/stacked/foxstage-stacked-mono-light.svg",
+    "format": "svg",
+    "viewBox": [
+      760,
+      530
+    ],
+    "transparent": true
+  },
+  {
+    "file": "logos/stacked/foxstage-stacked-mono-light-1520.png",
+    "format": "png",
+    "width": 1520,
+    "height": 1060
+  },
+  {
+    "file": "icons/foxstage-icon-orange.svg",
+    "format": "svg",
+    "viewBox": [
+      240,
+      240
+    ],
+    "transparent": true
+  },
+  {
+    "file": "icons/foxstage-icon-orange-96.png",
+    "format": "png",
+    "width": 96,
+    "height": 96
+  },
+  {
+    "file": "icons/foxstage-icon-orange-256.png",
+    "format": "png",
+    "width": 256,
+    "height": 256
+  },
+  {
+    "file": "icons/foxstage-icon-orange-512.png",
+    "format": "png",
+    "width": 512,
+    "height": 512
+  },
+  {
+    "file": "icons/foxstage-icon-orange-1024.png",
+    "format": "png",
+    "width": 1024,
+    "height": 1024
+  },
+  {
+    "file": "icons/foxstage-icon-dark.svg",
+    "format": "svg",
+    "viewBox": [
+      240,
+      240
+    ],
+    "transparent": true
+  },
+  {
+    "file": "icons/foxstage-icon-dark-96.png",
+    "format": "png",
+    "width": 96,
+    "height": 96
+  },
+  {
+    "file": "icons/foxstage-icon-dark-256.png",
+    "format": "png",
+    "width": 256,
+    "height": 256
+  },
+  {
+    "file": "icons/foxstage-icon-dark-512.png",
+    "format": "png",
+    "width": 512,
+    "height": 512
+  },
+  {
+    "file": "icons/foxstage-icon-dark-1024.png",
+    "format": "png",
+    "width": 1024,
+    "height": 1024
+  },
+  {
+    "file": "icons/foxstage-icon-light.svg",
+    "format": "svg",
+    "viewBox": [
+      240,
+      240
+    ],
+    "transparent": true
+  },
+  {
+    "file": "icons/foxstage-icon-light-96.png",
+    "format": "png",
+    "width": 96,
+    "height": 96
+  },
+  {
+    "file": "icons/foxstage-icon-light-256.png",
+    "format": "png",
+    "width": 256,
+    "height": 256
+  },
+  {
+    "file": "icons/foxstage-icon-light-512.png",
+    "format": "png",
+    "width": 512,
+    "height": 512
+  },
+  {
+    "file": "icons/foxstage-icon-light-1024.png",
+    "format": "png",
+    "width": 1024,
+    "height": 1024
+  },
+  {
+    "file": "logos/wordmark/foxstage-wordmark-dark.svg",
+    "format": "svg",
+    "viewBox": [
+      738.688,
+      218
+    ],
+    "transparent": true
+  },
+  {
+    "file": "logos/wordmark/foxstage-wordmark-dark-1600.png",
+    "format": "png",
+    "width": 1600,
+    "height": 472
+  },
+  {
+    "file": "logos/wordmark/foxstage-wordmark-light.svg",
+    "format": "svg",
+    "viewBox": [
+      738.688,
+      218
+    ],
+    "transparent": true
+  },
+  {
+    "file": "logos/wordmark/foxstage-wordmark-light-1600.png",
+    "format": "png",
+    "width": 1600,
+    "height": 472
+  },
+  {
+    "file": "avatars/foxstage-avatar-orange.svg",
+    "format": "svg",
+    "viewBox": [
+      512,
+      512
+    ],
+    "transparent": false
+  },
+  {
+    "file": "avatars/foxstage-avatar-orange-512.png",
+    "format": "png",
+    "width": 512,
+    "height": 512
+  },
+  {
+    "file": "avatars/foxstage-avatar-orange-1024.png",
+    "format": "png",
+    "width": 1024,
+    "height": 1024
+  },
+  {
+    "file": "avatars/foxstage-avatar-dark.svg",
+    "format": "svg",
+    "viewBox": [
+      512,
+      512
+    ],
+    "transparent": false
+  },
+  {
+    "file": "avatars/foxstage-avatar-dark-512.png",
+    "format": "png",
+    "width": 512,
+    "height": 512
+  },
+  {
+    "file": "avatars/foxstage-avatar-dark-1024.png",
+    "format": "png",
+    "width": 1024,
+    "height": 1024
+  },
+  {
+    "file": "avatars/foxstage-avatar-cream.svg",
+    "format": "svg",
+    "viewBox": [
+      512,
+      512
+    ],
+    "transparent": false
+  },
+  {
+    "file": "avatars/foxstage-avatar-cream-512.png",
+    "format": "png",
+    "width": 512,
+    "height": 512
+  },
+  {
+    "file": "avatars/foxstage-avatar-cream-1024.png",
+    "format": "png",
+    "width": 1024,
+    "height": 1024
+  },
+  {
+    "file": "favicons/foxstage-favicon.svg",
+    "format": "svg",
+    "viewBox": [
+      256,
+      256
+    ],
+    "transparent": false
+  },
+  {
+    "file": "favicons/foxstage-favicon-16.png",
+    "format": "png",
+    "width": 16,
+    "height": 16
+  },
+  {
+    "file": "favicons/foxstage-favicon-32.png",
+    "format": "png",
+    "width": 32,
+    "height": 32
+  },
+  {
+    "file": "favicons/foxstage-favicon-48.png",
+    "format": "png",
+    "width": 48,
+    "height": 48
+  },
+  {
+    "file": "favicons/foxstage-favicon-180.png",
+    "format": "png",
+    "width": 180,
+    "height": 180
+  },
+  {
+    "file": "favicons/foxstage-favicon-192.png",
+    "format": "png",
+    "width": 192,
+    "height": 192
+  },
+  {
+    "file": "favicons/foxstage-favicon-512.png",
+    "format": "png",
+    "width": 512,
+    "height": 512
+  },
+  {
+    "file": "favicons/favicon.ico",
+    "format": "ico",
+    "sizes": [
+      16,
+      32,
+      48
+    ]
+  }
+]

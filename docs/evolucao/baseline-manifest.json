@@ -1,0 +1,1305 @@
+{
+  "planningVersion": "1.0.0",
+  "baselineVersion": "2.7.3",
+  "documentationDate": "2026-10-12",
+  "sourceRoot": "D:/Projetos SaaS/FoxStage website",
+  "containsInstalledDependencies": false,
+  "containsSecrets": false,
+  "files": [
+    {
+      "path": "src/app/apple-icon.png",
+      "bytes": 7030,
+      "sha256": "f43f64779c5f6f3ab9deff962ff0cf84e41af625f152e9b2e3e05eda9b15ac0c"
+    },
+    {
+      "path": "src/app/favicon.ico",
+      "bytes": 2859,
+      "sha256": "abae1b3add8a3eba4d268113086d2a359a44221684f26c3cbadab26668ad24f1"
+    },
+    {
+      "path": "src/app/globals.css",
+      "bytes": 28768,
+      "sha256": "a55a41ef7fc4aefebf866f2dd7e0cf8242b5980a8108f86f59bb906e2299edc8"
+    },
+    {
+      "path": "src/app/icon.png",
+      "bytes": 16052,
+      "sha256": "766c1fb73d667c852d81c63bd42b8391a48eeb07d0042c2d3ec8e7ab7b8727f1"
+    },
+    {
+      "path": "src/app/icon.svg",
+      "bytes": 808,
+      "sha256": "0920a9725cc3fbe7b48dd26e55c42bb734a96e153bdd6b5bcc3e5d8b1c418b37"
+    },
+    {
+      "path": "src/app/layout.tsx",
+      "bytes": 1589,
+      "sha256": "163078451930ed08e114a2588afb4f2230d6ecabc29239750ce237f8e0d184bd"
+    },
+    {
+      "path": "src/app/not-found.tsx",
+      "bytes": 713,
+      "sha256": "cb31baf2d845b49171496faa331a5e12fa5744640f45500dce6f87d597b6cb52"
+    },
+    {
+      "path": "src/app/opengraph-image.tsx",
+      "bytes": 1707,
+      "sha256": "7169b18c6ca634f8559baa5109509d41e7d9ea26039ee513d367aacae2e55df3"
+    },
+    {
+      "path": "src/app/page.tsx",
+      "bytes": 1214,
+      "sha256": "d82bdfaa89d173c06055410cda2183e2fbd1c25fefdb01c69d5e058bba56762e"
+    },
+    {
+      "path": "src/app/robots.ts",
+      "bytes": 395,
+      "sha256": "4931b71c319446fddcfd53a33067841e347c98e8de6aa45734abb2939fe87706"
+    },
+    {
+      "path": "src/app/sitemap.ts",
+      "bytes": 281,
+      "sha256": "c2fdeff2b78f7f00042c2964ce57e9906c279de99e0e8837fc23c8da52ff464a"
+    },
+    {
+      "path": "src/app/tokens.css",
+      "bytes": 9552,
+      "sha256": "e68de533b6b3060c05806420ea1e6018c9076baf5eabd5637dab3344d3ff17d5"
+    },
+    {
+      "path": "src/components/layout/Footer.tsx",
+      "bytes": 1428,
+      "sha256": "065a25710af7dd15142235ae29107060ccd46cf12b492e0fcb041bb4d6b512ae"
+    },
+    {
+      "path": "src/components/layout/Header.tsx",
+      "bytes": 607,
+      "sha256": "4ab98c7a19364cb5798c3287bc4a23f3869a57030e66b920aacd4b8b8e52309e"
+    },
+    {
+      "path": "src/components/motion/EnglishDayArtwork.tsx",
+      "bytes": 1740,
+      "sha256": "f82d349f012930ec759e6016db1198e010be92fccd9fe0c77378a15940276e17"
+    },
+    {
+      "path": "src/components/motion/EnglishDayMedia.tsx",
+      "bytes": 5616,
+      "sha256": "05df415d736b97ca32e32b3839761a3377dbacf9b00ae78492e86a477125a221"
+    },
+    {
+      "path": "src/components/motion/EnglishDayPlayer.tsx",
+      "bytes": 3820,
+      "sha256": "16ab4d687b23d13e8304889f0589206279605ab9396fd80e085b403586e9ab36"
+    },
+    {
+      "path": "src/components/motion/SignatureArtwork.tsx",
+      "bytes": 1404,
+      "sha256": "5a1be642cde8a3c9d7c06fe367b55bafaf0670afdc6b09c1f7f5d056065a6377"
+    },
+    {
+      "path": "src/components/motion/SignatureMotion.tsx",
+      "bytes": 2470,
+      "sha256": "f01395fbad1d992c76418c291a57fb8cfae1af16d13b857d22bac99c502eb7be"
+    },
+    {
+      "path": "src/components/motion/SignaturePlayer.tsx",
+      "bytes": 3510,
+      "sha256": "d1bfbd9ad625ae5c4f47a398cad8602ecdd582730f1db64befa7dc148491e40b"
+    },
+    {
+      "path": "src/components/sections/About.tsx",
+      "bytes": 1204,
+      "sha256": "9d3def357c6278173f0ae2ded7acd46fdfd76236449869fd0ba27bd144cdd8dd"
+    },
+    {
+      "path": "src/components/sections/ContactCTA.tsx",
+      "bytes": 809,
+      "sha256": "cd192cbdc0ba636d7610efe92ee61ad6d34a13bdef1b79ec895df66fb6446b0a"
+    },
+    {
+      "path": "src/components/sections/ContactShortcuts.tsx",
+      "bytes": 1724,
+      "sha256": "5a7231fd03e727622cb1e0c8781c5cd7616feb067aaa300e1e8031586fb1a0cb"
+    },
+    {
+      "path": "src/components/sections/Courses.tsx",
+      "bytes": 1195,
+      "sha256": "dfd6ff9e2be69d6ccd90403c87801062e2ed944cca3efded3f04b03ae3905031"
+    },
+    {
+      "path": "src/components/sections/EnglishDay.tsx",
+      "bytes": 972,
+      "sha256": "8f0819993ed865e79ea1c6703d17ccb29e8080646139a47a2bc7248e36fe8105"
+    },
+    {
+      "path": "src/components/sections/Hero.tsx",
+      "bytes": 1966,
+      "sha256": "5aee187a5c83ba8de3c64641ef624d720ff9e0c56a20e23a26653c298d483478"
+    },
+    {
+      "path": "src/components/sections/HeroGoals.tsx",
+      "bytes": 708,
+      "sha256": "ff8bdad8216343f9667f0aa93dffa8cdd74e9b674348165159732fd98ca103f9"
+    },
+    {
+      "path": "src/components/sections/Practice.tsx",
+      "bytes": 1035,
+      "sha256": "de60a0d0338ae71a81b6c907d2b1a019c1302b39212578da15bc52237b56dad6"
+    },
+    {
+      "path": "src/components/ui/Brand.tsx",
+      "bytes": 555,
+      "sha256": "06b731c0353e3bfea78bc4b0fb1bdcfc3f84be1c68f343d6b16a261893826051"
+    },
+    {
+      "path": "src/components/ui/DesktopNavigation.tsx",
+      "bytes": 1796,
+      "sha256": "76c7e7a719e2d7eb0882caabef24a9377f8b7f2f782ee57b98bad4dddf005440"
+    },
+    {
+      "path": "src/components/ui/HeroCarousel.tsx",
+      "bytes": 5086,
+      "sha256": "4a5d121a118ccb2a536f83ed88054a815a7d60e951c732ab277c03dce696a3d3"
+    },
+    {
+      "path": "src/components/ui/Icon.tsx",
+      "bytes": 1200,
+      "sha256": "74999bc3f453975840ac3441e618c891ac0315df7126a72378aab20654a12aed"
+    },
+    {
+      "path": "src/components/ui/MobileMenu.tsx",
+      "bytes": 1328,
+      "sha256": "10858dd2f912e44ab1ae8db23bba1851d7703b6ab478d48943ed95f98ddfd5bc"
+    },
+    {
+      "path": "src/components/ui/WhatsAppLink.tsx",
+      "bytes": 676,
+      "sha256": "04a00a62ad5eed7785883f9c4660a65b0ff0e6cb220307611e066cc0442ed4f8"
+    },
+    {
+      "path": "src/content/site.ts",
+      "bytes": 9733,
+      "sha256": "71c4e44f39d36f62b5a747eb36be4253d0c558e829ad6fedca0dfbb1d93a6d5c"
+    },
+    {
+      "path": "src/lib/publication.ts",
+      "bytes": 579,
+      "sha256": "daa58bbb36bdd745b49fd7cda6f8d1b19737890a8d700f0764bee798dc01da7d"
+    },
+    {
+      "path": "src/lib/whatsapp.ts",
+      "bytes": 235,
+      "sha256": "566a89303c4d0669f4d64334a72fcbb862dbcbd571df052bd99d95519796446a"
+    },
+    {
+      "path": "src/remotion/config.ts",
+      "bytes": 100,
+      "sha256": "1e45a3aa60e768b5efd7de85c524ab03c456774ddcdd140ccec75d0600a73216"
+    },
+    {
+      "path": "src/remotion/EnglishDayComposition.tsx",
+      "bytes": 484,
+      "sha256": "6cc2af02ede7d151a23bd5ff6a7abb5ff485eccfc5e4b187e1416079d52cb590"
+    },
+    {
+      "path": "src/remotion/englishDayMotion.ts",
+      "bytes": 1236,
+      "sha256": "87f5dbe8742c16b318962b4e65c8247ac741237af8871a22eca8974ed7799244"
+    },
+    {
+      "path": "src/remotion/index.tsx",
+      "bytes": 109,
+      "sha256": "957e481dd33a29b4a55ae0e95dbf763b7e48c37c427ca4bd1275faf34bc07a74"
+    },
+    {
+      "path": "src/remotion/Root.tsx",
+      "bytes": 1428,
+      "sha256": "a5cc1afe44907879bde6e68897c55038c05eff75362c4e7301f1f49774fb58e2"
+    },
+    {
+      "path": "src/remotion/SignatureComposition.tsx",
+      "bytes": 975,
+      "sha256": "46ef68e658adc7092620cd892eaa5926df2e0c5957a3041b9ac0ca5233a97f44"
+    },
+    {
+      "path": "public/fonts/bebas-neue-latin-400-normal.woff2",
+      "bytes": 13768,
+      "sha256": "a7c90c89240c134f7fdd33d40c000ec90b79d675ea53e8cc5a6d423c073de412"
+    },
+    {
+      "path": "public/fonts/Bebas-Neue-LICENSE.txt",
+      "bytes": 4391,
+      "sha256": "66c436339f7490c1a99e4f6a7b8aef5c176676edfd071a31638e7d54c1b0aeda"
+    },
+    {
+      "path": "public/fonts/BebasNeue-400.ttf",
+      "bytes": 34832,
+      "sha256": "fa51b7c7e916bc2a2576ae111f6156dacafdbdd78dbebfb33c54336be3ff9c69"
+    },
+    {
+      "path": "public/fonts/source-sans-3-latin-wght-normal.woff2",
+      "bytes": 28740,
+      "sha256": "7a19a7027e125257d310c6dbd78ae3a30b5ea1e3794d60b12bb28227a003bfda"
+    },
+    {
+      "path": "public/fonts/Source-Sans-3-LICENSE.txt",
+      "bytes": 4314,
+      "sha256": "18aabf190848725e2576eefb5c29ba06aac1029d02132252a7f312eac2e50cf3"
+    },
+    {
+      "path": "public/fonts/SourceSans3-400.ttf",
+      "bytes": 37220,
+      "sha256": "edd235e9d72eecb018b27fe71de4dcfdf5c4a1efbd9743f806a262d5d9341654"
+    },
+    {
+      "path": "public/images/foxstage/brand/foxstage-compact-color.svg",
+      "bytes": 13773,
+      "sha256": "ea40d56afcd4be011dac99f45287ca3abfb058ff0e85330b3ca286ef56ff27f2"
+    },
+    {
+      "path": "public/images/foxstage/brand/foxstage-compact-reverse.svg",
+      "bytes": 13775,
+      "sha256": "40459f459b8c8b289627302274574a2f425d38cee675c2bc9222425f4dd689e9"
+    },
+    {
+      "path": "public/images/foxstage/brand/foxstage-horizontal-color.svg",
+      "bytes": 22971,
+      "sha256": "b72e7f9da19aa78ef49b60a81d8328f1fbe3ed5cfa197d98b621253239848e3a"
+    },
+    {
+      "path": "public/images/foxstage/brand/foxstage-horizontal-reverse.png",
+      "bytes": 91420,
+      "sha256": "3041ddc5627ec926772f508ca73d973b24ca69bc9a4a0d2a637585cb8c45c75b"
+    },
+    {
+      "path": "public/images/foxstage/brand/foxstage-horizontal-reverse.svg",
+      "bytes": 22973,
+      "sha256": "42d30faaaa4bd7ade01e36deba2956a1d1eab48671d15c2d65e1c6fe97d0449b"
+    },
+    {
+      "path": "public/images/foxstage/comunicacao-oral.jpg",
+      "bytes": 158495,
+      "sha256": "2e631ed45aad110756860d802976faeb9bc000000e450b22e044578b3cef634a"
+    },
+    {
+      "path": "public/images/foxstage/curso-ingles.jpg",
+      "bytes": 201473,
+      "sha256": "2433cd459ee42ee24d34ea66a524a6c874cb3be6b0281ef2e4db1b720aec1d90"
+    },
+    {
+      "path": "public/images/foxstage/english-day-cinema.webp",
+      "bytes": 252252,
+      "sha256": "c35c91c3643d32f3ab1265761c5dd38ca1eab5c393ea11885774473c831de1a4"
+    },
+    {
+      "path": "public/images/foxstage/english-day-video-poster.webp",
+      "bytes": 28104,
+      "sha256": "cb6edd46f9e12263a0f3c6ac2c6267d3090f59e02842e9315421b79e6d4b160e"
+    },
+    {
+      "path": "public/images/foxstage/ensino-personalizado.jpg",
+      "bytes": 140732,
+      "sha256": "cf80e6d4c59365a18de20af6f56ea99f113662f6d7ac681f6cfbca571c90deb2"
+    },
+    {
+      "path": "public/images/foxstage/hero-ingles.webp",
+      "bytes": 92652,
+      "sha256": "2b1802217bf689f3b2d07eae805622e28525a0ec1ff35bce8980964bc70e3e2f"
+    },
+    {
+      "path": "public/images/foxstage/hero-ingles.webp.json",
+      "bytes": 1525,
+      "sha256": "ba1cddb485fc61bc05e69ec6eb5bbc26893241fe6a9ae5c4a32e6579ff3931b4"
+    },
+    {
+      "path": "public/images/foxstage/logo.png",
+      "bytes": 1032511,
+      "sha256": "e15cf5c16430b01d009b72740f8f278da069948b74401b076c8d5664263ef4b9"
+    },
+    {
+      "path": "public/images/foxstage/pratica-idioma.jpg",
+      "bytes": 132010,
+      "sha256": "3548045940d47bf74f76e222e9d8481a8c99e2bec5bebebdad9ec2ef7ca071ce"
+    },
+    {
+      "path": "public/images/foxstage/sobre-foxstage.jpg",
+      "bytes": 93679,
+      "sha256": "af62f09b95c821104099649c7832cebba456c231ecfe6df0ea9583e02968102c"
+    },
+    {
+      "path": "public/videos/foxstage/english-day-cinema.mp4",
+      "bytes": 8952680,
+      "sha256": "fefec9051df9bdaf1349e229724f1fb7355b4158ed313df3e3770694c353b14b"
+    },
+    {
+      "path": "assets/brand/foxstage-b-v1/assets-index.json",
+      "bytes": 8053,
+      "sha256": "e2158d87e65405e43ea022d33b2efdc5851c91114face86263a1272d56a2d55f"
+    },
+    {
+      "path": "assets/brand/foxstage-b-v1/avatars/foxstage-avatar-cream-1024.png",
+      "bytes": 46099,
+      "sha256": "d292ba8b737c5c20f7bea2c4b015502b3effb789661fd5c02ecfe69c379e17ac"
+    },
+    {
+      "path": "assets/brand/foxstage-b-v1/avatars/foxstage-avatar-cream-512.png",
+      "bytes": 16490,
+      "sha256": "34b1205a51bad748ca0d863a6d009e43dc99b366213b0ba05686d65400ecc072"
+    },
+    {
+      "path": "assets/brand/foxstage-b-v1/avatars/foxstage-avatar-cream.svg",
+      "bytes": 747,
+      "sha256": "a0543e23d7f6bb67f1ee1e3154e8b33aad4b47914776e81b8d54bd9c2b2d8380"
+    },
+    {
+      "path": "assets/brand/foxstage-b-v1/avatars/foxstage-avatar-dark-1024.png",
+      "bytes": 43802,
+      "sha256": "7d61231b88174eb214b564930c664b0f31ec2d524fa45a4988c9a42e2465bb28"
+    },
+    {
+      "path": "assets/brand/foxstage-b-v1/avatars/foxstage-avatar-dark-512.png",
+      "bytes": 15519,
+      "sha256": "87b72f19b938516c4a11daadd5c133b6d96045015afd03d513f8214b3cd6e651"
+    },
+    {
+      "path": "assets/brand/foxstage-b-v1/avatars/foxstage-avatar-dark.svg",
+      "bytes": 746,
+      "sha256": "f96e2afcc22a24332a19ab92d39f47976c2707812631e242adbb87a0c5bbf498"
+    },
+    {
+      "path": "assets/brand/foxstage-b-v1/avatars/foxstage-avatar-orange-1024.png",
+      "bytes": 44759,
+      "sha256": "fd00d4176f8b292c835de756c33ab5f29a8d939479dc14dd96802ec3165eddb3"
+    },
+    {
+      "path": "assets/brand/foxstage-b-v1/avatars/foxstage-avatar-orange-512.png",
+      "bytes": 16052,
+      "sha256": "766c1fb73d667c852d81c63bd42b8391a48eeb07d0042c2d3ec8e7ab7b8727f1"
+    },
+    {
+      "path": "assets/brand/foxstage-b-v1/avatars/foxstage-avatar-orange.svg",
+      "bytes": 748,
+      "sha256": "40b1ebd87afa5babff0188952474478d226b2198df7d64e4fb6bcce9f7fe8b77"
+    },
+    {
+      "path": "assets/brand/foxstage-b-v1/delivery-manifest.json",
+      "bytes": 13927,
+      "sha256": "4f54ed65ca53ce67c9ba802d88c6d09ec96a4dcbacecdcc0a83d4b3848c9fd33"
+    },
+    {
+      "path": "assets/brand/foxstage-b-v1/favicons/favicon.ico",
+      "bytes": 2859,
+      "sha256": "abae1b3add8a3eba4d268113086d2a359a44221684f26c3cbadab26668ad24f1"
+    },
+    {
+      "path": "assets/brand/foxstage-b-v1/favicons/foxstage-favicon-16.png",
+      "bytes": 452,
+      "sha256": "b703b1ba8a8c5bbf2d300ac14d87747b43593960a82a8f422a86ae08214e5d94"
+    },
+    {
+      "path": "assets/brand/foxstage-b-v1/favicons/foxstage-favicon-180.png",
+      "bytes": 5148,
+      "sha256": "56e59c14d273fd9b01b288b3c0b042819c624f0ca49cffb0a59bb8f1f8cd1160"
+    },
+    {
+      "path": "assets/brand/foxstage-b-v1/favicons/foxstage-favicon-192.png",
+      "bytes": 5555,
+      "sha256": "354e457c987f37023ad3aeee7a9aea0640acd77bd22eee201b1da087901db4db"
+    },
+    {
+      "path": "assets/brand/foxstage-b-v1/favicons/foxstage-favicon-32.png",
+      "bytes": 920,
+      "sha256": "286484937051f49a22a5065010949d6c060331468c353fffdeeb1551e93967e8"
+    },
+    {
+      "path": "assets/brand/foxstage-b-v1/favicons/foxstage-favicon-48.png",
+      "bytes": 1433,
+      "sha256": "7448ec0a77ad757d3be7303ad53e3c7e48feb0fbdd01b65e4f7c347bf773245e"
+    },
+    {
+      "path": "assets/brand/foxstage-b-v1/favicons/foxstage-favicon-512.png",
+      "bytes": 19710,
+      "sha256": "90dc70bd22e4b85edd83586b65a423c11f5737ff864effadf9b3044959a4607b"
+    },
+    {
+      "path": "assets/brand/foxstage-b-v1/favicons/foxstage-favicon.svg",
+      "bytes": 808,
+      "sha256": "0920a9725cc3fbe7b48dd26e55c42bb734a96e153bdd6b5bcc3e5d8b1c418b37"
+    },
+    {
+      "path": "assets/brand/foxstage-b-v1/fonts/bebas-neue-latin-400-normal.woff2",
+      "bytes": 13768,
+      "sha256": "a7c90c89240c134f7fdd33d40c000ec90b79d675ea53e8cc5a6d423c073de412"
+    },
+    {
+      "path": "assets/brand/foxstage-b-v1/fonts/Bebas-Neue-LICENSE.txt",
+      "bytes": 4391,
+      "sha256": "66c436339f7490c1a99e4f6a7b8aef5c176676edfd071a31638e7d54c1b0aeda"
+    },
+    {
+      "path": "assets/brand/foxstage-b-v1/fonts/BebasNeue-400.ttf",
+      "bytes": 34832,
+      "sha256": "fa51b7c7e916bc2a2576ae111f6156dacafdbdd78dbebfb33c54336be3ff9c69"
+    },
+    {
+      "path": "assets/brand/foxstage-b-v1/fonts/source-sans-3-latin-wght-normal.woff2",
+      "bytes": 28740,
+      "sha256": "7a19a7027e125257d310c6dbd78ae3a30b5ea1e3794d60b12bb28227a003bfda"
+    },
+    {
+      "path": "assets/brand/foxstage-b-v1/fonts/Source-Sans-3-LICENSE.txt",
+      "bytes": 4314,
+      "sha256": "18aabf190848725e2576eefb5c29ba06aac1029d02132252a7f312eac2e50cf3"
+    },
+    {
+      "path": "assets/brand/foxstage-b-v1/fonts/SourceSans3-400.ttf",
+      "bytes": 37220,
+      "sha256": "edd235e9d72eecb018b27fe71de4dcfdf5c4a1efbd9743f806a262d5d9341654"
+    },
+    {
+      "path": "assets/brand/foxstage-b-v1/fonts/SourceSans3-600.ttf",
+      "bytes": 37264,
+      "sha256": "918bdab88da9ab05f092fbf54698452308a1de216a257e2fca68ba9b0bff0ad5"
+    },
+    {
+      "path": "assets/brand/foxstage-b-v1/fonts/SourceSans3-700.ttf",
+      "bytes": 37208,
+      "sha256": "c0793c45a083aaf4f73ac6c897b8a44ef28de0f3333b737e946330f7556b4541"
+    },
+    {
+      "path": "assets/brand/foxstage-b-v1/icons/foxstage-icon-dark-1024.png",
+      "bytes": 33957,
+      "sha256": "9b9696f02d245b672224b6a4f37a590c250242e53edab51ad61a00535992895d"
+    },
+    {
+      "path": "assets/brand/foxstage-b-v1/icons/foxstage-icon-dark-256.png",
+      "bytes": 6272,
+      "sha256": "38041b606e135b5bf9eb2783deec026a416e1e4d36038e0562007684a8c81c66"
+    },
+    {
+      "path": "assets/brand/foxstage-b-v1/icons/foxstage-icon-dark-512.png",
+      "bytes": 14235,
+      "sha256": "0f73021f2a6489e2c6ce6de8750ce33460dc28acf7d116b61ad72b84e50618ce"
+    },
+    {
+      "path": "assets/brand/foxstage-b-v1/icons/foxstage-icon-dark-96.png",
+      "bytes": 2157,
+      "sha256": "5b43dc76273ab6f99fef21a590ff95d1b0fbf6318c41d74eeb16380c4cc06d1b"
+    },
+    {
+      "path": "assets/brand/foxstage-b-v1/icons/foxstage-icon-dark.svg",
+      "bytes": 697,
+      "sha256": "acfbc6729baf2a1cea2a91a9c0887fbc8f5cd8cef19a58587af35d647b722460"
+    },
+    {
+      "path": "assets/brand/foxstage-b-v1/icons/foxstage-icon-light-1024.png",
+      "bytes": 33423,
+      "sha256": "87fb423bafa11ae0be5b9fd2e3ac4c31c52d350ebd24db7529bb5a3f5f28414c"
+    },
+    {
+      "path": "assets/brand/foxstage-b-v1/icons/foxstage-icon-light-256.png",
+      "bytes": 6194,
+      "sha256": "78685ccc036e776b511a60290627f63ccedd6105cc554518ab34966dd9fc7abc"
+    },
+    {
+      "path": "assets/brand/foxstage-b-v1/icons/foxstage-icon-light-512.png",
+      "bytes": 13998,
+      "sha256": "cc3826f953fa9465175f3a475737bf332cbd4a509706398fcf5a37a9d02bd2e1"
+    },
+    {
+      "path": "assets/brand/foxstage-b-v1/icons/foxstage-icon-light-96.png",
+      "bytes": 2144,
+      "sha256": "3e898b92ec1a92acdcbdaa790712a8b29f6840d0e199d4e4f18910ff8e99e5a7"
+    },
+    {
+      "path": "assets/brand/foxstage-b-v1/icons/foxstage-icon-light.svg",
+      "bytes": 698,
+      "sha256": "f49e9eb4eaeb66a397e5e3ed0f82b918233b219ba2375518da08edfe15faf26c"
+    },
+    {
+      "path": "assets/brand/foxstage-b-v1/icons/foxstage-icon-orange-1024.png",
+      "bytes": 35467,
+      "sha256": "d9d58de5ff0717f1dae93c3821dba4c370e71404bdcdf04140a9ccdfeeaa3a3c"
+    },
+    {
+      "path": "assets/brand/foxstage-b-v1/icons/foxstage-icon-orange-256.png",
+      "bytes": 6507,
+      "sha256": "bae1422123e6f8ad3ff013468e383717f9a340764cc577ca850a8e577019d239"
+    },
+    {
+      "path": "assets/brand/foxstage-b-v1/icons/foxstage-icon-orange-512.png",
+      "bytes": 14839,
+      "sha256": "1d0c5a921fc6bb2283e7a333e5eaf2f088ab9c1fcd7094cb1f97a26d3a29147d"
+    },
+    {
+      "path": "assets/brand/foxstage-b-v1/icons/foxstage-icon-orange-96.png",
+      "bytes": 2232,
+      "sha256": "b1abea5761c2665c30209009e6ed72bbaa0face56cc511d30f9f479f5a3b9fa3"
+    },
+    {
+      "path": "assets/brand/foxstage-b-v1/icons/foxstage-icon-orange.svg",
+      "bytes": 699,
+      "sha256": "fd9753d44f7bc1b6642f1d1c4988a8223c5846b42251599c20c879a7d5b45d4b"
+    },
+    {
+      "path": "assets/brand/foxstage-b-v1/logos/compact/foxstage-compact-color-1600.png",
+      "bytes": 37255,
+      "sha256": "5eaaa4e5d68bab3a1dc9962158f301001b96f4d973b4d48508edda1cd78bdfa4"
+    },
+    {
+      "path": "assets/brand/foxstage-b-v1/logos/compact/foxstage-compact-color.svg",
+      "bytes": 13773,
+      "sha256": "ea40d56afcd4be011dac99f45287ca3abfb058ff0e85330b3ca286ef56ff27f2"
+    },
+    {
+      "path": "assets/brand/foxstage-b-v1/logos/compact/foxstage-compact-mono-dark-1600.png",
+      "bytes": 34892,
+      "sha256": "3f7e3c2ea60ed324b956a81715bd16a886655a6f5c3e9744e0dd93abed4a5db2"
+    },
+    {
+      "path": "assets/brand/foxstage-b-v1/logos/compact/foxstage-compact-mono-dark.svg",
+      "bytes": 13777,
+      "sha256": "c586b7373d4bd690cfa886909cf2c989edacf703538995bc6e321930eb79fd8c"
+    },
+    {
+      "path": "assets/brand/foxstage-b-v1/logos/compact/foxstage-compact-mono-light-1600.png",
+      "bytes": 34434,
+      "sha256": "cc0a4f1e88d6d28d7ebc329a39d400d340fa2175c013bd180dc3fc2ba20eebf5"
+    },
+    {
+      "path": "assets/brand/foxstage-b-v1/logos/compact/foxstage-compact-mono-light.svg",
+      "bytes": 13778,
+      "sha256": "e65ea0260c38d83a3f746bc3d77afff571bbb54a45c97a35dd24c906b110652f"
+    },
+    {
+      "path": "assets/brand/foxstage-b-v1/logos/compact/foxstage-compact-reverse-1600.png",
+      "bytes": 36738,
+      "sha256": "469093e9e937b35f213f549293aa3e9f393ec7600c62cfabff000007dfbf2700"
+    },
+    {
+      "path": "assets/brand/foxstage-b-v1/logos/compact/foxstage-compact-reverse.svg",
+      "bytes": 13775,
+      "sha256": "40459f459b8c8b289627302274574a2f425d38cee675c2bc9222425f4dd689e9"
+    },
+    {
+      "path": "assets/brand/foxstage-b-v1/logos/horizontal/foxstage-horizontal-color-1891.png",
+      "bytes": 82708,
+      "sha256": "f1af6740aec47462bae2f5be012cd748f8b44476e781fd58c1ecb911bf39e31a"
+    },
+    {
+      "path": "assets/brand/foxstage-b-v1/logos/horizontal/foxstage-horizontal-color.svg",
+      "bytes": 22971,
+      "sha256": "b72e7f9da19aa78ef49b60a81d8328f1fbe3ed5cfa197d98b621253239848e3a"
+    },
+    {
+      "path": "assets/brand/foxstage-b-v1/logos/horizontal/foxstage-horizontal-mono-dark-1891.png",
+      "bytes": 74988,
+      "sha256": "1ce3a6ba86cb6008658fd29a6abfc261d97a2db35c6a78d488e5a93d976260e5"
+    },
+    {
+      "path": "assets/brand/foxstage-b-v1/logos/horizontal/foxstage-horizontal-mono-dark.svg",
+      "bytes": 22975,
+      "sha256": "687df4c69b22c2ac9bb04fa4dd2700b2c3bec198e5318e77a378f8454d3669ed"
+    },
+    {
+      "path": "assets/brand/foxstage-b-v1/logos/horizontal/foxstage-horizontal-mono-light-1891.png",
+      "bytes": 88117,
+      "sha256": "acbd2591c34fb6f2edbf72519018741b623f6022bbe9df779fd50a9c0e3aaa2f"
+    },
+    {
+      "path": "assets/brand/foxstage-b-v1/logos/horizontal/foxstage-horizontal-mono-light.svg",
+      "bytes": 22976,
+      "sha256": "759a20f219aee6fdb9ca1b68ab82ed6528dfc276dfb9294cfd65e2f530a38064"
+    },
+    {
+      "path": "assets/brand/foxstage-b-v1/logos/horizontal/foxstage-horizontal-reverse-1891.png",
+      "bytes": 91420,
+      "sha256": "3041ddc5627ec926772f508ca73d973b24ca69bc9a4a0d2a637585cb8c45c75b"
+    },
+    {
+      "path": "assets/brand/foxstage-b-v1/logos/horizontal/foxstage-horizontal-reverse.svg",
+      "bytes": 22973,
+      "sha256": "42d30faaaa4bd7ade01e36deba2956a1d1eab48671d15c2d65e1c6fe97d0449b"
+    },
+    {
+      "path": "assets/brand/foxstage-b-v1/logos/stacked/foxstage-stacked-color-1520.png",
+      "bytes": 53197,
+      "sha256": "d35762d995fa792e8d6f4e39c0f56f364f39682b1ff9196bc7b86681172c2651"
+    },
+    {
+      "path": "assets/brand/foxstage-b-v1/logos/stacked/foxstage-stacked-color.svg",
+      "bytes": 22978,
+      "sha256": "400d4a90aeb77bb109ed39a21f880db6376320a2204430626113021dd80838df"
+    },
+    {
+      "path": "assets/brand/foxstage-b-v1/logos/stacked/foxstage-stacked-mono-dark-1520.png",
+      "bytes": 51964,
+      "sha256": "3b8c179de2ef38fb052247e1714aba66c2006996d1b19210b7de711e603b9336"
+    },
+    {
+      "path": "assets/brand/foxstage-b-v1/logos/stacked/foxstage-stacked-mono-dark.svg",
+      "bytes": 22982,
+      "sha256": "16750cc758369dc4fe043ed9a1879c05c6e19a3ac38d872cb0d4b901ccd3bea8"
+    },
+    {
+      "path": "assets/brand/foxstage-b-v1/logos/stacked/foxstage-stacked-mono-light-1520.png",
+      "bytes": 51383,
+      "sha256": "6f66b5c6cc6fe6deffb8f5362aacc48f310a93c4739f0d87612f872988c913a8"
+    },
+    {
+      "path": "assets/brand/foxstage-b-v1/logos/stacked/foxstage-stacked-mono-light.svg",
+      "bytes": 22983,
+      "sha256": "1fa97c552873879e7efdcb6627929eac05b4a797fc695e71d23accc855efebb8"
+    },
+    {
+      "path": "assets/brand/foxstage-b-v1/logos/stacked/foxstage-stacked-reverse-1520.png",
+      "bytes": 52825,
+      "sha256": "10061fe02f08cfd223e0f34182b16a9116352b31976aacb79f7a6164e5a1c2b9"
+    },
+    {
+      "path": "assets/brand/foxstage-b-v1/logos/stacked/foxstage-stacked-reverse.svg",
+      "bytes": 22980,
+      "sha256": "b71c205b490c9a62bbc35820b5f1329a39f6333db1cb675561d2f57745c7db65"
+    },
+    {
+      "path": "assets/brand/foxstage-b-v1/logos/wordmark/foxstage-wordmark-dark-1600.png",
+      "bytes": 47649,
+      "sha256": "26e1be906ae1c6124d545c3473d1b8e6f03507fdb19c37f85c35292aca5d0cca"
+    },
+    {
+      "path": "assets/brand/foxstage-b-v1/logos/wordmark/foxstage-wordmark-dark.svg",
+      "bytes": 13235,
+      "sha256": "b7c2a867fe8149bacf5c9966fb0114bdd92bda7cd82dfaedf1f925240fea8424"
+    },
+    {
+      "path": "assets/brand/foxstage-b-v1/logos/wordmark/foxstage-wordmark-light-1600.png",
+      "bytes": 55285,
+      "sha256": "8704f96bf7c4af8b8f74230d0d0ad78fe632687f39e2273a52fac1a31d126ac7"
+    },
+    {
+      "path": "assets/brand/foxstage-b-v1/logos/wordmark/foxstage-wordmark-light.svg",
+      "bytes": 13236,
+      "sha256": "3e127934dba25aa6bc98846349b7281e44483a0a391c1de190237b8a5185e8f6"
+    },
+    {
+      "path": "assets/brand/foxstage-b-v1/manual-de-marca.html",
+      "bytes": 525991,
+      "sha256": "d1f11d8f5498200b0647659cdf65a5d0acb9ca18fa99d773b26bea636b0433ea"
+    },
+    {
+      "path": "assets/brand/foxstage-b-v1/manual-de-marca.md",
+      "bytes": 7361,
+      "sha256": "888662fc63dd5ba4dacb4fcd72879524d2804a2a1885788f43c17cce20d79026"
+    },
+    {
+      "path": "assets/brand/foxstage-b-v1/manual-de-marca.pdf",
+      "bytes": 180390,
+      "sha256": "cb6dc6405c6bc418ceaeea943225bb6f536f8cfb76c4da9b5e1dfe9611703ff7"
+    },
+    {
+      "path": "assets/brand/foxstage-b-v1/provenance.json",
+      "bytes": 852,
+      "sha256": "827eb9da1ee81b1a7b1bcaa13b73aafb570569765717d95690b0890eb7ec652a"
+    },
+    {
+      "path": "assets/brand/foxstage-b-v1/README.md",
+      "bytes": 966,
+      "sha256": "0daa6cacac211835854c7cac4f97fd11a8e0f9f0db61371c0273e38d44f7db65"
+    },
+    {
+      "path": "assets/brand/foxstage-b-v1/reference/direcoes-originais.png",
+      "bytes": 1321364,
+      "sha256": "a7ccb049ffc2e472775eec1b7f9720a07c45bec420d233dfe1937dfb3af8e0de"
+    },
+    {
+      "path": "assets/brand/foxstage-b-v1/reference/prompt-original.txt",
+      "bytes": 3619,
+      "sha256": "e982fcc97962f4344745a4647ab506b669b2c0906e2f677e065eae7ed660f2a4"
+    },
+    {
+      "path": "assets/brand/foxstage-b-v1/source/lettering-outlines.json",
+      "bytes": 22550,
+      "sha256": "6bab77ec0902be4a2091b630b340a6fcc1707ba5c59f99d00ff507d1c83a50a2"
+    },
+    {
+      "path": "assets/brand/foxstage-b-v1/source/symbol-geometry.json",
+      "bytes": 625,
+      "sha256": "6b22b73145b3d5bc9221a012d72e4c562f86e7f4c2ebbc9c52e013fd3bdc9051"
+    },
+    {
+      "path": "assets/brand/foxstage-b-v1/tokens/brand.css",
+      "bytes": 331,
+      "sha256": "2165d6fdf1531eb362e1868ecb6cb4ba89db1e6f923ddb83296afc47e354d992"
+    },
+    {
+      "path": "assets/brand/foxstage-b-v1/tokens/brand.json",
+      "bytes": 1111,
+      "sha256": "ce3865126c67a6ec8e70f7ff0e1da5a46f2b955bd18649716476e563d4e24357"
+    },
+    {
+      "path": "assets/brand/foxstage-b-v1/verification.json",
+      "bytes": 384,
+      "sha256": "8ab218aafe800006c80bd91d409104b9960258d0fd7552935cb0b5657c77ccdc"
+    },
+    {
+      "path": "assets/brand-exploration/foxstage-logo-directions-v1.png",
+      "bytes": 1321364,
+      "sha256": "a7ccb049ffc2e472775eec1b7f9720a07c45bec420d233dfe1937dfb3af8e0de"
+    },
+    {
+      "path": "assets/brand-exploration/generation-prompt.txt",
+      "bytes": 3619,
+      "sha256": "e982fcc97962f4344745a4647ab506b669b2c0906e2f677e065eae7ed660f2a4"
+    },
+    {
+      "path": "assets/brand-exploration/README.md",
+      "bytes": 2290,
+      "sha256": "620346013eec2ae56d776052960ee4060e5cc90e5d16aaeb86f0a12d38c4e3b6"
+    },
+    {
+      "path": "assets/concepts/2026-10-10-goal-strip/foxstage-faixa-objetivos-conceito.png",
+      "bytes": 1583929,
+      "sha256": "bc84d61b8fd54321e5871ad5e0490fcf203c345686b7f61bea721469104072fc"
+    },
+    {
+      "path": "assets/concepts/2026-10-10-goal-strip/README.md",
+      "bytes": 1037,
+      "sha256": "7f66cdcff223f5c3f7a5a930d5cd18f007416f43be8e0bebac41ca1541ad2f3b"
+    },
+    {
+      "path": "assets/english-day/english-day-cinema-foto.jpeg",
+      "bytes": 259322,
+      "sha256": "76d4ade88d6e5e96a0028dde5b8da8b366c501c23b8a33b85d6b0f4c340a18fe"
+    },
+    {
+      "path": "assets/english-day/english-day-cinema-video.mp4",
+      "bytes": 8891588,
+      "sha256": "70e78b9a6a8d170b191a1a34a674546a1dd7b88324c7e3156a71528efb1d9c3f"
+    },
+    {
+      "path": "assets/generated/hero-ingles.png",
+      "bytes": 1842778,
+      "sha256": "e503de0fd70b9e6c1ad5608552f3df9df1dff864ec5953f52c55c339543c8f8b"
+    },
+    {
+      "path": "assets/generated/hero-ingles.png.prompt.txt",
+      "bytes": 1465,
+      "sha256": "8ee90782ed153de7d7838466c3524cefaa798f3ecd4922593d458199f23bc564"
+    },
+    {
+      "path": "assets/Identidade visual Foxstage/assets-index.json",
+      "bytes": 8053,
+      "sha256": "e2158d87e65405e43ea022d33b2efdc5851c91114face86263a1272d56a2d55f"
+    },
+    {
+      "path": "assets/Identidade visual Foxstage/avatars/foxstage-avatar-cream-1024.png",
+      "bytes": 46099,
+      "sha256": "d292ba8b737c5c20f7bea2c4b015502b3effb789661fd5c02ecfe69c379e17ac"
+    },
+    {
+      "path": "assets/Identidade visual Foxstage/avatars/foxstage-avatar-cream-512.png",
+      "bytes": 16490,
+      "sha256": "34b1205a51bad748ca0d863a6d009e43dc99b366213b0ba05686d65400ecc072"
+    },
+    {
+      "path": "assets/Identidade visual Foxstage/avatars/foxstage-avatar-cream.svg",
+      "bytes": 747,
+      "sha256": "a0543e23d7f6bb67f1ee1e3154e8b33aad4b47914776e81b8d54bd9c2b2d8380"
+    },
+    {
+      "path": "assets/Identidade visual Foxstage/avatars/foxstage-avatar-dark-1024.png",
+      "bytes": 43802,
+      "sha256": "7d61231b88174eb214b564930c664b0f31ec2d524fa45a4988c9a42e2465bb28"
+    },
+    {
+      "path": "assets/Identidade visual Foxstage/avatars/foxstage-avatar-dark-512.png",
+      "bytes": 15519,
+      "sha256": "87b72f19b938516c4a11daadd5c133b6d96045015afd03d513f8214b3cd6e651"
+    },
+    {
+      "path": "assets/Identidade visual Foxstage/avatars/foxstage-avatar-dark.svg",
+      "bytes": 746,
+      "sha256": "f96e2afcc22a24332a19ab92d39f47976c2707812631e242adbb87a0c5bbf498"
+    },
+    {
+      "path": "assets/Identidade visual Foxstage/avatars/foxstage-avatar-orange-1024.png",
+      "bytes": 44759,
+      "sha256": "fd00d4176f8b292c835de756c33ab5f29a8d939479dc14dd96802ec3165eddb3"
+    },
+    {
+      "path": "assets/Identidade visual Foxstage/avatars/foxstage-avatar-orange-512.png",
+      "bytes": 16052,
+      "sha256": "766c1fb73d667c852d81c63bd42b8391a48eeb07d0042c2d3ec8e7ab7b8727f1"
+    },
+    {
+      "path": "assets/Identidade visual Foxstage/avatars/foxstage-avatar-orange.svg",
+      "bytes": 748,
+      "sha256": "40b1ebd87afa5babff0188952474478d226b2198df7d64e4fb6bcce9f7fe8b77"
+    },
+    {
+      "path": "assets/Identidade visual Foxstage/delivery-manifest.json",
+      "bytes": 13927,
+      "sha256": "4f54ed65ca53ce67c9ba802d88c6d09ec96a4dcbacecdcc0a83d4b3848c9fd33"
+    },
+    {
+      "path": "assets/Identidade visual Foxstage/favicons/favicon.ico",
+      "bytes": 2859,
+      "sha256": "abae1b3add8a3eba4d268113086d2a359a44221684f26c3cbadab26668ad24f1"
+    },
+    {
+      "path": "assets/Identidade visual Foxstage/favicons/foxstage-favicon-16.png",
+      "bytes": 452,
+      "sha256": "b703b1ba8a8c5bbf2d300ac14d87747b43593960a82a8f422a86ae08214e5d94"
+    },
+    {
+      "path": "assets/Identidade visual Foxstage/favicons/foxstage-favicon-180.png",
+      "bytes": 5148,
+      "sha256": "56e59c14d273fd9b01b288b3c0b042819c624f0ca49cffb0a59bb8f1f8cd1160"
+    },
+    {
+      "path": "assets/Identidade visual Foxstage/favicons/foxstage-favicon-192.png",
+      "bytes": 5555,
+      "sha256": "354e457c987f37023ad3aeee7a9aea0640acd77bd22eee201b1da087901db4db"
+    },
+    {
+      "path": "assets/Identidade visual Foxstage/favicons/foxstage-favicon-32.png",
+      "bytes": 920,
+      "sha256": "286484937051f49a22a5065010949d6c060331468c353fffdeeb1551e93967e8"
+    },
+    {
+      "path": "assets/Identidade visual Foxstage/favicons/foxstage-favicon-48.png",
+      "bytes": 1433,
+      "sha256": "7448ec0a77ad757d3be7303ad53e3c7e48feb0fbdd01b65e4f7c347bf773245e"
+    },
+    {
+      "path": "assets/Identidade visual Foxstage/favicons/foxstage-favicon-512.png",
+      "bytes": 19710,
+      "sha256": "90dc70bd22e4b85edd83586b65a423c11f5737ff864effadf9b3044959a4607b"
+    },
+    {
+      "path": "assets/Identidade visual Foxstage/favicons/foxstage-favicon.svg",
+      "bytes": 808,
+      "sha256": "0920a9725cc3fbe7b48dd26e55c42bb734a96e153bdd6b5bcc3e5d8b1c418b37"
+    },
+    {
+      "path": "assets/Identidade visual Foxstage/fonts/bebas-neue-latin-400-normal.woff2",
+      "bytes": 13768,
+      "sha256": "a7c90c89240c134f7fdd33d40c000ec90b79d675ea53e8cc5a6d423c073de412"
+    },
+    {
+      "path": "assets/Identidade visual Foxstage/fonts/Bebas-Neue-LICENSE.txt",
+      "bytes": 4391,
+      "sha256": "66c436339f7490c1a99e4f6a7b8aef5c176676edfd071a31638e7d54c1b0aeda"
+    },
+    {
+      "path": "assets/Identidade visual Foxstage/fonts/BebasNeue-400.ttf",
+      "bytes": 34832,
+      "sha256": "fa51b7c7e916bc2a2576ae111f6156dacafdbdd78dbebfb33c54336be3ff9c69"
+    },
+    {
+      "path": "assets/Identidade visual Foxstage/fonts/source-sans-3-latin-wght-normal.woff2",
+      "bytes": 28740,
+      "sha256": "7a19a7027e125257d310c6dbd78ae3a30b5ea1e3794d60b12bb28227a003bfda"
+    },
+    {
+      "path": "assets/Identidade visual Foxstage/fonts/Source-Sans-3-LICENSE.txt",
+      "bytes": 4314,
+      "sha256": "18aabf190848725e2576eefb5c29ba06aac1029d02132252a7f312eac2e50cf3"
+    },
+    {
+      "path": "assets/Identidade visual Foxstage/fonts/SourceSans3-400.ttf",
+      "bytes": 37220,
+      "sha256": "edd235e9d72eecb018b27fe71de4dcfdf5c4a1efbd9743f806a262d5d9341654"
+    },
+    {
+      "path": "assets/Identidade visual Foxstage/fonts/SourceSans3-600.ttf",
+      "bytes": 37264,
+      "sha256": "918bdab88da9ab05f092fbf54698452308a1de216a257e2fca68ba9b0bff0ad5"
+    },
+    {
+      "path": "assets/Identidade visual Foxstage/fonts/SourceSans3-700.ttf",
+      "bytes": 37208,
+      "sha256": "c0793c45a083aaf4f73ac6c897b8a44ef28de0f3333b737e946330f7556b4541"
+    },
+    {
+      "path": "assets/Identidade visual Foxstage/icons/foxstage-icon-dark-1024.png",
+      "bytes": 33957,
+      "sha256": "9b9696f02d245b672224b6a4f37a590c250242e53edab51ad61a00535992895d"
+    },
+    {
+      "path": "assets/Identidade visual Foxstage/icons/foxstage-icon-dark-256.png",
+      "bytes": 6272,
+      "sha256": "38041b606e135b5bf9eb2783deec026a416e1e4d36038e0562007684a8c81c66"
+    },
+    {
+      "path": "assets/Identidade visual Foxstage/icons/foxstage-icon-dark-512.png",
+      "bytes": 14235,
+      "sha256": "0f73021f2a6489e2c6ce6de8750ce33460dc28acf7d116b61ad72b84e50618ce"
+    },
+    {
+      "path": "assets/Identidade visual Foxstage/icons/foxstage-icon-dark-96.png",
+      "bytes": 2157,
+      "sha256": "5b43dc76273ab6f99fef21a590ff95d1b0fbf6318c41d74eeb16380c4cc06d1b"
+    },
+    {
+      "path": "assets/Identidade visual Foxstage/icons/foxstage-icon-dark.svg",
+      "bytes": 697,
+      "sha256": "acfbc6729baf2a1cea2a91a9c0887fbc8f5cd8cef19a58587af35d647b722460"
+    },
+    {
+      "path": "assets/Identidade visual Foxstage/icons/foxstage-icon-light-1024.png",
+      "bytes": 33423,
+      "sha256": "87fb423bafa11ae0be5b9fd2e3ac4c31c52d350ebd24db7529bb5a3f5f28414c"
+    },
+    {
+      "path": "assets/Identidade visual Foxstage/icons/foxstage-icon-light-256.png",
+      "bytes": 6194,
+      "sha256": "78685ccc036e776b511a60290627f63ccedd6105cc554518ab34966dd9fc7abc"
+    },
+    {
+      "path": "assets/Identidade visual Foxstage/icons/foxstage-icon-light-512.png",
+      "bytes": 13998,
+      "sha256": "cc3826f953fa9465175f3a475737bf332cbd4a509706398fcf5a37a9d02bd2e1"
+    },
+    {
+      "path": "assets/Identidade visual Foxstage/icons/foxstage-icon-light-96.png",
+      "bytes": 2144,
+      "sha256": "3e898b92ec1a92acdcbdaa790712a8b29f6840d0e199d4e4f18910ff8e99e5a7"
+    },
+    {
+      "path": "assets/Identidade visual Foxstage/icons/foxstage-icon-light.svg",
+      "bytes": 698,
+      "sha256": "f49e9eb4eaeb66a397e5e3ed0f82b918233b219ba2375518da08edfe15faf26c"
+    },
+    {
+      "path": "assets/Identidade visual Foxstage/icons/foxstage-icon-orange-1024.png",
+      "bytes": 35467,
+      "sha256": "d9d58de5ff0717f1dae93c3821dba4c370e71404bdcdf04140a9ccdfeeaa3a3c"
+    },
+    {
+      "path": "assets/Identidade visual Foxstage/icons/foxstage-icon-orange-256.png",
+      "bytes": 6507,
+      "sha256": "bae1422123e6f8ad3ff013468e383717f9a340764cc577ca850a8e577019d239"
+    },
+    {
+      "path": "assets/Identidade visual Foxstage/icons/foxstage-icon-orange-512.png",
+      "bytes": 14839,
+      "sha256": "1d0c5a921fc6bb2283e7a333e5eaf2f088ab9c1fcd7094cb1f97a26d3a29147d"
+    },
+    {
+      "path": "assets/Identidade visual Foxstage/icons/foxstage-icon-orange-96.png",
+      "bytes": 2232,
+      "sha256": "b1abea5761c2665c30209009e6ed72bbaa0face56cc511d30f9f479f5a3b9fa3"
+    },
+    {
+      "path": "assets/Identidade visual Foxstage/icons/foxstage-icon-orange.svg",
+      "bytes": 699,
+      "sha256": "fd9753d44f7bc1b6642f1d1c4988a8223c5846b42251599c20c879a7d5b45d4b"
+    },
+    {
+      "path": "assets/Identidade visual Foxstage/logos/compact/foxstage-compact-color-1600.png",
+      "bytes": 37255,
+      "sha256": "5eaaa4e5d68bab3a1dc9962158f301001b96f4d973b4d48508edda1cd78bdfa4"
+    },
+    {
+      "path": "assets/Identidade visual Foxstage/logos/compact/foxstage-compact-color.svg",
+      "bytes": 13773,
+      "sha256": "ea40d56afcd4be011dac99f45287ca3abfb058ff0e85330b3ca286ef56ff27f2"
+    },
+    {
+      "path": "assets/Identidade visual Foxstage/logos/compact/foxstage-compact-mono-dark-1600.png",
+      "bytes": 34892,
+      "sha256": "3f7e3c2ea60ed324b956a81715bd16a886655a6f5c3e9744e0dd93abed4a5db2"
+    },
+    {
+      "path": "assets/Identidade visual Foxstage/logos/compact/foxstage-compact-mono-dark.svg",
+      "bytes": 13777,
+      "sha256": "c586b7373d4bd690cfa886909cf2c989edacf703538995bc6e321930eb79fd8c"
+    },
+    {
+      "path": "assets/Identidade visual Foxstage/logos/compact/foxstage-compact-mono-light-1600.png",
+      "bytes": 34434,
+      "sha256": "cc0a4f1e88d6d28d7ebc329a39d400d340fa2175c013bd180dc3fc2ba20eebf5"
+    },
+    {
+      "path": "assets/Identidade visual Foxstage/logos/compact/foxstage-compact-mono-light.svg",
+      "bytes": 13778,
+      "sha256": "e65ea0260c38d83a3f746bc3d77afff571bbb54a45c97a35dd24c906b110652f"
+    },
+    {
+      "path": "assets/Identidade visual Foxstage/logos/compact/foxstage-compact-reverse-1600.png",
+      "bytes": 36738,
+      "sha256": "469093e9e937b35f213f549293aa3e9f393ec7600c62cfabff000007dfbf2700"
+    },
+    {
+      "path": "assets/Identidade visual Foxstage/logos/compact/foxstage-compact-reverse.svg",
+      "bytes": 13775,
+      "sha256": "40459f459b8c8b289627302274574a2f425d38cee675c2bc9222425f4dd689e9"
+    },
+    {
+      "path": "assets/Identidade visual Foxstage/logos/horizontal/foxstage-horizontal-color-1891.png",
+      "bytes": 82708,
+      "sha256": "f1af6740aec47462bae2f5be012cd748f8b44476e781fd58c1ecb911bf39e31a"
+    },
+    {
+      "path": "assets/Identidade visual Foxstage/logos/horizontal/foxstage-horizontal-color.svg",
+      "bytes": 22971,
+      "sha256": "b72e7f9da19aa78ef49b60a81d8328f1fbe3ed5cfa197d98b621253239848e3a"
+    },
+    {
+      "path": "assets/Identidade visual Foxstage/logos/horizontal/foxstage-horizontal-mono-dark-1891.png",
+      "bytes": 74988,
+      "sha256": "1ce3a6ba86cb6008658fd29a6abfc261d97a2db35c6a78d488e5a93d976260e5"
+    },
+    {
+      "path": "assets/Identidade visual Foxstage/logos/horizontal/foxstage-horizontal-mono-dark.svg",
+      "bytes": 22975,
+      "sha256": "687df4c69b22c2ac9bb04fa4dd2700b2c3bec198e5318e77a378f8454d3669ed"
+    },
+    {
+      "path": "assets/Identidade visual Foxstage/logos/horizontal/foxstage-horizontal-mono-light-1891.png",
+      "bytes": 88117,
+      "sha256": "acbd2591c34fb6f2edbf72519018741b623f6022bbe9df779fd50a9c0e3aaa2f"
+    },
+    {
+      "path": "assets/Identidade visual Foxstage/logos/horizontal/foxstage-horizontal-mono-light.svg",
+      "bytes": 22976,
+      "sha256": "759a20f219aee6fdb9ca1b68ab82ed6528dfc276dfb9294cfd65e2f530a38064"
+    },
+    {
+      "path": "assets/Identidade visual Foxstage/logos/horizontal/foxstage-horizontal-reverse-1891.png",
+      "bytes": 91420,
+      "sha256": "3041ddc5627ec926772f508ca73d973b24ca69bc9a4a0d2a637585cb8c45c75b"
+    },
+    {
+      "path": "assets/Identidade visual Foxstage/logos/horizontal/foxstage-horizontal-reverse.svg",
+      "bytes": 22973,
+      "sha256": "42d30faaaa4bd7ade01e36deba2956a1d1eab48671d15c2d65e1c6fe97d0449b"
+    },
+    {
+      "path": "assets/Identidade visual Foxstage/logos/stacked/foxstage-stacked-color-1520.png",
+      "bytes": 53197,
+      "sha256": "d35762d995fa792e8d6f4e39c0f56f364f39682b1ff9196bc7b86681172c2651"
+    },
+    {
+      "path": "assets/Identidade visual Foxstage/logos/stacked/foxstage-stacked-color.svg",
+      "bytes": 22978,
+      "sha256": "400d4a90aeb77bb109ed39a21f880db6376320a2204430626113021dd80838df"
+    },
+    {
+      "path": "assets/Identidade visual Foxstage/logos/stacked/foxstage-stacked-mono-dark-1520.png",
+      "bytes": 51964,
+      "sha256": "3b8c179de2ef38fb052247e1714aba66c2006996d1b19210b7de711e603b9336"
+    },
+    {
+      "path": "assets/Identidade visual Foxstage/logos/stacked/foxstage-stacked-mono-dark.svg",
+      "bytes": 22982,
+      "sha256": "16750cc758369dc4fe043ed9a1879c05c6e19a3ac38d872cb0d4b901ccd3bea8"
+    },
+    {
+      "path": "assets/Identidade visual Foxstage/logos/stacked/foxstage-stacked-mono-light-1520.png",
+      "bytes": 51383,
+      "sha256": "6f66b5c6cc6fe6deffb8f5362aacc48f310a93c4739f0d87612f872988c913a8"
+    },
+    {
+      "path": "assets/Identidade visual Foxstage/logos/stacked/foxstage-stacked-mono-light.svg",
+      "bytes": 22983,
+      "sha256": "1fa97c552873879e7efdcb6627929eac05b4a797fc695e71d23accc855efebb8"
+    },
+    {
+      "path": "assets/Identidade visual Foxstage/logos/stacked/foxstage-stacked-reverse-1520.png",
+      "bytes": 52825,
+      "sha256": "10061fe02f08cfd223e0f34182b16a9116352b31976aacb79f7a6164e5a1c2b9"
+    },
+    {
+      "path": "assets/Identidade visual Foxstage/logos/stacked/foxstage-stacked-reverse.svg",
+      "bytes": 22980,
+      "sha256": "b71c205b490c9a62bbc35820b5f1329a39f6333db1cb675561d2f57745c7db65"
+    },
+    {
+      "path": "assets/Identidade visual Foxstage/logos/wordmark/foxstage-wordmark-dark-1600.png",
+      "bytes": 47649,
+      "sha256": "26e1be906ae1c6124d545c3473d1b8e6f03507fdb19c37f85c35292aca5d0cca"
+    },
+    {
+      "path": "assets/Identidade visual Foxstage/logos/wordmark/foxstage-wordmark-dark.svg",
+      "bytes": 13235,
+      "sha256": "b7c2a867fe8149bacf5c9966fb0114bdd92bda7cd82dfaedf1f925240fea8424"
+    },
+    {
+      "path": "assets/Identidade visual Foxstage/logos/wordmark/foxstage-wordmark-light-1600.png",
+      "bytes": 55285,
+      "sha256": "8704f96bf7c4af8b8f74230d0d0ad78fe632687f39e2273a52fac1a31d126ac7"
+    },
+    {
+      "path": "assets/Identidade visual Foxstage/logos/wordmark/foxstage-wordmark-light.svg",
+      "bytes": 13236,
+      "sha256": "3e127934dba25aa6bc98846349b7281e44483a0a391c1de190237b8a5185e8f6"
+    },
+    {
+      "path": "assets/Identidade visual Foxstage/manual-de-marca.html",
+      "bytes": 525991,
+      "sha256": "d1f11d8f5498200b0647659cdf65a5d0acb9ca18fa99d773b26bea636b0433ea"
+    },
+    {
+      "path": "assets/Identidade visual Foxstage/manual-de-marca.md",
+      "bytes": 7361,
+      "sha256": "888662fc63dd5ba4dacb4fcd72879524d2804a2a1885788f43c17cce20d79026"
+    },
+    {
+      "path": "assets/Identidade visual Foxstage/manual-de-marca.pdf",
+      "bytes": 180390,
+      "sha256": "cb6dc6405c6bc418ceaeea943225bb6f536f8cfb76c4da9b5e1dfe9611703ff7"
+    },
+    {
+      "path": "assets/Identidade visual Foxstage/provenance.json",
+      "bytes": 852,
+      "sha256": "827eb9da1ee81b1a7b1bcaa13b73aafb570569765717d95690b0890eb7ec652a"
+    },
+    {
+      "path": "assets/Identidade visual Foxstage/README.md",
+      "bytes": 966,
+      "sha256": "0daa6cacac211835854c7cac4f97fd11a8e0f9f0db61371c0273e38d44f7db65"
+    },
+    {
+      "path": "assets/Identidade visual Foxstage/source/lettering-outlines.json",
+      "bytes": 22550,
+      "sha256": "6bab77ec0902be4a2091b630b340a6fcc1707ba5c59f99d00ff507d1c83a50a2"
+    },
+    {
+      "path": "assets/Identidade visual Foxstage/source/symbol-geometry.json",
+      "bytes": 625,
+      "sha256": "6b22b73145b3d5bc9221a012d72e4c562f86e7f4c2ebbc9c52e013fd3bdc9051"
+    },
+    {
+      "path": "assets/Identidade visual Foxstage/tokens/brand.css",
+      "bytes": 331,
+      "sha256": "2165d6fdf1531eb362e1868ecb6cb4ba89db1e6f923ddb83296afc47e354d992"
+    },
+    {
+      "path": "assets/Identidade visual Foxstage/tokens/brand.json",
+      "bytes": 1111,
+      "sha256": "ce3865126c67a6ec8e70f7ff0e1da5a46f2b955bd18649716476e563d4e24357"
+    },
+    {
+      "path": "assets/Identidade visual Foxstage/verification.json",
+      "bytes": 384,
+      "sha256": "8ab218aafe800006c80bd91d409104b9960258d0fd7552935cb0b5657c77ccdc"
+    },
+    {
+      "path": "assets/logo.png",
+      "bytes": 1032324,
+      "sha256": "737a7c4a0e748daa99a41514fff388e31f9ece59f952f157b1eea042ad92a308"
+    },
+    {
+      "path": "assets/references/01-hero-reference.png",
+      "bytes": 373002,
+      "sha256": "04de8338f2dcfa3284e52abf1f23e57b7a649aeb8c7bd545dc95f15520d10526"
+    },
+    {
+      "path": "assets/references/02-overview-reference.png",
+      "bytes": 610841,
+      "sha256": "f7dfe68464b88785540372734651eea710cdd1997a7edcbb2108572bbde41d32"
+    },
+    {
+      "path": "assets/references/03-full-page-reference.png",
+      "bytes": 1949242,
+      "sha256": "4f7e2d5150d2fd08fc9ab12b6853745ea3772d6f68a8b70ee48a0c8d021fbdf1"
+    },
+    {
+      "path": "scripts/generate-tokens.mjs",
+      "bytes": 2424,
+      "sha256": "7b73b21614b1f988dc2802c8591d294bdf4192dc5dd6d5cc647f2cc4e7ed6700"
+    },
+    {
+      "path": "scripts/prepare-assets.mjs",
+      "bytes": 3024,
+      "sha256": "8c157771d19ee00fa80fd3ce60a040f3d96b0988085f57c4da1d683d61e04bbd"
+    },
+    {
+      "path": "scripts/prepare-generated-hero.mjs",
+      "bytes": 3687,
+      "sha256": "def4f93eb200b58295e3bc99e5015e869bd2567b9e93ddb0a59df11e500e2e6f"
+    },
+    {
+      "path": "tests/motion.browser.mjs",
+      "bytes": 8662,
+      "sha256": "6ad7161970c969a68989a34d5e340e66301d2a16b318618db3ccc42b9684f1a7"
+    },
+    {
+      "path": "tests/publication.test.mjs",
+      "bytes": 1211,
+      "sha256": "529de6e595846a4b078733191e6e6e525bc47dffcb3d9592e458cc396842c164"
+    },
+    {
+      "path": "tests/whatsapp.test.mjs",
+      "bytes": 1020,
+      "sha256": "edf48e2a41fb9488074d3268ab580c3d6340fd16052e6c0655e84b27f2fa5e00"
+    },
+    {
+      "path": "design.md",
+      "bytes": 47252,
+      "sha256": "9c4b39f41f474ac15b76f30ca4880dd218c666fc5bc4e73dd0323bcdebf2ced4"
+    },
+    {
+      "path": "design.json",
+      "bytes": 40429,
+      "sha256": "5187d6396dd0def9084f4edd80a0950b5b5ba25ec88693bd3fbd7fbe741bf241"
+    },
+    {
+      "path": "foxstage-prompt-completo-nextjs.md",
+      "bytes": 122351,
+      "sha256": "326c753c4580ee695a36cab5b40e562a9d3051fdc02d1e2e1b4cc9ad99d0db6e"
+    },
+    {
+      "path": "package.json",
+      "bytes": 1250,
+      "sha256": "9ec00fe35b28e59ce62e58bc4482a2c59ee23e17e7c3c4b4c4b43ff816df8aed"
+    },
+    {
+      "path": "package-lock.json",
+      "bytes": 329262,
+      "sha256": "348f0da24c9b0a9bf4912704b539add16c2540f3f6db9c4aa17c6a68be0320fd"
+    },
+    {
+      "path": "next.config.ts",
+      "bytes": 584,
+      "sha256": "04e0161999bd0eff0428ec50bb7c3705ad306284ca1b4309bad32d387e706b90"
+    },
+    {
+      "path": "tsconfig.json",
+      "bytes": 620,
+      "sha256": "95d8ce2d8e738dd5cad84f8a4478baae54e8c01843edfd0426286b6aa2c3a63e"
+    },
+    {
+      "path": "eslint.config.mjs",
+      "bytes": 335,
+      "sha256": "05e7e4c087733e7717f38b124e158d302a94e38e15a9f88f50231835e36d1710"
+    },
+    {
+      "path": "AGENTS.md",
+      "bytes": 1836,
+      "sha256": "a84e9d90ba8f6951483ea4a2c7b2e44ceb1d5d78932b01559b9f68bce19a231a"
+    },
+    {
+      "path": "PRODUCT.md",
+      "bytes": 4361,
+      "sha256": "5c787caaed20cd9da6c068772ac220af93936950cbb35b20657889c6ed73681f"
+    },
+    {
+      "path": ".gitignore",
+      "bytes": 124,
+      "sha256": "568b2ca6c1912945422dfc70318a02c6c01c84eb791b3e14edcdf6842ab6c524"
+    },
+    {
+      "path": "docs/IMPLEMENTATION.md",
+      "bytes": 29541,
+      "sha256": "2283e9584727919a73e6dac50ea578931c64979a93aba0ab9312a97e185a5147"
+    },
+    {
+      "path": "docs/PESQUISA-CONCORRENTES-ARQUITETURA.md",
+      "bytes": 16601,
+      "sha256": "acdb5368aaf456e1e4f59860a9f763711789d4e02019ac8719a73125f47d698b"
+    }
+  ]
+}

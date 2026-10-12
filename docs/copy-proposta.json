@@ -1,0 +1,237 @@
+{
+  "version": "1.0.0",
+  "date": "2026-10-10",
+  "status": "aprovada-e-aplicada",
+  "websiteBaseline": "2.4.1",
+  "scope": "Copy e conteúdo. Preservar a composição, o layout, os tokens e os comportamentos existentes.",
+  "facts": {
+    "userConfirmed": [
+      "Aulas online ao vivo em grupo.",
+      "Opção de aulas individuais personalizadas.",
+      "Método da Foxstage com foco em conversação, inglês do dia a dia e situações reais.",
+      "Proposta de praticar sem medo de errar e usar o inglês.",
+      "English Day: evento presencial entre alunos a cada quatro meses.",
+      "A Foxstage organiza e custeia o evento; a atividade é definida pela escola e pode variar.",
+      "A comunicação no English Day acontece em inglês durante todo o dia.",
+      "A última edição informada pelo usuário foi no cinema."
+    ],
+    "notAssumed": [
+      "Diagnóstico ou teste de nível.",
+      "Quantidade de alunos, duração, horários, preços ou materiais incluídos.",
+      "Personalização individual de todos os participantes das aulas em grupo.",
+      "Certificação, exclusividade comprovada, prazo de fluência ou garantia de resultado.",
+      "Próxima data, cidade, transporte ou despesas específicas cobertas no English Day.",
+      "Filme exibido em inglês, legendagem da sessão ou parceria comercial com o cinema."
+    ]
+  },
+  "metadata": {
+    "title": "Foxstage | Inglês online ao vivo",
+    "description": "Aprenda inglês em aulas online ao vivo, em grupo ou individuais personalizadas, com foco em conversação e situações reais. Conheça o English Day.",
+    "openGraph": {
+      "headline": [
+        "Inglês para usar",
+        "no dia a dia."
+      ],
+      "support": "Aulas online ao vivo. Conversação e prática.",
+      "alt": "Foxstage. Inglês para usar no dia a dia. Aulas online ao vivo."
+    }
+  },
+  "navigation": [
+    {
+      "label": "Início",
+      "href": "#inicio"
+    },
+    {
+      "label": "Sobre",
+      "href": "#sobre"
+    },
+    {
+      "label": "O método",
+      "href": "#como-funciona"
+    },
+    {
+      "label": "As aulas",
+      "href": "#cursos"
+    },
+    {
+      "label": "Contato",
+      "href": "#contato"
+    }
+  ],
+  "header": {
+    "cta": "Conhecer as aulas",
+    "origin": "introduction"
+  },
+  "hero": {
+    "banners": [
+      {
+        "eyebrow": "Inglês online ao vivo",
+        "title": "Inglês para usar no dia a dia.",
+        "mobileTitle": [
+          "Inglês para usar",
+          "no dia a dia."
+        ],
+        "description": "Conversação e situações reais em aulas ao vivo. Aprenda em grupo ou escolha aulas individuais personalizadas.",
+        "cta": "Conhecer as aulas",
+        "origin": "introduction"
+      },
+      {
+        "eyebrow": "Método Foxstage",
+        "title": "Inglês sem medo de errar.",
+        "mobileTitle": [
+          "Inglês sem medo",
+          "de errar."
+        ],
+        "description": "Aqui, você pratica para conversar. O erro faz parte do aprendizado, e o inglês entra em situações do seu dia a dia.",
+        "cta": "Conhecer as aulas",
+        "origin": "practice"
+      }
+    ]
+  },
+  "heroGoals": {
+    "eyebrow": "Seu objetivo",
+    "title": "Onde você quer usar o inglês?",
+    "items": [
+      {
+        "label": "No dia a dia",
+        "origin": "daily"
+      },
+      {
+        "label": "Em viagens",
+        "origin": "travel"
+      },
+      {
+        "label": "No trabalho",
+        "origin": "work"
+      }
+    ]
+  },
+  "about": {
+    "eyebrow": "Método Foxstage",
+    "title": "Aqui, você usa o inglês.",
+    "paragraphs": [
+      "Conversar, ouvir e participar de situações reais: esse é o foco do método Foxstage. Nas aulas online ao vivo, você pratica o idioma para usar no dia a dia.",
+      "As aulas acontecem em grupo, com opção individual personalizada. O erro faz parte do aprendizado: a proposta é criar espaço para tentar, conversar e seguir praticando."
+    ],
+    "link": "Ver a Foxstage no Instagram"
+  },
+  "practice": {
+    "eyebrow": "O método na prática",
+    "title": "Aprender para conversar.",
+    "items": [
+      {
+        "title": "Conversação",
+        "description": "Fala e escuta em situações do dia a dia."
+      },
+      {
+        "title": "Aulas ao vivo",
+        "description": "Aprenda online em grupo e pratique o idioma."
+      },
+      {
+        "title": "Ensino personalizado",
+        "description": "Aulas individuais com ensino personalizado para você."
+      }
+    ]
+  },
+  "shortcuts": {
+    "eyebrow": "Seu próximo passo",
+    "title": "Comece pelo seu objetivo.",
+    "items": [
+      {
+        "title": "Conhecer as aulas",
+        "description": "Converse sobre seu objetivo e tire dúvidas sobre horários e valores.",
+        "cta": "Falar no WhatsApp",
+        "destination": "whatsapp",
+        "origin": "introduction"
+      },
+      {
+        "title": "Entender o método",
+        "description": "Conheça o foco em conversação, situações reais e prática do idioma.",
+        "cta": "Ver o método",
+        "destination": "#como-funciona"
+      },
+      {
+        "title": "Foxstage no Instagram",
+        "description": "Acompanhe conteúdos de inglês e a comunicação da escola.",
+        "cta": "Ver Instagram",
+        "destination": "instagram"
+      }
+    ]
+  },
+  "courses": {
+    "eyebrow": "Aulas online",
+    "title": "Em grupo ou individuais.",
+    "subtitle": "Escolha como aprender.",
+    "paragraphs": [
+      "Nas aulas online ao vivo em grupo, o foco é a conversação e o inglês do dia a dia. Você pratica fala e escuta em situações reais.",
+      "Prefere aulas individuais? A Foxstage também oferece ensino personalizado nesse formato. Converse com a escola sobre o que você quer aprender."
+    ],
+    "cta": "Conhecer as aulas",
+    "origin": "course"
+  },
+  "englishDay": {
+    "status": "implementado-com-foto-e-video",
+    "placementProposal": "Depois da apresentação das aulas e antes do contato final; preservar as seções existentes.",
+    "eyebrow": "English Day",
+    "title": "Um dia inteiro em inglês.",
+    "paragraphs": [
+      "A cada quatro meses, a Foxstage organiza e custeia um encontro presencial entre os alunos. A atividade muda a cada edição; a comunicação acontece em inglês durante todo o dia.",
+      "Na última edição, fomos ao cinema. É uma oportunidade de conversar, conviver com outros alunos e usar o inglês em situações reais, fora das aulas."
+    ],
+    "cta": "Conhecer as aulas",
+    "origin": "englishDay",
+    "photo": {
+      "source": "assets/english-day/english-day-cinema-foto.jpeg",
+      "caption": "English Day: edição no cinema.",
+      "alt": "Grupo de participantes do English Day da Foxstage reunido no cinema."
+    },
+    "video": {
+      "source": "assets/english-day/english-day-cinema-video.mp4",
+      "label": "Assista ao English Day no cinema",
+      "caption": "Momentos do English Day no cinema.",
+      "autoplay": false,
+      "controls": true,
+      "note": "Preservar a orientação vertical. Preparar legendas a partir do áudio real; a inspeção visual não constitui transcrição."
+    },
+    "withinCurrentLayoutAlternative": {
+      "purpose": "Apresentar o English Day dentro do bloco editorial já existente do curso, se o congelamento do layout incluir a proibição de adicionar uma seção.",
+      "eyebrow": "English Day",
+      "title": "O inglês além das aulas.",
+      "subtitle": "Um dia inteiro em inglês.",
+      "paragraphs": [
+        "O método Foxstage foca em conversação e situações reais, com aulas online ao vivo em grupo e opção individual personalizada.",
+        "A cada quatro meses, a escola organiza e custeia um encontro presencial entre os alunos, com inglês durante todo o dia. Na última edição, fomos ao cinema."
+      ],
+      "limitation": "O bloco atual possui uma foto. Exibir também o vídeo exige ampliar esse módulo; substituir a foto pelo vídeo não atende ao pedido de usar ambos."
+    }
+  },
+  "contact": {
+    "eyebrow": "Vamos conversar",
+    "title": "Vamos falar do seu inglês?",
+    "paragraph": "Conte o que você quer aprender e tire suas dúvidas sobre as aulas com a Foxstage.",
+    "cta": "Falar no WhatsApp",
+    "origin": "contact",
+    "signature": "Aprenda inglês. Fale inglês. Viva o inglês."
+  },
+  "footer": {
+    "description": "Inglês online ao vivo, com foco em conversação e situações reais."
+  },
+  "notFound": {
+    "eyebrow": "Página não encontrada",
+    "title": "Página não encontrada.",
+    "description": "Volte ao início para conhecer as aulas ou fale com a Foxstage pelo WhatsApp.",
+    "homeCta": "Voltar ao início",
+    "contactCta": "Falar no WhatsApp"
+  },
+  "messages": {
+    "introduction": "Olá! Vim pelo site da Foxstage e gostaria de conhecer as aulas de inglês online ao vivo.",
+    "practice": "Olá! Vim pelo site da Foxstage e gostaria de saber como funciona o método com foco em conversação.",
+    "course": "Olá! Vim pelo site da Foxstage e gostaria de saber mais sobre as aulas em grupo e as individuais personalizadas.",
+    "contact": "Olá! Vim pelo site da Foxstage e quero conversar sobre meu objetivo com o inglês e tirar dúvidas sobre as aulas.",
+    "daily": "Olá! Vim pelo site da Foxstage e quero aprender inglês para usar no dia a dia. Gostaria de saber mais sobre as aulas.",
+    "travel": "Olá! Vim pelo site da Foxstage e quero aprender inglês para usar em viagens. Gostaria de saber mais sobre as aulas.",
+    "work": "Olá! Vim pelo site da Foxstage e quero aprender inglês para usar no trabalho. Gostaria de saber mais sobre as aulas.",
+    "englishDay": "Olá! Vi o English Day no site da Foxstage. Gostaria de conhecer as aulas e saber como participar dos encontros."
+  },
+  "implementedVersion": "2.5.0"
+}

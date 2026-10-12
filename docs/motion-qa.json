@@ -1,0 +1,250 @@
+{
+  "base": "http://127.0.0.1:3001",
+  "testedAt": "2026-10-11T00:06:54.971Z",
+  "result": "pass",
+  "checks": [
+    "autoplay without interaction on scroll and cold anchor desktop/mobile",
+    "no motion controls or tab stops",
+    "continuous overlapping translations",
+    "offscreen pause/resume",
+    "simulated hidden-document pause/resume",
+    "final frame 299 holds without replay",
+    "eight responsive widths",
+    "reduced motion and preference changes",
+    "no-JavaScript and blocked chunk fallbacks"
+  ],
+  "widthReport": [
+    {
+      "width": 320,
+      "scrollWidth": 320,
+      "clipped": []
+    },
+    {
+      "width": 360,
+      "scrollWidth": 360,
+      "clipped": []
+    },
+    {
+      "width": 390,
+      "scrollWidth": 390,
+      "clipped": []
+    },
+    {
+      "width": 430,
+      "scrollWidth": 430,
+      "clipped": []
+    },
+    {
+      "width": 768,
+      "scrollWidth": 768,
+      "clipped": []
+    },
+    {
+      "width": 1024,
+      "scrollWidth": 1024,
+      "clipped": []
+    },
+    {
+      "width": 1440,
+      "scrollWidth": 1440,
+      "clipped": []
+    },
+    {
+      "width": 1920,
+      "scrollWidth": 1920,
+      "clipped": []
+    }
+  ],
+  "directLoads": [
+    {
+      "width": 1440,
+      "initialFrame": 28,
+      "endedFrame": 299,
+      "interactionRequired": false
+    },
+    {
+      "width": 390,
+      "initialFrame": 29,
+      "endedFrame": 299,
+      "interactionRequired": false
+    }
+  ],
+  "progress": [
+    {
+      "time": 1149.2999999988824,
+      "frame": 5,
+      "translations": [
+        "-39.9675px",
+        "360px",
+        "220px"
+      ]
+    },
+    {
+      "time": 1352,
+      "frame": 17,
+      "translations": [
+        "-39.5819px",
+        "358.929px",
+        "219.959px"
+      ]
+    },
+    {
+      "time": 1554.0999999996275,
+      "frame": 29,
+      "translations": [
+        "-38.629px",
+        "354.107px",
+        "218.579px"
+      ]
+    },
+    {
+      "time": 1755.699999999255,
+      "frame": 41,
+      "translations": [
+        "-36.8677px",
+        "344.052px",
+        "214.753px"
+      ]
+    },
+    {
+      "time": 1959.5,
+      "frame": 53,
+      "translations": [
+        "-33.9511px",
+        "326.603px",
+        "207.554px"
+      ]
+    },
+    {
+      "time": 2160.39999999851,
+      "frame": 66,
+      "translations": [
+        "-29.1476px",
+        "295.994px",
+        "194.363px"
+      ]
+    },
+    {
+      "time": 2364.0999999996275,
+      "frame": 78,
+      "translations": [
+        "-23.6417px",
+        "255.143px",
+        "175.458px"
+      ]
+    },
+    {
+      "time": 2566.7999999988824,
+      "frame": 90,
+      "translations": [
+        "-18.3823px",
+        "207.273px",
+        "149.804px"
+      ]
+    },
+    {
+      "time": 2769.0999999996275,
+      "frame": 102,
+      "translations": [
+        "-14.0867px",
+        "162.526px",
+        "121.313px"
+      ]
+    },
+    {
+      "time": 2974,
+      "frame": 114,
+      "translations": [
+        "-10.7392px",
+        "125.906px",
+        "95.5024px"
+      ]
+    },
+    {
+      "time": 3176.7999999988824,
+      "frame": 126,
+      "translations": [
+        "-8.13588px",
+        "97.0863px",
+        "74.4833px"
+      ]
+    },
+    {
+      "time": 3382.199999999255,
+      "frame": 139,
+      "translations": [
+        "-5.94793px",
+        "72.7816px",
+        "56.6305px"
+      ]
+    },
+    {
+      "time": 3585.5999999996275,
+      "frame": 151,
+      "translations": [
+        "-4.37378px",
+        "55.2072px",
+        "43.7082px"
+      ]
+    },
+    {
+      "time": 3789.39999999851,
+      "frame": 163,
+      "translations": [
+        "-3.13409px",
+        "41.2288px",
+        "33.4051px"
+      ]
+    },
+    {
+      "time": 3994.39999999851,
+      "frame": 175,
+      "translations": [
+        "-2.16422px",
+        "30.1047px",
+        "25.1537px"
+      ]
+    },
+    {
+      "time": 4198.39999999851,
+      "frame": 188,
+      "translations": [
+        "-1.36313px",
+        "20.6532px",
+        "18.0558px"
+      ]
+    },
+    {
+      "time": 4403.199999999255,
+      "frame": 200,
+      "translations": [
+        "-0.816069px",
+        "13.9047px",
+        "12.8842px"
+      ]
+    },
+    {
+      "time": 4608.39999999851,
+      "frame": 212,
+      "translations": [
+        "-0.425696px",
+        "8.74584px",
+        "8.80934px"
+      ]
+    }
+  ],
+  "errors": [],
+  "firstFoldChunks": [
+    "http://127.0.0.1:3001/_next/static/chunks/1ckvzn7sfprko.js",
+    "http://127.0.0.1:3001/_next/static/chunks/2kzd2bib-2ux6.js",
+    "http://127.0.0.1:3001/_next/static/chunks/0s7mvllxht1mo.js",
+    "http://127.0.0.1:3001/_next/static/chunks/1x_q6zxmif4tf.js",
+    "http://127.0.0.1:3001/_next/static/chunks/turbopack-2c3mg3r-05n1w.js",
+    "http://127.0.0.1:3001/_next/static/chunks/0umf92h1sb77c.js",
+    "http://127.0.0.1:3001/_next/static/chunks/3-ofm3mppc8tn.js",
+    "http://127.0.0.1:3001/_next/static/chunks/0r-e3l9egr1oc.js"
+  ],
+  "additionalChunks": [
+    "http://127.0.0.1:3001/_next/static/chunks/2v5_qz4hqapv0.js"
+  ]
+}

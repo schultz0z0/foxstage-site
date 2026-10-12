@@ -1,0 +1,18 @@
+{
+  "date": "2026-10-10T19:20:34.402Z",
+  "url": "http://127.0.0.1:3001/",
+  "conditions": "Mobile 390x844 local production, accessibility/SEO/best-practices audit without Lighthouse performance category",
+  "scores": {
+    "accessibility": 100,
+    "best-practices": 100,
+    "seo": 66,
+    "agentic-browsing": 100
+  },
+  "failed": [
+    {
+      "id": "is-crawlable",
+      "title": "Page is blocked from indexing"
+    }
+  ],
+  "intentionalNoindex": true
+}

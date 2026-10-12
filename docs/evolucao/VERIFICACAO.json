@@ -1,0 +1,71 @@
+{
+  "date": "2026-10-12",
+  "planningVersion": "1.0.0",
+  "pages": 10,
+  "foundationPrompts": 1,
+  "promptChecks": [
+    {
+      "file": "docs/evolucao/prompts/foxstage-prompt-completo-a-foxstage-nextjs.md",
+      "stages": 12,
+      "baseline": "2.7.3"
+    },
+    {
+      "file": "docs/evolucao/prompts/foxstage-prompt-completo-artigo-nextjs.md",
+      "stages": 12,
+      "baseline": "2.7.3"
+    },
+    {
+      "file": "docs/evolucao/prompts/foxstage-prompt-completo-contato-nextjs.md",
+      "stages": 12,
+      "baseline": "2.7.3"
+    },
+    {
+      "file": "docs/evolucao/prompts/foxstage-prompt-completo-conteudos-nextjs.md",
+      "stages": 12,
+      "baseline": "2.7.3"
+    },
+    {
+      "file": "docs/evolucao/prompts/foxstage-prompt-completo-edicao-english-day-nextjs.md",
+      "stages": 12,
+      "baseline": "2.7.3"
+    },
+    {
+      "file": "docs/evolucao/prompts/foxstage-prompt-completo-english-day-nextjs.md",
+      "stages": 12,
+      "baseline": "2.7.3"
+    },
+    {
+      "file": "docs/evolucao/prompts/foxstage-prompt-completo-fundacao-multipagina-nextjs.md",
+      "stages": 12,
+      "baseline": "2.7.3"
+    },
+    {
+      "file": "docs/evolucao/prompts/foxstage-prompt-completo-home-evolucao-nextjs.md",
+      "stages": 12,
+      "baseline": "2.7.3"
+    },
+    {
+      "file": "docs/evolucao/prompts/foxstage-prompt-completo-ingles-em-grupo-nextjs.md",
+      "stages": 12,
+      "baseline": "2.7.3"
+    },
+    {
+      "file": "docs/evolucao/prompts/foxstage-prompt-completo-ingles-individual-nextjs.md",
+      "stages": 12,
+      "baseline": "2.7.3"
+    },
+    {
+      "file": "docs/evolucao/prompts/foxstage-prompt-completo-privacidade-nextjs.md",
+      "stages": 12,
+      "baseline": "2.7.3"
+    }
+  ],
+  "relativeLinksChecked": 146,
+  "relativeLinksBroken": 0,
+  "baselineFilesVerified": 259,
+  "sourceUnchangedDuringPackaging": true,
+  "implementationExecuted": false,
+  "databasesCreated": false,
+  "dependenciesInstalled": false,
+  "packageFiles": 316
+}

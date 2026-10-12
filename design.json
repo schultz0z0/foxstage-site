@@ -1,0 +1,1202 @@
+{
+  "schemaVersion": "1.0.0",
+  "designVersion": "2.7.3",
+  "id": "foxstage-website",
+  "language": "pt-BR",
+  "status": "user-approved-website-with-brand-manual-b-v1",
+  "updatedAt": "2026-10-11",
+  "format": {
+    "name": "Foxstage local design contract",
+    "tokenSyntax": "Typed values with $type, $value and optional $description. Aliases use {tokens.path}.",
+    "standardComplianceClaim": false,
+    "units": "CSS px unless a value explicitly contains rem, ms, %, or a CSS expression",
+    "precedence": [
+      "Confirmed facts and explicit user instructions",
+      "User-approved brand manual B v1.0 in assets/Identidade visual Foxstage",
+      "design.json tokens and numeric constraints",
+      "design.md composition and behavior",
+      "foxstage-prompt-completo-nextjs.md execution stages",
+      "Reference screenshots as visual evidence"
+    ]
+  },
+  "brand": {
+    "name": "Foxstage",
+    "observedCommercialName": "Fox Stage English Course",
+    "logo": {
+      "source": "assets/Identidade visual Foxstage/logos/horizontal/foxstage-horizontal-color.svg",
+      "status": "Direction B approved by user; supplied complete kit applied to website",
+      "treatment": "Use outlined SVG masters intact. Compact header; horizontal reversed footer at 360px; compact reversed below 480px viewport.",
+      "transparentVariantAvailable": true,
+      "darkVariantAvailable": true,
+      "manual": "assets/Identidade visual Foxstage/manual-de-marca.pdf",
+      "clearSpace": "At least one quarter of visible symbol height around all visible artwork; external padding is additional to SVG canvas.",
+      "minimumWidths": {
+        "horizontal": 360,
+        "compact": 160,
+        "symbol": 32,
+        "microFavicon": 16
+      }
+    },
+    "observedTraits": [
+      "Orange fox profile with one angular ear",
+      "Outlined Source Sans 3 wordmark",
+      "Light and reversed official kit variants"
+    ],
+    "paletteProvenance": "User-approved brand manual B v1.0, 2026-10-10. Functional neutral colors and interaction states remain website tokens, not new logo colors.",
+    "typographyProvenance": "Manual B v1.0: Source Sans 3 body 400/600/700, Bebas Neue headings 400; use outlined logo masters rather than retyping.",
+    "publicSources": [
+      "https://www.instagram.com/foxstage_/",
+      "https://www.instagram.com/foxstage_/p/DTgy_tql5S4/",
+      "https://wa.link/m6g4ra"
+    ],
+    "contacts": {
+      "instagram": "https://www.instagram.com/foxstage_/",
+      "whatsappDigits": "5521989848517",
+      "whatsappDisplay": "+55 (21) 98984-8517",
+      "whatsappPublishedLink": "https://wa.link/m6g4ra",
+      "verificationDate": "2026-10-10",
+      "recheckBeforeLaunch": true
+    }
+  },
+  "references": [
+    {
+      "id": "reference-01",
+      "path": "assets/references/01-hero-reference.png",
+      "size": [
+        752,
+        752
+      ],
+      "role": "Hero composition and floating header",
+      "exclude": [
+        "Red outer presentation canvas",
+        "School logo and factual copy",
+        "Children as assumed Foxstage audience",
+        "Login"
+      ]
+    },
+    {
+      "id": "reference-02",
+      "path": "assets/references/02-overview-reference.png",
+      "size": [
+        752,
+        752
+      ],
+      "role": "Overview of long-page rhythm; collage of views, not a breakpoint specification"
+    },
+    {
+      "id": "reference-03",
+      "path": "assets/references/03-full-page-reference.png",
+      "size": [
+        752,
+        3547
+      ],
+      "role": "Section composition, contrast, editorial course presentation and closing panel",
+      "measurementConfidence": "Relative visual estimates only; screenshot pixels are not CSS pixels."
+    }
+  ],
+  "tokens": {
+    "primitive": {
+      "color": {
+        "orange500": {
+          "$type": "color",
+          "$value": "#F65A0B",
+          "$description": "Primary orange from approved brand manual B v1.0."
+        },
+        "orange600": {
+          "$type": "color",
+          "$value": "#DE4A06"
+        },
+        "orange700": {
+          "$type": "color",
+          "$value": "#A83A08",
+          "$description": "Dark orange for small text on light surfaces."
+        },
+        "orange200": {
+          "$type": "color",
+          "$value": "#FFB077",
+          "$description": "Text accent on dark surfaces when primary orange needs a quieter treatment."
+        },
+        "ink950": {
+          "$type": "color",
+          "$value": "#101314"
+        },
+        "ink800": {
+          "$type": "color",
+          "$value": "#242B2E"
+        },
+        "gray600": {
+          "$type": "color",
+          "$value": "#555A5D"
+        },
+        "gray500": {
+          "$type": "color",
+          "$value": "#6B7174"
+        },
+        "gray300": {
+          "$type": "color",
+          "$value": "#A6ABAD"
+        },
+        "gray200": {
+          "$type": "color",
+          "$value": "#D9D5CF"
+        },
+        "cream100": {
+          "$type": "color",
+          "$value": "#F3EFE8"
+        },
+        "cream50": {
+          "$type": "color",
+          "$value": "#FFF8EC"
+        },
+        "white": {
+          "$type": "color",
+          "$value": "#FFFFFF"
+        },
+        "error700": {
+          "$type": "color",
+          "$value": "#B42318"
+        },
+        "success700": {
+          "$type": "color",
+          "$value": "#216B45"
+        }
+      },
+      "fontFamily": {
+        "display": {
+          "$type": "fontFamily",
+          "$value": [
+            "Bebas Neue",
+            "Arial Narrow",
+            "sans-serif"
+          ]
+        },
+        "body": {
+          "$type": "fontFamily",
+          "$value": [
+            "Source Sans 3",
+            "Arial",
+            "sans-serif"
+          ]
+        }
+      },
+      "space": {
+        "0": {
+          "$type": "dimension",
+          "$value": "0px"
+        },
+        "1": {
+          "$type": "dimension",
+          "$value": "4px"
+        },
+        "2": {
+          "$type": "dimension",
+          "$value": "8px"
+        },
+        "3": {
+          "$type": "dimension",
+          "$value": "12px"
+        },
+        "4": {
+          "$type": "dimension",
+          "$value": "16px"
+        },
+        "5": {
+          "$type": "dimension",
+          "$value": "20px"
+        },
+        "6": {
+          "$type": "dimension",
+          "$value": "24px"
+        },
+        "8": {
+          "$type": "dimension",
+          "$value": "32px"
+        },
+        "10": {
+          "$type": "dimension",
+          "$value": "40px"
+        },
+        "12": {
+          "$type": "dimension",
+          "$value": "48px"
+        },
+        "16": {
+          "$type": "dimension",
+          "$value": "64px"
+        },
+        "20": {
+          "$type": "dimension",
+          "$value": "80px"
+        },
+        "24": {
+          "$type": "dimension",
+          "$value": "96px"
+        }
+      },
+      "radius": {
+        "none": {
+          "$type": "dimension",
+          "$value": "0px"
+        },
+        "small": {
+          "$type": "dimension",
+          "$value": "8px"
+        },
+        "card": {
+          "$type": "dimension",
+          "$value": "12px"
+        },
+        "hero": {
+          "$type": "dimension",
+          "$value": "24px"
+        },
+        "panel": {
+          "$type": "dimension",
+          "$value": "24px"
+        },
+        "pill": {
+          "$type": "dimension",
+          "$value": "999px"
+        }
+      },
+      "shadow": {
+        "none": {
+          "$type": "string",
+          "$value": "none"
+        },
+        "header": {
+          "$type": "string",
+          "$value": "0 4px 20px rgba(16, 19, 20, 0.12)"
+        },
+        "card": {
+          "$type": "string",
+          "$value": "0 4px 16px rgba(16, 19, 20, 0.08)"
+        },
+        "photo": {
+          "$type": "string",
+          "$value": "0 6px 22px rgba(16, 19, 20, 0.12)"
+        }
+      },
+      "duration": {
+        "fast": {
+          "$type": "duration",
+          "$value": "160ms"
+        },
+        "normal": {
+          "$type": "duration",
+          "$value": "220ms"
+        }
+      }
+    },
+    "semantic": {
+      "color": {
+        "page": {
+          "$type": "color",
+          "$value": "{tokens.primitive.color.white}"
+        },
+        "surface": {
+          "$type": "color",
+          "$value": "{tokens.primitive.color.white}"
+        },
+        "surfaceWarm": {
+          "$type": "color",
+          "$value": "{tokens.primitive.color.cream100}"
+        },
+        "surfaceDark": {
+          "$type": "color",
+          "$value": "{tokens.primitive.color.ink950}"
+        },
+        "text": {
+          "$type": "color",
+          "$value": "{tokens.primitive.color.ink950}"
+        },
+        "textMuted": {
+          "$type": "color",
+          "$value": "{tokens.primitive.color.gray600}"
+        },
+        "textInverse": {
+          "$type": "color",
+          "$value": "{tokens.primitive.color.cream50}"
+        },
+        "textInverseMuted": {
+          "$type": "color",
+          "$value": "{tokens.primitive.color.gray300}"
+        },
+        "accent": {
+          "$type": "color",
+          "$value": "{tokens.primitive.color.orange500}"
+        },
+        "accentTextOnLight": {
+          "$type": "color",
+          "$value": "{tokens.primitive.color.orange700}"
+        },
+        "accentTextOnDark": {
+          "$type": "color",
+          "$value": "{tokens.primitive.color.orange200}"
+        },
+        "onAccent": {
+          "$type": "color",
+          "$value": "{tokens.primitive.color.ink950}"
+        },
+        "border": {
+          "$type": "color",
+          "$value": "{tokens.primitive.color.gray200}"
+        },
+        "inputBorder": {
+          "$type": "color",
+          "$value": "{tokens.primitive.color.gray500}"
+        },
+        "focusOnLight": {
+          "$type": "color",
+          "$value": "{tokens.primitive.color.orange700}"
+        },
+        "focusOnDark": {
+          "$type": "color",
+          "$value": "{tokens.primitive.color.orange200}"
+        },
+        "error": {
+          "$type": "color",
+          "$value": "{tokens.primitive.color.error700}"
+        },
+        "success": {
+          "$type": "color",
+          "$value": "{tokens.primitive.color.success700}"
+        }
+      },
+      "space": {
+        "sectionDesktop": {
+          "$type": "dimension",
+          "$value": "{tokens.primitive.space.20}"
+        },
+        "sectionTablet": {
+          "$type": "dimension",
+          "$value": "{tokens.primitive.space.16}"
+        },
+        "sectionMobile": {
+          "$type": "dimension",
+          "$value": "{tokens.primitive.space.12}"
+        },
+        "gridGap": {
+          "$type": "dimension",
+          "$value": "{tokens.primitive.space.6}"
+        },
+        "headingToContent": {
+          "$type": "dimension",
+          "$value": "{tokens.primitive.space.8}"
+        },
+        "eyebrowToHeading": {
+          "$type": "dimension",
+          "$value": "{tokens.primitive.space.3}"
+        }
+      },
+      "font": {
+        "heading": {
+          "$type": "fontFamily",
+          "$value": "{tokens.primitive.fontFamily.display}"
+        },
+        "reading": {
+          "$type": "fontFamily",
+          "$value": "{tokens.primitive.fontFamily.body}"
+        }
+      }
+    },
+    "component": {
+      "header": {
+        "background": {
+          "$type": "color",
+          "$value": "{tokens.semantic.color.surface}"
+        },
+        "radius": {
+          "$type": "dimension",
+          "$value": "{tokens.primitive.radius.pill}"
+        },
+        "shadow": {
+          "$type": "string",
+          "$value": "{tokens.primitive.shadow.header}"
+        },
+        "heightDesktop": {
+          "$type": "dimension",
+          "$value": "72px"
+        },
+        "heightMobile": {
+          "$type": "dimension",
+          "$value": "64px"
+        }
+      },
+      "hero": {
+        "radius": {
+          "$type": "dimension",
+          "$value": "{tokens.primitive.radius.hero}"
+        },
+        "foreground": {
+          "$type": "color",
+          "$value": "{tokens.primitive.color.white}"
+        },
+        "overlayDesktop": {
+          "$type": "string",
+          "$value": "linear-gradient(90deg, rgba(16,19,20,0.80) 0%, rgba(16,19,20,0.58) 38%, rgba(16,19,20,0.12) 72%, rgba(16,19,20,0.08) 100%)"
+        },
+        "overlayMobile": {
+          "$type": "string",
+          "$value": "linear-gradient(0deg, rgba(16,19,20,1) 0%, rgba(16,19,20,0.68) 48%, rgba(16,19,20,0.08) 100%)"
+        },
+        "imageMaskMobile": {
+          "$type": "string",
+          "$value": "linear-gradient(180deg, #000 0%, #000 42%, transparent 100%)"
+        }
+      },
+      "buttonPrimary": {
+        "background": {
+          "$type": "color",
+          "$value": "{tokens.semantic.color.accent}"
+        },
+        "foreground": {
+          "$type": "color",
+          "$value": "{tokens.semantic.color.onAccent}"
+        },
+        "hoverBackground": {
+          "$type": "color",
+          "$value": "{tokens.primitive.color.orange600}"
+        },
+        "radius": {
+          "$type": "dimension",
+          "$value": "{tokens.primitive.radius.pill}"
+        },
+        "height": {
+          "$type": "dimension",
+          "$value": "48px"
+        },
+        "paddingInline": {
+          "$type": "dimension",
+          "$value": "24px"
+        }
+      },
+      "buttonSecondary": {
+        "background": {
+          "$type": "color",
+          "$value": "{tokens.primitive.color.white}"
+        },
+        "foreground": {
+          "$type": "color",
+          "$value": "{tokens.semantic.color.text}"
+        },
+        "radius": {
+          "$type": "dimension",
+          "$value": "{tokens.primitive.radius.pill}"
+        }
+      },
+      "photoCard": {
+        "radius": {
+          "$type": "dimension",
+          "$value": "{tokens.primitive.radius.card}"
+        },
+        "overlay": {
+          "$type": "string",
+          "$value": "linear-gradient(0deg, rgba(16,19,20,0.90) 0%, rgba(16,19,20,0.20) 58%, rgba(16,19,20,0) 100%)"
+        },
+        "foreground": {
+          "$type": "color",
+          "$value": "{tokens.primitive.color.white}"
+        },
+        "shadow": {
+          "$type": "string",
+          "$value": "{tokens.primitive.shadow.none}"
+        }
+      },
+      "shortcutCard": {
+        "background": {
+          "$type": "color",
+          "$value": "{tokens.semantic.color.surface}"
+        },
+        "radius": {
+          "$type": "dimension",
+          "$value": "{tokens.primitive.radius.card}"
+        },
+        "shadow": {
+          "$type": "string",
+          "$value": "{tokens.primitive.shadow.card}"
+        },
+        "padding": {
+          "$type": "dimension",
+          "$value": "24px"
+        },
+        "featuredBackground": {
+          "$type": "color",
+          "$value": "{tokens.semantic.color.accent}"
+        },
+        "featuredForeground": {
+          "$type": "color",
+          "$value": "{tokens.semantic.color.onAccent}"
+        }
+      },
+      "input": {
+        "background": {
+          "$type": "color",
+          "$value": "{tokens.semantic.color.surface}"
+        },
+        "border": {
+          "$type": "color",
+          "$value": "{tokens.semantic.color.inputBorder}"
+        },
+        "radius": {
+          "$type": "dimension",
+          "$value": "{tokens.primitive.radius.small}"
+        },
+        "minHeight": {
+          "$type": "dimension",
+          "$value": "48px"
+        }
+      },
+      "closingPanel": {
+        "background": {
+          "$type": "color",
+          "$value": "{tokens.semantic.color.surfaceDark}"
+        },
+        "foreground": {
+          "$type": "color",
+          "$value": "{tokens.semantic.color.textInverse}"
+        },
+        "radius": {
+          "$type": "dimension",
+          "$value": "{tokens.primitive.radius.panel}"
+        }
+      },
+      "heroGoals": {
+        "background": {
+          "$type": "color",
+          "$value": "{tokens.semantic.color.surfaceWarm}"
+        },
+        "foreground": {
+          "$type": "color",
+          "$value": "{tokens.semantic.color.text}"
+        },
+        "eyebrow": {
+          "$type": "color",
+          "$value": "{tokens.semantic.color.accentTextOnLight}"
+        },
+        "arrow": {
+          "$type": "color",
+          "$value": "{tokens.semantic.color.accent}"
+        },
+        "divider": {
+          "$type": "color",
+          "$value": "{tokens.semantic.color.border}"
+        }
+      }
+    }
+  },
+  "typography": {
+    "displayFamily": "Bebas Neue",
+    "displayWeight": 400,
+    "bodyFamily": "Source Sans 3",
+    "bodyWeights": [
+      400,
+      600,
+      700
+    ],
+    "syntheticWeightOrCondensing": false,
+    "hero": {
+      "fontSize": "clamp(2.75rem, 7.8vw, 7rem)",
+      "lineHeight": 0.98,
+      "letterSpacing": "0.01em",
+      "case": "uppercase",
+      "maxWidthDesktop": "520px",
+      "maxLinesDesktop": 3,
+      "maxLinesMobile": 2,
+      "mobileFontSize": "clamp(2.25rem, calc(11.428571vw - 0.035714rem), 2.75rem)"
+    },
+    "section": {
+      "fontSize": "clamp(2rem, 4.2vw, 4rem)",
+      "lineHeight": 1.04,
+      "letterSpacing": "0.01em",
+      "case": "uppercase",
+      "maxWords": 10
+    },
+    "cardTitle": {
+      "fontSize": "clamp(1.5rem, 2.2vw, 2rem)",
+      "lineHeight": 1.1,
+      "case": "uppercase"
+    },
+    "body": {
+      "fontSize": "18px",
+      "mobileFontSize": "16px",
+      "lineHeight": 1.6,
+      "maxMeasure": "62ch",
+      "case": "sentence"
+    },
+    "navigation": {
+      "fontSize": "14px",
+      "weight": 600,
+      "case": "sentence"
+    },
+    "eyebrow": {
+      "fontSize": "13px",
+      "weight": 700,
+      "lineHeight": 1.4,
+      "letterSpacing": "0.04em",
+      "case": "uppercase"
+    },
+    "button": {
+      "fontSize": "16px",
+      "weight": 600,
+      "case": "sentence"
+    },
+    "caption": {
+      "fontSize": "14px",
+      "lineHeight": 1.45
+    },
+    "mobileFormInput": {
+      "fontSize": "16px"
+    },
+    "fontSources": [
+      "https://github.com/dharmatype/Bebas-Neue",
+      "https://github.com/adobe-fonts/source-sans"
+    ],
+    "loading": "Use licensed local WOFF2 or compatible next/font loading. Check Portuguese diacritics. No font download or installation performed by this specification."
+  },
+  "layout": {
+    "breakpoints": {
+      "mobile": "0-767px",
+      "tablet": "768-1023px",
+      "desktop": "1024px and above"
+    },
+    "verificationWidths": [
+      320,
+      360,
+      390,
+      430,
+      768,
+      1024,
+      1440,
+      1920
+    ],
+    "contentMaxWidth": "1200px",
+    "heroMaxWidth": "1840px",
+    "headerMaxWidth": "1160px",
+    "pageGutter": {
+      "desktop": "24px",
+      "tablet": "24px",
+      "mobile": "16px"
+    },
+    "contentGutter": {
+      "desktop": "40px",
+      "tablet": "32px",
+      "mobile": "24px",
+      "narrow320": "20px"
+    },
+    "hero": {
+      "shellMarginTopDesktop": "16px",
+      "imageInsetTopDesktop": "49px",
+      "heightDesktop": "clamp(41.5rem, calc(20.833333vw + 22.75rem), 47.75rem)",
+      "heightTablet": "600px",
+      "minHeightMobile": "620px",
+      "heightMobile": "auto",
+      "copyPaddingTopDesktop": "64px",
+      "copyPaddingBottomDesktop": "64px",
+      "copyPaddingInlineMobile": "24px",
+      "imageSubject": "Right half on desktop; protect faces on mobile",
+      "globalHorizontalScrolling": false,
+      "mobilePhotoHeight": "460px",
+      "wideDesktopNote": "Version 2.3.1: max 1840px, 24px side gutters, desktop height 664–764px. Hero starts 49px below the top of the 76px header (approximately 65%). Header and content axes preserved; tablet and mobile keep separate layouts.",
+      "copyPaddingTopMobile": "clamp(15rem, 68vw, 18rem)",
+      "copyAlignmentDesktop": "Vertically center the complete eyebrow/title/description/CTA group inside each banner; left text alignment and existing horizontal axis; desktop only >=1024px"
+    },
+    "header": {
+      "positionDesktop": "absolute within hero shell",
+      "topDesktop": "0px",
+      "sticky": false,
+      "mobileMode": "normal flow above hero; no desktop overlap",
+      "menuSwitchAt": "1024px",
+      "navigationMaxItems": 5,
+      "logoWidthDesktop": "200px",
+      "logoWidthMobile": "160px",
+      "brandTreatment": "Compact outlined SVG with 12px external padding desktop/tablet and 10px mobile; no emblem seat or separate name text."
+    },
+    "about": {
+      "desktopColumns": "0.95fr 1.05fr",
+      "textFirstDesktop": true,
+      "textFirstMobile": true,
+      "gapDesktop": "64px",
+      "gapMobile": "24px",
+      "photoAspectRatio": "1 / 1",
+      "photoBorder": "6px solid #FFFFFF"
+    },
+    "practiceHighlights": {
+      "columnsDesktop": 3,
+      "columnsTablet": 2,
+      "columnsMobile": 1,
+      "gap": "24px",
+      "photoAspectRatio": "4 / 5",
+      "contentPosition": "Bottom of image; overlay; no hidden hover text"
+    },
+    "shortcuts": {
+      "columnsDesktop": 3,
+      "columnsTablet": 2,
+      "columnsMobile": 1,
+      "gap": "24px",
+      "equalHeightDesktop": true
+    },
+    "courses": {
+      "presentation": "Editorial image collage and text; no duplicate generic card grid",
+      "columnsDesktop": "1fr 1fr",
+      "mobileOrder": [
+        "heading",
+        "selector-if-confirmed",
+        "images",
+        "description",
+        "cta"
+      ],
+      "photoLayout": "One large image above two small images when three authorized images exist; otherwise one image",
+      "photoAspectRatio": "3 / 2",
+      "tabs": "Only for two or more confirmed course offers; proper tabs keyboard behavior or simple list links",
+      "visibleSlides": "One complete item; no clipped teaser panels or automatic slide movement"
+    },
+    "closingPanel": {
+      "maxWidth": "1200px",
+      "minHeightDesktop": "400px",
+      "mobileHeight": "auto",
+      "imageMode": "Approved typography signature in current implementation; photo fan only with at least five distinct authorized images and a separately approved composition",
+      "collageMaximumRotation": "10deg",
+      "textSafeArea": "Signature and contact occupy separate columns on desktop; real CTA remains outside the Player layer. Any approved photo alternative must keep title and CTA clear of faces and busy edges",
+      "fallbackWithoutPhotos": "Dark panel with the approved static typography signature and concise contact text; never duplicate images to fabricate a student gallery",
+      "columnsDesktop": "1fr 1fr",
+      "columnsMobile": "1fr",
+      "paddingDesktop": "48px"
+    },
+    "footer": {
+      "variantDefault": "detalhado",
+      "columnsDesktop": "minmax(404px, 1.2fr) 0.7fr 1fr",
+      "columnsMobile": 1,
+      "paddingDesktop": "64px 0 24px",
+      "paddingMobile": "48px 0 24px",
+      "newsletter": false,
+      "logoWidth": "360px",
+      "logoWidthMobile": "240px",
+      "brandTreatment": "Horizontal reversed at viewport >=480px; compact reversed below. Tablet brand spans both columns. External padding 22px horizontal / 16px compact."
+    },
+    "heroGoals": {
+      "attachment": "Flush with hero; shared bottom corners; outside carousel",
+      "paddingDesktop": "24px 0",
+      "paddingMobile": "24px 0",
+      "gapDesktop": "40px",
+      "gapTablet": "16px",
+      "followingGapDesktop": "48px",
+      "followingGapTablet": "40px",
+      "followingGapMobile": "40px",
+      "linkMinHeight": "44px",
+      "desktopColumns": "minmax(320px, 0.95fr) minmax(0, 1.3fr)",
+      "mobileMode": "Question above three stacked plain links with horizontal dividers",
+      "colorSource": "Manual B v1.0, page 7: Creme #F3EFE8, RGB 243,239,232"
+    },
+    "englishDay": {
+      "columnsDesktop": "minmax(0, 0.8fr) minmax(0, 1.2fr)",
+      "gapDesktop": "64px",
+      "columnsTablet": "1fr",
+      "gapTablet": "32px",
+      "columnsMobile": "1fr",
+      "stageDesktop": "680:570, maximum width 680px",
+      "stageMobile": "360:810, maximum width 360px",
+      "background": "{tokens.primitive.color.orange500}",
+      "foreground": "{tokens.primitive.color.ink950}",
+      "photo": "Full uncropped 4:3 photograph in cream print frame, -6 degree desktop tilt; caption inside frame only, no duplicate title; straight mobile",
+      "video": "Native HTML video in black phone mockup, original 464:816 ratio, muted viewport autoplay, native controls, no loop, preload none",
+      "motion": "Lazy Remotion clock, 60fps/360 frames, exclusively for photo and native phone. Copy and CTA always static, fully visible. Approved media arcs unchanged; SVG and Player overflow visible. Play once and hold final frame.",
+      "fallback": "Shared static artwork and native video controls with no JavaScript, reduced motion, Player failure or autoplay rejection",
+      "reducedMotion": "No Remotion Player or video autoplay; manual playback available",
+      "copySource": "src/content/site.ts"
+    }
+  },
+  "composition": {
+    "order": [
+      "hero",
+      "about",
+      "practice-highlights",
+      "contact-shortcuts",
+      "courses",
+      "english-day",
+      "entry-process",
+      "testimonials",
+      "faq",
+      "closing-contact",
+      "footer"
+    ],
+    "sections": [
+      {
+        "id": "hero",
+        "anchor": "inicio",
+        "enabled": true,
+        "surface": "image",
+        "stage": "01",
+        "headingProposal": "Inglês para usar no dia a dia.",
+        "primaryAction": "Conhecer as aulas",
+        "primaryDestination": "whatsapp",
+        "extension": {
+          "id": "hero-goals",
+          "enabled": true,
+          "heading": "Onde você quer usar o inglês?",
+          "eyebrow": "Seu objetivo",
+          "items": [
+            "No dia a dia",
+            "Em viagens",
+            "No trabalho"
+          ],
+          "destination": "WhatsApp with goal-specific message",
+          "status": "User approved concept and implementation on 2026-10-10",
+          "businessClaims": "Visitor goals; no separate course offerings or guaranteed results implied"
+        }
+      },
+      {
+        "id": "about",
+        "anchor": "sobre",
+        "enabled": true,
+        "surface": "white",
+        "stage": "04",
+        "headingProposal": "Aqui, você usa o inglês.",
+        "contentCondition": "Use verified general description; roles, history and credentials require confirmation."
+      },
+      {
+        "id": "practice-highlights",
+        "anchor": "como-funciona",
+        "enabled": true,
+        "surface": "dark",
+        "stage": "03",
+        "headingProposal": "Aprender para conversar.",
+        "items": [
+          "Conversação",
+          "Aulas ao vivo",
+          "Ensino personalizado"
+        ],
+        "itemStatus": "User-confirmed live online group lessons, individual personalized option, conversation and real-life situations; approved copy."
+      },
+      {
+        "id": "contact-shortcuts",
+        "anchor": "atendimento",
+        "enabled": true,
+        "surface": "warm",
+        "stage": "05",
+        "headingProposal": "Comece pelo seu objetivo.",
+        "items": [
+          {
+            "title": "Conhecer as aulas",
+            "destination": "whatsapp",
+            "featured": true
+          },
+          {
+            "title": "Entender o método",
+            "destination": "#como-funciona",
+            "featured": false
+          },
+          {
+            "title": "Foxstage no Instagram",
+            "destination": "instagram",
+            "featured": false
+          }
+        ]
+      },
+      {
+        "id": "courses",
+        "anchor": "cursos",
+        "enabled": true,
+        "surface": "warm",
+        "stage": "02",
+        "headingProposal": "Em grupo ou individuais.",
+        "fallback": "Single editorial overview of confirmed live online group classes and individual personalized classes; preserve existing two-column composition without invented plans.",
+        "catalogSource": "Confirmed offers from project content; empty list never creates Kids, Teens, Business or exam offers."
+      },
+      {
+        "id": "english-day",
+        "anchor": "english-day",
+        "enabled": true,
+        "surface": "orange",
+        "headingProposal": "Um dia inteiro em inglês.",
+        "primaryAction": "Conhecer as aulas",
+        "primaryDestination": "whatsapp",
+        "media": [
+          "real-user-provided-group-photo",
+          "real-user-provided-vertical-video"
+        ],
+        "contentCondition": "User-confirmed event every four months, organized and funded by Foxstage; English all day; cinema edition. Do not infer covered expenses, next date, film language or student proficiency.",
+        "composition": "Text left, real group photo and autoplay video in phone mockup right. Stacked below 1024px."
+      },
+      {
+        "id": "entry-process",
+        "anchor": "primeiros-passos",
+        "enabled": false,
+        "surface": "warm",
+        "enableWhen": "Real entry process confirmed; use simple steps, not a decorative calendar."
+      },
+      {
+        "id": "testimonials",
+        "anchor": "depoimentos",
+        "enabled": false,
+        "surface": "warm",
+        "enableWhen": "Faithful testimonials and usage authorization provided",
+        "autoplay": false,
+        "fakeRating": false
+      },
+      {
+        "id": "faq",
+        "anchor": "duvidas",
+        "enabled": false,
+        "surface": "warm",
+        "enableWhen": "Answers confirmed and module approved",
+        "defaultPattern": "Simple disclosures"
+      },
+      {
+        "id": "closing-contact",
+        "anchor": "contato",
+        "enabled": true,
+        "surface": "warm with dark inset panel",
+        "stage": "05",
+        "headingProposal": "Vamos falar do seu inglês?",
+        "primaryAction": "Falar no WhatsApp"
+      },
+      {
+        "id": "footer",
+        "anchor": null,
+        "enabled": true,
+        "surface": "dark",
+        "stage": "09",
+        "newsletter": false
+      }
+    ],
+    "disabledByDefault": [
+      "trust-strip",
+      "diagonal-ribbon",
+      "calendar",
+      "student-portal",
+      "login",
+      "payment",
+      "newsletter",
+      "lead-form",
+      "testimonials",
+      "faq",
+      "entry-process"
+    ],
+    "executionOrder": [
+      "01",
+      "02",
+      "03",
+      "04",
+      "05",
+      "09",
+      "06"
+    ],
+    "executionNote": "Stages 02-04 build components without changing final visual order. Stage 09 replaces stage 05 footer. Stage 06 validates after composition is complete. Stages 07-08 only address demonstrated discrepancies; stages 10-12 prepare missing assets and mockups."
+  },
+  "behavior": {
+    "linkAndButtonSemantics": "Links navigate; buttons perform actions. No fake links or unavailable CTAs.",
+    "focus": {
+      "width": "2px",
+      "offset": "3px",
+      "shape": "Follow control shape; use focusOnLight or focusOnDark depending on surface"
+    },
+    "primaryButtonStates": {
+      "default": "Orange500 background with ink950 text",
+      "hover": "Orange600 background with ink950 text; no button movement or glow; action arrow may shift 3px in 160ms unless reduced motion is requested",
+      "active": "Same as hover; no bounce",
+      "focusVisible": "Surface-appropriate ring, not removed",
+      "disabled": "Native disabled for genuine unavailable actions; no fake actionable appearance",
+      "loading": "Only for actual async action; preserve width and readable status"
+    },
+    "photoCardStates": {
+      "default": "Content always visible",
+      "hover": "Optional scale up to 1.02 inside image crop",
+      "focusVisible": "Visible ring if actionable",
+      "reducedMotion": "No zoom"
+    },
+    "mobileMenu": {
+      "pattern": "Disclosure navigation in normal page flow",
+      "ariaExpanded": true,
+      "escapeCloses": true,
+      "focusTrap": false,
+      "returnFocusOnEscape": true
+    },
+    "motion": {
+      "duration": "160-220ms",
+      "allowed": [
+        "Color and border transitions",
+        "Optional contained photo zoom",
+        "One-shot Remotion typography signature in closing contact panel",
+        "Section indicator and 3px action-arrow feedback",
+        "User-approved two-banner hero rotation every 10 seconds, with manual navigation and pause conditions",
+        "User-approved one-shot English Day photo composition with viewport-muted video autoplay"
+      ],
+      "forbidden": [
+        "Continuous marquee",
+        "Parallax",
+        "Cursor replacement",
+        "Content initially hidden by entrance animation",
+        "Bouncing contact buttons"
+      ],
+      "reducedMotion": "Disable non-essential transition and transform; maintain all content and actions",
+      "signature": {
+        "fps": 60,
+        "durationInFrames": 300,
+        "width": 1000,
+        "height": 640,
+        "playOnce": true,
+        "loop": false,
+        "audio": false,
+        "finalFrame": 299,
+        "visibleThreshold": 0.4,
+        "preloadMarginPx": 200,
+        "controls": [],
+        "pauseWhenOffscreen": true,
+        "pauseWhenDocumentHidden": true,
+        "compactDisplacementRatio": 0.25,
+        "reducedMotion": "Static final artwork; no Player download or automatic movement",
+        "noJavaScript": "Static final artwork with real contact link",
+        "autoplay": "Once when visible and Player ready; muted; no visitor interaction required",
+        "curve": "Overlapping smooth translations from 0 to 4.65 seconds, then hold final artwork"
+      },
+      "englishDay": {
+        "fps": 60,
+        "durationInFrames": 360,
+        "entranceSeconds": 5.5,
+        "playOnce": true,
+        "loop": false,
+        "audio": false,
+        "finalFrame": 359,
+        "visibleThreshold": 0.35,
+        "preloadMarginPx": 160,
+        "width": 680,
+        "height": 570,
+        "mobileWidth": 360,
+        "mobileHeight": 810,
+        "pauseWhenOffscreen": true,
+        "pauseWhenDocumentHidden": true,
+        "reducedMotion": "Static final artwork; no Player or video autoplay; native manual video controls",
+        "video": "Native HTML outside Remotion timeline; muted viewport autoplay, no loop, user pause retained",
+        "trigger": "Heading 35% visible for first entry; entire section visibility controls subsequent pause/resume",
+        "htmlSynchronization": "Remotion frameupdate always drives native phone transform, including hover and focus. Copy/CTA static; native video controls interactive.",
+        "responsiveTrajectories": "Smaller lateral displacement and rotation on compact mobile composition",
+        "photoOverflow": "Player overflowVisible and SVG overflow visible; entire print remains visible throughout its approved arc, including outside canvas bounds",
+        "copyEntrance": "None: eyebrow, heading, paragraphs and CTA remain static with no mask, transform or opacity animation",
+        "pauseOnHover": false,
+        "pauseOnFocus": false
+      }
+    },
+    "heroCarousel": {
+      "bannerCount": 2,
+      "source": "src/content/site.ts: site.hero.banners",
+      "intervalMs": 10000,
+      "autoplay": true,
+      "loop": true,
+      "manual": "Two indicators, Left/Right/Home/End keys and horizontal touch swipe",
+      "pause": "Explicit pause/resume, hover, focus, touch interaction and document hidden",
+      "reducedMotion": "No automatic rotation; manual navigation remains available",
+      "noJavaScript": "First banner and its CTA remain rendered; hide inactive banners and navigation that requires JavaScript",
+      "transition": "Immediate content switch; no entrance effects or sliding background",
+      "ctaPerBanner": 1,
+      "pointerFocus": "Release focus after pointer click or touch; preserve visible keyboard focus",
+      "mobileTitles": "Two editorial lines per banner, with 36–44px fluid type; no empty third line"
+    }
+  },
+  "accessibility": {
+    "target": "WCAG 2.2 AA, with manual verification; no automatic compliance claim",
+    "normalTextContrast": 4.5,
+    "largeTextContrast": 3,
+    "controlAndFocusContrast": 3,
+    "projectTouchTarget": "44px",
+    "orangeWhiteSmallTextAllowed": false,
+    "orangeSmallTextOnWhiteToken": "tokens.semantic.color.accentTextOnLight",
+    "heroContrast": "Measure actual image plus overlay at each relevant crop; static color checks do not certify photography.",
+    "photography": "Descriptive alt for informative images; empty alt for decoration; adjacent illustrative labeling when needed.",
+    "essentialChecks": [
+      "Keyboard navigation",
+      "Focus not obscured",
+      "200% zoom",
+      "320px reflow",
+      "Mobile virtual keyboard if form exists",
+      "Portuguese diacritics",
+      "Screen-reader labels",
+      "Reduced motion"
+    ]
+  },
+  "antiSlop": {
+    "noEmojis": true,
+    "noFakeClaims": true,
+    "noUniformCardGridForEverySection": true,
+    "noPresentationBackdropAsPageBackground": true,
+    "noInventedChildAudience": true,
+    "noGradientsExceptPhotographicOverlays": true,
+    "noGlassmorphism": true,
+    "noDecorativeBlobs": true,
+    "noGenericSlogans": true,
+    "noFakeStats": true,
+    "noFakeTestimonials": true,
+    "noLogoRedraw": true,
+    "noCardCountFilling": true,
+    "noHorizontalOverflowMasking": true,
+    "noArtificialFontCondensing": true,
+    "noRepeatedPhotoToSimulateManyStudents": true,
+    "avoidCopy": [
+      "Destrave seu potencial",
+      "Transforme seu futuro",
+      "Uma jornada sem limites",
+      "Fluência garantida"
+    ],
+    "allow": [
+      "Short uppercase display headings from the pinned references",
+      "Pill navigation and buttons from the pinned references",
+      "Deliberate header overlap on desktop",
+      "Small shadows only for floating header, editorial photos and shortcut cards",
+      "Orange accents grounded in supplied brand"
+    ]
+  },
+  "assetPolicy": {
+    "referenceScreenshotsMayShipAsWebsiteImages": false,
+    "referenceChildrenPhotosMayShip": false,
+    "heroPhoto": "Authorized real photo or clearly identified illustration; no synthetic portrait of a real person",
+    "stockOrGeneratedScenesAreSchoolEvidence": false,
+    "sourceOriginalsPreserved": true,
+    "photoFanRequiresDistinctAuthorizedImages": 5,
+    "logoOriginalMustRemain": "assets/logo.png (legacy archive only; not displayed)",
+    "currentBrandKit": "assets/Identidade visual Foxstage"
+  },
+  "contentConstraints": {
+    "confirmedPositioning": [
+      "Practical language use",
+      "Personalization stated by brand",
+      "Oral communication and listening focus stated by brand",
+      "Aulas online ao vivo em grupo.",
+      "Opção de aulas individuais personalizadas.",
+      "Método da Foxstage com foco em conversação, inglês do dia a dia e situações reais.",
+      "Proposta de praticar sem medo de errar e usar o inglês.",
+      "English Day: evento presencial entre alunos a cada quatro meses.",
+      "A Foxstage organiza e custeia o evento; a atividade é definida pela escola e pode variar.",
+      "A comunicação no English Day acontece em inglês durante todo o dia.",
+      "A última edição informada pelo usuário foi no cinema."
+    ],
+    "unconfirmed": [
+      "Age groups",
+      "Course catalog",
+      "Prices",
+      "Levels",
+      "Schedules",
+      "Trial lesson",
+      "Certificates",
+      "Location",
+      "Founder role",
+      "Credentials",
+      "Student results"
+    ],
+    "designProposalIsBusinessFact": false,
+    "designFilesAuthorizeWebsitePublication": false,
+    "confirmationSource": "User statements and copy approval in this conversation, 2026-10-10; commercial declarations, not independent certification of outcomes.",
+    "personalizationScope": "Individual lessons confirmed as personalized; no individual monitoring claims for group format.",
+    "copyAuthority": "Approved editorial copy docs/copy-proposta.json, implemented in src/content/site.ts; current copy supersedes old heading examples."
+  },
+  "implementation": {
+    "framework": "Next.js per user request",
+    "tokenMapping": "Resolve aliases to CSS custom properties or project theme values. Never expose raw aliases as CSS values.",
+    "serverClientSplit": "Institutional content server-rendered; small client islands only for necessary interactions",
+    "assetOptimization": "Keep original logo; optimize approved derivative photographs for actual rendered sizes",
+    "setupArchive": {
+      "server": "setup-agent",
+      "status": "OAuth authentication required; resource catalog query not completed",
+      "newSkillPluginOrMcpCreated": false
+    }
+  }
+}

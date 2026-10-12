@@ -1,0 +1,14 @@
+node_modules/
+.next/
+out/
+coverage/
+*.tsbuildinfo
+.env*
+!.env.example
+work/
+backups/
+.impeccable/review/
+.impeccable/build/
+
+# Local export of the planning package; its source documents are tracked.
+/docs/evolucao/*.zip

@@ -1,0 +1,127 @@
+{
+  "planningVersion": "1.0.0",
+  "date": "2026-10-12",
+  "implementationState": "planned-not-executed",
+  "baseline": {
+    "designVersion": "2.7.3",
+    "brandManual": "B v1.0",
+    "design": "design.json",
+    "humanDesign": "design.md"
+  },
+  "navigation": [
+    "Cursos",
+    "A Foxstage",
+    "English Day",
+    "Conteúdos"
+  ],
+  "contentStorage": "typed project files; no CMS required initially",
+  "forms": {
+    "enabled": false,
+    "primaryStorageProposal": "PostgreSQL",
+    "redis": "optional support; not required",
+    "spec": "FORMULARIOS-E-PERSISTENCIA.md"
+  },
+  "pages": [
+    {
+      "id": "home",
+      "name": "Home — evolução",
+      "route": "/",
+      "prompt": "prompts/foxstage-prompt-completo-home-evolucao-nextjs.md",
+      "plannedContentFile": "src/content/site.ts",
+      "plannedImplementation": "src/app/page.tsx e componentes de seções existentes",
+      "status": "Implementada; alteração futura limitada a navegação e vínculos com internas",
+      "publicationGate": "Novos links dependem de páginas realmente publicadas. A home não depende da ativação do formulário."
+    },
+    {
+      "id": "group",
+      "name": "Inglês em grupo",
+      "route": "/cursos/ingles-em-grupo",
+      "prompt": "prompts/foxstage-prompt-completo-ingles-em-grupo-nextjs.md",
+      "plannedContentFile": "src/content/evolution/courses.ts: coursePages.group",
+      "plannedImplementation": "src/app/(institucional)/cursos/ingles-em-grupo/page.tsx + CoursePage",
+      "status": "Planejada; conteúdo prático pendente",
+      "publicationGate": "Aprovar dinâmica, processo de início e informações práticas suficientes para uma oferta substancial. Omitir preço público se sua política de divulgação não estiver definida."
+    },
+    {
+      "id": "individual",
+      "name": "Inglês individual",
+      "route": "/cursos/ingles-individual",
+      "prompt": "prompts/foxstage-prompt-completo-ingles-individual-nextjs.md",
+      "plannedContentFile": "src/content/evolution/courses.ts: coursePages.individual",
+      "plannedImplementation": "src/app/(institucional)/cursos/ingles-individual/page.tsx + CoursePage",
+      "status": "Planejada; personalização prática pendente",
+      "publicationGate": "Confirmar o que a personalização realmente altera, como as aulas são combinadas e próximo passo. Não publicar uma página inteira sustentada apenas pelo adjetivo personalizado."
+    },
+    {
+      "id": "school",
+      "name": "A Foxstage",
+      "route": "/a-foxstage",
+      "prompt": "prompts/foxstage-prompt-completo-a-foxstage-nextjs.md",
+      "plannedContentFile": "src/content/evolution/school.ts",
+      "plannedImplementation": "src/app/(institucional)/a-foxstage/page.tsx",
+      "status": "Planejada; história e equipe pendentes",
+      "publicationGate": "Aprovar história, papéis e informações de quem ensina. Uma composição local pode ser revisada antes dos retratos, mas não publicar equipe fictícia ou cartões vazios."
+    },
+    {
+      "id": "englishDay",
+      "name": "English Day",
+      "route": "/english-day",
+      "prompt": "prompts/foxstage-prompt-completo-english-day-nextjs.md",
+      "plannedContentFile": "src/content/evolution/english-day.ts + site.englishDay preservado",
+      "plannedImplementation": "src/app/(institucional)/english-day/page.tsx + EnglishDay com headingLevel opcional",
+      "status": "Planejada; relato e condições de participação pendentes",
+      "publicationGate": "Aprovar relato próprio e condições para acrescentar conteúdo à seção atual. A rota não deve ser apenas uma cópia isolada do mesmo bloco."
+    },
+    {
+      "id": "contact",
+      "name": "Contato",
+      "route": "/contato",
+      "prompt": "prompts/foxstage-prompt-completo-contato-nextjs.md",
+      "plannedContentFile": "src/content/evolution/contact.ts",
+      "plannedImplementation": "src/app/(institucional)/contato/page.tsx",
+      "status": "Planejada; WhatsApp disponível, backend opcional",
+      "publicationGate": "Verificar os canais antes de publicar. Ativar formulário somente após a fase de persistência e privacidade aprovada; WhatsApp não depende de banco."
+    },
+    {
+      "id": "content",
+      "name": "Conteúdos — índice",
+      "route": "/conteudos",
+      "prompt": "prompts/foxstage-prompt-completo-conteudos-nextjs.md",
+      "plannedContentFile": "src/content/articles/index.ts",
+      "plannedImplementation": "src/app/(institucional)/conteudos/page.tsx",
+      "status": "Condicional ao acervo revisado",
+      "publicationGate": "Preparar pequeno acervo revisado; plano inicial de três materiais, sem conteúdo de preenchimento. Ausência de acervo mantém a rota fora do menu/publicação."
+    },
+    {
+      "id": "article",
+      "name": "Artigo ou atividade",
+      "route": "/conteudos/[slug]",
+      "prompt": "prompts/foxstage-prompt-completo-artigo-nextjs.md",
+      "plannedContentFile": "src/content/articles/index.ts: item aprovado",
+      "plannedImplementation": "src/app/(institucional)/conteudos/[slug]/page.tsx",
+      "status": "Modelo; cada item exige revisão própria",
+      "publicationGate": "Cada artigo depende de blocos completos e revisão linguística humana. Não publicar placeholder ou artigo genérico para cumprir acervo."
+    },
+    {
+      "id": "edition",
+      "name": "Edição do English Day",
+      "route": "/english-day/[slug]",
+      "prompt": "prompts/foxstage-prompt-completo-edicao-english-day-nextjs.md",
+      "plannedContentFile": "src/content/english-day-editions/index.ts: edição aprovada",
+      "plannedImplementation": "src/app/(institucional)/english-day/[slug]/page.tsx",
+      "status": "Futuro condicionado a material próprio",
+      "publicationGate": "Executar quando houver relato e mídias próprios suficientes ou coleção de edições; não publicar somente para aumentar quantidade de URLs."
+    },
+    {
+      "id": "privacy",
+      "name": "Privacidade",
+      "route": "/privacidade",
+      "prompt": "prompts/foxstage-prompt-completo-privacidade-nextjs.md",
+      "plannedContentFile": "src/content/evolution/privacy.ts: texto aprovado",
+      "plannedImplementation": "src/app/(institucional)/privacidade/page.tsx",
+      "status": "Condicional ao texto aprovado; necessária antes da captação pública planejada",
+      "publicationGate": "Texto e canal de responsabilidade aprovados. Não publicar uma política fabricada; tratar pendência junto ao plano de formulários."
+    }
+  ],
+  "foundationPrompt": "prompts/foxstage-prompt-completo-fundacao-multipagina-nextjs.md"
+}

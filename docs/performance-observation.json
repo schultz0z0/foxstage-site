@@ -1,0 +1,19 @@
+{
+  "date": "2026-10-10",
+  "tool": "Chrome DevTools performance trace",
+  "url": "http://127.0.0.1:3001/",
+  "viewport": {
+    "width": 390,
+    "height": 844,
+    "deviceScaleFactor": 1
+  },
+  "cpuSlowdown": 1,
+  "networkThrottling": "none",
+  "localServer": true,
+  "cacheState": "Not reset; trace followed browser audits",
+  "LCPms": 130,
+  "CLS": 0,
+  "INP": null,
+  "fieldData": null,
+  "limitation": "One observed laboratory load on this computer; not a production benchmark or field Core Web Vitals certification."
+}

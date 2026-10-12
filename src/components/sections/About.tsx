@@ -1,0 +1,20 @@
+import Image from "next/image";
+import { site } from "@/content/site";
+import { Icon } from "@/components/ui/Icon";
+
+export function About() {
+  return <section id="sobre" className="section about" aria-labelledby="about-title" tabIndex={-1}>
+    <div className="container about-grid">
+      <div className="about-copy">
+        <p className="eyebrow">{site.about.eyebrow}</p>
+        <h2 id="about-title">{site.about.titleLead} <span className="accent-text">{site.about.titleAccent}</span></h2>
+        {site.about.paragraphs.map(paragraph => <p className="body-copy" key={paragraph}>{paragraph}</p>)}
+        <a className="text-link" href={site.instagram} target="_blank" rel="noopener noreferrer">{site.about.link} <Icon name="diagonal" /><span className="sr-only"> (nova aba)</span></a>
+      </div>
+      <figure className="about-figure">
+        <div className="about-photo"><Image src={site.about.image} fill sizes="(max-width: 767px) calc(100vw - 48px), (max-width: 1279px) 46vw, 580px" alt="Duas pessoas consultam materiais de estudo em uma biblioteca; fotografia de banco ilustrativa." /></div>
+        <figcaption>Fotografia ilustrativa</figcaption>
+      </figure>
+    </div>
+  </section>;
+}

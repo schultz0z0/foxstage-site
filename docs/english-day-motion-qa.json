@@ -1,0 +1,234 @@
+{
+  "version": "2.6.0",
+  "results": [
+    "Video paused before section enters view",
+    "Muted viewport autoplay advances real MP4",
+    "Remotion plays once and ends",
+    "Video pauses outside viewport",
+    "Video resumes; Remotion does not replay",
+    "12 widths without horizontal overflow; mobile media never overlaps",
+    "Manual video pause persists after leaving and returning",
+    "Reduced motion: static photo, manual video, no Player",
+    "No JavaScript: photo, video poster and native controls visible",
+    "No browser runtime errors"
+  ],
+  "responsive": [
+    {
+      "width": 320,
+      "overflow": false,
+      "background": "rgb(246, 90, 11)",
+      "sectionHeight": 1232.03125,
+      "stageWidth": 280,
+      "phone": {
+        "left": 73.21875,
+        "right": 246.8125,
+        "bottom": 764.3125
+      },
+      "photo": {
+        "top": 781.407958984375,
+        "left": 29.33333396911621,
+        "right": 290.66664695739746,
+        "bottom": 977.4080200195312
+      }
+    },
+    {
+      "width": 360,
+      "overflow": false,
+      "background": "rgb(246, 90, 11)",
+      "sectionHeight": 1304.03125,
+      "stageWidth": 312,
+      "phone": {
+        "left": 83.296875,
+        "right": 276.734375,
+        "bottom": 847.296875
+      },
+      "photo": {
+        "top": 889.8541259765625,
+        "left": 34.400001525878906,
+        "right": 325.60001373291016,
+        "bottom": 1108.254150390625
+      }
+    },
+    {
+      "width": 375,
+      "overflow": false,
+      "background": "rgb(246, 90, 11)",
+      "sectionHeight": 1312.1875,
+      "stageWidth": 327,
+      "phone": {
+        "left": 86.140625,
+        "right": 288.875,
+        "bottom": 837.8125
+      },
+      "photo": {
+        "top": 884.4271240234375,
+        "left": 34.900001525878906,
+        "right": 340.10001373291016,
+        "bottom": 1113.3271484375
+      }
+    },
+    {
+      "width": 390,
+      "overflow": false,
+      "background": "rgb(246, 90, 11)",
+      "sectionHeight": 1345.9375,
+      "stageWidth": 342,
+      "phone": {
+        "left": 89,
+        "right": 301.03125,
+        "bottom": 854
+      },
+      "photo": {
+        "top": 904.6875,
+        "left": 35.400001525878906,
+        "right": 354.60001373291016,
+        "bottom": 1144.08740234375
+      }
+    },
+    {
+      "width": 430,
+      "overflow": false,
+      "background": "rgb(246, 90, 11)",
+      "sectionHeight": 1360.84375,
+      "stageWidth": 360,
+      "phone": {
+        "left": 103.421875,
+        "right": 326.609375,
+        "bottom": 848.3125
+      },
+      "photo": {
+        "top": 903.875,
+        "left": 47,
+        "right": 383,
+        "bottom": 1155.875
+      }
+    },
+    {
+      "width": 568,
+      "overflow": false,
+      "background": "rgb(246, 90, 11)",
+      "sectionHeight": 1335.25,
+      "stageWidth": 360,
+      "phone": {
+        "left": 172.421875,
+        "right": 395.609375,
+        "bottom": 822.03125
+      },
+      "photo": {
+        "top": 877.59375,
+        "left": 116,
+        "right": 452,
+        "bottom": 1129.59375
+      }
+    },
+    {
+      "width": 767,
+      "overflow": false,
+      "background": "rgb(246, 90, 11)",
+      "sectionHeight": 1335.25,
+      "stageWidth": 360,
+      "phone": {
+        "left": 271.921875,
+        "right": 495.109375,
+        "bottom": 822.890625
+      },
+      "photo": {
+        "top": 878.453125,
+        "left": 215.5,
+        "right": 551.5,
+        "bottom": 1130.453125
+      }
+    },
+    {
+      "width": 768,
+      "overflow": false,
+      "background": "rgb(246, 90, 11)",
+      "sectionHeight": 1138.875,
+      "stageWidth": 620,
+      "phone": {
+        "left": 424.3125,
+        "right": 694,
+        "bottom": 904.25
+      },
+      "photo": {
+        "top": 649.158935546875,
+        "left": 80.01472473144531,
+        "right": 407.9853057861328,
+        "bottom": 902.372314453125
+      }
+    },
+    {
+      "width": 1023,
+      "overflow": false,
+      "background": "rgb(246, 90, 11)",
+      "sectionHeight": 1138.875,
+      "stageWidth": 620,
+      "phone": {
+        "left": 551.8125,
+        "right": 821.5,
+        "bottom": 904.296875
+      },
+      "photo": {
+        "top": 649.205810546875,
+        "left": 207.5147247314453,
+        "right": 535.4853057861328,
+        "bottom": 902.419189453125
+      }
+    },
+    {
+      "width": 1024,
+      "overflow": false,
+      "background": "rgb(246, 90, 11)",
+      "sectionHeight": 649.671875,
+      "stageWidth": 506,
+      "phone": {
+        "left": 763.890625,
+        "right": 984,
+        "bottom": 664.796875
+      },
+      "photo": {
+        "top": 447.2852783203125,
+        "left": 482.9115905761719,
+        "right": 750.5748291015625,
+        "bottom": 653.937744140625
+      }
+    },
+    {
+      "width": 1280,
+      "overflow": false,
+      "background": "rgb(246, 90, 11)",
+      "sectionHeight": 760,
+      "stageWidth": 620,
+      "phone": {
+        "left": 953.703125,
+        "right": 1223.390625,
+        "bottom": 756.703125
+      },
+      "photo": {
+        "top": 501.612060546875,
+        "left": 609.4053344726562,
+        "right": 937.3759155273438,
+        "bottom": 754.825439453125
+      }
+    },
+    {
+      "width": 1920,
+      "overflow": false,
+      "background": "rgb(246, 90, 11)",
+      "sectionHeight": 760,
+      "stageWidth": 620,
+      "phone": {
+        "left": 1273.703125,
+        "right": 1543.390625,
+        "bottom": 755.828125
+      },
+      "photo": {
+        "top": 500.737060546875,
+        "left": 929.4053344726562,
+        "right": 1257.3759765625,
+        "bottom": 753.950439453125
+      }
+    }
+  ],
+  "errors": []
+}

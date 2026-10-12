@@ -1,0 +1,1039 @@
+{
+  "date": "2026-10-10T22:54:47.194Z",
+  "version": "2.2.0",
+  "manual": "assets/Identidade visual Foxstage/manual-de-marca.pdf",
+  "widths": [
+    {
+      "width": 320,
+      "documentWidth": 320,
+      "header": {
+        "src": "/images/foxstage/brand/foxstage-compact-color.svg",
+        "image": {
+          "x": 26,
+          "y": 23.15625,
+          "width": 160,
+          "height": 41.6875,
+          "right": 186,
+          "bottom": 64.84375
+        },
+        "natural": [
+          300,
+          78
+        ],
+        "padding": 10,
+        "name": "Foxstage, início",
+        "filter": "none"
+      },
+      "footer": {
+        "src": "/images/foxstage/brand/foxstage-compact-reverse.svg",
+        "image": {
+          "x": 36,
+          "y": 5487.21875,
+          "width": 240,
+          "height": 62.546875,
+          "right": 276,
+          "bottom": 5549.765625
+        },
+        "natural": [
+          300,
+          78
+        ],
+        "padding": 16,
+        "name": "Foxstage, início",
+        "filter": "none"
+      },
+      "footerColumns": [
+        {
+          "x": 20,
+          "y": 5471.21875,
+          "width": 280,
+          "height": 165.734375,
+          "right": 300,
+          "bottom": 5636.953125
+        },
+        {
+          "x": 20,
+          "y": 5668.953125,
+          "width": 280,
+          "height": 206.5,
+          "right": 300,
+          "bottom": 5875.453125
+        },
+        {
+          "x": 20,
+          "y": 5907.453125,
+          "width": 280,
+          "height": 170.46875,
+          "right": 300,
+          "bottom": 6077.921875
+        }
+      ],
+      "navigation": null,
+      "cta": null,
+      "headingFont": "display, \"display Fallback\", \"Arial Narrow\", Arial",
+      "bodyFont": "body, \"body Fallback\", Arial",
+      "button": {
+        "color": "rgb(16, 19, 20)",
+        "background": "rgb(246, 90, 11)"
+      },
+      "footerBackground": "rgb(16, 19, 20)"
+    },
+    {
+      "width": 360,
+      "documentWidth": 360,
+      "header": {
+        "src": "/images/foxstage/brand/foxstage-compact-color.svg",
+        "image": {
+          "x": 26,
+          "y": 23.15625,
+          "width": 160,
+          "height": 41.6875,
+          "right": 186,
+          "bottom": 64.84375
+        },
+        "natural": [
+          300,
+          78
+        ],
+        "padding": 10,
+        "name": "Foxstage, início",
+        "filter": "none"
+      },
+      "footer": {
+        "src": "/images/foxstage/brand/foxstage-compact-reverse.svg",
+        "image": {
+          "x": 40,
+          "y": 5571.6875,
+          "width": 240,
+          "height": 62.546875,
+          "right": 280,
+          "bottom": 5634.234375
+        },
+        "natural": [
+          300,
+          78
+        ],
+        "padding": 16,
+        "name": "Foxstage, início",
+        "filter": "none"
+      },
+      "footerColumns": [
+        {
+          "x": 24,
+          "y": 5555.6875,
+          "width": 312,
+          "height": 165.734375,
+          "right": 336,
+          "bottom": 5721.421875
+        },
+        {
+          "x": 24,
+          "y": 5753.421875,
+          "width": 312,
+          "height": 206.5,
+          "right": 336,
+          "bottom": 5959.921875
+        },
+        {
+          "x": 24,
+          "y": 5991.921875,
+          "width": 312,
+          "height": 170.46875,
+          "right": 336,
+          "bottom": 6162.390625
+        }
+      ],
+      "navigation": null,
+      "cta": null,
+      "headingFont": "display, \"display Fallback\", \"Arial Narrow\", Arial",
+      "bodyFont": "body, \"body Fallback\", Arial",
+      "button": {
+        "color": "rgb(16, 19, 20)",
+        "background": "rgb(246, 90, 11)"
+      },
+      "footerBackground": "rgb(16, 19, 20)"
+    },
+    {
+      "width": 390,
+      "documentWidth": 390,
+      "header": {
+        "src": "/images/foxstage/brand/foxstage-compact-color.svg",
+        "image": {
+          "x": 26,
+          "y": 23.15625,
+          "width": 160,
+          "height": 41.6875,
+          "right": 186,
+          "bottom": 64.84375
+        },
+        "natural": [
+          300,
+          78
+        ],
+        "padding": 10,
+        "name": "Foxstage, início",
+        "filter": "none"
+      },
+      "footer": {
+        "src": "/images/foxstage/brand/foxstage-compact-reverse.svg",
+        "image": {
+          "x": 40,
+          "y": 5727.796875,
+          "width": 240,
+          "height": 62.546875,
+          "right": 280,
+          "bottom": 5790.34375
+        },
+        "natural": [
+          300,
+          78
+        ],
+        "padding": 16,
+        "name": "Foxstage, início",
+        "filter": "none"
+      },
+      "footerColumns": [
+        {
+          "x": 24,
+          "y": 5711.796875,
+          "width": 342,
+          "height": 165.734375,
+          "right": 366,
+          "bottom": 5877.53125
+        },
+        {
+          "x": 24,
+          "y": 5909.53125,
+          "width": 342,
+          "height": 206.5,
+          "right": 366,
+          "bottom": 6116.03125
+        },
+        {
+          "x": 24,
+          "y": 6148.03125,
+          "width": 342,
+          "height": 170.46875,
+          "right": 366,
+          "bottom": 6318.5
+        }
+      ],
+      "navigation": null,
+      "cta": null,
+      "headingFont": "display, \"display Fallback\", \"Arial Narrow\", Arial",
+      "bodyFont": "body, \"body Fallback\", Arial",
+      "button": {
+        "color": "rgb(16, 19, 20)",
+        "background": "rgb(246, 90, 11)"
+      },
+      "footerBackground": "rgb(16, 19, 20)"
+    },
+    {
+      "width": 430,
+      "documentWidth": 430,
+      "header": {
+        "src": "/images/foxstage/brand/foxstage-compact-color.svg",
+        "image": {
+          "x": 26,
+          "y": 23.15625,
+          "width": 160,
+          "height": 41.6875,
+          "right": 186,
+          "bottom": 64.84375
+        },
+        "natural": [
+          300,
+          78
+        ],
+        "padding": 10,
+        "name": "Foxstage, início",
+        "filter": "none"
+      },
+      "footer": {
+        "src": "/images/foxstage/brand/foxstage-compact-reverse.svg",
+        "image": {
+          "x": 40,
+          "y": 5918.859375,
+          "width": 240,
+          "height": 62.546875,
+          "right": 280,
+          "bottom": 5981.40625
+        },
+        "natural": [
+          300,
+          78
+        ],
+        "padding": 16,
+        "name": "Foxstage, início",
+        "filter": "none"
+      },
+      "footerColumns": [
+        {
+          "x": 24,
+          "y": 5902.859375,
+          "width": 382,
+          "height": 165.734375,
+          "right": 406,
+          "bottom": 6068.59375
+        },
+        {
+          "x": 24,
+          "y": 6100.59375,
+          "width": 382,
+          "height": 206.5,
+          "right": 406,
+          "bottom": 6307.09375
+        },
+        {
+          "x": 24,
+          "y": 6339.09375,
+          "width": 382,
+          "height": 170.46875,
+          "right": 406,
+          "bottom": 6509.5625
+        }
+      ],
+      "navigation": null,
+      "cta": null,
+      "headingFont": "display, \"display Fallback\", \"Arial Narrow\", Arial",
+      "bodyFont": "body, \"body Fallback\", Arial",
+      "button": {
+        "color": "rgb(16, 19, 20)",
+        "background": "rgb(246, 90, 11)"
+      },
+      "footerBackground": "rgb(16, 19, 20)"
+    },
+    {
+      "width": 479,
+      "documentWidth": 479,
+      "header": {
+        "src": "/images/foxstage/brand/foxstage-compact-color.svg",
+        "image": {
+          "x": 26,
+          "y": 23.15625,
+          "width": 160,
+          "height": 41.6875,
+          "right": 186,
+          "bottom": 64.84375
+        },
+        "natural": [
+          300,
+          78
+        ],
+        "padding": 10,
+        "name": "Foxstage, início",
+        "filter": "none"
+      },
+      "footer": {
+        "src": "/images/foxstage/brand/foxstage-compact-reverse.svg",
+        "image": {
+          "x": 40,
+          "y": 6190.046875,
+          "width": 240,
+          "height": 62.546875,
+          "right": 280,
+          "bottom": 6252.59375
+        },
+        "natural": [
+          300,
+          78
+        ],
+        "padding": 16,
+        "name": "Foxstage, início",
+        "filter": "none"
+      },
+      "footerColumns": [
+        {
+          "x": 24,
+          "y": 6174.046875,
+          "width": 431,
+          "height": 165.734375,
+          "right": 455,
+          "bottom": 6339.78125
+        },
+        {
+          "x": 24,
+          "y": 6371.78125,
+          "width": 431,
+          "height": 206.5,
+          "right": 455,
+          "bottom": 6578.28125
+        },
+        {
+          "x": 24,
+          "y": 6610.28125,
+          "width": 431,
+          "height": 170.46875,
+          "right": 455,
+          "bottom": 6780.75
+        }
+      ],
+      "navigation": null,
+      "cta": null,
+      "headingFont": "display, \"display Fallback\", \"Arial Narrow\", Arial",
+      "bodyFont": "body, \"body Fallback\", Arial",
+      "button": {
+        "color": "rgb(16, 19, 20)",
+        "background": "rgb(246, 90, 11)"
+      },
+      "footerBackground": "rgb(16, 19, 20)"
+    },
+    {
+      "width": 480,
+      "documentWidth": 480,
+      "header": {
+        "src": "/images/foxstage/brand/foxstage-compact-color.svg",
+        "image": {
+          "x": 26,
+          "y": 23.15625,
+          "width": 160,
+          "height": 41.6875,
+          "right": 186,
+          "bottom": 64.84375
+        },
+        "natural": [
+          300,
+          78
+        ],
+        "padding": 10,
+        "name": "Foxstage, início",
+        "filter": "none"
+      },
+      "footer": {
+        "src": "/images/foxstage/brand/foxstage-horizontal-reverse.svg",
+        "image": {
+          "x": 46,
+          "y": 6202.109375,
+          "width": 360,
+          "height": 106.609375,
+          "right": 406,
+          "bottom": 6308.71875
+        },
+        "natural": [
+          300,
+          89
+        ],
+        "padding": 22,
+        "name": "Foxstage, início",
+        "filter": "none"
+      },
+      "footerColumns": [
+        {
+          "x": 24,
+          "y": 6180.109375,
+          "width": 432,
+          "height": 221.796875,
+          "right": 456,
+          "bottom": 6401.90625
+        },
+        {
+          "x": 24,
+          "y": 6433.90625,
+          "width": 432,
+          "height": 206.5,
+          "right": 456,
+          "bottom": 6640.40625
+        },
+        {
+          "x": 24,
+          "y": 6672.40625,
+          "width": 432,
+          "height": 170.46875,
+          "right": 456,
+          "bottom": 6842.875
+        }
+      ],
+      "navigation": null,
+      "cta": null,
+      "headingFont": "display, \"display Fallback\", \"Arial Narrow\", Arial",
+      "bodyFont": "body, \"body Fallback\", Arial",
+      "button": {
+        "color": "rgb(16, 19, 20)",
+        "background": "rgb(246, 90, 11)"
+      },
+      "footerBackground": "rgb(16, 19, 20)"
+    },
+    {
+      "width": 768,
+      "documentWidth": 768,
+      "header": {
+        "src": "/images/foxstage/brand/foxstage-compact-color.svg",
+        "image": {
+          "x": 36,
+          "y": 24,
+          "width": 200,
+          "height": 52.109375,
+          "right": 236,
+          "bottom": 76.109375
+        },
+        "natural": [
+          300,
+          78
+        ],
+        "padding": 12,
+        "name": "Foxstage, início",
+        "filter": "none"
+      },
+      "footer": {
+        "src": "/images/foxstage/brand/foxstage-horizontal-reverse.svg",
+        "image": {
+          "x": 54,
+          "y": 4353.203125,
+          "width": 360,
+          "height": 106.609375,
+          "right": 414,
+          "bottom": 4459.8125
+        },
+        "natural": [
+          300,
+          89
+        ],
+        "padding": 22,
+        "name": "Foxstage, início",
+        "filter": "none"
+      },
+      "footerColumns": [
+        {
+          "x": 32,
+          "y": 4331.203125,
+          "width": 704,
+          "height": 221.796875,
+          "right": 736,
+          "bottom": 4553
+        },
+        {
+          "x": 32,
+          "y": 4585,
+          "width": 336,
+          "height": 214.5,
+          "right": 368,
+          "bottom": 4799.5
+        },
+        {
+          "x": 400,
+          "y": 4585,
+          "width": 336,
+          "height": 214.5,
+          "right": 736,
+          "bottom": 4799.5
+        }
+      ],
+      "navigation": null,
+      "cta": {
+        "x": 473.890625,
+        "y": 27.046875,
+        "width": 160.109375,
+        "height": 46,
+        "right": 634,
+        "bottom": 73.046875
+      },
+      "headingFont": "display, \"display Fallback\", \"Arial Narrow\", Arial",
+      "bodyFont": "body, \"body Fallback\", Arial",
+      "button": {
+        "color": "rgb(16, 19, 20)",
+        "background": "rgb(246, 90, 11)"
+      },
+      "footerBackground": "rgb(16, 19, 20)"
+    },
+    {
+      "width": 1024,
+      "documentWidth": 1024,
+      "header": {
+        "src": "/images/foxstage/brand/foxstage-compact-color.svg",
+        "image": {
+          "x": 84,
+          "y": 28,
+          "width": 200,
+          "height": 52.109375,
+          "right": 284,
+          "bottom": 80.109375
+        },
+        "natural": [
+          300,
+          78
+        ],
+        "padding": 12,
+        "name": "Foxstage, início",
+        "filter": "none"
+      },
+      "footer": {
+        "src": "/images/foxstage/brand/foxstage-horizontal-reverse.svg",
+        "image": {
+          "x": 62,
+          "y": 3804.515625,
+          "width": 360,
+          "height": 106.609375,
+          "right": 422,
+          "bottom": 3911.125
+        },
+        "natural": [
+          300,
+          89
+        ],
+        "padding": 22,
+        "name": "Foxstage, início",
+        "filter": "none"
+      },
+      "footerColumns": [
+        {
+          "x": 40,
+          "y": 3782.515625,
+          "width": 404,
+          "height": 221.796875,
+          "right": 444,
+          "bottom": 4004.3125
+        },
+        {
+          "x": 508,
+          "y": 3782.515625,
+          "width": 169.640625,
+          "height": 221.796875,
+          "right": 677.640625,
+          "bottom": 4004.3125
+        },
+        {
+          "x": 741.640625,
+          "y": 3782.515625,
+          "width": 242.34375,
+          "height": 221.796875,
+          "right": 983.984375,
+          "bottom": 4004.3125
+        }
+      ],
+      "navigation": {
+        "x": 396.875,
+        "y": 32.046875,
+        "width": 316.90625,
+        "height": 44,
+        "right": 713.78125,
+        "bottom": 76.046875
+      },
+      "cta": {
+        "x": 814.65625,
+        "y": 32.046875,
+        "width": 137.34375,
+        "height": 44,
+        "right": 952,
+        "bottom": 76.046875
+      },
+      "headingFont": "display, \"display Fallback\", \"Arial Narrow\", Arial",
+      "bodyFont": "body, \"body Fallback\", Arial",
+      "button": {
+        "color": "rgb(16, 19, 20)",
+        "background": "rgb(246, 90, 11)"
+      },
+      "footerBackground": "rgb(16, 19, 20)"
+    },
+    {
+      "width": 1150,
+      "documentWidth": 1150,
+      "header": {
+        "src": "/images/foxstage/brand/foxstage-compact-color.svg",
+        "image": {
+          "x": 84,
+          "y": 28,
+          "width": 200,
+          "height": 52.109375,
+          "right": 284,
+          "bottom": 80.109375
+        },
+        "natural": [
+          300,
+          78
+        ],
+        "padding": 12,
+        "name": "Foxstage, início",
+        "filter": "none"
+      },
+      "footer": {
+        "src": "/images/foxstage/brand/foxstage-horizontal-reverse.svg",
+        "image": {
+          "x": 62,
+          "y": 3957.5625,
+          "width": 360,
+          "height": 106.609375,
+          "right": 422,
+          "bottom": 4064.171875
+        },
+        "natural": [
+          300,
+          89
+        ],
+        "padding": 22,
+        "name": "Foxstage, início",
+        "filter": "none"
+      },
+      "footerColumns": [
+        {
+          "x": 40,
+          "y": 3935.5625,
+          "width": 404,
+          "height": 221.796875,
+          "right": 444,
+          "bottom": 4157.359375
+        },
+        {
+          "x": 508,
+          "y": 3935.5625,
+          "width": 221.515625,
+          "height": 221.796875,
+          "right": 729.515625,
+          "bottom": 4157.359375
+        },
+        {
+          "x": 793.515625,
+          "y": 3935.5625,
+          "width": 316.484375,
+          "height": 221.796875,
+          "right": 1110,
+          "bottom": 4157.359375
+        }
+      ],
+      "navigation": {
+        "x": 459.875,
+        "y": 32.046875,
+        "width": 316.90625,
+        "height": 44,
+        "right": 776.78125,
+        "bottom": 76.046875
+      },
+      "cta": {
+        "x": 940.65625,
+        "y": 32.046875,
+        "width": 137.34375,
+        "height": 44,
+        "right": 1078,
+        "bottom": 76.046875
+      },
+      "headingFont": "display, \"display Fallback\", \"Arial Narrow\", Arial",
+      "bodyFont": "body, \"body Fallback\", Arial",
+      "button": {
+        "color": "rgb(16, 19, 20)",
+        "background": "rgb(246, 90, 11)"
+      },
+      "footerBackground": "rgb(16, 19, 20)"
+    },
+    {
+      "width": 1280,
+      "documentWidth": 1280,
+      "header": {
+        "src": "/images/foxstage/brand/foxstage-compact-color.svg",
+        "image": {
+          "x": 108,
+          "y": 28,
+          "width": 200,
+          "height": 52.109375,
+          "right": 308,
+          "bottom": 80.109375
+        },
+        "natural": [
+          300,
+          78
+        ],
+        "padding": 12,
+        "name": "Foxstage, início",
+        "filter": "none"
+      },
+      "footer": {
+        "src": "/images/foxstage/brand/foxstage-horizontal-reverse.svg",
+        "image": {
+          "x": 62,
+          "y": 4177.4375,
+          "width": 360,
+          "height": 106.609375,
+          "right": 422,
+          "bottom": 4284.046875
+        },
+        "natural": [
+          300,
+          89
+        ],
+        "padding": 22,
+        "name": "Foxstage, início",
+        "filter": "none"
+      },
+      "footerColumns": [
+        {
+          "x": 40,
+          "y": 4155.4375,
+          "width": 443.578125,
+          "height": 221.796875,
+          "right": 483.578125,
+          "bottom": 4377.234375
+        },
+        {
+          "x": 547.578125,
+          "y": 4155.4375,
+          "width": 258.765625,
+          "height": 221.796875,
+          "right": 806.34375,
+          "bottom": 4377.234375
+        },
+        {
+          "x": 870.34375,
+          "y": 4155.4375,
+          "width": 369.640625,
+          "height": 221.796875,
+          "right": 1239.984375,
+          "bottom": 4377.234375
+        }
+      ],
+      "navigation": {
+        "x": 497.5,
+        "y": 32.046875,
+        "width": 348.90625,
+        "height": 44,
+        "right": 846.40625,
+        "bottom": 76.046875
+      },
+      "cta": {
+        "x": 1023.890625,
+        "y": 31.046875,
+        "width": 160.109375,
+        "height": 46,
+        "right": 1184,
+        "bottom": 77.046875
+      },
+      "headingFont": "display, \"display Fallback\", \"Arial Narrow\", Arial",
+      "bodyFont": "body, \"body Fallback\", Arial",
+      "button": {
+        "color": "rgb(16, 19, 20)",
+        "background": "rgb(246, 90, 11)"
+      },
+      "footerBackground": "rgb(16, 19, 20)"
+    },
+    {
+      "width": 1440,
+      "documentWidth": 1440,
+      "header": {
+        "src": "/images/foxstage/brand/foxstage-compact-color.svg",
+        "image": {
+          "x": 168,
+          "y": 28,
+          "width": 200,
+          "height": 52.109375,
+          "right": 368,
+          "bottom": 80.109375
+        },
+        "natural": [
+          300,
+          78
+        ],
+        "padding": 12,
+        "name": "Foxstage, início",
+        "filter": "none"
+      },
+      "footer": {
+        "src": "/images/foxstage/brand/foxstage-horizontal-reverse.svg",
+        "image": {
+          "x": 142,
+          "y": 4202.265625,
+          "width": 360,
+          "height": 106.609375,
+          "right": 502,
+          "bottom": 4308.875
+        },
+        "natural": [
+          300,
+          89
+        ],
+        "padding": 22,
+        "name": "Foxstage, início",
+        "filter": "none"
+      },
+      "footerColumns": [
+        {
+          "x": 120,
+          "y": 4180.265625,
+          "width": 443.578125,
+          "height": 221.796875,
+          "right": 563.578125,
+          "bottom": 4402.0625
+        },
+        {
+          "x": 627.578125,
+          "y": 4180.265625,
+          "width": 258.765625,
+          "height": 221.796875,
+          "right": 886.34375,
+          "bottom": 4402.0625
+        },
+        {
+          "x": 950.34375,
+          "y": 4180.265625,
+          "width": 369.640625,
+          "height": 221.796875,
+          "right": 1319.984375,
+          "bottom": 4402.0625
+        }
+      ],
+      "navigation": {
+        "x": 577.5,
+        "y": 32.046875,
+        "width": 348.90625,
+        "height": 44,
+        "right": 926.40625,
+        "bottom": 76.046875
+      },
+      "cta": {
+        "x": 1123.890625,
+        "y": 31.046875,
+        "width": 160.109375,
+        "height": 46,
+        "right": 1284,
+        "bottom": 77.046875
+      },
+      "headingFont": "display, \"display Fallback\", \"Arial Narrow\", Arial",
+      "bodyFont": "body, \"body Fallback\", Arial",
+      "button": {
+        "color": "rgb(16, 19, 20)",
+        "background": "rgb(246, 90, 11)"
+      },
+      "footerBackground": "rgb(16, 19, 20)"
+    },
+    {
+      "width": 1920,
+      "documentWidth": 1920,
+      "header": {
+        "src": "/images/foxstage/brand/foxstage-compact-color.svg",
+        "image": {
+          "x": 408,
+          "y": 28,
+          "width": 200,
+          "height": 52.109375,
+          "right": 608,
+          "bottom": 80.109375
+        },
+        "natural": [
+          300,
+          78
+        ],
+        "padding": 12,
+        "name": "Foxstage, início",
+        "filter": "none"
+      },
+      "footer": {
+        "src": "/images/foxstage/brand/foxstage-horizontal-reverse.svg",
+        "image": {
+          "x": 382,
+          "y": 4213.578125,
+          "width": 360,
+          "height": 106.609375,
+          "right": 742,
+          "bottom": 4320.1875
+        },
+        "natural": [
+          300,
+          89
+        ],
+        "padding": 22,
+        "name": "Foxstage, início",
+        "filter": "none"
+      },
+      "footerColumns": [
+        {
+          "x": 360,
+          "y": 4191.578125,
+          "width": 443.578125,
+          "height": 221.796875,
+          "right": 803.578125,
+          "bottom": 4413.375
+        },
+        {
+          "x": 867.578125,
+          "y": 4191.578125,
+          "width": 258.765625,
+          "height": 221.796875,
+          "right": 1126.34375,
+          "bottom": 4413.375
+        },
+        {
+          "x": 1190.34375,
+          "y": 4191.578125,
+          "width": 369.640625,
+          "height": 221.796875,
+          "right": 1559.984375,
+          "bottom": 4413.375
+        }
+      ],
+      "navigation": {
+        "x": 817.5,
+        "y": 32.046875,
+        "width": 348.90625,
+        "height": 44,
+        "right": 1166.40625,
+        "bottom": 76.046875
+      },
+      "cta": {
+        "x": 1363.890625,
+        "y": 31.046875,
+        "width": 160.109375,
+        "height": 46,
+        "right": 1524,
+        "bottom": 77.046875
+      },
+      "headingFont": "display, \"display Fallback\", \"Arial Narrow\", Arial",
+      "bodyFont": "body, \"body Fallback\", Arial",
+      "button": {
+        "color": "rgb(16, 19, 20)",
+        "background": "rgb(246, 90, 11)"
+      },
+      "footerBackground": "rgb(16, 19, 20)"
+    }
+  ],
+  "metadata": {
+    "icons": [
+      {
+        "href": "/favicon.ico?favicon.2kco6-b00ti-c.ico",
+        "type": "image/x-icon",
+        "sizes": "48x48"
+      },
+      {
+        "href": "/icon.png?icon.3u817s1yov6ox.png",
+        "type": "image/png",
+        "sizes": "512x512"
+      },
+      {
+        "href": "/icon.svg?icon.0mni656hoo4sf.svg",
+        "type": "image/svg+xml",
+        "sizes": "any"
+      },
+      {
+        "href": "/apple-icon.png?apple-icon.0gxgcq8gkww-4.png",
+        "type": "image/png",
+        "sizes": "180x180"
+      }
+    ],
+    "og": "http://localhost:3000/opengraph-image?101ed68f0a4d543e",
+    "robots": "noindex, nofollow"
+  },
+  "assets": [
+    {
+      "url": "/favicon.ico",
+      "bytes": 2859,
+      "sha256": "abae1b3add8a3eba4d268113086d2a359a44221684f26c3cbadab26668ad24f1"
+    },
+    {
+      "url": "/icon.svg",
+      "bytes": 808,
+      "sha256": "0920a9725cc3fbe7b48dd26e55c42bb734a96e153bdd6b5bcc3e5d8b1c418b37"
+    },
+    {
+      "url": "/icon.png",
+      "bytes": 16052,
+      "sha256": "766c1fb73d667c852d81c63bd42b8391a48eeb07d0042c2d3ec8e7ab7b8727f1"
+    },
+    {
+      "url": "/apple-icon.png",
+      "bytes": 7030,
+      "sha256": "f43f64779c5f6f3ab9deff962ff0cf84e41af625f152e9b2e3e05eda9b15ac0c"
+    }
+  ],
+  "openGraph": {
+    "width": 1200,
+    "height": 630,
+    "bytes": 52137
+  },
+  "notFound": "/images/foxstage/brand/foxstage-horizontal-reverse.svg",
+  "errors": []
+}

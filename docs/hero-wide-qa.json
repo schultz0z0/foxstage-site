@@ -1,0 +1,787 @@
+{
+  "date": "2026-10-10T23:08:21.679Z",
+  "version": "2.2.1",
+  "widths": [
+    {
+      "viewport": 320,
+      "documentWidth": 320,
+      "hero": {
+        "x": 16,
+        "y": 88,
+        "width": 288,
+        "height": 741.515625,
+        "right": 304,
+        "bottom": 829.515625
+      },
+      "inner": {
+        "x": 16,
+        "y": 88,
+        "width": 288,
+        "height": 741.515625,
+        "right": 304,
+        "bottom": 829.515625
+      },
+      "header": {
+        "x": 16,
+        "y": 12,
+        "width": 288,
+        "height": 64,
+        "right": 304,
+        "bottom": 76
+      },
+      "copy": {
+        "x": 36,
+        "y": 388,
+        "width": 248,
+        "height": 377.515625,
+        "right": 284,
+        "bottom": 765.515625
+      },
+      "buttons": {
+        "x": 36,
+        "y": 655.515625,
+        "width": 248,
+        "height": 110,
+        "right": 284,
+        "bottom": 765.515625
+      },
+      "about": {
+        "x": 20,
+        "y": 877.515625,
+        "width": 280,
+        "height": 702.5,
+        "right": 300,
+        "bottom": 1580.015625
+      },
+      "image": {
+        "naturalWidth": 250,
+        "naturalHeight": 141,
+        "src": "http://127.0.0.1:3001/_next/image?url=%2Fimages%2Ffoxstage%2Fhero-ingles.webp&w=1920&q=75",
+        "sizes": "(max-width: 767px) calc(100vw - 32px), (max-width: 1023px) calc(100vw - 48px), (max-width: 1759px) calc(100vw - 80px), 1680px",
+        "position": "85% 50%",
+        "height": 360
+      }
+    },
+    {
+      "viewport": 360,
+      "documentWidth": 360,
+      "hero": {
+        "x": 16,
+        "y": 88,
+        "width": 328,
+        "height": 698.40625,
+        "right": 344,
+        "bottom": 786.40625
+      },
+      "inner": {
+        "x": 16,
+        "y": 88,
+        "width": 328,
+        "height": 698.40625,
+        "right": 344,
+        "bottom": 786.40625
+      },
+      "header": {
+        "x": 16,
+        "y": 12,
+        "width": 328,
+        "height": 64,
+        "right": 344,
+        "bottom": 76
+      },
+      "copy": {
+        "x": 40,
+        "y": 388,
+        "width": 280,
+        "height": 334.40625,
+        "right": 320,
+        "bottom": 722.40625
+      },
+      "buttons": {
+        "x": 40,
+        "y": 612.40625,
+        "width": 280,
+        "height": 110,
+        "right": 320,
+        "bottom": 722.40625
+      },
+      "about": {
+        "x": 24,
+        "y": 834.40625,
+        "width": 312,
+        "height": 708.90625,
+        "right": 336,
+        "bottom": 1543.3125
+      },
+      "image": {
+        "naturalWidth": 285,
+        "naturalHeight": 160,
+        "src": "http://127.0.0.1:3001/_next/image?url=%2Fimages%2Ffoxstage%2Fhero-ingles.webp&w=1920&q=75",
+        "sizes": "(max-width: 767px) calc(100vw - 32px), (max-width: 1023px) calc(100vw - 48px), (max-width: 1759px) calc(100vw - 80px), 1680px",
+        "position": "85% 50%",
+        "height": 360
+      }
+    },
+    {
+      "viewport": 390,
+      "documentWidth": 390,
+      "hero": {
+        "x": 16,
+        "y": 88,
+        "width": 358,
+        "height": 698.40625,
+        "right": 374,
+        "bottom": 786.40625
+      },
+      "inner": {
+        "x": 16,
+        "y": 88,
+        "width": 358,
+        "height": 698.40625,
+        "right": 374,
+        "bottom": 786.40625
+      },
+      "header": {
+        "x": 16,
+        "y": 12,
+        "width": 358,
+        "height": 64,
+        "right": 374,
+        "bottom": 76
+      },
+      "copy": {
+        "x": 40,
+        "y": 388,
+        "width": 310,
+        "height": 334.40625,
+        "right": 350,
+        "bottom": 722.40625
+      },
+      "buttons": {
+        "x": 40,
+        "y": 612.40625,
+        "width": 310,
+        "height": 110,
+        "right": 350,
+        "bottom": 722.40625
+      },
+      "about": {
+        "x": 24,
+        "y": 834.40625,
+        "width": 342,
+        "height": 738.90625,
+        "right": 366,
+        "bottom": 1573.3125
+      },
+      "image": {
+        "naturalWidth": 285,
+        "naturalHeight": 160,
+        "src": "http://127.0.0.1:3001/_next/image?url=%2Fimages%2Ffoxstage%2Fhero-ingles.webp&w=1920&q=75",
+        "sizes": "(max-width: 767px) calc(100vw - 32px), (max-width: 1023px) calc(100vw - 48px), (max-width: 1759px) calc(100vw - 80px), 1680px",
+        "position": "85% 50%",
+        "height": 360
+      }
+    },
+    {
+      "viewport": 430,
+      "documentWidth": 430,
+      "hero": {
+        "x": 16,
+        "y": 88,
+        "width": 398,
+        "height": 698.40625,
+        "right": 414,
+        "bottom": 786.40625
+      },
+      "inner": {
+        "x": 16,
+        "y": 88,
+        "width": 398,
+        "height": 698.40625,
+        "right": 414,
+        "bottom": 786.40625
+      },
+      "header": {
+        "x": 16,
+        "y": 12,
+        "width": 398,
+        "height": 64,
+        "right": 414,
+        "bottom": 76
+      },
+      "copy": {
+        "x": 40,
+        "y": 388,
+        "width": 350,
+        "height": 334.40625,
+        "right": 390,
+        "bottom": 722.40625
+      },
+      "buttons": {
+        "x": 40,
+        "y": 612.40625,
+        "width": 350,
+        "height": 110,
+        "right": 390,
+        "bottom": 722.40625
+      },
+      "about": {
+        "x": 24,
+        "y": 834.40625,
+        "width": 382,
+        "height": 753.3125,
+        "right": 406,
+        "bottom": 1587.71875
+      },
+      "image": {
+        "naturalWidth": 346,
+        "naturalHeight": 195,
+        "src": "http://127.0.0.1:3001/_next/image?url=%2Fimages%2Ffoxstage%2Fhero-ingles.webp&w=1920&q=75",
+        "sizes": "(max-width: 767px) calc(100vw - 32px), (max-width: 1023px) calc(100vw - 48px), (max-width: 1759px) calc(100vw - 80px), 1680px",
+        "position": "85% 50%",
+        "height": 360
+      }
+    },
+    {
+      "viewport": 768,
+      "documentWidth": 768,
+      "hero": {
+        "x": 24,
+        "y": 100.109375,
+        "width": 720,
+        "height": 600,
+        "right": 744,
+        "bottom": 700.109375
+      },
+      "inner": {
+        "x": 56,
+        "y": 100.109375,
+        "width": 656,
+        "height": 479.59375,
+        "right": 712,
+        "bottom": 579.703125
+      },
+      "header": {
+        "x": 24,
+        "y": 12,
+        "width": 720,
+        "height": 76.109375,
+        "right": 744,
+        "bottom": 88.109375
+      },
+      "copy": {
+        "x": 56,
+        "y": 220.109375,
+        "width": 420,
+        "height": 295.59375,
+        "right": 476,
+        "bottom": 515.703125
+      },
+      "buttons": {
+        "x": 56,
+        "y": 465.703125,
+        "width": 420,
+        "height": 50,
+        "right": 476,
+        "bottom": 515.703125
+      },
+      "about": {
+        "x": 32,
+        "y": 764.109375,
+        "width": 704,
+        "height": 402.09375,
+        "right": 736,
+        "bottom": 1166.203125
+      },
+      "image": {
+        "naturalWidth": 346,
+        "naturalHeight": 195,
+        "src": "http://127.0.0.1:3001/_next/image?url=%2Fimages%2Ffoxstage%2Fhero-ingles.webp&w=1920&q=75",
+        "sizes": "(max-width: 767px) calc(100vw - 32px), (max-width: 1023px) calc(100vw - 48px), (max-width: 1759px) calc(100vw - 80px), 1680px",
+        "position": "50% 50%",
+        "height": 600
+      }
+    },
+    {
+      "viewport": 1024,
+      "documentWidth": 1024,
+      "hero": {
+        "x": 40,
+        "y": 32,
+        "width": 944,
+        "height": 640,
+        "right": 984,
+        "bottom": 672
+      },
+      "inner": {
+        "x": 80,
+        "y": 32,
+        "width": 864,
+        "height": 462.71875,
+        "right": 944,
+        "bottom": 494.71875
+      },
+      "header": {
+        "x": 56,
+        "y": 16,
+        "width": 912,
+        "height": 76.109375,
+        "right": 968,
+        "bottom": 92.109375
+      },
+      "copy": {
+        "x": 80,
+        "y": 96,
+        "width": 520,
+        "height": 334.71875,
+        "right": 600,
+        "bottom": 430.71875
+      },
+      "buttons": {
+        "x": 80,
+        "y": 380.71875,
+        "width": 520,
+        "height": 50,
+        "right": 600,
+        "bottom": 430.71875
+      },
+      "about": {
+        "x": 40,
+        "y": 752,
+        "width": 944,
+        "height": 492.28125,
+        "right": 984,
+        "bottom": 1244.28125
+      },
+      "image": {
+        "naturalWidth": 822,
+        "naturalHeight": 462,
+        "src": "http://127.0.0.1:3001/_next/image?url=%2Fimages%2Ffoxstage%2Fhero-ingles.webp&w=1920&q=75",
+        "sizes": "(max-width: 767px) calc(100vw - 32px), (max-width: 1023px) calc(100vw - 48px), (max-width: 1759px) calc(100vw - 80px), 1680px",
+        "position": "50% 50%",
+        "height": 640
+      }
+    },
+    {
+      "viewport": 1280,
+      "documentWidth": 1280,
+      "hero": {
+        "x": 40,
+        "y": 32,
+        "width": 1200,
+        "height": 640,
+        "right": 1240,
+        "bottom": 672
+      },
+      "inner": {
+        "x": 80,
+        "y": 32,
+        "width": 1120,
+        "height": 599.71875,
+        "right": 1200,
+        "bottom": 631.71875
+      },
+      "header": {
+        "x": 80,
+        "y": 16,
+        "width": 1120,
+        "height": 76.109375,
+        "right": 1200,
+        "bottom": 92.109375
+      },
+      "copy": {
+        "x": 80,
+        "y": 96,
+        "width": 520,
+        "height": 471.71875,
+        "right": 600,
+        "bottom": 567.71875
+      },
+      "buttons": {
+        "x": 80,
+        "y": 517.71875,
+        "width": 520,
+        "height": 50,
+        "right": 600,
+        "bottom": 567.71875
+      },
+      "about": {
+        "x": 40,
+        "y": 752,
+        "width": 1200,
+        "height": 626.6875,
+        "right": 1240,
+        "bottom": 1378.6875
+      },
+      "image": {
+        "naturalWidth": 1045,
+        "naturalHeight": 588,
+        "src": "http://127.0.0.1:3001/_next/image?url=%2Fimages%2Ffoxstage%2Fhero-ingles.webp&w=1920&q=75",
+        "sizes": "(max-width: 767px) calc(100vw - 32px), (max-width: 1023px) calc(100vw - 48px), (max-width: 1759px) calc(100vw - 80px), 1680px",
+        "position": "50% 50%",
+        "height": 640
+      }
+    },
+    {
+      "viewport": 1440,
+      "documentWidth": 1440,
+      "hero": {
+        "x": 40,
+        "y": 32,
+        "width": 1360,
+        "height": 640,
+        "right": 1400,
+        "bottom": 672
+      },
+      "inner": {
+        "x": 120,
+        "y": 32,
+        "width": 1200,
+        "height": 635.4375,
+        "right": 1320,
+        "bottom": 667.4375
+      },
+      "header": {
+        "x": 140,
+        "y": 16,
+        "width": 1160,
+        "height": 76.109375,
+        "right": 1300,
+        "bottom": 92.109375
+      },
+      "copy": {
+        "x": 120,
+        "y": 96,
+        "width": 520,
+        "height": 507.4375,
+        "right": 640,
+        "bottom": 603.4375
+      },
+      "buttons": {
+        "x": 120,
+        "y": 553.4375,
+        "width": 520,
+        "height": 50,
+        "right": 640,
+        "bottom": 603.4375
+      },
+      "about": {
+        "x": 120,
+        "y": 752,
+        "width": 1200,
+        "height": 626.6875,
+        "right": 1320,
+        "bottom": 1378.6875
+      },
+      "image": {
+        "naturalWidth": 1184,
+        "naturalHeight": 666,
+        "src": "http://127.0.0.1:3001/_next/image?url=%2Fimages%2Ffoxstage%2Fhero-ingles.webp&w=1920&q=75",
+        "sizes": "(max-width: 767px) calc(100vw - 32px), (max-width: 1023px) calc(100vw - 48px), (max-width: 1759px) calc(100vw - 80px), 1680px",
+        "position": "50% 50%",
+        "height": 640
+      }
+    },
+    {
+      "viewport": 1600,
+      "documentWidth": 1600,
+      "hero": {
+        "x": 40,
+        "y": 32,
+        "width": 1520,
+        "height": 673.328125,
+        "right": 1560,
+        "bottom": 705.328125
+      },
+      "inner": {
+        "x": 200,
+        "y": 32,
+        "width": 1200,
+        "height": 635.4375,
+        "right": 1400,
+        "bottom": 667.4375
+      },
+      "header": {
+        "x": 220,
+        "y": 16,
+        "width": 1160,
+        "height": 76.109375,
+        "right": 1380,
+        "bottom": 92.109375
+      },
+      "copy": {
+        "x": 200,
+        "y": 96,
+        "width": 520,
+        "height": 507.4375,
+        "right": 720,
+        "bottom": 603.4375
+      },
+      "buttons": {
+        "x": 200,
+        "y": 553.4375,
+        "width": 520,
+        "height": 50,
+        "right": 720,
+        "bottom": 603.4375
+      },
+      "about": {
+        "x": 200,
+        "y": 785.328125,
+        "width": 1200,
+        "height": 626.6875,
+        "right": 1400,
+        "bottom": 1412.015625
+      },
+      "image": {
+        "naturalWidth": 1323,
+        "naturalHeight": 744,
+        "src": "http://127.0.0.1:3001/_next/image?url=%2Fimages%2Ffoxstage%2Fhero-ingles.webp&w=1920&q=75",
+        "sizes": "(max-width: 767px) calc(100vw - 32px), (max-width: 1023px) calc(100vw - 48px), (max-width: 1759px) calc(100vw - 80px), 1680px",
+        "position": "50% 50%",
+        "height": 673.328125
+      }
+    },
+    {
+      "viewport": 1728,
+      "documentWidth": 1728,
+      "hero": {
+        "x": 40,
+        "y": 32,
+        "width": 1648,
+        "height": 699.984375,
+        "right": 1688,
+        "bottom": 731.984375
+      },
+      "inner": {
+        "x": 264,
+        "y": 32,
+        "width": 1200,
+        "height": 635.4375,
+        "right": 1464,
+        "bottom": 667.4375
+      },
+      "header": {
+        "x": 284,
+        "y": 16,
+        "width": 1160,
+        "height": 76.109375,
+        "right": 1444,
+        "bottom": 92.109375
+      },
+      "copy": {
+        "x": 264,
+        "y": 96,
+        "width": 520,
+        "height": 507.4375,
+        "right": 784,
+        "bottom": 603.4375
+      },
+      "buttons": {
+        "x": 264,
+        "y": 553.4375,
+        "width": 520,
+        "height": 50,
+        "right": 784,
+        "bottom": 603.4375
+      },
+      "about": {
+        "x": 264,
+        "y": 811.984375,
+        "width": 1200,
+        "height": 626.6875,
+        "right": 1464,
+        "bottom": 1438.671875
+      },
+      "image": {
+        "naturalWidth": 1323,
+        "naturalHeight": 744,
+        "src": "http://127.0.0.1:3001/_next/image?url=%2Fimages%2Ffoxstage%2Fhero-ingles.webp&w=1920&q=75",
+        "sizes": "(max-width: 767px) calc(100vw - 32px), (max-width: 1023px) calc(100vw - 48px), (max-width: 1759px) calc(100vw - 80px), 1680px",
+        "position": "50% 50%",
+        "height": 699.984375
+      }
+    },
+    {
+      "viewport": 1760,
+      "documentWidth": 1760,
+      "hero": {
+        "x": 40,
+        "y": 32,
+        "width": 1680,
+        "height": 706.65625,
+        "right": 1720,
+        "bottom": 738.65625
+      },
+      "inner": {
+        "x": 280,
+        "y": 32,
+        "width": 1200,
+        "height": 635.4375,
+        "right": 1480,
+        "bottom": 667.4375
+      },
+      "header": {
+        "x": 300,
+        "y": 16,
+        "width": 1160,
+        "height": 76.109375,
+        "right": 1460,
+        "bottom": 92.109375
+      },
+      "copy": {
+        "x": 280,
+        "y": 96,
+        "width": 520,
+        "height": 507.4375,
+        "right": 800,
+        "bottom": 603.4375
+      },
+      "buttons": {
+        "x": 280,
+        "y": 553.4375,
+        "width": 520,
+        "height": 50,
+        "right": 800,
+        "bottom": 603.4375
+      },
+      "about": {
+        "x": 280,
+        "y": 818.65625,
+        "width": 1200,
+        "height": 626.6875,
+        "right": 1480,
+        "bottom": 1445.34375
+      },
+      "image": {
+        "naturalWidth": 1462,
+        "naturalHeight": 823,
+        "src": "http://127.0.0.1:3001/_next/image?url=%2Fimages%2Ffoxstage%2Fhero-ingles.webp&w=1920&q=75",
+        "sizes": "(max-width: 767px) calc(100vw - 32px), (max-width: 1023px) calc(100vw - 48px), (max-width: 1759px) calc(100vw - 80px), 1680px",
+        "position": "50% 50%",
+        "height": 706.65625
+      }
+    },
+    {
+      "viewport": 1920,
+      "documentWidth": 1920,
+      "hero": {
+        "x": 120,
+        "y": 32,
+        "width": 1680,
+        "height": 739.984375,
+        "right": 1800,
+        "bottom": 771.984375
+      },
+      "inner": {
+        "x": 360,
+        "y": 32,
+        "width": 1200,
+        "height": 635.4375,
+        "right": 1560,
+        "bottom": 667.4375
+      },
+      "header": {
+        "x": 380,
+        "y": 16,
+        "width": 1160,
+        "height": 76.109375,
+        "right": 1540,
+        "bottom": 92.109375
+      },
+      "copy": {
+        "x": 360,
+        "y": 96,
+        "width": 520,
+        "height": 507.4375,
+        "right": 880,
+        "bottom": 603.4375
+      },
+      "buttons": {
+        "x": 360,
+        "y": 553.4375,
+        "width": 520,
+        "height": 50,
+        "right": 880,
+        "bottom": 603.4375
+      },
+      "about": {
+        "x": 360,
+        "y": 851.984375,
+        "width": 1200,
+        "height": 626.6875,
+        "right": 1560,
+        "bottom": 1478.671875
+      },
+      "image": {
+        "naturalWidth": 1462,
+        "naturalHeight": 823,
+        "src": "http://127.0.0.1:3001/_next/image?url=%2Fimages%2Ffoxstage%2Fhero-ingles.webp&w=1920&q=75",
+        "sizes": "(max-width: 767px) calc(100vw - 32px), (max-width: 1023px) calc(100vw - 48px), (max-width: 1759px) calc(100vw - 80px), 1680px",
+        "position": "50% 50%",
+        "height": 739.984375
+      }
+    },
+    {
+      "viewport": 2560,
+      "documentWidth": 2560,
+      "hero": {
+        "x": 440,
+        "y": 32,
+        "width": 1680,
+        "height": 740,
+        "right": 2120,
+        "bottom": 772
+      },
+      "inner": {
+        "x": 680,
+        "y": 32,
+        "width": 1200,
+        "height": 635.4375,
+        "right": 1880,
+        "bottom": 667.4375
+      },
+      "header": {
+        "x": 700,
+        "y": 16,
+        "width": 1160,
+        "height": 76.109375,
+        "right": 1860,
+        "bottom": 92.109375
+      },
+      "copy": {
+        "x": 680,
+        "y": 96,
+        "width": 520,
+        "height": 507.4375,
+        "right": 1200,
+        "bottom": 603.4375
+      },
+      "buttons": {
+        "x": 680,
+        "y": 553.4375,
+        "width": 520,
+        "height": 50,
+        "right": 1200,
+        "bottom": 603.4375
+      },
+      "about": {
+        "x": 680,
+        "y": 852,
+        "width": 1200,
+        "height": 626.6875,
+        "right": 1880,
+        "bottom": 1478.6875
+      },
+      "image": {
+        "naturalWidth": 1462,
+        "naturalHeight": 823,
+        "src": "http://127.0.0.1:3001/_next/image?url=%2Fimages%2Ffoxstage%2Fhero-ingles.webp&w=1920&q=75",
+        "sizes": "(max-width: 767px) calc(100vw - 32px), (max-width: 1023px) calc(100vw - 48px), (max-width: 1759px) calc(100vw - 80px), 1680px",
+        "position": "50% 50%",
+        "height": 740
+      }
+    }
+  ],
+  "errors": []
+}

@@ -1,0 +1,107 @@
+{
+  "testedAt": "2026-10-10T22:13:14.696Z",
+  "width": 390,
+  "result": "pass",
+  "samples": [
+    {
+      "frame": 55,
+      "translations": [
+        "-8.33159px",
+        "80.6941px",
+        "51.4844px"
+      ],
+      "wordLeft": 45.553489685058594,
+      "panelLeft": 24
+    },
+    {
+      "frame": 79,
+      "translations": [
+        "-5.79433px",
+        "62.8215px",
+        "43.3892px"
+      ],
+      "wordLeft": 46.29943084716797,
+      "panelLeft": 24
+    },
+    {
+      "frame": 104,
+      "translations": [
+        "-3.36702px",
+        "38.9572px",
+        "29.1795px"
+      ],
+      "wordLeft": 47.01304626464844,
+      "panelLeft": 24
+    },
+    {
+      "frame": 128,
+      "translations": [
+        "-1.94024px",
+        "23.2317px",
+        "17.8577px"
+      ],
+      "wordLeft": 47.43251037597656,
+      "panelLeft": 24
+    },
+    {
+      "frame": 153,
+      "translations": [
+        "-1.03648px",
+        "13.1627px",
+        "10.4567px"
+      ],
+      "wordLeft": 47.69820785522461,
+      "panelLeft": 24
+    },
+    {
+      "frame": 177,
+      "translations": [
+        "-0.506318px",
+        "7.12202px",
+        "5.98681px"
+      ],
+      "wordLeft": 47.85407638549805,
+      "panelLeft": 24
+    },
+    {
+      "frame": 202,
+      "translations": [
+        "-0.185191px",
+        "3.23535px",
+        "3.0335px"
+      ],
+      "wordLeft": 47.948486328125,
+      "panelLeft": 24
+    },
+    {
+      "frame": 226,
+      "translations": [
+        "-0.0350155px",
+        "1.10786px",
+        "1.30457px"
+      ],
+      "wordLeft": 47.99263381958008,
+      "panelLeft": 24
+    },
+    {
+      "frame": 250,
+      "translations": [
+        "0px",
+        "0.138545px",
+        "0.358705px"
+      ],
+      "wordLeft": 48.0029296875,
+      "panelLeft": 24
+    },
+    {
+      "frame": 274,
+      "translations": [
+        "0px",
+        "0px",
+        "0.00988191px"
+      ],
+      "wordLeft": 48.0029296875,
+      "panelLeft": 24
+    }
+  ]
+}

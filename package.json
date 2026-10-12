@@ -1,0 +1,43 @@
+{
+  "name": "foxstage-website",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "tokens": "node scripts/generate-tokens.mjs",
+    "predev": "npm run tokens",
+    "dev": "next dev --hostname 127.0.0.1",
+    "prebuild": "npm run tokens",
+    "build": "next build",
+    "start": "next start --hostname 127.0.0.1",
+    "pretypecheck": "npm run tokens",
+    "typecheck": "tsc --noEmit",
+    "lint": "eslint src scripts tests next.config.ts",
+    "test": "node --test tests/*.test.mjs",
+    "studio": "remotion studio src/remotion/index.tsx --port=3002 --public-dir=public",
+    "test:motion": "node tests/motion.browser.mjs"
+  },
+  "dependencies": {
+    "@fontsource-variable/source-sans-3": "^5.2.8",
+    "@fontsource/bebas-neue": "^5.2.7",
+    "@remotion/fonts": "4.0.534",
+    "@remotion/player": "4.0.534",
+    "next": "16.4.0",
+    "react": "19.3.0",
+    "react-dom": "19.3.0",
+    "remotion": "4.0.534",
+    "zod": "4.5.4"
+  },
+  "devDependencies": {
+    "@remotion/cli": "4.0.534",
+    "@types/node": "^24.0.0",
+    "@types/react": "^19.0.0",
+    "@types/react-dom": "^19.0.0",
+    "eslint": "^10.12.0",
+    "eslint-config-next": "16.4.0",
+    "typescript": "^5.9.3"
+  },
+  "engines": {
+    "node": ">=22.0.0"
+  }
+}

@@ -1,0 +1,176 @@
+{
+  "version": "2.7.0",
+  "results": [
+    "Copy, CTA, phone and photo use the same Remotion clock; clock and video pause offscreen",
+    "Opposing media arcs, final frame 359 held and interactive HTML transforms cleared",
+    "Duplicate cinema heading removed; only photo caption remains",
+    "Independent muted MP4 autoplay advances without looping",
+    "12 widths: official orange, no horizontal overflow, no mobile media overlap",
+    "Manual video pause retained; section animation does not replay",
+    "CTA remains a native link with visible keyboard focus",
+    "Mobile sequence starts from heading entry, independently of phone visibility",
+    "Reduced motion uses stable static composition and manual video",
+    "No JavaScript retains complete photo and native video controls",
+    "No browser runtime errors",
+    "Approved copy and CSS outside English Day unchanged"
+  ],
+  "early": {
+    "frame": "8",
+    "copy": [
+      "matrix(1, 0, 0, 1, -22.9516, 13.1152)",
+      "matrix(1, -0.0413837, 0, 1, -39.812, 39.812)",
+      "matrix(1, 0, 0, 1, -42, 24)",
+      "matrix(1, 0, 0, 1, -42, 24)",
+      "matrix(0.9, 0, 0, 0.9, -42, 24)"
+    ],
+    "phone": "matrix3d(0.821553, 0.159694, 0.271935, -0.000271935, -0.167912, 0.863832, 0, 0, -0.303339, -0.0589632, 0.951057, -0.000951057, 92, -48, 0, 1)",
+    "photo": "translate(-94 100) translate(209 293.25) rotate(-18) scale(0.78) translate(-209 -293.25)"
+  },
+  "middle": {
+    "frame": "151",
+    "copy": [
+      "matrix(1, 0, 0, 1, 0, 0)",
+      "matrix(1, 0, 0, 1, 0, 0)",
+      "matrix(1, 0, 0, 1, 0, 0)",
+      "matrix(1, 0, 0, 1, 0, 0)",
+      "matrix(1, 0, 0, 1, 0, 0)"
+    ],
+    "phone": "matrix3d(1.00867, -0.0705298, -0.0884585, 8.84585e-05, 0.0707991, 1.01253, 0, 0, 0.086939, -0.00607906, 0.996195, -0.000996195, -7.99959, 9.99949, 0, 1)",
+    "photo": "translate(7.755320692804608 -11.63298103920691) translate(209 293.25) rotate(-1.1529245669971204) scale(1.0242353771650143) translate(-209 -293.25)"
+  },
+  "final": {
+    "frame": "359",
+    "copy": [
+      "none",
+      "none",
+      "none",
+      "none",
+      "none"
+    ],
+    "phone": "none",
+    "photo": "translate(0 0) translate(209 293.25) rotate(-6) scale(1) translate(-209 -293.25)"
+  },
+  "responsive": [
+    {
+      "width": 320,
+      "overflow": false,
+      "background": "rgb(246, 90, 11)",
+      "sectionHeight": 1232.03125,
+      "phoneBottom": 764.3125,
+      "photoTop": 781.407958984375,
+      "photoLeft": 29.33333396911621,
+      "photoRight": 290.66664695739746
+    },
+    {
+      "width": 360,
+      "overflow": false,
+      "background": "rgb(246, 90, 11)",
+      "sectionHeight": 1304.03125,
+      "phoneBottom": 847.296875,
+      "photoTop": 889.8541259765625,
+      "photoLeft": 34.400001525878906,
+      "photoRight": 325.60001373291016
+    },
+    {
+      "width": 375,
+      "overflow": false,
+      "background": "rgb(246, 90, 11)",
+      "sectionHeight": 1312.1875,
+      "phoneBottom": 837.8125,
+      "photoTop": 884.4271240234375,
+      "photoLeft": 34.900001525878906,
+      "photoRight": 340.10001373291016
+    },
+    {
+      "width": 390,
+      "overflow": false,
+      "background": "rgb(246, 90, 11)",
+      "sectionHeight": 1345.9375,
+      "phoneBottom": 854,
+      "photoTop": 904.6875,
+      "photoLeft": 35.400001525878906,
+      "photoRight": 354.60001373291016
+    },
+    {
+      "width": 430,
+      "overflow": false,
+      "background": "rgb(246, 90, 11)",
+      "sectionHeight": 1360.84375,
+      "phoneBottom": 848.3125,
+      "photoTop": 903.875,
+      "photoLeft": 47,
+      "photoRight": 383
+    },
+    {
+      "width": 568,
+      "overflow": false,
+      "background": "rgb(246, 90, 11)",
+      "sectionHeight": 1335.25,
+      "phoneBottom": 822.03125,
+      "photoTop": 877.59375,
+      "photoLeft": 116,
+      "photoRight": 452
+    },
+    {
+      "width": 767,
+      "overflow": false,
+      "background": "rgb(246, 90, 11)",
+      "sectionHeight": 1335.25,
+      "phoneBottom": 822.890625,
+      "photoTop": 878.453125,
+      "photoLeft": 215.5,
+      "photoRight": 551.5
+    },
+    {
+      "width": 768,
+      "overflow": false,
+      "background": "rgb(246, 90, 11)",
+      "sectionHeight": 1108.875,
+      "phoneBottom": 866.5,
+      "photoTop": 526.692138671875,
+      "photoLeft": 65.23930358886719,
+      "photoRight": 440.7606658935547
+    },
+    {
+      "width": 1023,
+      "overflow": false,
+      "background": "rgb(246, 90, 11)",
+      "sectionHeight": 1108.875,
+      "phoneBottom": 866.546875,
+      "photoTop": 526.739013671875,
+      "photoLeft": 192.7393035888672,
+      "photoRight": 568.2606658935547
+    },
+    {
+      "width": 1024,
+      "overflow": false,
+      "background": "rgb(246, 90, 11)",
+      "sectionHeight": 675.171875,
+      "phoneBottom": 646.015625,
+      "photoTop": 352.663818359375,
+      "photoLeft": 472.49737548828125,
+      "photoRight": 764.072021484375
+    },
+    {
+      "width": 1280,
+      "overflow": false,
+      "background": "rgb(246, 90, 11)",
+      "sectionHeight": 730,
+      "phoneBottom": 733.953125,
+      "photoTop": 394.145263671875,
+      "photoLeft": 580.4268188476562,
+      "photoRight": 955.9481811523438
+    },
+    {
+      "width": 1920,
+      "overflow": false,
+      "background": "rgb(246, 90, 11)",
+      "sectionHeight": 730,
+      "phoneBottom": 733.078125,
+      "photoTop": 393.270263671875,
+      "photoLeft": 900.4268188476562,
+      "photoRight": 1275.9482421875
+    }
+  ],
+  "errors": []
+}

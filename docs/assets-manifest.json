@@ -1,0 +1,207 @@
+{
+  "logo": {
+    "source": "assets/logo.png",
+    "treatment": "Original raster copied without edits",
+    "deliveredBytes": 1032511,
+    "status": "Legacy archive; superseded on website by approved B kit in 2.2.0"
+  },
+  "photos": [
+    {
+      "name": "sobre-foxstage.jpg",
+      "id": "8199667",
+      "author": "Yan Krukau",
+      "slug": "man-and-woman-studying-while-writing-on-a-notebook",
+      "width": 1200,
+      "role": "about",
+      "alt": "Duas pessoas consultam materiais de estudo em uma biblioteca; fotografia ilustrativa.",
+      "source": "https://www.pexels.com/photo/man-and-woman-studying-while-writing-on-a-notebook-8199667/",
+      "download": "https://images.pexels.com/photos/8199667/pexels-photo-8199667.jpeg?auto=compress&cs=tinysrgb&w=1200&q=85",
+      "license": "https://www.pexels.com/license/",
+      "use": "Fotografia de banco, ilustrativa; não representa alunos, equipe ou instalações da Foxstage.",
+      "bytes": 93401,
+      "retrievedAt": "2026-10-10",
+      "sourceVerifiedAt": "2026-10-10",
+      "deliveredBytes": 93679
+    },
+    {
+      "name": "pratica-idioma.jpg",
+      "id": "8374299",
+      "author": "AI25.Studio AI GENERATIVE (identificador exibido na página de origem em 2026-10-10)",
+      "slug": "a-woman-reading-a-book",
+      "width": 1000,
+      "role": "practice",
+      "alt": "Pessoa estudando e fazendo anotações em uma mesa; imagem de banco ilustrativa.",
+      "source": "https://www.pexels.com/photo/a-woman-reading-a-book-8374299/",
+      "download": "https://images.pexels.com/photos/8374299/pexels-photo-8374299.jpeg?auto=compress&cs=tinysrgb&w=1000&q=85",
+      "license": "https://www.pexels.com/license/",
+      "use": "Fotografia de banco, ilustrativa; não representa alunos, equipe ou instalações da Foxstage.",
+      "bytes": 131686,
+      "retrievedAt": "2026-10-10",
+      "sourceVerifiedAt": "2026-10-10",
+      "deliveredBytes": 132010
+    },
+    {
+      "name": "ensino-personalizado.jpg",
+      "id": "6549594",
+      "author": "Tima Miroshnichenko",
+      "slug": "a-woman-researching-and-writing-on-her-notebook",
+      "width": 1000,
+      "role": "practice",
+      "alt": "Detalhe de anotações e livros durante o estudo; fotografia ilustrativa.",
+      "source": "https://www.pexels.com/photo/a-woman-researching-and-writing-on-her-notebook-6549594/",
+      "download": "https://images.pexels.com/photos/6549594/pexels-photo-6549594.jpeg?auto=compress&cs=tinysrgb&w=1000&q=85",
+      "license": "https://www.pexels.com/license/",
+      "use": "Fotografia de banco, ilustrativa; não representa alunos, equipe ou instalações da Foxstage.",
+      "bytes": 140448,
+      "retrievedAt": "2026-10-10",
+      "sourceVerifiedAt": "2026-10-10",
+      "deliveredBytes": 140732
+    },
+    {
+      "name": "comunicacao-oral.jpg",
+      "id": "6321929",
+      "author": "cottonbro studio",
+      "slug": "man-and-woman-sitting-at-table-having-a-conversation",
+      "width": 1200,
+      "role": "practice",
+      "alt": "Pessoa conversando à mesa com um computador; fotografia ilustrativa.",
+      "source": "https://www.pexels.com/photo/man-and-woman-sitting-at-table-having-a-conversation-6321929/",
+      "download": "https://images.pexels.com/photos/6321929/pexels-photo-6321929.jpeg?auto=compress&cs=tinysrgb&w=1200&q=85",
+      "license": "https://www.pexels.com/license/",
+      "use": "Fotografia de banco, ilustrativa; não representa alunos, equipe ou instalações da Foxstage.",
+      "bytes": 158209,
+      "retrievedAt": "2026-10-10",
+      "sourceVerifiedAt": "2026-10-10",
+      "deliveredBytes": 158495
+    },
+    {
+      "name": "curso-ingles.jpg",
+      "id": "6147045",
+      "author": "Keira Burton",
+      "slug": "diverse-young-students-discussing-education-at-table-with-laptop",
+      "width": 1400,
+      "role": "course",
+      "alt": "Pessoas trocando ideias com caderno e notebook; fotografia ilustrativa.",
+      "source": "https://www.pexels.com/photo/diverse-young-students-discussing-education-at-table-with-laptop-6147045/",
+      "download": "https://images.pexels.com/photos/6147045/pexels-photo-6147045.jpeg?auto=compress&cs=tinysrgb&w=1400&q=85",
+      "license": "https://www.pexels.com/license/",
+      "use": "Fotografia de banco, ilustrativa; não representa alunos, equipe ou instalações da Foxstage.",
+      "bytes": 201179,
+      "retrievedAt": "2026-10-10",
+      "sourceVerifiedAt": "2026-10-10",
+      "deliveredBytes": 201473
+    }
+  ],
+  "generatedHero": {
+    "name": "hero-ingles.webp",
+    "original": "assets/generated/hero-ingles.png",
+    "origin": "image_gen built-in tool",
+    "generatedAt": "2026-10-10",
+    "prompt": "Create a single high quality editorial photographic illustration for the hero of an English course website. Landscape 16:9, 2000x1125 or highest native landscape resolution. Scene: two fictional adults, a dark-haired Brazilian-looking woman and an Afro-Brazilian-looking man approximately 25-35 years old, studying and talking naturally with one simple notebook and an unbranded closed book at a wooden table in a quiet neutral study space. They are both exclusively in the RIGHT HALF of the composition, seated slightly right of center, faces clearly visible, relaxed candid expressions, anatomically correct hands. The entire LEFT 42 percent of the image is a calm slightly out-of-focus near-dark neutral wall and table edge with NO PEOPLE, NO FACES, NO OBJECTS in front of where website text will be placed. Natural afternoon side light, rich near-black clothes and neutral tones, one subtle warm orange clothing detail, understated honest editorial style rather than advertising stock exaggeration. It should look like a real photograph but depicts fictional people, no reference to real Foxstage students or premises. Keep the people both within the right-middle region so a vertical center-right mobile crop preserves them. No children. No flags, landmarks, certificates, branding, logos, watermarks, numbers, legible book text, written text, UI, overlays, buttons or borders. Return the generated asset saved to a local file suitable for use in the website.",
+    "width": 1672,
+    "height": 941,
+    "bytes": 92652,
+    "use": "Fictional photographic illustration, visibly labelled as AI-generated; not school evidence.",
+    "treatment": "Format conversion to WebP only; composition unchanged."
+  },
+  "brand": {
+    "version": "B v1.0",
+    "manual": "assets/Identidade visual Foxstage/manual-de-marca.pdf",
+    "approvedBy": "User in this conversation",
+    "websiteVersion": "2.2.0",
+    "files": [
+      {
+        "source": "assets/Identidade visual Foxstage/logos/horizontal/foxstage-horizontal-color.svg",
+        "target": "public/images/foxstage/brand/foxstage-horizontal-color.svg",
+        "sha256": "b72e7f9da19aa78ef49b60a81d8328f1fbe3ed5cfa197d98b621253239848e3a"
+      },
+      {
+        "source": "assets/Identidade visual Foxstage/logos/compact/foxstage-compact-color.svg",
+        "target": "public/images/foxstage/brand/foxstage-compact-color.svg",
+        "sha256": "ea40d56afcd4be011dac99f45287ca3abfb058ff0e85330b3ca286ef56ff27f2"
+      },
+      {
+        "source": "assets/Identidade visual Foxstage/logos/horizontal/foxstage-horizontal-reverse.svg",
+        "target": "public/images/foxstage/brand/foxstage-horizontal-reverse.svg",
+        "sha256": "42d30faaaa4bd7ade01e36deba2956a1d1eab48671d15c2d65e1c6fe97d0449b"
+      },
+      {
+        "source": "assets/Identidade visual Foxstage/logos/compact/foxstage-compact-reverse.svg",
+        "target": "public/images/foxstage/brand/foxstage-compact-reverse.svg",
+        "sha256": "40459f459b8c8b289627302274574a2f425d38cee675c2bc9222425f4dd689e9"
+      },
+      {
+        "source": "assets/Identidade visual Foxstage/logos/horizontal/foxstage-horizontal-reverse-1891.png",
+        "target": "public/images/foxstage/brand/foxstage-horizontal-reverse.png",
+        "sha256": "3041ddc5627ec926772f508ca73d973b24ca69bc9a4a0d2a637585cb8c45c75b"
+      },
+      {
+        "source": "assets/Identidade visual Foxstage/favicons/favicon.ico",
+        "target": "src/app/favicon.ico",
+        "sha256": "abae1b3add8a3eba4d268113086d2a359a44221684f26c3cbadab26668ad24f1"
+      },
+      {
+        "source": "assets/Identidade visual Foxstage/favicons/foxstage-favicon.svg",
+        "target": "src/app/icon.svg",
+        "sha256": "0920a9725cc3fbe7b48dd26e55c42bb734a96e153bdd6b5bcc3e5d8b1c418b37"
+      },
+      {
+        "source": "assets/Identidade visual Foxstage/avatars/foxstage-avatar-orange-512.png",
+        "target": "src/app/icon.png",
+        "sha256": "766c1fb73d667c852d81c63bd42b8391a48eeb07d0042c2d3ec8e7ab7b8727f1"
+      },
+      {
+        "source": "assets/Identidade visual Foxstage/avatars/foxstage-avatar-orange-512.png",
+        "target": "src/app/apple-icon.png",
+        "treatment": "Proportional resize to 180px; standard symbol on orange"
+      },
+      {
+        "source": "assets/Identidade visual Foxstage/fonts/SourceSans3-400.ttf",
+        "target": "public/fonts/SourceSans3-400.ttf",
+        "sha256": "edd235e9d72eecb018b27fe71de4dcfdf5c4a1efbd9743f806a262d5d9341654"
+      },
+      {
+        "source": "assets/Identidade visual Foxstage/fonts/BebasNeue-400.ttf",
+        "target": "public/fonts/BebasNeue-400.ttf",
+        "sha256": "fa51b7c7e916bc2a2576ae111f6156dacafdbdd78dbebfb33c54336be3ff9c69"
+      }
+    ]
+  },
+  "heroBanners": {
+    "websiteVersion": "2.3.0",
+    "files": [
+      "hero-ingles.webp",
+      "curso-ingles.jpg"
+    ],
+    "reuse": "Existing illustrative assets; provenance and labeling retained",
+    "mobileObjectPositions": [
+      "85% 50% (78% below 360px)",
+      "35% 50%"
+    ],
+    "mobileImageSelection": "820px source width accounts for cover crop at 460px photo height"
+  },
+  "englishDay": {
+    "source": "User supplied photograph and video, 2026-10-10",
+    "sourceManifest": "docs/english-day-assets.json",
+    "assets": [
+      {
+        "file": "public/images/foxstage/english-day-cinema.webp",
+        "treatment": "WebP encoding of full original photo, no crop",
+        "bytes": 252252,
+        "sha256": "c35c91c3643d32f3ab1265761c5dd38ca1eab5c393ea11885774473c831de1a4"
+      },
+      {
+        "file": "public/videos/foxstage/english-day-cinema.mp4",
+        "treatment": "MP4 stream copy with faststart; no audio/video re-encoding",
+        "bytes": 8952680,
+        "sha256": "fefec9051df9bdaf1349e229724f1fb7355b4158ed313df3e3770694c353b14b"
+      },
+      {
+        "file": "public/images/foxstage/english-day-video-poster.webp",
+        "treatment": "Frame at 1 second of original supplied video",
+        "bytes": 28104,
+        "sha256": "cb6edd46f9e12263a0f3c6ac2c6267d3090f59e02842e9315421b79e6d4b160e"
+      }
+    ]
+  }
+}

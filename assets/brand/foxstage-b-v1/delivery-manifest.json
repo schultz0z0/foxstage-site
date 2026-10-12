@@ -1,0 +1,411 @@
+{
+  "version": "1.0.0",
+  "createdAt": "2026-10-10T22:29:39.398Z",
+  "files": [
+    {
+      "file": "assets-index.json",
+      "bytes": 8053,
+      "sha256": "e2158d87e65405e43ea022d33b2efdc5851c91114face86263a1272d56a2d55f"
+    },
+    {
+      "file": "avatars/foxstage-avatar-cream-1024.png",
+      "bytes": 46099,
+      "sha256": "d292ba8b737c5c20f7bea2c4b015502b3effb789661fd5c02ecfe69c379e17ac"
+    },
+    {
+      "file": "avatars/foxstage-avatar-cream-512.png",
+      "bytes": 16490,
+      "sha256": "34b1205a51bad748ca0d863a6d009e43dc99b366213b0ba05686d65400ecc072"
+    },
+    {
+      "file": "avatars/foxstage-avatar-cream.svg",
+      "bytes": 747,
+      "sha256": "a0543e23d7f6bb67f1ee1e3154e8b33aad4b47914776e81b8d54bd9c2b2d8380"
+    },
+    {
+      "file": "avatars/foxstage-avatar-dark-1024.png",
+      "bytes": 43802,
+      "sha256": "7d61231b88174eb214b564930c664b0f31ec2d524fa45a4988c9a42e2465bb28"
+    },
+    {
+      "file": "avatars/foxstage-avatar-dark-512.png",
+      "bytes": 15519,
+      "sha256": "87b72f19b938516c4a11daadd5c133b6d96045015afd03d513f8214b3cd6e651"
+    },
+    {
+      "file": "avatars/foxstage-avatar-dark.svg",
+      "bytes": 746,
+      "sha256": "f96e2afcc22a24332a19ab92d39f47976c2707812631e242adbb87a0c5bbf498"
+    },
+    {
+      "file": "avatars/foxstage-avatar-orange-1024.png",
+      "bytes": 44759,
+      "sha256": "fd00d4176f8b292c835de756c33ab5f29a8d939479dc14dd96802ec3165eddb3"
+    },
+    {
+      "file": "avatars/foxstage-avatar-orange-512.png",
+      "bytes": 16052,
+      "sha256": "766c1fb73d667c852d81c63bd42b8391a48eeb07d0042c2d3ec8e7ab7b8727f1"
+    },
+    {
+      "file": "avatars/foxstage-avatar-orange.svg",
+      "bytes": 748,
+      "sha256": "40b1ebd87afa5babff0188952474478d226b2198df7d64e4fb6bcce9f7fe8b77"
+    },
+    {
+      "file": "favicons/favicon.ico",
+      "bytes": 2859,
+      "sha256": "abae1b3add8a3eba4d268113086d2a359a44221684f26c3cbadab26668ad24f1"
+    },
+    {
+      "file": "favicons/foxstage-favicon-16.png",
+      "bytes": 452,
+      "sha256": "b703b1ba8a8c5bbf2d300ac14d87747b43593960a82a8f422a86ae08214e5d94"
+    },
+    {
+      "file": "favicons/foxstage-favicon-180.png",
+      "bytes": 5148,
+      "sha256": "56e59c14d273fd9b01b288b3c0b042819c624f0ca49cffb0a59bb8f1f8cd1160"
+    },
+    {
+      "file": "favicons/foxstage-favicon-192.png",
+      "bytes": 5555,
+      "sha256": "354e457c987f37023ad3aeee7a9aea0640acd77bd22eee201b1da087901db4db"
+    },
+    {
+      "file": "favicons/foxstage-favicon-32.png",
+      "bytes": 920,
+      "sha256": "286484937051f49a22a5065010949d6c060331468c353fffdeeb1551e93967e8"
+    },
+    {
+      "file": "favicons/foxstage-favicon-48.png",
+      "bytes": 1433,
+      "sha256": "7448ec0a77ad757d3be7303ad53e3c7e48feb0fbdd01b65e4f7c347bf773245e"
+    },
+    {
+      "file": "favicons/foxstage-favicon-512.png",
+      "bytes": 19710,
+      "sha256": "90dc70bd22e4b85edd83586b65a423c11f5737ff864effadf9b3044959a4607b"
+    },
+    {
+      "file": "favicons/foxstage-favicon.svg",
+      "bytes": 808,
+      "sha256": "0920a9725cc3fbe7b48dd26e55c42bb734a96e153bdd6b5bcc3e5d8b1c418b37"
+    },
+    {
+      "file": "fonts/bebas-neue-latin-400-normal.woff2",
+      "bytes": 13768,
+      "sha256": "a7c90c89240c134f7fdd33d40c000ec90b79d675ea53e8cc5a6d423c073de412"
+    },
+    {
+      "file": "fonts/Bebas-Neue-LICENSE.txt",
+      "bytes": 4391,
+      "sha256": "66c436339f7490c1a99e4f6a7b8aef5c176676edfd071a31638e7d54c1b0aeda"
+    },
+    {
+      "file": "fonts/BebasNeue-400.ttf",
+      "bytes": 34832,
+      "sha256": "fa51b7c7e916bc2a2576ae111f6156dacafdbdd78dbebfb33c54336be3ff9c69"
+    },
+    {
+      "file": "fonts/source-sans-3-latin-wght-normal.woff2",
+      "bytes": 28740,
+      "sha256": "7a19a7027e125257d310c6dbd78ae3a30b5ea1e3794d60b12bb28227a003bfda"
+    },
+    {
+      "file": "fonts/Source-Sans-3-LICENSE.txt",
+      "bytes": 4314,
+      "sha256": "18aabf190848725e2576eefb5c29ba06aac1029d02132252a7f312eac2e50cf3"
+    },
+    {
+      "file": "fonts/SourceSans3-400.ttf",
+      "bytes": 37220,
+      "sha256": "edd235e9d72eecb018b27fe71de4dcfdf5c4a1efbd9743f806a262d5d9341654"
+    },
+    {
+      "file": "fonts/SourceSans3-600.ttf",
+      "bytes": 37264,
+      "sha256": "918bdab88da9ab05f092fbf54698452308a1de216a257e2fca68ba9b0bff0ad5"
+    },
+    {
+      "file": "fonts/SourceSans3-700.ttf",
+      "bytes": 37208,
+      "sha256": "c0793c45a083aaf4f73ac6c897b8a44ef28de0f3333b737e946330f7556b4541"
+    },
+    {
+      "file": "icons/foxstage-icon-dark-1024.png",
+      "bytes": 33957,
+      "sha256": "9b9696f02d245b672224b6a4f37a590c250242e53edab51ad61a00535992895d"
+    },
+    {
+      "file": "icons/foxstage-icon-dark-256.png",
+      "bytes": 6272,
+      "sha256": "38041b606e135b5bf9eb2783deec026a416e1e4d36038e0562007684a8c81c66"
+    },
+    {
+      "file": "icons/foxstage-icon-dark-512.png",
+      "bytes": 14235,
+      "sha256": "0f73021f2a6489e2c6ce6de8750ce33460dc28acf7d116b61ad72b84e50618ce"
+    },
+    {
+      "file": "icons/foxstage-icon-dark-96.png",
+      "bytes": 2157,
+      "sha256": "5b43dc76273ab6f99fef21a590ff95d1b0fbf6318c41d74eeb16380c4cc06d1b"
+    },
+    {
+      "file": "icons/foxstage-icon-dark.svg",
+      "bytes": 697,
+      "sha256": "acfbc6729baf2a1cea2a91a9c0887fbc8f5cd8cef19a58587af35d647b722460"
+    },
+    {
+      "file": "icons/foxstage-icon-light-1024.png",
+      "bytes": 33423,
+      "sha256": "87fb423bafa11ae0be5b9fd2e3ac4c31c52d350ebd24db7529bb5a3f5f28414c"
+    },
+    {
+      "file": "icons/foxstage-icon-light-256.png",
+      "bytes": 6194,
+      "sha256": "78685ccc036e776b511a60290627f63ccedd6105cc554518ab34966dd9fc7abc"
+    },
+    {
+      "file": "icons/foxstage-icon-light-512.png",
+      "bytes": 13998,
+      "sha256": "cc3826f953fa9465175f3a475737bf332cbd4a509706398fcf5a37a9d02bd2e1"
+    },
+    {
+      "file": "icons/foxstage-icon-light-96.png",
+      "bytes": 2144,
+      "sha256": "3e898b92ec1a92acdcbdaa790712a8b29f6840d0e199d4e4f18910ff8e99e5a7"
+    },
+    {
+      "file": "icons/foxstage-icon-light.svg",
+      "bytes": 698,
+      "sha256": "f49e9eb4eaeb66a397e5e3ed0f82b918233b219ba2375518da08edfe15faf26c"
+    },
+    {
+      "file": "icons/foxstage-icon-orange-1024.png",
+      "bytes": 35467,
+      "sha256": "d9d58de5ff0717f1dae93c3821dba4c370e71404bdcdf04140a9ccdfeeaa3a3c"
+    },
+    {
+      "file": "icons/foxstage-icon-orange-256.png",
+      "bytes": 6507,
+      "sha256": "bae1422123e6f8ad3ff013468e383717f9a340764cc577ca850a8e577019d239"
+    },
+    {
+      "file": "icons/foxstage-icon-orange-512.png",
+      "bytes": 14839,
+      "sha256": "1d0c5a921fc6bb2283e7a333e5eaf2f088ab9c1fcd7094cb1f97a26d3a29147d"
+    },
+    {
+      "file": "icons/foxstage-icon-orange-96.png",
+      "bytes": 2232,
+      "sha256": "b1abea5761c2665c30209009e6ed72bbaa0face56cc511d30f9f479f5a3b9fa3"
+    },
+    {
+      "file": "icons/foxstage-icon-orange.svg",
+      "bytes": 699,
+      "sha256": "fd9753d44f7bc1b6642f1d1c4988a8223c5846b42251599c20c879a7d5b45d4b"
+    },
+    {
+      "file": "logos/compact/foxstage-compact-color-1600.png",
+      "bytes": 37255,
+      "sha256": "5eaaa4e5d68bab3a1dc9962158f301001b96f4d973b4d48508edda1cd78bdfa4"
+    },
+    {
+      "file": "logos/compact/foxstage-compact-color.svg",
+      "bytes": 13773,
+      "sha256": "ea40d56afcd4be011dac99f45287ca3abfb058ff0e85330b3ca286ef56ff27f2"
+    },
+    {
+      "file": "logos/compact/foxstage-compact-mono-dark-1600.png",
+      "bytes": 34892,
+      "sha256": "3f7e3c2ea60ed324b956a81715bd16a886655a6f5c3e9744e0dd93abed4a5db2"
+    },
+    {
+      "file": "logos/compact/foxstage-compact-mono-dark.svg",
+      "bytes": 13777,
+      "sha256": "c586b7373d4bd690cfa886909cf2c989edacf703538995bc6e321930eb79fd8c"
+    },
+    {
+      "file": "logos/compact/foxstage-compact-mono-light-1600.png",
+      "bytes": 34434,
+      "sha256": "cc0a4f1e88d6d28d7ebc329a39d400d340fa2175c013bd180dc3fc2ba20eebf5"
+    },
+    {
+      "file": "logos/compact/foxstage-compact-mono-light.svg",
+      "bytes": 13778,
+      "sha256": "e65ea0260c38d83a3f746bc3d77afff571bbb54a45c97a35dd24c906b110652f"
+    },
+    {
+      "file": "logos/compact/foxstage-compact-reverse-1600.png",
+      "bytes": 36738,
+      "sha256": "469093e9e937b35f213f549293aa3e9f393ec7600c62cfabff000007dfbf2700"
+    },
+    {
+      "file": "logos/compact/foxstage-compact-reverse.svg",
+      "bytes": 13775,
+      "sha256": "40459f459b8c8b289627302274574a2f425d38cee675c2bc9222425f4dd689e9"
+    },
+    {
+      "file": "logos/horizontal/foxstage-horizontal-color-1891.png",
+      "bytes": 82708,
+      "sha256": "f1af6740aec47462bae2f5be012cd748f8b44476e781fd58c1ecb911bf39e31a"
+    },
+    {
+      "file": "logos/horizontal/foxstage-horizontal-color.svg",
+      "bytes": 22971,
+      "sha256": "b72e7f9da19aa78ef49b60a81d8328f1fbe3ed5cfa197d98b621253239848e3a"
+    },
+    {
+      "file": "logos/horizontal/foxstage-horizontal-mono-dark-1891.png",
+      "bytes": 74988,
+      "sha256": "1ce3a6ba86cb6008658fd29a6abfc261d97a2db35c6a78d488e5a93d976260e5"
+    },
+    {
+      "file": "logos/horizontal/foxstage-horizontal-mono-dark.svg",
+      "bytes": 22975,
+      "sha256": "687df4c69b22c2ac9bb04fa4dd2700b2c3bec198e5318e77a378f8454d3669ed"
+    },
+    {
+      "file": "logos/horizontal/foxstage-horizontal-mono-light-1891.png",
+      "bytes": 88117,
+      "sha256": "acbd2591c34fb6f2edbf72519018741b623f6022bbe9df779fd50a9c0e3aaa2f"
+    },
+    {
+      "file": "logos/horizontal/foxstage-horizontal-mono-light.svg",
+      "bytes": 22976,
+      "sha256": "759a20f219aee6fdb9ca1b68ab82ed6528dfc276dfb9294cfd65e2f530a38064"
+    },
+    {
+      "file": "logos/horizontal/foxstage-horizontal-reverse-1891.png",
+      "bytes": 91420,
+      "sha256": "3041ddc5627ec926772f508ca73d973b24ca69bc9a4a0d2a637585cb8c45c75b"
+    },
+    {
+      "file": "logos/horizontal/foxstage-horizontal-reverse.svg",
+      "bytes": 22973,
+      "sha256": "42d30faaaa4bd7ade01e36deba2956a1d1eab48671d15c2d65e1c6fe97d0449b"
+    },
+    {
+      "file": "logos/stacked/foxstage-stacked-color-1520.png",
+      "bytes": 53197,
+      "sha256": "d35762d995fa792e8d6f4e39c0f56f364f39682b1ff9196bc7b86681172c2651"
+    },
+    {
+      "file": "logos/stacked/foxstage-stacked-color.svg",
+      "bytes": 22978,
+      "sha256": "400d4a90aeb77bb109ed39a21f880db6376320a2204430626113021dd80838df"
+    },
+    {
+      "file": "logos/stacked/foxstage-stacked-mono-dark-1520.png",
+      "bytes": 51964,
+      "sha256": "3b8c179de2ef38fb052247e1714aba66c2006996d1b19210b7de711e603b9336"
+    },
+    {
+      "file": "logos/stacked/foxstage-stacked-mono-dark.svg",
+      "bytes": 22982,
+      "sha256": "16750cc758369dc4fe043ed9a1879c05c6e19a3ac38d872cb0d4b901ccd3bea8"
+    },
+    {
+      "file": "logos/stacked/foxstage-stacked-mono-light-1520.png",
+      "bytes": 51383,
+      "sha256": "6f66b5c6cc6fe6deffb8f5362aacc48f310a93c4739f0d87612f872988c913a8"
+    },
+    {
+      "file": "logos/stacked/foxstage-stacked-mono-light.svg",
+      "bytes": 22983,
+      "sha256": "1fa97c552873879e7efdcb6627929eac05b4a797fc695e71d23accc855efebb8"
+    },
+    {
+      "file": "logos/stacked/foxstage-stacked-reverse-1520.png",
+      "bytes": 52825,
+      "sha256": "10061fe02f08cfd223e0f34182b16a9116352b31976aacb79f7a6164e5a1c2b9"
+    },
+    {
+      "file": "logos/stacked/foxstage-stacked-reverse.svg",
+      "bytes": 22980,
+      "sha256": "b71c205b490c9a62bbc35820b5f1329a39f6333db1cb675561d2f57745c7db65"
+    },
+    {
+      "file": "logos/wordmark/foxstage-wordmark-dark-1600.png",
+      "bytes": 47649,
+      "sha256": "26e1be906ae1c6124d545c3473d1b8e6f03507fdb19c37f85c35292aca5d0cca"
+    },
+    {
+      "file": "logos/wordmark/foxstage-wordmark-dark.svg",
+      "bytes": 13235,
+      "sha256": "b7c2a867fe8149bacf5c9966fb0114bdd92bda7cd82dfaedf1f925240fea8424"
+    },
+    {
+      "file": "logos/wordmark/foxstage-wordmark-light-1600.png",
+      "bytes": 55285,
+      "sha256": "8704f96bf7c4af8b8f74230d0d0ad78fe632687f39e2273a52fac1a31d126ac7"
+    },
+    {
+      "file": "logos/wordmark/foxstage-wordmark-light.svg",
+      "bytes": 13236,
+      "sha256": "3e127934dba25aa6bc98846349b7281e44483a0a391c1de190237b8a5185e8f6"
+    },
+    {
+      "file": "manual-de-marca.html",
+      "bytes": 525991,
+      "sha256": "d1f11d8f5498200b0647659cdf65a5d0acb9ca18fa99d773b26bea636b0433ea"
+    },
+    {
+      "file": "manual-de-marca.md",
+      "bytes": 7361,
+      "sha256": "888662fc63dd5ba4dacb4fcd72879524d2804a2a1885788f43c17cce20d79026"
+    },
+    {
+      "file": "manual-de-marca.pdf",
+      "bytes": 180390,
+      "sha256": "cb6dc6405c6bc418ceaeea943225bb6f536f8cfb76c4da9b5e1dfe9611703ff7"
+    },
+    {
+      "file": "provenance.json",
+      "bytes": 852,
+      "sha256": "827eb9da1ee81b1a7b1bcaa13b73aafb570569765717d95690b0890eb7ec652a"
+    },
+    {
+      "file": "README.md",
+      "bytes": 966,
+      "sha256": "0daa6cacac211835854c7cac4f97fd11a8e0f9f0db61371c0273e38d44f7db65"
+    },
+    {
+      "file": "reference/direcoes-originais.png",
+      "bytes": 1321364,
+      "sha256": "a7ccb049ffc2e472775eec1b7f9720a07c45bec420d233dfe1937dfb3af8e0de"
+    },
+    {
+      "file": "reference/prompt-original.txt",
+      "bytes": 3619,
+      "sha256": "e982fcc97962f4344745a4647ab506b669b2c0906e2f677e065eae7ed660f2a4"
+    },
+    {
+      "file": "source/lettering-outlines.json",
+      "bytes": 22550,
+      "sha256": "6bab77ec0902be4a2091b630b340a6fcc1707ba5c59f99d00ff507d1c83a50a2"
+    },
+    {
+      "file": "source/symbol-geometry.json",
+      "bytes": 625,
+      "sha256": "6b22b73145b3d5bc9221a012d72e4c562f86e7f4c2ebbc9c52e013fd3bdc9051"
+    },
+    {
+      "file": "tokens/brand.css",
+      "bytes": 331,
+      "sha256": "2165d6fdf1531eb362e1868ecb6cb4ba89db1e6f923ddb83296afc47e354d992"
+    },
+    {
+      "file": "tokens/brand.json",
+      "bytes": 1111,
+      "sha256": "ce3865126c67a6ec8e70f7ff0e1da5a46f2b955bd18649716476e563d4e24357"
+    },
+    {
+      "file": "verification.json",
+      "bytes": 384,
+      "sha256": "8ab218aafe800006c80bd91d409104b9960258d0fd7552935cb0b5657c77ccdc"
+    }
+  ]
+}

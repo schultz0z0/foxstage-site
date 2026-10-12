@@ -1,0 +1,153 @@
+{
+  "date": "2026-10-10",
+  "scope": "Editorial audit and proposed copy; no website implementation",
+  "checks": [
+    {
+      "name": "Proposta marcada como não aplicada",
+      "result": "pass"
+    },
+    {
+      "name": "Dois banners, uma ação comercial por banner",
+      "result": "pass"
+    },
+    {
+      "name": "Quebras mobile correspondem aos títulos completos",
+      "result": "pass"
+    },
+    {
+      "name": "Mantidos três objetivos e três itens no método e nos atalhos",
+      "result": "pass"
+    },
+    {
+      "name": "Todas as origens comerciais possuem mensagem",
+      "result": "pass"
+    },
+    {
+      "name": "English Day usa foto e vídeo preservados",
+      "result": "pass"
+    },
+    {
+      "name": "Foto e vídeo do English Day apontam para arquivos distintos",
+      "result": "pass"
+    },
+    {
+      "name": "Evento explicado em texto sem depender de reprodução",
+      "result": "pass"
+    },
+    {
+      "name": "Hero mantém copy curta e CTA pelo conteúdo",
+      "result": "pass"
+    },
+    {
+      "name": "Descriptions de cards curtas",
+      "result": "pass"
+    },
+    {
+      "name": "Sem emojis e sem caracteres inválidos nos entregáveis",
+      "result": "pass"
+    },
+    {
+      "name": "Principais textos editoriais sincronizados com o Markdown",
+      "result": "pass"
+    }
+  ],
+  "textLengths": {
+    "hero": [
+      {
+        "title": 30,
+        "description": 109,
+        "cta": 17
+      },
+      {
+        "title": 25,
+        "description": 115,
+        "cta": 17
+      }
+    ],
+    "metadataDescription": 145
+  },
+  "responsiveTesting": "Not performed on proposed strings: they are not applied to the site.",
+  "websiteFiles": [
+    {
+      "file": "design.json",
+      "sha256": "e1ed1d8b643014aeefad16932a4ad714e1a354e7c2374aded5f5acc39204682d"
+    },
+    {
+      "file": "design.md",
+      "sha256": "d14c0d4fda74c539cfa4d01a41f934c7063df77d5f01ae84980678f8e26af3f8"
+    },
+    {
+      "file": "foxstage-prompt-completo-nextjs.md",
+      "sha256": "b14832de2c07cfec07f6214e44884fcdd7621c906fd993aa65df40bd16616d49"
+    },
+    {
+      "file": "docs/IMPLEMENTATION.md",
+      "sha256": "5f884b52025736ad2689d485bc3f166973badec1cc80003957a3221183a9006e"
+    },
+    {
+      "file": "src/app/globals.css",
+      "sha256": "062164049c59df77e8bb70ad48d2655cc347a35d0fad46fe7c0c7f7bd684a046"
+    },
+    {
+      "file": "src/app/tokens.css",
+      "sha256": "915d23308b6ec060426452b6d2860baa2820854c8dc2889e6d433da2fdfa1d29"
+    },
+    {
+      "file": "src/app/page.tsx",
+      "sha256": "6c807c7ac02f4b838a556911ebad87a8bacce83a6faba99b26ec887bc429a83c"
+    },
+    {
+      "file": "src/app/layout.tsx",
+      "sha256": "163078451930ed08e114a2588afb4f2230d6ecabc29239750ce237f8e0d184bd"
+    },
+    {
+      "file": "src/app/opengraph-image.tsx",
+      "sha256": "0004c7fbd1875ee3345ce676032201bf8b176e09a500294acf742367a0917cf0"
+    },
+    {
+      "file": "src/app/not-found.tsx",
+      "sha256": "f736701748e52cd29c606a165ea6f1fb8f0485234740b5b4292c63afbc9eb50f"
+    },
+    {
+      "file": "src/content/site.ts",
+      "sha256": "acbd2c08413cbe47c45d904521de0afc60dacc0019c4dac1fa028c06a1c314ee"
+    },
+    {
+      "file": "src/components/sections/About.tsx",
+      "sha256": "61cf9787e161b1edcf022407c157a81abdbaca863aee8f1df8fbc8a42ef55ee6"
+    },
+    {
+      "file": "src/components/sections/ContactCTA.tsx",
+      "sha256": "4faac002165c6afc425b0de99ba3488dea90e37472bed84b9b18bc3bf52f8825"
+    },
+    {
+      "file": "src/components/sections/ContactShortcuts.tsx",
+      "sha256": "ab7458f43a32d5bab3fc4a45e2ae59edba2c03ae7600eef819aeb710b40d9b20"
+    },
+    {
+      "file": "src/components/sections/Courses.tsx",
+      "sha256": "15f92c3a7fc39bff141d0b7fa09182cdf206a55184fbae74059c90462dfe9385"
+    },
+    {
+      "file": "src/components/sections/Hero.tsx",
+      "sha256": "5aee187a5c83ba8de3c64641ef624d720ff9e0c56a20e23a26653c298d483478"
+    },
+    {
+      "file": "src/components/sections/HeroGoals.tsx",
+      "sha256": "ff8bdad8216343f9667f0aa93dffa8cdd74e9b674348165159732fd98ca103f9"
+    },
+    {
+      "file": "src/components/sections/Practice.tsx",
+      "sha256": "de38ee31119c4316dda1deaad737bb4a0fa5dfac41514f795f15ff11a7c1b9f2"
+    },
+    {
+      "file": "src/components/layout/Footer.tsx",
+      "sha256": "7477d2a2afb64625bca8497fd8a3126a87039519ba25fe41d0dc182a63ee39ec"
+    },
+    {
+      "file": "src/components/layout/Header.tsx",
+      "sha256": "7ed4a1298c334c89733aebc982fc2d59482bd91a8aa714647d69f24b69547ab9"
+    }
+  ],
+  "assetsPreserved": true
+}
