@@ -180,6 +180,16 @@
   --layout-english-day-columns-mobile: 1fr;
   --layout-english-day-stage-desktop: 680:570, maximum width 680px;
   --layout-english-day-stage-mobile: 360:810, maximum width 360px;
+  --layout-editorial-header-margin-top: 16px;
+  --layout-editorial-content-columns: minmax(0, 0.85fr) minmax(0, 1.15fr);
+  --layout-editorial-column-gap: 64px;
+  --layout-editorial-column-gap-tablet: 32px;
+  --layout-editorial-submenu-min-width: 220px;
+  --layout-institutional-hero-extension-padding: 24px;
+  --layout-institutional-mockup-laptop-max-width: 460px;
+  --layout-institutional-mockup-screen-aspect-ratio: 16 / 10;
+  --layout-institutional-mockup-phone-max-width: 320px;
+  --layout-institutional-teacher-panel-padding: 40px;
   --type-display-weight: 400;
   --type-hero-font-size: clamp(2.75rem, 7.8vw, 7rem);
   --type-hero-line-height: 0.98;

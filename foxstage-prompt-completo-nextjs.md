@@ -1,10 +1,10 @@
 # Prompts para o website da Foxstage em Next.js
 
-**Conteúdo vigente:** versão 2.7.3, copy aprovada e English Day laranja com foto, vídeo e movimento; consultar a nota final desta versão antes de reutilizar textos históricos.
+**Conteúdo vigente:** versão 3.0.0, home preservada e evolução institucional em prévia privada. Consultar a nota final desta versão antes de reutilizar especificações históricas.
 
 Guia de engenharia de prompt para desenvolvimento por etapas, revisão visual e preparação para publicação.
 
-**Versão:** 2.7.3 — composição das referências, movimento aprovado e manual de marca B v1.0  
+**Versão:** 3.0.0 — composição das referências, movimento aprovado e manual de marca B v1.0
 **Pesquisa pública:** 10 de outubro de 2026, horário de referência America/Sao_Paulo.  
 **Referência de estrutura:** arquivo fornecido pelo usuário, `Texto colado.txt`, com o template de sites de esquadrias e vidraçarias.  
 **Entrega deste documento:** especificação e prompts editáveis. O website será desenvolvido quando estes prompts forem executados no projeto.
@@ -1608,3 +1608,14 @@ Pedido de 11 de outubro de 2026: remover toda animação de eyebrow, título, pa
 ## English Day 2.7.3 — movimento contínuo sobre o celular
 
 Correção solicitada em 11 de outubro de 2026: hover ou foco no celular não interrompe suas transformações. Remover o bloqueio por :hover e :focus-within; todos os quadros seguem atualizando a posição do celular. Preservar trajetórias, duração, vídeo nativo e copy estática. A linha do tempo só pausa com a seção fora da tela ou aba oculta; preferência por movimento reduzido mantém a versão estática. Backup: backups/2026-10-11-pre-english-day-hover-fix.
+
+
+## Evolução institucional 3.0.0 — contrato vigente
+
+Atualização de 12 de outubro de 2026. As notas anteriores permanecem como histórico. As páginas internas seguem agora o hero fotográfico e o ritmo da home, conforme os pedidos posteriores do usuário. Não usar o pequeno hero editorial previsto no planejamento inicial.
+
+O hero mantém menu em cápsula sobreposto no desktop, degradê, título alinhado à esquerda e centralizado verticalmente e um CTA. A seção seguinte é branca, com respiro de 48px desktop e 40px tablet/mobile; o preto não encosta na base do banner. A extensão em creme dos cursos permanece unida ao hero. A ordem completa por página está em `design.json > layout.institutional.surfaceSequences` e em [Implementação institucional](docs/EVOLUCAO-INSTITUCIONAL-IMPLEMENTACAO.md). O laranja oficial fica reservado ao destaque do English Day.
+
+A home conserva sua composição e seus movimentos. A página English Day usa a foto real no hero e a composição foto/celular/vídeo numa seção laranja posterior, com copy estática e movimento somente nas mídias. As demais páginas usam fotografias existentes e mockups identificados, sem dados comerciais ou credenciais fictícios.
+
+Os prompts completos de cada página em `docs/evolucao/prompts/` continuam como base de conteúdo, junto a este contrato. Localização confirmada: Rio de Janeiro/RJ, atendimento online em todo o Brasil; English Days presenciais na cidade do Rio; professor Felipe Pontes. As cinco novas páginas são prévias privadas e dependem de aprovação editorial para publicação pública. Não houve implantação em VPS.

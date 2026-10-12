@@ -88,3 +88,8 @@ Formulários usam labels, mensagens associadas ao campo e estado de envio real. 
 Reutilizar código, mídias, Remotion e tokens atuais. Não instalar plugin, MCP, skill, driver, ORM, analytics ou CMS por preferência. Antes de recomendar recurso adicional, consultar `setup-agent` conforme AGENTS.md. Nesta sessão, suas operações não estão expostas nos tools; o histórico registra OAuth pendente. O catálogo não foi consultado com sucesso e não é presumido vazio.
 
 Nenhuma skill, plugin ou MCP novo é entregue aqui. Prompts são documentos de projeto. Não há autorização nesta entrega para criar banco, executar migrações, captar contatos, enviar mensagens a terceiros ou publicar. Uma solicitação futura de implementação define a execução dentro do escopo escolhido.
+
+
+## Ajustes aprovados durante a execução — 3.0.0
+
+A implementação posterior usa o hero fotográfico da home em todas as páginas internas, substituindo a abertura editorial menor. A primeira seção é branca e mantém respiro depois do banner; preto é usado no método, creme nas informações e laranja no destaque do English Day. Consulte [a composição vigente e os estados de publicação](../EVOLUCAO-INSTITUCIONAL-IMPLEMENTACAO.md). As instruções posteriores do usuário e o contrato canônico 3.0.0 prevalecem sobre as regras visuais anteriores deste pacote.

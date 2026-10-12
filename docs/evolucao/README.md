@@ -56,3 +56,8 @@ O pacote não estabelece uma segunda paleta. Se o projeto já tiver uma versão 
 5. Publicar somente páginas com conteúdo aprovado e funcionalidades efetivamente conectadas.
 
 Dados pendentes permitem construir uma prévia local; não permitem publicar fatos inventados, marcadores ou formulários que simulam sucesso. O formulário persistente é uma fase opcional, não uma dependência das páginas institucionais.
+
+
+## Estado da implementação posterior
+
+O texto acima registra a entrega original do planejamento. A execução posterior implementou cinco páginas em prévia privada e ajustou a direção visual conforme os pedidos do usuário. Consulte [o registro vigente](../EVOLUCAO-INSTITUCIONAL-IMPLEMENTACAO.md), junto ao design system 3.0.0. Artigos, edições futuras, privacidade e formulários continuam condicionais.

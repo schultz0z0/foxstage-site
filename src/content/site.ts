@@ -11,7 +11,7 @@ export const site = {
   "logoCompact": "/images/foxstage/brand/foxstage-compact-color.svg",
   "logoCompactReverse": "/images/foxstage/brand/foxstage-compact-reverse.svg",
   "title": "Foxstage | Inglês online ao vivo",
-  "description": "Aprenda inglês em aulas online ao vivo, em grupo ou individuais personalizadas, com foco em conversação e situações reais. Conheça o English Day.",
+  "description": "Inglês online ao vivo para todo o Brasil. Aulas em grupo e individuais personalizadas, com conversação. Escola do Rio de Janeiro com English Day presencial.",
   "navigation": [
     {
       "label": "Início",
@@ -42,7 +42,11 @@ export const site = {
     "daily": "Olá! Vim pelo site da Foxstage e quero aprender inglês para usar no dia a dia. Gostaria de saber mais sobre as aulas.",
     "travel": "Olá! Vim pelo site da Foxstage e quero aprender inglês para usar em viagens. Gostaria de saber mais sobre as aulas.",
     "work": "Olá! Vim pelo site da Foxstage e quero aprender inglês para usar no trabalho. Gostaria de saber mais sobre as aulas.",
-    "englishDay": "Olá! Vi o English Day no site da Foxstage. Gostaria de conhecer as aulas e saber como participar dos encontros."
+    "englishDay": "Olá! Vi o English Day no site da Foxstage. Gostaria de conhecer as aulas e saber como participar dos encontros.",
+    "group": "Olá! Vim pelo site da Foxstage e gostaria de conhecer as aulas de inglês online ao vivo em grupo.",
+    "individual": "Olá! Vim pelo site da Foxstage e gostaria de saber mais sobre as aulas individuais de inglês personalizadas.",
+    "school": "Olá! Conheci a Foxstage pelo site e gostaria de conversar com a escola sobre as aulas de inglês.",
+    "studentSupport": "Olá! Sou aluno da Foxstage e gostaria de falar com a escola sobre minhas aulas."
   },
   "hero": {
     "eyebrow": "Inglês online ao vivo",

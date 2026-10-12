@@ -1,0 +1,104 @@
+/* Institutional variants extend the approved home contract; values originate in design.json. */
+.page-hero-shell + :is(.course-overview, .school-introduction, .day-introduction, .contact-introduction) { padding-top: var(--layout-hero-goals-following-gap-desktop); }
+.page-hero-shell .hero-page { border-radius: var(--component-hero-radius); }
+.page-hero-with-extension .hero-page { border-radius: var(--component-hero-radius) var(--component-hero-radius) 0 0; }
+.page-hero-extension { padding-block: var(--layout-institutional-hero-extension-padding); border-radius: 0 0 var(--component-hero-radius) var(--component-hero-radius); }
+.dark-surface .editorial-sections .body-copy, .dark-surface .editorial-copy .body-copy, .contact-paths .body-copy { color: var(--semantic-color-text-inverse-muted); }
+.dark-surface .text-link { color: var(--semantic-color-accent-text-on-dark); }
+.experience-highlight { background: var(--semantic-color-accent); color: var(--semantic-color-on-accent); }
+.experience-highlight .body-copy, .experience-highlight .eyebrow, .experience-highlight figcaption, .experience-highlight .text-link { color: inherit; }
+.experience-highlight :focus-visible { outline-color: var(--semantic-color-text); }
+.day-details .event-facts dt { color: var(--semantic-color-accent-text-on-dark); }
+.day-details .event-facts > div { border-color: var(--primitive-color-gray600); }
+.contact-paths .contact-reasons > div { border-color: var(--primitive-color-gray600); }
+.online-class-mockup { max-width: var(--layout-institutional-mockup-laptop-max-width); margin-top: 32px; }
+.online-class-laptop { position: relative; padding: 20px 12px 12px; border: 1px solid var(--primitive-color-gray600); border-radius: 16px 16px 0 0; background: var(--primitive-color-ink800); }
+.online-class-camera, .contact-phone-camera { position: absolute; top: 7px; left: calc(50% - 2px); width: 4px; height: 4px; border-radius: 50%; background: var(--primitive-color-gray600); }
+.online-class-screen { position: relative; aspect-ratio: var(--layout-institutional-mockup-screen-aspect-ratio); overflow: hidden; border-radius: 6px; }
+.online-class-screen img { object-fit: cover; object-position: 50% 30%; }
+.online-class-label { position: absolute; bottom: 0; inset-inline: 0; padding: 10px 16px; background: var(--semantic-color-surface-dark); color: var(--semantic-color-text-inverse); font-size: 14px; font-weight: 600; }
+.online-class-base { height: 12px; background: var(--primitive-color-gray600); border-radius: 0 0 24px 24px; }
+.online-class-mockup figcaption { color: var(--semantic-color-text-inverse-muted); }
+.comparison-grid { display: grid; grid-template-columns: 1fr 1fr; gap: var(--layout-editorial-column-gap); }
+.comparison-grid > div { padding-block: 24px; border-top: 1px solid var(--semantic-color-border); }
+.comparison-grid h3 { margin-bottom: 16px; }
+.comparison-grid ul { margin: 20px 0; padding-left: 20px; color: var(--semantic-color-text-muted); }
+.comparison-grid li + li { margin-top: 8px; }
+.comparison-grid .text-link { max-width: 100%; }
+.teacher-profile-panel { padding: var(--layout-institutional-teacher-panel-padding); border-radius: var(--primitive-radius-card); }
+.teacher-profile-panel h2 { margin-bottom: 12px; }
+.teacher-profile-signature { margin-top: 32px; color: var(--semantic-color-accent-text-on-dark); font-size: 24px; font-weight: 600; line-height: 1.4; }
+.contact-scene { display: grid; grid-template-columns: var(--layout-editorial-content-columns); gap: var(--layout-editorial-column-gap); align-items: center; }
+.contact-scene .contact-location { margin: 20px 0 24px; }
+.contact-phone-mockup { max-width: var(--layout-institutional-mockup-phone-max-width); width: 100%; margin-inline: auto; }
+.contact-phone-device { position: relative; padding: 22px 8px 10px; background: var(--primitive-color-ink800); border: 1px solid var(--primitive-color-gray600); border-radius: 36px; }
+.contact-phone-screen { padding: 24px 18px 32px; border-radius: 24px; background: var(--semantic-color-surface-warm); color: var(--semantic-color-text); }
+.contact-phone-screen .brand { --brand-width: 160px; --brand-clear-space: 10px; max-width: 100%; }
+.contact-phone-label { margin-top: 24px; font-size: 20px; font-weight: 600; }
+.contact-phone-screen blockquote { margin: 20px 0 28px; font-size: 17px; line-height: 1.6; }
+.contact-phone-screen .button { padding-inline: 16px; max-width: 100%; }
+.contact-phone-mockup figcaption { margin-top: 20px; color: var(--semantic-color-text-inverse-muted); text-align: center; }
+.site-header.site-header-page { position: relative; inset: auto; transform: none; width: min(calc(100% - var(--layout-content-gutter-desktop) * 2), var(--layout-header-max-width)); margin: var(--layout-editorial-header-margin-top) auto 0; }
+.route-navigation > a[aria-current="page"], .route-parent-active { color: var(--semantic-color-accent-text-on-light); }
+.route-navigation > a[aria-current="page"] { box-shadow: inset 0 -2px var(--semantic-color-accent); }
+.route-disclosure { position: relative; }
+.route-disclosure > summary { display: inline-flex; gap: 8px; align-items: center; min-height: 44px; list-style: none; font-size: var(--type-navigation-font-size); font-weight: var(--type-navigation-weight); }
+.route-disclosure > summary::-webkit-details-marker { display: none; }
+.route-disclosure > summary:hover { color: var(--semantic-color-accent-text-on-light); }
+.disclosure-chevron { flex: none; width: 8px; height: 8px; border-right: 1.5px solid currentColor; border-bottom: 1.5px solid currentColor; transform: rotate(45deg); margin: -3px 2px 0; }
+details[open] > summary .disclosure-chevron { transform: rotate(225deg); margin-top: 3px; }
+.route-submenu { position: absolute; top: 100%; left: -16px; min-width: var(--layout-editorial-submenu-min-width); padding: 8px; background: var(--semantic-color-page); border: 1px solid var(--semantic-color-border); border-radius: var(--primitive-radius-card); box-shadow: var(--primitive-shadow-photo); }
+.route-submenu a { display: flex; padding: 8px 12px; }
+.route-submenu a:hover, .route-submenu a[aria-current="page"] { background: var(--semantic-color-surface-warm); color: var(--semantic-color-accent-text-on-light); }
+.mobile-menu .mobile-course-disclosure > summary { position: static; display: flex; justify-content: space-between; border-radius: var(--primitive-radius-small); padding: 10px 16px; min-height: 48px; font-size: 18px; font-weight: 400; list-style: none; }
+.mobile-menu .mobile-course-disclosure a { padding-left: 32px; }
+.mobile-menu a[aria-current="page"] { color: var(--semantic-color-accent-text-on-light); text-decoration: underline; }
+.footer-location { margin-top: 16px; font-size: 16px; color: var(--semantic-color-text-inverse); }
+.facts-grid { display: grid; grid-template-columns: repeat(4, minmax(0, 1fr)); gap: 24px; margin-block: 0; }
+.facts-grid dt, .event-facts dt { font-size: var(--type-caption-font-size); color: var(--semantic-color-text-muted); margin-bottom: 6px; }
+.facts-grid dd, .event-facts dd { margin: 0; font-weight: 600; }
+.course-narrative, .editorial-split { display: grid; grid-template-columns: var(--layout-editorial-content-columns); gap: var(--layout-editorial-column-gap); align-items: start; }
+.editorial-split > *, .course-narrative > * { min-width: 0; }
+.editorial-split > div > .body-copy { margin-top: 24px; }
+.editorial-sections { display: grid; gap: 40px; }
+.editorial-sections h3 { margin-bottom: 16px; }
+.editorial-sections .body-copy + .body-copy, .editorial-copy .body-copy + .body-copy { margin-top: 16px; }
+.editorial-copy h2 { margin-bottom: 24px; }
+.editorial-copy .text-link { margin-top: 20px; }
+.faq-list { border-top: 1px solid var(--semantic-color-border); }
+.faq-list details { border-bottom: 1px solid var(--semantic-color-border); }
+.faq-list summary { display: flex; justify-content: space-between; align-items: center; gap: 24px; padding: 20px 0; min-height: 44px; list-style: none; font-weight: 600; }
+.faq-list summary::-webkit-details-marker { display: none; }
+.faq-list summary:hover { color: var(--semantic-color-accent-text-on-light); }
+.faq-list .body-copy { padding-bottom: 24px; }
+.teacher-section { display: grid; grid-template-columns: var(--layout-editorial-content-columns); gap: var(--layout-editorial-column-gap); align-items: center; }
+.teacher-nameplate { border-left: 3px solid var(--semantic-color-accent); padding-left: 24px; }
+.teacher-nameplate h2 { margin-bottom: 12px; }
+.teacher-nameplate > p:last-child { color: var(--semantic-color-text-muted); }
+.school-experience { display: grid; grid-template-columns: 1fr 1fr; gap: var(--layout-editorial-column-gap); align-items: center; }
+.school-experience img { border-radius: var(--primitive-radius-card); width: 100%; height: auto; }
+.contact-reasons { display: grid; }
+.contact-reasons > div { border-top: 1px solid var(--semantic-color-border); padding-block: 24px; }
+.contact-reasons > div:last-child { padding-bottom: 0; }
+.contact-reasons h3 { margin-bottom: 12px; }
+.contact-reasons .text-link { margin-top: 12px; }
+.event-facts { margin: 0; }
+.event-facts > div { padding-block: 16px; border-bottom: 1px solid var(--semantic-color-border); }
+.event-facts > div:first-child { padding-top: 0; }
+.course-route-links { display: flex; flex-wrap: wrap; column-gap: 24px; margin-top: 16px; }
+.english-day-route-link { margin-top: 12px; color: inherit; }
+@media (max-width: 1023px) {
+  .site-header.site-header-page { width: min(calc(100% - var(--layout-content-gutter-tablet) * 2), var(--layout-header-max-width)); margin-top: 12px; margin-bottom: 0; }
+  .course-narrative, .editorial-split, .teacher-section, .school-experience, .contact-scene, .comparison-grid { gap: var(--layout-editorial-column-gap-tablet); }
+  .page-hero-shell + :is(.course-overview, .school-introduction, .day-introduction, .contact-introduction) { padding-top: var(--layout-hero-goals-following-gap-mobile); }
+  .facts-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+}
+@media (max-width: 767px) {
+  .site-header.site-header-page { width: calc(100% - var(--layout-page-gutter-mobile) * 2); }
+  .course-narrative, .editorial-split, .teacher-section, .school-experience, .contact-scene, .comparison-grid { grid-template-columns: 1fr; }
+  .contact-phone-mockup { order: 2; }
+  .teacher-profile-panel { padding: 32px 24px; }
+  .hero-page-whole-mobile .hero-image { object-fit: contain; object-position: top center !important; }
+  .editorial-sections { gap: 32px; }
+  .facts-grid { gap: 20px; }
+}

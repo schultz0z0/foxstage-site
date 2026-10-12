@@ -1,10 +1,10 @@
 {
   "schemaVersion": "1.0.0",
-  "designVersion": "2.7.3",
+  "designVersion": "3.0.0",
   "id": "foxstage-website",
   "language": "pt-BR",
   "status": "user-approved-website-with-brand-manual-b-v1",
-  "updatedAt": "2026-10-11",
+  "updatedAt": "2026-10-12",
   "format": {
     "name": "Foxstage local design contract",
     "tokenSyntax": "Typed values with $type, $value and optional $description. Aliases use {tokens.path}.",
@@ -56,6 +56,15 @@
       "whatsappPublishedLink": "https://wa.link/m6g4ra",
       "verificationDate": "2026-10-10",
       "recheckBeforeLaunch": true
+    },
+    "location": {
+      "city": "Rio de Janeiro",
+      "state": "RJ",
+      "country": "BR",
+      "serviceArea": "Brasil",
+      "englishDayCity": "Rio de Janeiro",
+      "source": "User confirmation, 2026-10-12",
+      "publicStreetAddress": null
     }
   },
   "references": [
@@ -804,6 +813,62 @@
       "fallback": "Shared static artwork and native video controls with no JavaScript, reduced motion, Player failure or autoplay rejection",
       "reducedMotion": "No Remotion Player or video autoplay; manual playback available",
       "copySource": "src/content/site.ts"
+    },
+    "editorial": {
+      "headerMarginTop": "16px",
+      "contentColumns": "minmax(0, 0.85fr) minmax(0, 1.15fr)",
+      "columnGap": "64px",
+      "columnGapTablet": "32px",
+      "submenuMinWidth": "220px",
+      "scope": "Internal editorial pages only; home geometry and approved media trajectories preserved."
+    },
+    "institutional": {
+      "hero": "Home photography/gradient/capsule/heading geometry; single static banner with one CTA per internal page",
+      "heroExtensionPadding": "24px",
+      "englishDayHero": "Real cinema photo, 50% 70% desktop; contained full group photograph on mobile. Media motion below hero, static copy.",
+      "content": "Existing factual copy, approved media and distinct group/individual/contextual pages; no fabricated operational details",
+      "mockupLaptopMaxWidth": "460px",
+      "mockupScreenAspectRatio": "16 / 10",
+      "mockupPhoneMaxWidth": "320px",
+      "teacherPanelPadding": "40px",
+      "mockupMeaning": "Clearly labeled illustrative device scenes; no fictional class recordings, teaching platform, teachers or chat responses.",
+      "surfaceSequences": {
+        "courses": [
+          "photographic hero with attached cream facts",
+          "white course overview",
+          "black method and laptop",
+          "cream format comparison",
+          "orange English Day proof",
+          "cream FAQ and closing",
+          "black footer"
+        ],
+        "school": [
+          "photographic hero",
+          "white teacher introduction",
+          "black method and laptop",
+          "cream format comparison",
+          "orange real English Day record",
+          "cream closing",
+          "black footer"
+        ],
+        "englishDay": [
+          "real photographic hero",
+          "white introduction",
+          "black event facts",
+          "cream FAQ",
+          "orange animated photo/native video",
+          "cream closing",
+          "black footer"
+        ],
+        "contact": [
+          "photographic hero",
+          "white contact introduction",
+          "black phone and contact reasons",
+          "cream official social contact",
+          "black footer"
+        ]
+      },
+      "firstSectionGap": "Reuse approved home heroGoals.followingGapDesktop/mobile; no separate blank spacer"
     }
   },
   "composition": {
@@ -1167,7 +1232,10 @@
       "English Day: evento presencial entre alunos a cada quatro meses.",
       "A Foxstage organiza e custeia o evento; a atividade é definida pela escola e pode variar.",
       "A comunicação no English Day acontece em inglês durante todo o dia.",
-      "A última edição informada pelo usuário foi no cinema."
+      "A última edição informada pelo usuário foi no cinema.",
+      "Base da escola: Rio de Janeiro/RJ; aulas online ao vivo para todo o Brasil.",
+      "English Day presencial na cidade do Rio de Janeiro/RJ.",
+      "Felipe Pontes ensina na Foxstage, confirmado pelo usuário em 2026-10-12."
     ],
     "unconfirmed": [
       "Age groups",
@@ -1177,7 +1245,6 @@
       "Schedules",
       "Trial lesson",
       "Certificates",
-      "Location",
       "Founder role",
       "Credentials",
       "Student results"
@@ -1197,6 +1264,23 @@
       "server": "setup-agent",
       "status": "OAuth authentication required; resource catalog query not completed",
       "newSkillPluginOrMcpCreated": false
+    },
+    "institutional": {
+      "routes": [
+        "/cursos/ingles-em-grupo",
+        "/cursos/ingles-individual",
+        "/a-foxstage",
+        "/english-day",
+        "/contato"
+      ],
+      "state": "Local previews for editorial review; public drafts blocked by route access policy",
+      "content": "src/content/evolution/",
+      "promptAuthority": "docs/evolucao/prompts/",
+      "header": "PageHero owns Header inside hero-shell. InstitutionalShell owns main/Footer. 404 provides one page-variant Header. User correction 2026-10-12 supersedes original editorial opening plan.",
+      "language": "pt-BR",
+      "seo": "Brazilian slugs, route-specific metadata, EducationalOrganization with Rio location and Brazil area served; no fabricated street address or Event date; publication access, home navigation, metadata, robots and sitemap evaluated at request time",
+      "forms": false,
+      "visualRevision": "User requested every internal page to match home hero and richer visual quality, then corrected surface order. White introduction, black method/info, cream decision/content, orange only for English Day, cream closing and black footer. Recorded 2026-10-12."
     }
   }
 }

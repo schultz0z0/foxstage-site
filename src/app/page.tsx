@@ -8,15 +8,19 @@ import { EnglishDay } from "@/components/sections/EnglishDay";
 import { Footer } from "@/components/layout/Footer";
 import { site } from "@/content/site";
 import { getPublicationConfig } from "@/lib/publication";
+import { buildPageMetadata } from "@/lib/page-metadata";
+import { PageStructuredData } from "@/components/ui/PageStructuredData";
+
+const seo = {title: "Curso de inglês online ao vivo", description: site.description, pathname: "/"};
+export const dynamic = "force-dynamic";
+export function generateMetadata() { return buildPageMetadata(seo, getPublicationConfig(process.env)); }
 
 export default function Home() {
-  const publication = getPublicationConfig(process.env);
-  const organization = { "@context": "https://schema.org", "@type": "Organization", name: site.name, sameAs: [site.instagram], ...(publication.url ? { url: publication.url.href, logo: new URL(site.logo, publication.url).href } : {}) };
   return <>
     <main id="conteudo" tabIndex={-1}>
       <Hero /><About /><Practice /><ContactShortcuts /><Courses /><EnglishDay /><ContactCTA />
     </main>
     <Footer />
-    <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(organization).replace(/</g, "\\u003c") }} />
+    <PageStructuredData seo={seo} />
   </>;
 }

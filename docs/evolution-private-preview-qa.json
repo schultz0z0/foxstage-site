@@ -1,0 +1,344 @@
+{
+  "base": "http://127.0.0.1:3001",
+  "mode": "private-preview",
+  "testedAt": "2026-10-12T06:47:23.925Z",
+  "pages": [
+    {
+      "route": "/",
+      "title": "Curso de inglês online ao vivo | Foxstage",
+      "widths": [
+        {
+          "width": 320,
+          "scrollWidth": 320,
+          "clipped": []
+        },
+        {
+          "width": 360,
+          "scrollWidth": 360,
+          "clipped": []
+        },
+        {
+          "width": 390,
+          "scrollWidth": 390,
+          "clipped": []
+        },
+        {
+          "width": 430,
+          "scrollWidth": 430,
+          "clipped": []
+        },
+        {
+          "width": 768,
+          "scrollWidth": 768,
+          "clipped": []
+        },
+        {
+          "width": 1024,
+          "scrollWidth": 1024,
+          "clipped": []
+        },
+        {
+          "width": 1440,
+          "scrollWidth": 1440,
+          "clipped": []
+        },
+        {
+          "width": 1920,
+          "scrollWidth": 1920,
+          "clipped": []
+        }
+      ],
+      "bands": [
+        "photo",
+        "white",
+        "black",
+        "cream",
+        "cream",
+        "orange",
+        "cream"
+      ]
+    },
+    {
+      "route": "/cursos/ingles-em-grupo",
+      "title": "Curso de inglês online em grupo | Foxstage",
+      "widths": [
+        {
+          "width": 320,
+          "scrollWidth": 320,
+          "clipped": []
+        },
+        {
+          "width": 360,
+          "scrollWidth": 360,
+          "clipped": []
+        },
+        {
+          "width": 390,
+          "scrollWidth": 390,
+          "clipped": []
+        },
+        {
+          "width": 430,
+          "scrollWidth": 430,
+          "clipped": []
+        },
+        {
+          "width": 768,
+          "scrollWidth": 768,
+          "clipped": []
+        },
+        {
+          "width": 1024,
+          "scrollWidth": 1024,
+          "clipped": []
+        },
+        {
+          "width": 1440,
+          "scrollWidth": 1440,
+          "clipped": []
+        },
+        {
+          "width": 1920,
+          "scrollWidth": 1920,
+          "clipped": []
+        }
+      ],
+      "bands": [
+        "photo",
+        "white",
+        "black",
+        "cream",
+        "orange",
+        "cream",
+        "cream"
+      ]
+    },
+    {
+      "route": "/cursos/ingles-individual",
+      "title": "Aulas individuais de inglês online | Foxstage",
+      "widths": [
+        {
+          "width": 320,
+          "scrollWidth": 320,
+          "clipped": []
+        },
+        {
+          "width": 360,
+          "scrollWidth": 360,
+          "clipped": []
+        },
+        {
+          "width": 390,
+          "scrollWidth": 390,
+          "clipped": []
+        },
+        {
+          "width": 430,
+          "scrollWidth": 430,
+          "clipped": []
+        },
+        {
+          "width": 768,
+          "scrollWidth": 768,
+          "clipped": []
+        },
+        {
+          "width": 1024,
+          "scrollWidth": 1024,
+          "clipped": []
+        },
+        {
+          "width": 1440,
+          "scrollWidth": 1440,
+          "clipped": []
+        },
+        {
+          "width": 1920,
+          "scrollWidth": 1920,
+          "clipped": []
+        }
+      ],
+      "bands": [
+        "photo",
+        "white",
+        "black",
+        "cream",
+        "orange",
+        "cream",
+        "cream"
+      ]
+    },
+    {
+      "route": "/a-foxstage",
+      "title": "Escola de inglês Foxstage no Rio de Janeiro | Foxstage",
+      "widths": [
+        {
+          "width": 320,
+          "scrollWidth": 320,
+          "clipped": []
+        },
+        {
+          "width": 360,
+          "scrollWidth": 360,
+          "clipped": []
+        },
+        {
+          "width": 390,
+          "scrollWidth": 390,
+          "clipped": []
+        },
+        {
+          "width": 430,
+          "scrollWidth": 430,
+          "clipped": []
+        },
+        {
+          "width": 768,
+          "scrollWidth": 768,
+          "clipped": []
+        },
+        {
+          "width": 1024,
+          "scrollWidth": 1024,
+          "clipped": []
+        },
+        {
+          "width": 1440,
+          "scrollWidth": 1440,
+          "clipped": []
+        },
+        {
+          "width": 1920,
+          "scrollWidth": 1920,
+          "clipped": []
+        }
+      ],
+      "bands": [
+        "photo",
+        "white",
+        "black",
+        "cream",
+        "orange",
+        "cream"
+      ]
+    },
+    {
+      "route": "/english-day",
+      "title": "English Day: inglês na prática no Rio de Janeiro | Foxstage",
+      "widths": [
+        {
+          "width": 320,
+          "scrollWidth": 320,
+          "clipped": []
+        },
+        {
+          "width": 360,
+          "scrollWidth": 360,
+          "clipped": []
+        },
+        {
+          "width": 390,
+          "scrollWidth": 390,
+          "clipped": []
+        },
+        {
+          "width": 430,
+          "scrollWidth": 430,
+          "clipped": []
+        },
+        {
+          "width": 768,
+          "scrollWidth": 768,
+          "clipped": []
+        },
+        {
+          "width": 1024,
+          "scrollWidth": 1024,
+          "clipped": []
+        },
+        {
+          "width": 1440,
+          "scrollWidth": 1440,
+          "clipped": []
+        },
+        {
+          "width": 1920,
+          "scrollWidth": 1920,
+          "clipped": []
+        }
+      ],
+      "bands": [
+        "photo",
+        "white",
+        "black",
+        "cream",
+        "orange",
+        "cream"
+      ]
+    },
+    {
+      "route": "/contato",
+      "title": "Contato com a Foxstage | Foxstage",
+      "widths": [
+        {
+          "width": 320,
+          "scrollWidth": 320,
+          "clipped": []
+        },
+        {
+          "width": 360,
+          "scrollWidth": 360,
+          "clipped": []
+        },
+        {
+          "width": 390,
+          "scrollWidth": 390,
+          "clipped": []
+        },
+        {
+          "width": 430,
+          "scrollWidth": 430,
+          "clipped": []
+        },
+        {
+          "width": 768,
+          "scrollWidth": 768,
+          "clipped": []
+        },
+        {
+          "width": 1024,
+          "scrollWidth": 1024,
+          "clipped": []
+        },
+        {
+          "width": 1440,
+          "scrollWidth": 1440,
+          "clipped": []
+        },
+        {
+          "width": 1920,
+          "scrollWidth": 1920,
+          "clipped": []
+        }
+      ],
+      "bands": [
+        "photo",
+        "white",
+        "black",
+        "cream"
+      ]
+    }
+  ],
+  "errors": [],
+  "checks": [
+    "one shell and H1 per route",
+    "eight responsive widths per page",
+    "keyboard disclosure and Escape returns focus",
+    "route navigation and mobile menu without selector errors",
+    "contextual WhatsApp destinations",
+    "no-JavaScript course navigation",
+    "unimplemented and unknown routes return 404",
+    "private preview noindex and no public canonical"
+  ],
+  "result": "pass"
+}

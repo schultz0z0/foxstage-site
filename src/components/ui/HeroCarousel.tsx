@@ -43,7 +43,7 @@ export function HeroCarousel({ slides, intervalMs }: { slides: readonly { title:
     return () => { window.removeEventListener("pointermove", syncPointer); window.removeEventListener("blur", clearHover); };
   }, [hovered]);
 
-  return <div ref={hero} className="hero" role="region" aria-roledescription="carrossel" aria-label="Destaques da Foxstage" data-rotation={rotating ? "running" : "paused"}
+  return <div ref={hero} id="conteudo-principal" tabIndex={-1} className="hero" role="region" aria-roledescription="carrossel" aria-label="Destaques da Foxstage" data-rotation={rotating ? "running" : "paused"}
     onPointerEnter={event => { if (event.pointerType === "mouse") setHovered(true); }} onPointerLeave={() => setHovered(false)}
     onFocusCapture={() => setFocused(true)} onBlurCapture={event => { if (!event.currentTarget.contains(event.relatedTarget)) setFocused(false); }}
     onTouchStart={event => { setTouching(true); const point = event.touches[0]; touch.current = { x: point.clientX, y: point.clientY }; }}
