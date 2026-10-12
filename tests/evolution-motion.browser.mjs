@@ -16,7 +16,7 @@ try {
     if(route==='/') assert.equal(await page.locator('.english-day-enhancement').count(),0,'Day Player stays deferred below fold');
     await page.locator('#english-day-title').scrollIntoViewIfNeeded();
     await page.waitForFunction(()=>Number(document.querySelector('.english-day-enhancement')?.getAttribute('data-motion-frame'))>10);
-    const quietCopy=()=>page.locator('.english-day-copy').evaluate(e=>({transform:getComputedStyle(e).transform,opacity:getComputedStyle(e).opacity,children:[...e.querySelectorAll('h1,h2,p,a')].map(n=>({transform:getComputedStyle(n).transform,opacity:getComputedStyle(n).opacity}))}));
+    const quietCopy=()=>page.locator(route==='/'?'.english-day-copy':'.day-story-header').evaluate(e=>({transform:getComputedStyle(e).transform,opacity:getComputedStyle(e).opacity,children:[...e.querySelectorAll('h1,h2,p,a')].map(n=>({transform:getComputedStyle(n).transform,opacity:getComputedStyle(n).opacity}))}));
     const initialCopy=await quietCopy(); assert.equal(initialCopy.transform,'none'); assert.equal(initialCopy.opacity,'1');
     const photo=page.locator('.english-day-enhancement svg image');
     assert.equal(await photo.getAttribute('preserveAspectRatio'),'xMidYMid meet');

@@ -42,3 +42,8 @@ Build de produção, lint e 15 testes de unidade passaram. O navegador verificou
 Evidências atuais: `docs/evolution-private-preview-qa.json`, `docs/evolution-public-qa.json` e `docs/evolution-motion-qa.json`. O atalho “Pular para o conteúdo” leva a um alvo focável depois do menu; `main#conteudo` permanece para o rodapé. O ensaio de movimento verifica copy estática, foto completa, movimento do celular sob ponteiro/foco, reprodução única e comportamento do vídeo. Essas verificações não constituem auditoria integral de acessibilidade, medição de conversão, desempenho de campo ou indexação real no Google.
 
 Código desenvolvido na branch `evolucao-institucional`; a baseline em `main` foi preservada.
+
+
+## Revisão posterior — 3.1.0
+
+A ordem uniforme descrita em “Composição vigente” acima registra a revisão3.0.0. Foi substituída após a crítica do usuário sobre redundância e páginas idênticas. A composição atual, própria para cada função, está em [Revisão de estrutura e copy](REVISAO-ESTRUTURA-E-COPY.md) e em design.json. As guardas de publicação, SEO, heroes e comportamento das mídias continuam válidos.

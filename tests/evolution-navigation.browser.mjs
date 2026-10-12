@@ -9,11 +9,11 @@ const {chromium}=playwright.default || playwright;
 const browser=await chromium.launch({headless:true});
 const routes=['/','/cursos/ingles-em-grupo','/cursos/ingles-individual','/a-foxstage','/english-day','/contato'];
 const expectedBands={
-  '/cursos/ingles-em-grupo':['photo','white','black','cream','orange','cream','cream'],
-  '/cursos/ingles-individual':['photo','white','black','cream','orange','cream','cream'],
-  '/a-foxstage':['photo','white','black','cream','orange','cream'],
-  '/english-day':['photo','white','black','cream','orange','cream'],
-  '/contato':['photo','white','black','cream'],
+  '/cursos/ingles-em-grupo':['photo','white','cream','black'],
+  '/cursos/ingles-individual':['photo','white','cream'],
+  '/a-foxstage':['photo','white','cream','white'],
+  '/english-day':['photo','white','orange','cream'],
+  '/contato':['photo','white'],
 };
 const evidence={base,mode:process.env.FOXSTAGE_QA_PUBLIC==='true'?'public':'private-preview',testedAt:new Date().toISOString(),pages:[],errors:[],checks:[]};
 fs.mkdirSync('.impeccable/review/evolucao',{recursive:true});
@@ -59,7 +59,7 @@ try {
         const color=getComputedStyle(s).backgroundColor;
         return color==='rgb(16, 19, 20)'?'black':color==='rgb(243, 239, 232)'?'cream':color==='rgb(246, 90, 11)'?'orange':color==='rgb(255, 255, 255)'||color==='rgba(0, 0, 0, 0)'?'white':color;
       }));
-      if(expectedBands[route]) assert.deepEqual(bands,expectedBands[route],'Surface rhythm follows the home contract: '+route);
+      if(expectedBands[route]) assert.deepEqual(bands,expectedBands[route],'Each page follows its own content structure: '+route);
       assert.equal(await page.locator('.footer-base a').getAttribute('href'),'#conteudo','Voltar ao topo stays on the current page');
       const widths=[];
       for(const width of [320,360,390,430,768,1024,1440,1920]) {
@@ -71,6 +71,12 @@ try {
         await page.setViewportSize({width,height:1000});
         await page.locator('img.hero-image').first().evaluate(i=>i.decode());
         assert.ok(await page.locator('img.hero-image').first().evaluate(i=>i.naturalWidth>0),'Banner image is delivered and decoded');
+        await page.evaluate(async()=>{
+          const images=[...document.querySelectorAll('img')];
+          images.forEach(i=>i.loading='eager'); // Full-page captures include below-fold photographs.
+          await Promise.all(images.map(i=>i.decode()));
+          if(document.activeElement instanceof HTMLElement)document.activeElement.blur();
+        });
         await page.screenshot({path:'.impeccable/review/evolucao/'+(route==='/'?'home':route.split('/').at(-1))+'-'+width+'.png',fullPage:true});
       }
       evidence.pages.push({route,title,widths,bands});
@@ -89,6 +95,13 @@ try {
       const href=await page.locator('[data-contact-origin="'+origin+'"]').first().getAttribute('href');
       const url=new URL(href); assert.equal(url.pathname,'/5521989848517'); assert.ok(url.searchParams.get('text').includes(origin==='group'?'grupo':origin==='individual'?'individuais':'aluno'));
     }
+    await page.goto(base+'/cursos/ingles-individual');
+    for(const [goal,phrase] of [['daily','dia a dia'],['travel','viagens'],['work','trabalho']]) {
+      await page.locator(`input[value="${goal}"]`).check();
+      assert.equal(await page.locator('.goal-answer:visible').count(),1);
+      const href=await page.locator(`.goal-answer[data-goal="${goal}"] a`).getAttribute('href');
+      const message=new URL(href).searchParams.get('text'); assert.ok(message.includes('aulas individuais')&&message.includes(phrase));
+    }
     const nojs=await browser.newContext({javaScriptEnabled:false,viewport:{width:390,height:844}}); const np=await nojs.newPage();
     await np.goto(base+'/cursos/ingles-em-grupo');
     await np.locator('.skip-link').focus(); await np.keyboard.press('Enter'); await np.keyboard.press('Tab');
@@ -99,6 +112,9 @@ try {
     await np.locator('.mobile-menu a[href="/cursos/ingles-individual"]').focus(); await np.keyboard.press('Enter');
     await np.waitForURL('**/cursos/ingles-individual');
     assert.ok((await np.locator('h1').textContent()).includes('individual'));
+    await np.locator('input[value="travel"]').check();
+    assert.equal(await np.locator('.goal-answer:visible').count(),1,'Objective choices work without JavaScript');
+    assert.ok((await np.locator('.goal-answer:visible a').getAttribute('href')).includes('viagens'));
     for(const path of ['/conteudos','/conteudos/rascunho','/english-day/edicao-desconhecida','/privacidade','/nao-existe']){
       const r=await page.goto(base+path); assert.equal(r.status(),404,path); assert.equal(await page.locator('main').count(),1); assert.equal(await page.locator('h1').count(),1);
     }

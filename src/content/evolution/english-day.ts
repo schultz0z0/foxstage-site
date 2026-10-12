@@ -2,7 +2,7 @@ import type { EditorialRecord, PageSEO, FAQItem } from "./types.ts";
 export const englishDayPage = {
   status: "draft", review: { factsConfirmed: true, copyApproved: false, mediaApproved: true },
   seo: { title: "English Day: inglês na prática no Rio de Janeiro", description: "Um dia inteiro em inglês no Rio de Janeiro. Conheça o encontro presencial da Foxstage, realizado a cada quatro meses, e veja os registros da edição no cinema.", pathname: "/english-day", image: "/images/foxstage/english-day-cinema.webp" } satisfies PageSEO,
-  heroDescription: "Um encontro presencial no Rio de Janeiro para conviver com outros alunos e usar o inglês em situações reais. Organizado e custeado pela Foxstage, a cada quatro meses.",
+  heroDescription: "Converse com a turma fora das aulas. Um encontro presencial para viver situações reais em inglês, do começo ao fim do dia.",
   mediaTitle: "O inglês. Fora da tela.",
   mediaParagraphs: ["Uma edição no cinema, com os alunos reunidos e a comunicação em inglês durante todo o dia. A foto e o vídeo mostram esse encontro real da Foxstage.", "O English Day é uma oportunidade de conversar, conviver com outras pessoas e colocar o idioma em uso fora das aulas. A atividade muda a cada edição."],
   details: [

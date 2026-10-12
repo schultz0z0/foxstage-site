@@ -12,3 +12,7 @@ O revisor confirmou as correções na prévia privada da porta 3001 e no ensaio 
 A revisão não incluiu artigos, privacidade, formulários persistentes ou conteúdo não confirmado, que continuam condicionais. Auditoria integral de acessibilidade, conversão, desempenho de campo e indexação real seguem fora das conclusões deste ensaio. A liberação editorial das páginas internas permanece pendente.
 
 Evidências reproduzíveis: testes de unidade em `tests/evolution-*.test.mjs`, navegação em `tests/evolution-navigation.browser.mjs` e movimento em `tests/evolution-motion.browser.mjs`. Os scripts de navegador aceitam uma instalação disponível de Playwright através de `FOXSTAGE_PLAYWRIGHT_MODULE`; os caminhos locais de fallback não representam uma dependência instalada no projeto.
+
+## Revisão das estruturas próprias — 3.1.0
+
+Revisão independente posterior, em relação à versão `b6bdab5`. As cinco internas possuem funções e composições distintas, sem o pacote repetido de método, comparação e assinatura final. Nenhum achado crítico, importante ou menor foi confirmado. Foram verificados: escolha de objetivo por setas e Tab com/sem JavaScript, uma única resposta visível, contexto correto no WhatsApp, disclosures dos exemplos em grupo, oito larguras, respiro inicial, mínimos de logo e 404 público sem canonical. A aprovação vale para a entrega privada; publicação editorial permanece pendente. Trajetórias de mídia foram preservadas e testadas pelo ensaio de movimento do projeto.

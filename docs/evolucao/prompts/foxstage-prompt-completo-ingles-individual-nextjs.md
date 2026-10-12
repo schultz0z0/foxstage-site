@@ -124,3 +124,10 @@ Produzir prévia no website real e capturas de desktop/mobile quando a tarefa fo
 **SEO específico:** Title proposto: Aulas individuais de inglês. Descrição de formato individual personalizado, com consulta à escola; canonical próprio.
 
 **Entregar:** rota conectada em revisão, arquivos usados, conteúdo confirmado/pendente, integrações reais, evidências e atualização de contrato quando houver extensão. Publicação e ativação de captação são passos posteriores explícitos. Este prompt não deve ser marcado como implementado até esses resultados de desenvolvimento existirem.
+
+
+## Direção vigente da implementação — 3.1.0
+
+Esta nota substitui a composição anterior após a crítica do usuário sobre repetição. Manter o hero fotográfico aprovado; usar a home como referência de marca. Escolha nativa de objetivo (cotidiano, viagens ou trabalho) que prepara mensagem sobre aulas individuais no WhatsApp; fotografia de estudo com explicação curta. Objetivos não são cursos separados. Sem diagnóstico, agenda livre ou ementa presumida.
+
+Consultar [a revisão de estrutura e copy](../../REVISAO-ESTRUTURA-E-COPY.md), o contrato canônico 3.1.0 e a ficha factual. Omitir conteúdo não confirmado.

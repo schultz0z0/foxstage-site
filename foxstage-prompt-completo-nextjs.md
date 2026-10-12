@@ -1,10 +1,10 @@
 # Prompts para o website da Foxstage em Next.js
 
-**Conteúdo vigente:** versão 3.0.0, home preservada e evolução institucional em prévia privada. Consultar a nota final desta versão antes de reutilizar especificações históricas.
+**Conteúdo vigente:** versão 3.1.0, home preservada e evolução institucional em prévia privada. Consultar a nota final desta versão antes de reutilizar especificações históricas.
 
 Guia de engenharia de prompt para desenvolvimento por etapas, revisão visual e preparação para publicação.
 
-**Versão:** 3.0.0 — composição das referências, movimento aprovado e manual de marca B v1.0
+**Versão:** 3.1.0 — composição das referências, movimento aprovado e manual de marca B v1.0
 **Pesquisa pública:** 10 de outubro de 2026, horário de referência America/Sao_Paulo.  
 **Referência de estrutura:** arquivo fornecido pelo usuário, `Texto colado.txt`, com o template de sites de esquadrias e vidraçarias.  
 **Entrega deste documento:** especificação e prompts editáveis. O website será desenvolvido quando estes prompts forem executados no projeto.
@@ -1619,3 +1619,12 @@ O hero mantém menu em cápsula sobreposto no desktop, degradê, título alinhad
 A home conserva sua composição e seus movimentos. A página English Day usa a foto real no hero e a composição foto/celular/vídeo numa seção laranja posterior, com copy estática e movimento somente nas mídias. As demais páginas usam fotografias existentes e mockups identificados, sem dados comerciais ou credenciais fictícios.
 
 Os prompts completos de cada página em `docs/evolucao/prompts/` continuam como base de conteúdo, junto a este contrato. Localização confirmada: Rio de Janeiro/RJ, atendimento online em todo o Brasil; English Days presenciais na cidade do Rio; professor Felipe Pontes. As cinco novas páginas são prévias privadas e dependem de aprovação editorial para publicação pública. Não houve implantação em VPS.
+
+
+## Estrutura própria por página — 3.1.0
+
+Revisão solicitada em 12 de outubro de 2026: a home é referência da marca, não um molde de seções. Esta nota substitui a sequência fixa das internas descrita na 3.0.0. Heroes, home, fontes, cores oficiais e trajetórias de mídia permanecem.
+
+Grupo: cena de conversa, exemplos cotidianos e consulta sobre turma. Individual: objetivo escolhido pelo visitante com mensagem contextual no WhatsApp, seguido de uma explicação breve do formato com fotografia. A Foxstage: posicionamento institucional, identidade oficial, professor confirmado e comunidade real. English Day: fatos essenciais, registro do cinema com mídias centrais e participação. Contato: uma seção de destinos e canais oficiais.
+
+Não repetir em todas as internas o bloco de método, a comparação completa, o destaque laranja de English Day e a assinatura final da home. A quantidade e as cores das seções seguem o conteúdo da página. Detalhes em [Revisão de estrutura e copy](docs/REVISAO-ESTRUTURA-E-COPY.md). Valores e funções atualizados em `design.json`; conteúdo das aulas em `src/content/evolution/courses.ts`. As páginas continuam como prévias privadas para revisão editorial.

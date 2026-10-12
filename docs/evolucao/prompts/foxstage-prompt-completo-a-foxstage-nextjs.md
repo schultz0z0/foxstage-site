@@ -124,3 +124,10 @@ Produzir prévia no website real e capturas de desktop/mobile quando a tarefa fo
 **SEO específico:** Title proposto: A Foxstage e quem ensina. Organization/Person somente com informações confirmadas; não inventar títulos acadêmicos ou endereços.
 
 **Entregar:** rota conectada em revisão, arquivos usados, conteúdo confirmado/pendente, integrações reais, evidências e atualização de contrato quando houver extensão. Publicação e ativação de captação são passos posteriores explícitos. Este prompt não deve ser marcado como implementado até esses resultados de desenvolvimento existirem.
+
+
+## Direção vigente da implementação — 3.1.0
+
+Esta nota substitui a composição anterior após a crítica do usuário sobre repetição. Manter o hero fotográfico aprovado; usar a home como referência de marca. Posicionamento tipográfico; identidade oficial e apresentação nominal de Felipe Pontes; fotografia real da comunidade com link para o English Day. Sem notebook ilustrativo, comparação de cursos ou painel comercial duplicado.
+
+Consultar [a revisão de estrutura e copy](../../REVISAO-ESTRUTURA-E-COPY.md), o contrato canônico 3.1.0 e a ficha factual. Omitir conteúdo não confirmado.

@@ -1,6 +1,6 @@
 {
   "schemaVersion": "1.0.0",
-  "designVersion": "3.0.0",
+  "designVersion": "3.1.0",
   "id": "foxstage-website",
   "language": "pt-BR",
   "status": "user-approved-website-with-brand-manual-b-v1",
@@ -833,42 +833,48 @@
       "teacherPanelPadding": "40px",
       "mockupMeaning": "Clearly labeled illustrative device scenes; no fictional class recordings, teaching platform, teachers or chat responses.",
       "surfaceSequences": {
-        "courses": [
-          "photographic hero with attached cream facts",
-          "white course overview",
-          "black method and laptop",
-          "cream format comparison",
-          "orange English Day proof",
-          "cream FAQ and closing",
+        "group": [
+          "photographic hero with cream facts",
+          "white conversation photograph and example phrase",
+          "cream native practical examples",
+          "black course enquiry",
+          "black footer"
+        ],
+        "individual": [
+          "photographic hero with cream facts",
+          "white personal goal chooser",
+          "cream individual study portrait and explanation",
           "black footer"
         ],
         "school": [
           "photographic hero",
-          "white teacher introduction",
-          "black method and laptop",
-          "cream format comparison",
-          "orange real English Day record",
-          "cream closing",
+          "white institutional statement",
+          "cream official identity and teacher introduction",
+          "white real community photograph",
           "black footer"
         ],
         "englishDay": [
           "real photographic hero",
-          "white introduction",
-          "black event facts",
-          "cream FAQ",
-          "orange animated photo/native video",
-          "cream closing",
+          "white short event facts",
+          "orange cinema story with centered photo and native video",
+          "cream participation questions",
           "black footer"
         ],
         "contact": [
           "photographic hero",
-          "white contact introduction",
-          "black phone and contact reasons",
-          "cream official social contact",
+          "white direct contact choices and inset black official channels",
           "black footer"
         ]
       },
-      "firstSectionGap": "Reuse approved home heroGoals.followingGapDesktop/mobile; no separate blank spacer"
+      "firstSectionGap": "Reuse approved home heroGoals.followingGapDesktop/mobile; no separate blank spacer",
+      "pageRoles": {
+        "group": "Participation and illustrative everyday conversation examples",
+        "individual": "Choose a personal objective and prepare a contextual WhatsApp message; not a new course catalog",
+        "school": "Institutional identity, confirmed teacher name and real community record",
+        "englishDay": "Documentary cinema media and participation information",
+        "contact": "Direct contextual routing to the same confirmed WhatsApp number"
+      },
+      "reuseRule": "Share brand tokens, hero, header, footer, links and media behavior. Do not share a full body sequence or require every page to contain method/comparison/EnglishDay/FAQ/closing."
     }
   },
   "composition": {
@@ -1280,7 +1286,7 @@
       "language": "pt-BR",
       "seo": "Brazilian slugs, route-specific metadata, EducationalOrganization with Rio location and Brazil area served; no fabricated street address or Event date; publication access, home navigation, metadata, robots and sitemap evaluated at request time",
       "forms": false,
-      "visualRevision": "User requested every internal page to match home hero and richer visual quality, then corrected surface order. White introduction, black method/info, cream decision/content, orange only for English Day, cream closing and black footer. Recorded 2026-10-12."
+      "visualRevision": "User rejected repeated sections and redundant copy. Unique page bodies3.1.0 replace3.0.0 surface template. Heroes/home/media trajectories preserved. Record docs/REVISAO-ESTRUTURA-E-COPY.md."
     }
   }
 }

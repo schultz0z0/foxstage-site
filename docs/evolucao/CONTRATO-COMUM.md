@@ -93,3 +93,8 @@ Nenhuma skill, plugin ou MCP novo é entregue aqui. Prompts são documentos de p
 ## Ajustes aprovados durante a execução — 3.0.0
 
 A implementação posterior usa o hero fotográfico da home em todas as páginas internas, substituindo a abertura editorial menor. A primeira seção é branca e mantém respiro depois do banner; preto é usado no método, creme nas informações e laranja no destaque do English Day. Consulte [a composição vigente e os estados de publicação](../EVOLUCAO-INSTITUCIONAL-IMPLEMENTACAO.md). As instruções posteriores do usuário e o contrato canônico 3.0.0 prevalecem sobre as regras visuais anteriores deste pacote.
+
+
+## Estruturas próprias — 3.1.0
+
+A sequência universal de superfícies da revisão anterior foi rejeitada por gerar páginas redundantes. Cada página usa sua função para decidir conteúdo, proporção e quantidade de seções. Heroes e marca permanecem; copiar a composição completa da home não é requisito. Consulte [a direção vigente](../REVISAO-ESTRUTURA-E-COPY.md) e as notas finais dos cinco prompts implementados.

@@ -102,3 +102,123 @@ details[open] > summary .disclosure-chevron { transform: rotate(225deg); margin-
   .editorial-sections { gap: 32px; }
   .facts-grid { gap: 20px; }
 }
+
+/* Distinct page bodies; the home supplies brand language, not a section template. */
+.section.page-first-section { padding-top: var(--layout-hero-goals-following-gap-desktop); }
+.group-conversation-grid { display: grid; grid-template-columns: minmax(0, 1.2fr) minmax(0, 0.8fr); gap: 72px; align-items: center; }
+.conversation-scene { position: relative; padding: 0 44px 56px 0; }
+.conversation-photo { overflow: hidden; border-radius: var(--component-photo-card-radius); }
+.conversation-photo img { width: 100%; height: auto; }
+.conversation-example { position: absolute; bottom: 28px; right: 0; width: 240px; padding: 24px; background: var(--semantic-color-surface-warm); transform: rotate(-3deg); box-shadow: var(--primitive-shadow-photo); }
+.conversation-example > span { font-size: 14px; }
+.conversation-example p { font-family: var(--semantic-font-heading); font-size: 52px; line-height: 1; margin-block: 12px; }
+.conversation-scene figcaption { margin-top: 14px; max-width: calc(100% - 250px); }
+.group-conversation-copy h2 { max-width: 14ch; margin-bottom: 24px; }
+.group-conversation-copy .body-copy + .body-copy { margin-top: 16px; }
+.group-note { border-left: 3px solid var(--semantic-color-accent); padding-left: 20px; font-weight: 600; margin-top: 28px; }
+.group-practice-grid { display: grid; grid-template-columns: minmax(0, 0.8fr) minmax(0, 1.2fr); gap: var(--layout-editorial-column-gap); }
+.group-practice-grid .body-copy { margin-top: 24px; max-width: 34ch; }
+.practice-examples details { border-bottom: 1px solid var(--semantic-color-border); }
+.practice-examples details:first-child { border-top: 1px solid var(--semantic-color-border); }
+.practice-examples summary { display: flex; justify-content: space-between; gap: 24px; align-items: center; padding-block: 24px; min-height: 44px; list-style: none; font-size: 22px; font-weight: 600; }
+.practice-examples summary::-webkit-details-marker { display: none; }
+.practice-example-answer { padding-bottom: 24px; }
+.practice-example-answer [lang="en"] { font-size: 28px; font-weight: 600; line-height: 1.35; margin-bottom: 8px; }
+.practice-example-answer > p:last-child { color: var(--semantic-color-text-muted); }
+.group-enquiry-grid { display: grid; grid-template-columns: minmax(0, 1.3fr) minmax(0, 0.7fr); gap: 64px; align-items: center; }
+.group-enquiry .body-copy { color: var(--semantic-color-text-inverse-muted); margin-block: 20px 28px; max-width: 50ch; }
+.group-alternative { border-left: 1px solid var(--primitive-color-gray600); padding-left: 32px; }
+.group-alternative .text-link { margin-top: 8px; }
+.individual-brief-grid { display: grid; grid-template-columns: minmax(0, 0.9fr) minmax(0, 1.1fr); gap: var(--layout-editorial-column-gap); align-items: start; }
+.individual-brief-grid h2 { max-width: 13ch; }
+.individual-brief-grid .body-copy { margin-top: 24px; max-width: 40ch; }
+.individual-goal-chooser { padding: 32px; background: var(--semantic-color-surface-warm); border-radius: var(--primitive-radius-card); }
+.goal-options { padding: 0; margin: 0; border: 0; min-width: 0; }
+.goal-options legend { font-size: 20px; font-weight: 600; margin-bottom: 20px; }
+.goal-options > div { display: flex; flex-wrap: wrap; gap: 8px 20px; }
+.goal-options label { display: flex; gap: 8px; align-items: center; min-height: 44px; cursor: pointer; }
+.goal-options input { width: 18px; height: 18px; margin: 0; accent-color: var(--semantic-color-text); flex: none; }
+.goal-options label:has(input:checked) span { text-decoration: underline; text-decoration-color: var(--semantic-color-accent-text-on-light); text-underline-offset: 6px; font-weight: 600; }
+.goal-answer { display: none; border-top: 1px solid var(--semantic-color-border); margin-top: 24px; padding-top: 24px; }
+.individual-goal-chooser:has(input[value="daily"]:checked) [data-goal="daily"],
+.individual-goal-chooser:has(input[value="travel"]:checked) [data-goal="travel"],
+.individual-goal-chooser:has(input[value="work"]:checked) [data-goal="work"] { display: block; }
+.goal-answer h3 { margin-bottom: 12px; }
+.goal-answer .button { margin-top: 24px; }
+.goal-help { font-size: 14px; color: var(--semantic-color-text-muted); margin-top: 20px; }
+.individual-study-grid { display: grid; grid-template-columns: minmax(0, 0.85fr) minmax(0, 1.15fr); gap: 80px; align-items: center; }
+.individual-study-photo img { width: 100%; height: auto; max-height: 520px; object-fit: cover; object-position: 50% 45%; border-radius: var(--component-photo-card-radius); }
+.individual-study-photo figcaption { margin-top: 12px; }
+.individual-format { color: var(--semantic-color-accent-text-on-light); font-weight: 600; margin-bottom: 20px; }
+.individual-study-copy h2 { max-width: 16ch; margin-bottom: 24px; }
+.individual-study-copy .text-link { margin-top: 24px; }
+.individual-format-notes { border-block: 1px solid var(--semantic-color-border); padding-block: 24px; margin-block: 28px 12px; }
+.individual-format-notes p + p { margin-top: 12px; }
+.school-statement-grid { display: grid; grid-template-columns: minmax(0, 1.1fr) minmax(0, 0.9fr); gap: 80px; align-items: center; }
+.school-statement h2 { font-size: clamp(52px, 6vw, 88px); line-height: 1.05; }
+.school-statement .body-copy + .body-copy { margin-top: 20px; }
+.school-teacher-grid { display: grid; grid-template-columns: minmax(0, 1fr) minmax(0, 1fr); gap: 80px; align-items: center; }
+.school-brand-panel { padding: 48px; border-radius: var(--component-photo-card-radius); background: var(--semantic-color-page); }
+.school-brand-panel img { width: 100%; height: auto; }
+.school-brand-panel p { margin-top: 32px; color: var(--semantic-color-text-muted); font-size: 18px; }
+.teacher-role { margin-bottom: 12px; font-weight: 600; }
+.teacher-introduction .body-copy { margin-block: 24px 16px; }
+.school-community-grid { display: grid; grid-template-columns: minmax(0, 0.65fr) minmax(0, 1.35fr); gap: 56px; align-items: center; }
+.school-community .body-copy { margin-block: 24px 16px; }
+.school-community figure img { width: 100%; height: auto; border-radius: var(--component-photo-card-radius); }
+.school-community figcaption { margin-top: 12px; }
+.day-facts-inline { display: grid; grid-template-columns: minmax(0, 0.8fr) minmax(0, 0.8fr) minmax(0, 1.4fr); gap: 32px; margin-block: 0; }
+.day-facts-inline > div + div { border-left: 1px solid var(--semantic-color-border); padding-left: 32px; }
+.day-facts-inline dt { color: var(--semantic-color-text-muted); font-size: 14px; margin-bottom: 8px; }
+.day-facts-inline dd { margin: 0; font-size: 20px; font-weight: 600; }
+.day-story-header { display: grid; grid-template-columns: minmax(0, 1fr) minmax(0, 1fr); gap: 64px; align-items: center; margin-bottom: 40px; }
+.day-story .english-day-heading { max-width: 20ch; }
+.day-story .section-heading { margin-bottom: 0; }
+.day-story-header .body-copy { max-width: 42ch; font-size: 20px; }
+.day-participation-grid { display: grid; grid-template-columns: minmax(0, 1fr) minmax(0, 1fr); gap: 64px; align-items: start; }
+.day-participation .body-copy { margin-top: 20px; }
+.day-participation .button { margin-top: 24px; }
+.contact-hub-grid { display: grid; grid-template-columns: minmax(0, 1.25fr) minmax(0, 0.75fr); gap: 80px; align-items: start; }
+.contact-hub .body-copy { margin-top: 20px; max-width: 46ch; }
+.contact-destinations { margin-top: 32px; border-top: 1px solid var(--semantic-color-border); }
+.contact-destination { display: flex; align-items: center; justify-content: space-between; gap: 24px; padding-block: 24px; border-bottom: 1px solid var(--semantic-color-border); text-decoration: none; color: inherit; }
+.contact-destination strong { display: block; font-size: 24px; font-weight: 600; }
+.contact-destination > span > span { display: block; color: var(--semantic-color-text-muted); margin-top: 6px; }
+.contact-destination:hover strong { color: var(--semantic-color-accent-text-on-light); }
+.contact-destination > svg { flex: none; }
+.contact-channels { padding: 32px; border-radius: var(--primitive-radius-card); }
+.contact-channels h3 { font-family: var(--semantic-font-reading); font-size: 22px; font-weight: 600; text-transform: none; }
+.contact-channels > div { margin-top: 28px; }
+.contact-channels > div > p { color: var(--semantic-color-text-inverse-muted); font-size: 14px; margin-bottom: 8px; }
+.contact-phone-number { display: inline-block; color: var(--semantic-color-text-inverse); font-size: 24px; font-weight: 600; text-decoration: none; min-height: 44px; }
+.contact-phone-number:hover { text-decoration: underline; }
+.contact-channels .text-link { padding-top: 0; }
+.contact-service-area { border-top: 1px solid var(--primitive-color-gray600); padding-top: 24px; margin-top: 28px; font-size: 16px; color: var(--semantic-color-text-inverse-muted); }
+:is(.group-conversation-grid, .group-practice-grid, .group-enquiry-grid, .individual-brief-grid, .individual-study-grid, .school-statement-grid, .school-teacher-grid, .school-community-grid, .day-story-header, .day-participation-grid, .contact-hub-grid) > * { min-width: 0; }
+@media (max-width: 1023px) {
+  .section.page-first-section { padding-top: var(--layout-hero-goals-following-gap-mobile); }
+  :is(.group-conversation-grid, .group-practice-grid, .group-enquiry-grid, .individual-brief-grid, .individual-study-grid, .school-statement-grid, .school-teacher-grid, .school-community-grid, .day-story-header, .day-participation-grid, .contact-hub-grid) { gap: 32px; }
+  .conversation-scene { padding-right: 20px; padding-bottom: 72px; }
+  .conversation-example { width: 220px; padding: 20px; bottom: 28px; }
+  .conversation-example p { font-size: 44px; }
+  .conversation-scene figcaption { max-width: calc(100% - 225px); }
+  .individual-goal-chooser, .contact-channels { padding: 24px; }
+  .school-brand-panel { padding: 32px; }
+}
+@media (max-width: 767px) {
+  :is(.group-conversation-grid, .group-practice-grid, .group-enquiry-grid, .individual-brief-grid, .individual-study-grid, .school-statement-grid, .school-teacher-grid, .school-community-grid, .day-story-header, .day-participation-grid, .contact-hub-grid) { grid-template-columns: minmax(0, 1fr); }
+  .group-conversation-copy { order: -1; }
+  .conversation-scene { padding: 0 0 0; }
+  .conversation-example { position: relative; width: calc(100% - 32px); margin: -40px auto 0; bottom: auto; right: auto; transform: rotate(-2deg); }
+  .conversation-example p br { display: none; }
+  .conversation-scene figcaption { max-width: 100%; margin-top: 20px; }
+  .group-alternative { border-left: 0; border-top: 1px solid var(--primitive-color-gray600); padding: 24px 0 0; }
+  .individual-study-photo img { max-height: 420px; }
+  .school-statement h2 { font-size: 52px; }
+  .school-brand-panel { padding: 40px 24px; }
+  .day-facts-inline { grid-template-columns: 1fr; gap: 20px; }
+  .day-facts-inline > div + div { border-left: 0; border-top: 1px solid var(--semantic-color-border); padding: 20px 0 0; }
+  .day-story-header .body-copy { font-size: var(--type-body-font-size); }
+  .goal-answer .button { padding-inline: 18px; font-size: 16px; }
+  .contact-destination strong { font-size: 22px; }
+}

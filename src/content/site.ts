@@ -35,6 +35,9 @@ export const site = {
     }
   ],
   "messages": {
+    "individualDaily": "Olá! Quero conhecer as aulas individuais da Foxstage. Meu objetivo é usar o inglês no dia a dia.",
+    "individualTravel": "Olá! Quero conhecer as aulas individuais da Foxstage. Meu objetivo é usar o inglês em viagens.",
+    "individualWork": "Olá! Quero conhecer as aulas individuais da Foxstage. Meu objetivo é usar o inglês no trabalho.",
     "introduction": "Olá! Vim pelo site da Foxstage e gostaria de conhecer as aulas de inglês online ao vivo.",
     "practice": "Olá! Vim pelo site da Foxstage e gostaria de saber como funciona o método com foco em conversação.",
     "course": "Olá! Vim pelo site da Foxstage e gostaria de saber mais sobre as aulas em grupo e as individuais personalizadas.",
