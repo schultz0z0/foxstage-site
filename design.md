@@ -1,6 +1,6 @@
 # Design system — Foxstage
 
-**Conteúdo vigente:** versão 3.1.1, home preservada e evolução institucional em prévia privada. Consultar a nota final desta versão antes de reutilizar especificações históricas.
+**Conteúdo vigente:** versão 3.1.1, home preservada e páginas institucionais liberadas para publicação. Consultar a nota final desta versão antes de reutilizar especificações históricas.
 
 **Versão:** 3.1.1
 **Data:** 10 de outubro de 2026  
@@ -452,3 +452,8 @@ Não repetir em todas as internas o bloco de método, a comparação completa, o
 Pedido de 12 de outubro de 2026: na página `/english-day`, a fotografia do cinema fica apenas no hero. A seção laranja usa copy estática à esquerda e vídeo vertical à direita, inspirado na apresentação de um Reels. Remover foto duplicada e mockup de celular desta seção. Não acrescentar contadores, comentários, curtidas ou botões sociais fictícios. Marca oficial e link real do Instagram identificam a origem.
 
 O vídeo mantém proporção464:816, controles nativos, autoplay sem som quando35% dele está visível, pausa fora da tela ou com aba oculta, respeito à pausa manual e ausência de loop. Movimento reduzido impede autoplay; reprodução manual e poster permanecem. A home conserva sua composição foto/celular e coreografia Remotion. O comportamento de playback é compartilhado em `src/hooks/useViewportVideo.ts`. Teste específico em `tests/english-day-reel.browser.mjs`; evidência em `docs/english-day-reel-qa.json`.
+
+
+## Liberação das páginas institucionais — 13 de outubro de 2026
+
+O usuário autorizou disponibilizar a versão completa na Vercel para apresentação ao cliente. As duas páginas de cursos, A Foxstage, English Day e Contato estão publicadas nos registros de conteúdo e devem aparecer no menu em produção. Esta autorização substitui as restrições históricas de prévia privada dessas páginas. Layout, copy e sistema visual permanecem como aprovados. Consulte [Publicação na Vercel](docs/PUBLICACAO-VERCEL.md) para causa, configuração e validação.

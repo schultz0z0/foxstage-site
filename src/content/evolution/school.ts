@@ -1,6 +1,6 @@
 import type { EditorialRecord, PageSEO } from "./types.ts";
 export const schoolPage = {
-  status: "draft", review: { factsConfirmed: true, copyApproved: false, mediaApproved: true },
+  status: "published", review: { factsConfirmed: true, copyApproved: true, mediaApproved: true },
   seo: { title: "Escola de inglês Foxstage no Rio de Janeiro", description: "Conheça a Foxstage: escola de inglês do Rio de Janeiro, com aulas online ao vivo em todo o Brasil, conversação e English Day presencial no Rio.", pathname: "/a-foxstage" } satisfies PageSEO,
   heading: "Do Rio, para o seu dia a dia.",
   introduction: "A Foxstage é uma escola de inglês do Rio de Janeiro. Nossas aulas online ao vivo chegam a todo o Brasil, com foco em conversação e uso do idioma em situações reais.",

@@ -22,21 +22,28 @@ try {
   const page=await context.newPage(); page.on('pageerror',e=>evidence.errors.push(e.message));
   if(evidence.mode==='public') {
     for(const route of routes.slice(1)) {
-      const response=await page.goto(base+route); assert.equal(response.status(),404,'Draft URL must return actual 404: '+route);
+      const response=await page.goto(base+route); assert.equal(response.status(),200,'Approved route must be accessible in production: '+route);
       assert.equal(await page.locator('main').count(),1); assert.equal(await page.locator('h1').count(),1); assert.equal(await page.locator('header').count(),1); assert.equal(await page.locator('footer').count(),1);
-      assert.equal(await page.locator('link[rel="canonical"]').count(),0,'A blocked draft must not advertise its canonical');
+      assert.equal(await page.locator('link[rel="canonical"]').getAttribute('href'),'https://foxstage.example'+route);
+      assert.equal(await page.locator('header a[href="/a-foxstage"]').count(),2);
+      assert.equal(await page.locator('header a[href="/english-day"]').count(),2);
+      assert.equal(await page.locator('header a[href="/cursos/ingles-em-grupo"]').count(),2);
     }
     const nojs=await browser.newContext({javaScriptEnabled:false}); const np=await nojs.newPage();
     for(const route of routes.slice(1)) {
-      const response=await np.goto(base+route); assert.equal(response.status(),404);
-      assert.equal(await np.locator('main').count(),1,'Public 404 must be readable without JavaScript: '+route);
+      const response=await np.goto(base+route); assert.equal(response.status(),200);
+      assert.equal(await np.locator('main').count(),1,'Published page must be readable without JavaScript: '+route);
       assert.equal(await np.locator('h1').count(),1); assert.equal(await np.locator('header').count(),1); assert.equal(await np.locator('footer').count(),1);
     }
     await nojs.close();
     await page.goto(base); assert.equal(new URL(await page.locator('link[rel="canonical"]').getAttribute('href')).href,'https://foxstage.example/');
     const sitemap=await (await context.request.get(base+'/sitemap.xml')).text();
-    assert.ok(sitemap.includes('https://foxstage.example/')); assert.ok(!sitemap.includes('/cursos/'));
-    evidence.checks.push('configured public origin blocks all draft URLs with 404 and excludes their sitemap entries');
+    for(const route of routes) assert.ok(sitemap.includes('https://foxstage.example'+route));
+    for(const route of ['/conteudos','/privacidade']) {
+      assert.equal((await page.goto(base+route)).status(),404);
+      assert.ok(!sitemap.includes('https://foxstage.example'+route));
+    }
+    evidence.checks.push('configured public origin serves all approved pages with complete navigation, canonical URLs and sitemap entries; unimplemented routes remain 404');
   } else {
     for(const route of routes) {
       const response=await page.goto(base+route,{waitUntil:'networkidle'}); assert.equal(response.status(),200,route);

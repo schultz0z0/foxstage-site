@@ -1,10 +1,27 @@
 import assert from 'node:assert/strict';
 import test from 'node:test';
 import { getInstitutionalNavigation } from '../src/content/evolution/navigation.ts';
-import { deriveAvailability, getPublishedPathnames, canAccessPage, getVisibleAvailability } from '../src/content/evolution/availability.ts';
+import { deriveAvailability, getPublishedPathnames, canAccessPage, getVisibleAvailability, pageAvailability, implementedPages, pagePaths } from '../src/content/evolution/availability.ts';
 import { coursePages } from '../src/content/evolution/courses.ts';
 
 const draft = {group:'draft',individual:'draft',school:'draft',englishDay:'draft',contact:'draft',content:'draft',privacy:'draft'};
+test('approvedInstitutionalReleaseIsAccessibleInProductionAndInNavigation', () => {
+  for (const environment of [
+    { NODE_ENV: 'production' },
+    { NODE_ENV: 'production', SITE_URL: 'https://foxstage-site.vercel.app' },
+  ]) {
+    for (const key of implementedPages) {
+      assert.equal(pageAvailability[key], 'published', key);
+      assert.equal(canAccessPage(pageAvailability[key], environment), true, key);
+    }
+    const entries = getInstitutionalNavigation(getVisibleAvailability(pageAvailability, environment));
+    const links = entries.flatMap(entry => entry.kind === 'group' ? entry.children : [entry]);
+    assert.deepEqual(links.map(entry => entry.href), implementedPages.map(key => pagePaths[key]));
+  }
+  assert.deepEqual(getPublishedPathnames(pageAvailability), ['/', ...implementedPages.map(key => pagePaths[key])]);
+  assert.equal(pageAvailability.content, 'draft');
+  assert.equal(pageAvailability.privacy, 'draft');
+});
 test('publishedNavigationOmitsDraftAndEmptyGroups', () => {
   assert.deepEqual(getInstitutionalNavigation(draft),[]);
   assert.deepEqual(getInstitutionalNavigation({...draft,group:'published'}),[{kind:'link',label:'Cursos',href:'/cursos/ingles-em-grupo'}]);

@@ -2,10 +2,10 @@ import type { CourseId, CoursePageData } from "./types.ts";
 export const coursePages: Record<CourseId, CoursePageData> = {
   "group": {
     "id": "group",
-    "status": "draft",
+    "status": "published",
     "review": {
       "factsConfirmed": true,
-      "copyApproved": false,
+      "copyApproved": true,
       "mediaApproved": true
     },
     "seo": {
@@ -57,10 +57,10 @@ export const coursePages: Record<CourseId, CoursePageData> = {
   },
   "individual": {
     "id": "individual",
-    "status": "draft",
+    "status": "published",
     "review": {
       "factsConfirmed": true,
-      "copyApproved": false,
+      "copyApproved": true,
       "mediaApproved": true
     },
     "seo": {

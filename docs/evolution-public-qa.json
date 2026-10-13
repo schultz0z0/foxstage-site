@@ -1,11 +1,11 @@
 {
-  "base": "http://127.0.0.1:3004",
+  "base": "http://127.0.0.1:3005",
   "mode": "public",
-  "testedAt": "2026-10-12T17:31:04.139Z",
+  "testedAt": "2026-10-13T21:56:37.315Z",
   "pages": [],
   "errors": [],
   "checks": [
-    "configured public origin blocks all draft URLs with 404 and excludes their sitemap entries"
+    "configured public origin serves all approved pages with complete navigation, canonical URLs and sitemap entries; unimplemented routes remain 404"
   ],
   "result": "pass"
 }
