@@ -18,9 +18,9 @@ test('approvedInstitutionalReleaseIsAccessibleInProductionAndInNavigation', () =
     const links = entries.flatMap(entry => entry.kind === 'group' ? entry.children : [entry]);
     assert.deepEqual(links.map(entry => entry.href), implementedPages.map(key => pagePaths[key]));
   }
-  assert.deepEqual(getPublishedPathnames(pageAvailability), ['/', ...implementedPages.map(key => pagePaths[key])]);
+  assert.deepEqual(getPublishedPathnames(pageAvailability), ['/', ...implementedPages.map(key => pagePaths[key]), '/privacidade', '/politica-de-cookies']);
   assert.equal(pageAvailability.content, 'draft');
-  assert.equal(pageAvailability.privacy, 'draft');
+  assert.equal(pageAvailability.privacy, 'published');
 });
 test('publishedNavigationOmitsDraftAndEmptyGroups', () => {
   assert.deepEqual(getInstitutionalNavigation(draft),[]);

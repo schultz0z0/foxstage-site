@@ -39,7 +39,7 @@ try {
     await page.goto(base); assert.equal(new URL(await page.locator('link[rel="canonical"]').getAttribute('href')).href,'https://foxstage.example/');
     const sitemap=await (await context.request.get(base+'/sitemap.xml')).text();
     for(const route of routes) assert.ok(sitemap.includes('https://foxstage.example'+route));
-    for(const route of ['/conteudos','/privacidade']) {
+    for(const route of ['/conteudos']) {
       assert.equal((await page.goto(base+route)).status(),404);
       assert.ok(!sitemap.includes('https://foxstage.example'+route));
     }

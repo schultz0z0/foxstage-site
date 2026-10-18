@@ -1,5 +1,7 @@
 # Prompts para o website da Foxstage em Next.js
 
+**Complemento vigente de publicação (17/10/2026):** aplicar também `docs/AUDITORIA-PUBLICACAO-2026-10-17.md` e `docs/PUBLICACAO-CHECKLIST.md`. Consentimento separado por análise/publicidade, tags opcionais bloqueadas por padrão, políticas factuais, dados estruturados coerentes, origem pública HTTPS e estados de falha são requisitos. Não publicar a identificação jurídica provisória como fato, nem confundir teste emulado com aparelho físico. A composição visual aprovada permanece.
+
 **Conteúdo vigente:** versão 3.1.2, home preservada e páginas institucionais liberadas para publicação. Consultar a nota final desta versão antes de reutilizar especificações históricas.
 
 Guia de engenharia de prompt para desenvolvimento por etapas, revisão visual e preparação para publicação.

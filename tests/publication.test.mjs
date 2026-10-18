@@ -10,7 +10,7 @@ test("prévia sem domínio ou sem autorização de indexação permanece fora da
 });
 
 test("publicação rejeita localhost, HTTP e credenciais em URL", () => {
-  for (const url of ["http://foxstage.tld", "https://localhost", "https://127.0.0.1", "https://user:password@foxstage.tld"]) {
+  for (const url of ["http://foxstage.tld", "https://localhost", "https://127.0.0.1", "https://127.0.0.2", "https://[::1]", "https://10.0.0.1", "https://foxstage.local", "https://test.localhost", "https://intranet", "https://user:password@foxstage.tld"]) {
     assert.equal(getPublicationConfig({ SITE_URL: url, SITE_INDEXABLE: "true" }).indexable, false);
   }
 });

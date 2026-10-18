@@ -1,4 +1,5 @@
 @import "./tokens.css";
+@import "./privacy.css";
 @import "./institutional.css";
 
 * { box-sizing: border-box; }

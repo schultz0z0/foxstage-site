@@ -1,0 +1,6 @@
+"use client";
+/* eslint-disable @next/next/no-html-link-for-pages -- Root recovery must work independently of the router. */
+// Independent document: a broken root layout must not break the recovery screen too.
+export default function GlobalError({retry}:{error:Error & {digest?:string};retry:()=>void}) {
+  return <html lang="pt-BR"><head><title>Site temporariamente indisponível | Foxstage</title><meta name="robots" content="noindex"/></head><body style={{margin:0,background:"#F3EFE8",color:"#101314",fontFamily:"Arial, sans-serif"}}><main style={{maxWidth:760,margin:"0 auto",padding:"80px 24px"}}><p style={{color:"#A83A08",fontWeight:700}}>Foxstage</p><h1 style={{fontSize:"clamp(32px, 6vw, 52px)",lineHeight:1.12}}>Precisamos de um instante.</h1><p style={{fontSize:18,lineHeight:1.6}}>O site encontrou uma falha. Tente novamente ou fale com a escola para receber atendimento.</p><button type="button" onClick={retry} style={{padding:"14px 24px",border:"1px solid #101314",borderRadius:28,background:"#F65A0B",color:"#101314",fontSize:16,cursor:"pointer"}}>Tentar novamente</button><p><a href="/" style={{color:"#101314"}}>Voltar ao início</a></p><p><a href="https://wa.me/5521989848517" style={{color:"#101314"}}>Falar com a Foxstage no WhatsApp</a></p></main></body></html>;
+}

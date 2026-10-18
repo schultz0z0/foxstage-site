@@ -5,6 +5,7 @@ import { WhatsAppLink } from "@/components/ui/WhatsAppLink";
 import { Icon } from "@/components/ui/Icon";
 import { getPageNavigation } from "@/lib/institutional-navigation";
 import { schoolLocation } from "@/content/evolution/location";
+import { CookiePreferencesButton } from "@/components/privacy/CookiePreferencesButton";
 
 export function Footer() {
   const entries = getPageNavigation();
@@ -20,6 +21,7 @@ export function Footer() {
           <p className="footer-location">{schoolLocation.city}/{schoolLocation.state}<span className="contact-detail">Aulas online para todo o Brasil</span></p>
         </div>
       </div>
+      <nav className="footer-legal" aria-label="Privacidade"><Link href="/privacidade">Privacidade</Link><Link href="/politica-de-cookies">Política de cookies</Link><CookiePreferencesButton /></nav>
       <div className="footer-base"><p>© {new Date().getFullYear()} Foxstage.</p><Link href="#conteudo">Voltar ao topo <Icon name="up" /></Link></div>
     </div>
   </footer>;

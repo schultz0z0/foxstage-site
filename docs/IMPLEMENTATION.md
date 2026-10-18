@@ -1,5 +1,7 @@
 # Implementação do contrato Foxstage 3.1.1
 
+**Complemento de publicação de 17/10/2026:** consentimento granular, políticas, descoberta e recuperação de falhas estão descritos em [Auditoria técnica](AUDITORIA-PUBLICACAO-2026-10-17.md). Configurações pendentes e roteiro de Android/iPhone físicos: [Checklist](PUBLICACAO-CHECKLIST.md). O complemento preserva a composição visual 3.1.2. Não habilitar tags sem consentimento nem inserir CNPJ fictício como dado confirmado.
+
 **Conteúdo vigente:** versão 3.1.2, home preservada e páginas institucionais liberadas para publicação. Consultar a nota final desta versão antes de reutilizar especificações históricas.
 
 Registro de 10 de outubro de 2026. Esta implementação preserva a composição aprovada e aplica a direção B escolhida pelo usuário, conforme o kit completo fornecido em assets. A direção é editorial para um curso de inglês, com fotografia, títulos condensados, laranja/preto/creme/branco e contato direto. Cores e fontes seguem agora o manual B v1.0 aprovado neste projeto. A pesquisa inicial do Instagram não é apresentada como origem desse manual.

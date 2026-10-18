@@ -9,8 +9,8 @@ export function buildPageMetadata(seo: PageSEO, publication: ReturnType<typeof g
   return {
     title: { absolute: title }, description: seo.description,
     alternates: { canonical },
-    robots: { index: publication.indexable, follow: publication.indexable },
-    openGraph: { title, description: seo.description, siteName: "Foxstage", locale: "pt_BR", type: "website", ...(canonical ? { url: canonical } : {}), images: [{ url: imageUrl, alt: seo.title }] },
+    robots: { index: publication.indexable, follow: publication.indexable, ...(publication.indexable ? {googleBot:{index:true,follow:true,"max-image-preview":"large","max-snippet":-1,"max-video-preview":-1}} : {}) },
+    openGraph: { title, description: seo.description, siteName: "Foxstage", locale: "pt_BR", type: "website", ...(canonical ? { url: canonical } : {}), images: [{ url: imageUrl, alt: seo.title, ...(!seo.image ? {width:1200,height:630,type:"image/png"} : {}) }] },
     twitter: { card: "summary_large_image", title, description: seo.description, images: [imageUrl] },
   };
 }

@@ -1,5 +1,7 @@
 # Design system — Foxstage
 
+**Complemento de publicação (17/10/2026):** políticas usam leitura editorial em branco; consentimento usa creme oficial, controles de mesma importância para aceite/recusa e diálogo nativo. Erros e carregamento reutilizam tipografia, cores e botões existentes. Consultar `docs/AUDITORIA-PUBLICACAO-2026-10-17.md`; não alterar heroes ou a composição das páginas por causa deste complemento.
+
 **Conteúdo vigente:** versão 3.1.2, home preservada e páginas institucionais liberadas para publicação. Consultar a nota final desta versão antes de reutilizar especificações históricas.
 
 **Versão:** 3.1.2
