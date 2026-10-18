@@ -61,7 +61,7 @@ export function ConsentManager({config,initialConsent}: {config: MeasurementConf
     <Suspense fallback={null}><Measurement config={config} consent={consent} /></Suspense>
     {showBanner && <aside className="cookie-banner" aria-label="Privacidade e cookies">
       <div><strong>Cookies opcionais: desligados por padrão.</strong><p>Análise e publicidade só com sua autorização. <Link href="/politica-de-cookies">Ver detalhes</Link>.</p></div>
-      <div className="cookie-actions"><button type="button" onClick={() => save(false,false)}>Rejeitar</button><button type="button" onClick={() => {previousFocus.current=document.activeElement as HTMLElement; dialog.current?.showModal();}}>Gerenciar</button><button type="button" onClick={() => save(true,true)}>Aceitar</button></div>
+      <div className="cookie-actions"><button type="button" className="cookie-reject" onClick={() => save(false,false)}>Rejeitar</button><button type="button" onClick={() => {previousFocus.current=document.activeElement as HTMLElement; dialog.current?.showModal();}}>Gerenciar</button><button type="button" className="cookie-accept" onClick={() => save(true,true)}>Aceitar</button></div>
     </aside>}
     <dialog className="cookie-dialog" ref={dialog} aria-labelledby="cookie-title" aria-describedby="cookie-description" onClose={() => previousFocus.current?.focus()}>
       <div className="cookie-dialog-heading"><h2 id="cookie-title">Suas preferências</h2><button type="button" aria-label="Fechar preferências" onClick={() => dialog.current?.close()}>Fechar</button></div>

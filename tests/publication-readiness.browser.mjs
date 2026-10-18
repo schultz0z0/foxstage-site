@@ -18,7 +18,9 @@ try {
   await page.goto(base);await page.locator('.cookie-banner').waitFor();
   const firstVisitBanner=page.getByRole('complementary',{name:'Privacidade e cookies'});
   const frame=await firstVisitBanner.boundingBox();
-  assert.equal(frame.x,0);assert.equal(frame.width,1440);assert.ok(Math.abs(frame.y+frame.height-1000)<1,'Banner is attached to the bottom edge');assert.ok(frame.height<=90,'Desktop banner stays compact');
+  assert.equal(frame.x,0);assert.equal(frame.width,1440);assert.ok(Math.abs(frame.y+frame.height-1000)<1,'Banner is attached to the bottom edge');assert.ok(frame.height<=60,'Desktop banner stays within 60px');
+  assert.equal(await firstVisitBanner.locator('.cookie-accept').evaluate(e=>getComputedStyle(e).backgroundColor),'rgb(246, 90, 11)','Accept uses the official Foxstage orange');
+  assert.equal(await firstVisitBanner.locator('.cookie-accept').evaluate(e=>getComputedStyle(e).borderRadius),'999px','Buttons follow the brand capsule shape');
   assert.deepEqual(await firstVisitBanner.getByRole('button').allTextContents(),['Rejeitar','Gerenciar','Aceitar']);
   for(const width of [320,390,768]){
     await page.setViewportSize({width,height:844});
