@@ -2,6 +2,8 @@
 
 Preparação de 17 de outubro de 2026. Domínio canônico aprovado: `https://foxstage.com.br`. Este documento não declara que a VPS ou o DNS já foram alterados.
 
+**Implantação concluída:** o site foi publicado no mesmo dia em `/opt/foxstage-site`. Consulte [o registro do deploy](DEPLOY-VPS-2026-10-17.md) para versão, certificado, DNS e validação efetiva; as pendências históricas abaixo estão resolvidas nesse registro.
+
 ## Integração com a infraestrutura fornecida
 
 O Traefik do usuário roda em um Compose separado, com `network_mode: host`, Docker provider ativo, `exposedbydefault=false`, entrada HTTPS `websecure` e certResolver `letsencrypt`. A entrada `web` já redireciona HTTP para HTTPS e atende o desafio ACME HTTP-01.
