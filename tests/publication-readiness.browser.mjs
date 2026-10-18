@@ -16,14 +16,24 @@ try {
   });
   const page=await context.newPage();page.on('pageerror',e=>report.errors.push(e.message));
   await page.goto(base);await page.locator('.cookie-banner').waitFor();
+  const firstVisitBanner=page.getByRole('complementary',{name:'Privacidade e cookies'});
+  const frame=await firstVisitBanner.boundingBox();
+  assert.equal(frame.x,0);assert.equal(frame.width,1440);assert.ok(Math.abs(frame.y+frame.height-1000)<1,'Banner is attached to the bottom edge');assert.ok(frame.height<=90,'Desktop banner stays compact');
+  assert.deepEqual(await firstVisitBanner.getByRole('button').allTextContents(),['Rejeitar','Gerenciar','Aceitar']);
+  for(const width of [320,390,768]){
+    await page.setViewportSize({width,height:844});
+    const frame=await firstVisitBanner.boundingBox();assert.equal(frame.width,width);assert.ok(frame.y>=0);assert.ok(frame.height<220);
+    assert.ok(await firstVisitBanner.evaluate(e=>e.scrollWidth<=e.clientWidth),'Cookie banner does not overflow on mobile');
+  }
+  await page.setViewportSize({width:1440,height:1000});
   assert.equal(requests.length,0,'No third party before consent');
-  await page.getByRole('button',{name:'Personalizar',exact:true}).click();
+  await page.getByRole('button',{name:'Gerenciar',exact:true}).click();
   const dialog=page.getByRole('dialog');await dialog.waitFor();
   assert.equal(await dialog.getByRole('checkbox').count(),2);
   for(const checkbox of await dialog.getByRole('checkbox').all())assert.equal(await checkbox.isChecked(),false);
   await page.keyboard.press('Escape');assert.equal(await dialog.isVisible(),false);
-  assert.equal(await page.getByRole('button',{name:'Personalizar',exact:true}).evaluate(e=>e===document.activeElement),true,'Escape restores focus');
-  await page.getByRole('button',{name:'Recusar opcionais',exact:true}).first().click();
+  assert.equal(await page.getByRole('button',{name:'Gerenciar',exact:true}).evaluate(e=>e===document.activeElement),true,'Escape restores focus');
+  await firstVisitBanner.getByRole('button',{name:'Rejeitar',exact:true}).click();
   assert.equal(await page.locator('.cookie-banner').count(),0);await page.reload();
   assert.equal(await page.locator('.cookie-banner').count(),0);assert.equal(requests.length,0);
   report.checks.push('default deny, unchecked categories, Escape/focus, rejection persists');

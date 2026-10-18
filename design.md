@@ -1,6 +1,6 @@
 # Design system — Foxstage
 
-**Complemento de publicação (17/10/2026):** políticas usam leitura editorial em branco; consentimento usa creme oficial, controles de mesma importância para aceite/recusa e diálogo nativo. Erros e carregamento reutilizam tipografia, cores e botões existentes. Consultar `docs/AUDITORIA-PUBLICACAO-2026-10-17.md`; não alterar heroes ou a composição das páginas por causa deste complemento.
+**Complemento de publicação (17/10/2026, ajustado em 18/10):** políticas usam leitura editorial em branco; o aviso de cookies é uma faixa compacta preta, fixa de ponta a ponta na base da tela, com texto claro e ações Rejeitar/Gerenciar/Aceitar. Aparece automaticamente sem escolha válida; após a decisão permanece acessível pelo rodapé. Aceite e recusa têm a mesma importância. Preferências usam diálogo nativo claro. Erros e carregamento reutilizam tipografia, cores e botões existentes. Consultar `docs/AUDITORIA-PUBLICACAO-2026-10-17.md`; não alterar heroes ou a composição das páginas por causa deste complemento.
 
 **Conteúdo vigente:** versão 3.1.2, home preservada e páginas institucionais liberadas para publicação. Consultar a nota final desta versão antes de reutilizar especificações históricas.
 
