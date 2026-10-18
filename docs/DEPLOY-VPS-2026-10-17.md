@@ -54,3 +54,13 @@ O container estava healthy após as verificações, sem erro de aplicação nos 
 Seguir `PRODUCAO-VPS.md`. Sempre enviar o código à `main`, atualizar este checkout por fast-forward, construir uma nova imagem com outra tag e aplicar somente o serviço `web`. O builder próprio pode ser reutilizado explicitamente com `--builder foxstage-build --load`; isso não muda o builder padrão dos outros projetos.
 
 Não executar comandos de limpeza global ou reiniciar o Traefik para atualizar a Foxstage. Preservar imagens anteriores para rollback. As credenciais temporárias usadas para a implantação não pertencem ao repositório.
+
+## Atualização 3.1.2: submenu e avisos de imagens
+
+Pedido posterior do mesmo dia, implantado a partir do commit `9bceeb2`, com imagem `foxstage-site:9bceeb2`. O checkout recebeu `git pull --ff-only origin main`; a imagem foi construída pelo builder limitado e somente o serviço `web` foi recriado. A imagem `26b6939` e o arquivo de ambiente anterior ficaram preservados para rollback.
+
+Foram retirados os avisos de origem das imagens nas páginas e no preview social. As descrições alternativas descrevem as cenas; os registros de proveniência internos permanecem. A URL social atual é `/opengraph-image/hero-20261017-v2`.
+
+O submenu de Cursos usa hover na largura completa de cada opção, com raio pequeno e transição de cor/fundo. A regra específica corrige a sobrescrita por `inline-flex` do menu geral. Clique de ponteiro não deixa anel de foco; foco por teclado, Escape e navegação sem JavaScript foram verificados.
+
+Validação concluída: build Docker/TypeScript, lint e 17 testes unitários; teste específico do menu e ausência dos avisos nas seis páginas; Open Graph/Twitter 1200×630; script de produção pelo domínio HTTPS público. Container healthy. A comparação confirmou os 22 containers anteriores com os mesmos IDs, ativos e iniciados antes desta atualização; Traefik com zero reinicializações. DNS e certificado não precisaram de alteração.
