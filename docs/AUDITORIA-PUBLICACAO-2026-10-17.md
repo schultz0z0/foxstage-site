@@ -69,3 +69,11 @@ O build sem `SITE_URL` avisa sobre o fallback de metadataBase usado para prévia
 Identificação jurídica ainda provisória e e-mail sem entrega verificada. Android/iPhone físicos serão testados pelo responsável; emulação não foi registrada como teste físico. GA4, Ads e Meta sem IDs; Search Console/Bing sem confirmação de conta. Retenção no provedor de análise deve ser definida antes da ativação. Não foi feita auditoria integral dos outros projetos, da conta de hospedagem ou da operação administrativa da escola.
 
 Instruções e tarefas restantes: [checklist de publicação](PUBLICACAO-CHECKLIST.md).
+
+## Resultado da publicação
+
+Aplicação publicada na imagem `foxstage-site:a2bc5fb`, a partir da `main`. Testes repetidos em https://foxstage.com.br: oito páginas × oito larguras, políticas, consentimento, revogação entre abas, HTML visível sem JavaScript, 404 real, arquivos privados inacessíveis e arquivos de descoberta passaram. Evidência: [QA da publicação](publication-readiness-qa.json).
+
+TLS 1.3 verificado com cadeia autorizada Let's Encrypt, SAN para domínio e www, certificado válido até 16/01/2027 UTC. HTTP e www redirecionam para a origem HTTPS canônica; headers HSTS, nosniff e proteção contra enquadramento verificados. Healthcheck saudável, usuário 1001:1001, raiz somente leitura, sem portas publicadas. Os 22 outros containers conservaram IDs e horários de início; Traefik preservado. Builder dedicado limitado foi parado após gerar a imagem. Imagem anterior 9bceeb2 e backup do ambiente em .git foram preservados para rollback.
+
+Scanner final: 406 arquivos rastreados e 53 arquivos públicos/de cliente examinados, além dos patches do histórico alcançável, sem os padrões de segredos procurados. IDs de medição continuam vazios em produção. A chave de acesso usada para a implantação é temporária e deve ser removida ao encerrar a verificação, preservando as outras chaves.

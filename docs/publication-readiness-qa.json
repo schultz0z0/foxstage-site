@@ -1,0 +1,137 @@
+{
+  "date": "2026-10-18T02:34:05.292Z",
+  "base": "https://foxstage.com.br",
+  "configured": false,
+  "physicalDevice": false,
+  "routes": [
+    {
+      "pathname": "/",
+      "title": "Curso de inglês online ao vivo | Foxstage",
+      "image": "https://foxstage.com.br/opengraph-image/hero-20261017-v2",
+      "widths": [
+        320,
+        360,
+        390,
+        430,
+        768,
+        1024,
+        1440,
+        1920
+      ]
+    },
+    {
+      "pathname": "/cursos/ingles-em-grupo",
+      "title": "Curso de inglês online em grupo | Foxstage",
+      "image": "https://foxstage.com.br/opengraph-image/hero-20261017-v2",
+      "widths": [
+        320,
+        360,
+        390,
+        430,
+        768,
+        1024,
+        1440,
+        1920
+      ]
+    },
+    {
+      "pathname": "/cursos/ingles-individual",
+      "title": "Aulas individuais de inglês online | Foxstage",
+      "image": "https://foxstage.com.br/opengraph-image/hero-20261017-v2",
+      "widths": [
+        320,
+        360,
+        390,
+        430,
+        768,
+        1024,
+        1440,
+        1920
+      ]
+    },
+    {
+      "pathname": "/a-foxstage",
+      "title": "Escola de inglês Foxstage no Rio de Janeiro | Foxstage",
+      "image": "https://foxstage.com.br/opengraph-image/hero-20261017-v2",
+      "widths": [
+        320,
+        360,
+        390,
+        430,
+        768,
+        1024,
+        1440,
+        1920
+      ]
+    },
+    {
+      "pathname": "/english-day",
+      "title": "English Day: inglês na prática no Rio de Janeiro | Foxstage",
+      "image": "https://foxstage.com.br/images/foxstage/english-day-cinema.webp",
+      "widths": [
+        320,
+        360,
+        390,
+        430,
+        768,
+        1024,
+        1440,
+        1920
+      ]
+    },
+    {
+      "pathname": "/contato",
+      "title": "Contato com a Foxstage | Foxstage",
+      "image": "https://foxstage.com.br/opengraph-image/hero-20261017-v2",
+      "widths": [
+        320,
+        360,
+        390,
+        430,
+        768,
+        1024,
+        1440,
+        1920
+      ]
+    },
+    {
+      "pathname": "/privacidade",
+      "title": "Política de privacidade | Foxstage",
+      "image": "https://foxstage.com.br/opengraph-image/hero-20261017-v2",
+      "widths": [
+        320,
+        360,
+        390,
+        430,
+        768,
+        1024,
+        1440,
+        1920
+      ]
+    },
+    {
+      "pathname": "/politica-de-cookies",
+      "title": "Política de cookies | Foxstage",
+      "image": "https://foxstage.com.br/opengraph-image/hero-20261017-v2",
+      "widths": [
+        320,
+        360,
+        390,
+        430,
+        768,
+        1024,
+        1440,
+        1920
+      ]
+    }
+  ],
+  "checks": [
+    "default deny, unchecked categories, Escape/focus, rejection persists",
+    "separate purposes; no IDs means inert; revocation clears known cookies and reloads",
+    "8 routes: unique metadata, canonical, OG images, JSON-LD, 8 widths, real 404/noindex, discovery files"
+  ],
+  "errors": [],
+  "applicationCommit": "a2bc5fb",
+  "otherContainersUnchanged": 22,
+  "tlsVerified": true
+}

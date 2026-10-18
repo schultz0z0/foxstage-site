@@ -33,10 +33,10 @@
 
 **Interfaces:** `parseConsent(string): Consent | null`; `getMeasurementConfig(env): MeasurementConfig`; provider com preferências acessíveis pelo rodapé.
 
-- [ ] Testar validade, expiração, IDs permitidos e bloqueio por categoria com node:test.
-- [ ] Implementar diálogo nativo com aceitar, recusar e salvar seleção; foco e Escape; fallback sem JavaScript.
-- [ ] Implementar GA4, Ads e Pixel opcionais, sem GTM paralelo nem conversão de matrícula fictícia.
-- [ ] Verificar rede antes/depois da escolha e após revogação no navegador.
+- [x] Testar validade, expiração, IDs permitidos e bloqueio por categoria com node:test.
+- [x] Implementar diálogo nativo com aceitar, recusar e salvar seleção; foco e Escape; fallback sem JavaScript.
+- [x] Implementar GA4, Ads e Pixel opcionais, sem GTM paralelo nem conversão de matrícula fictícia.
+- [x] Verificar rede antes/depois da escolha e após revogação no navegador.
 
 ### Task 2: Conteúdo legal e descoberta
 
@@ -44,10 +44,10 @@
 
 **Interfaces:** lista de rotas legais independente do menu de cursos; configurações Google/Bing somente por IDs públicos.
 
-- [ ] Criar políticas factuais sobre infraestrutura, contato externo, preferências e categorias opcionais.
-- [ ] Incluir páginas reais no sitemap e rodapé; preservar bloqueio de conteúdo não publicado.
-- [ ] Adicionar llms.txt com fatos confirmados e links absolutos somente em origem pública indexável.
-- [ ] Conferir canonical, OG, JSON-LD, robots e status em todas as rotas.
+- [x] Criar políticas factuais sobre infraestrutura, contato externo, preferências e categorias opcionais.
+- [x] Incluir páginas reais no sitemap e rodapé; preservar bloqueio de conteúdo não publicado.
+- [x] Adicionar llms.txt com fatos confirmados e links absolutos somente em origem pública indexável.
+- [x] Conferir canonical, OG, JSON-LD, robots e status em todas as rotas.
 
 ### Task 3: Recuperação e segurança
 
@@ -55,15 +55,19 @@
 
 **Interfaces:** `retry()` da versão instalada do Next.js; erro sem mensagem interna na interface.
 
-- [ ] Implementar recuperação de falha, carregamento acessível e revisar 404 existente.
-- [ ] Executar falha controlada em fixture local, sem endpoint público de teste.
-- [ ] Examinar arquivos rastreados, histórico, assets e bundle cliente sem imprimir possíveis segredos.
+- [x] Implementar recuperação de falha, carregamento acessível e revisar 404 existente.
+- [x] Executar falha controlada em fixture local, sem endpoint público de teste.
+- [x] Examinar arquivos rastreados, histórico, assets e bundle cliente sem imprimir possíveis segredos.
 
 ### Task 4: Validação e operação
 
 **Files:** `docs/PUBLICACAO-CHECKLIST.md`, registro de QA e instruções de configuração.
 
-- [ ] Rodar lint, tipos, testes, build e navegador em larguras móveis e desktop.
-- [ ] Registrar Android/Chrome e iPhone/Safari físicos como pendência do responsável.
-- [ ] Documentar ativação de GA4/Ads/Meta, Search Console/Bing e confirmação cadastral.
-- [ ] Publicar somente o serviço Foxstage e validar domínio HTTPS, preservando outros projetos da VPS.
+- [x] Rodar lint, tipos, testes, build e navegador em larguras móveis e desktop.
+- [x] Registrar Android/Chrome e iPhone/Safari físicos como pendência do responsável.
+- [x] Documentar ativação de GA4/Ads/Meta, Search Console/Bing e confirmação cadastral.
+- [x] Publicar somente o serviço Foxstage e validar domínio HTTPS, preservando outros projetos da VPS.
+
+Ruling: carregamento de navegação usa indicador cliente; boundaries loading de rota não foram mantidos porque o teste sem JavaScript mostrou conteúdo oculto pelo streaming. Skeleton permanece reutilizável, com teste em fixture isolada.
+
+Execução concluída com publicação da imagem a2bc5fb e QA no domínio público. O teste físico e a configuração de contas permanecem pendentes conforme checklist; a tarefa de registrá-los foi concluída.
