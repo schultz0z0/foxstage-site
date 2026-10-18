@@ -1,10 +1,10 @@
 {
   "schemaVersion": "1.0.0",
-  "designVersion": "3.1.1",
+  "designVersion": "3.1.2",
   "id": "foxstage-website",
   "language": "pt-BR",
   "status": "user-approved-website-with-brand-manual-b-v1",
-  "updatedAt": "2026-10-12",
+  "updatedAt": "2026-10-17",
   "format": {
     "name": "Foxstage local design contract",
     "tokenSyntax": "Typed values with $type, $value and optional $description. Aliases use {tokens.path}.",
@@ -1087,6 +1087,12 @@
       "focusTrap": false,
       "returnFocusOnEscape": true
     },
+    "desktopCourseSubmenu": {
+      "row": "Full available width, minimum 44px high, small rounded corners",
+      "hover": "Warm background and dark orange text; color/background transition uses the existing fast duration",
+      "focus": "Keep visible keyboard focus; pointer activation does not leave a focus ring",
+      "disclosure": "Native details/summary; Escape closes and returns keyboard focus"
+    },
     "motion": {
       "duration": "160-220ms",
       "allowed": [
@@ -1223,7 +1229,8 @@
   "assetPolicy": {
     "referenceScreenshotsMayShipAsWebsiteImages": false,
     "referenceChildrenPhotosMayShip": false,
-    "heroPhoto": "Authorized real photo or clearly identified illustration; no synthetic portrait of a real person",
+    "heroPhoto": "Existing approved photographs; provenance stays in the internal asset manifest; no synthetic portrait of a real person",
+    "publicMediaDisclaimers": false,
     "stockOrGeneratedScenesAreSchoolEvidence": false,
     "sourceOriginalsPreserved": true,
     "photoFanRequiresDistinctAuthorizedImages": 5,

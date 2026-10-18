@@ -42,14 +42,16 @@
 .route-navigation > a[aria-current="page"], .route-parent-active { color: var(--semantic-color-accent-text-on-light); }
 .route-navigation > a[aria-current="page"] { box-shadow: inset 0 -2px var(--semantic-color-accent); }
 .route-disclosure { position: relative; }
-.route-disclosure > summary { display: inline-flex; gap: 8px; align-items: center; min-height: 44px; list-style: none; font-size: var(--type-navigation-font-size); font-weight: var(--type-navigation-weight); }
+.route-disclosure > summary { display: inline-flex; gap: 8px; align-items: center; min-height: 44px; list-style: none; font-size: var(--type-navigation-font-size); font-weight: var(--type-navigation-weight); border-radius: var(--primitive-radius-small); transition: color var(--primitive-duration-fast); }
+.route-disclosure > summary:focus:not(:focus-visible) { outline: none; }
 .route-disclosure > summary::-webkit-details-marker { display: none; }
 .route-disclosure > summary:hover { color: var(--semantic-color-accent-text-on-light); }
 .disclosure-chevron { flex: none; width: 8px; height: 8px; border-right: 1.5px solid currentColor; border-bottom: 1.5px solid currentColor; transform: rotate(45deg); margin: -3px 2px 0; }
 details[open] > summary .disclosure-chevron { transform: rotate(225deg); margin-top: 3px; }
 .route-submenu { position: absolute; top: 100%; left: -16px; min-width: var(--layout-editorial-submenu-min-width); padding: 8px; background: var(--semantic-color-page); border: 1px solid var(--semantic-color-border); border-radius: var(--primitive-radius-card); box-shadow: var(--primitive-shadow-photo); }
-.route-submenu a { display: flex; padding: 8px 12px; }
-.route-submenu a:hover, .route-submenu a[aria-current="page"] { background: var(--semantic-color-surface-warm); color: var(--semantic-color-accent-text-on-light); }
+.route-navigation .route-submenu a { display: flex; width: 100%; padding: 8px 12px; border-radius: var(--primitive-radius-small); transition: background-color var(--primitive-duration-fast), color var(--primitive-duration-fast); }
+.route-navigation .route-submenu a:is(:hover, :focus-visible, [aria-current="page"]) { background: var(--semantic-color-surface-warm); color: var(--semantic-color-accent-text-on-light); }
+.route-navigation .route-submenu a:focus-visible { outline-offset: -2px; }
 .mobile-menu .mobile-course-disclosure > summary { position: static; display: flex; justify-content: space-between; border-radius: var(--primitive-radius-small); padding: 10px 16px; min-height: 48px; font-size: 18px; font-weight: 400; list-style: none; }
 .mobile-menu .mobile-course-disclosure a { padding-left: 32px; }
 .mobile-menu a[aria-current="page"] { color: var(--semantic-color-accent-text-on-light); text-decoration: underline; }

@@ -18,7 +18,7 @@ const body = await readFile(path.join(process.cwd(), "public/fonts/SourceSans3-4
 
 // A new URL also lets sharing crawlers request the photographic version afresh.
 export function generateImageMetadata() {
-  return [{ id: "hero-20261017", alt, size, contentType }];
+  return [{ id: "hero-20261017-v2", alt, size, contentType }];
 }
 
 export default async function OpenGraphImage() {
@@ -37,7 +37,6 @@ export default async function OpenGraphImage() {
       </div>
       <div style={{ fontFamily: "Source", fontSize: 23, lineHeight: 1.3, width: 360, marginTop: 20 }}>{site.openGraph.support}</div>
     </div>
-    <div style={{ position: "absolute", bottom: 22, right: 24, fontFamily: "Source", fontSize: 12, color: "#FFFFFF", background: "rgba(16,19,20,0.8)", padding: "6px 10px", borderRadius: 4 }}>{hero.credit}</div>
   </div>, { ...size, fonts: [
     { name: "Bebas", data: display, weight: 400, style: "normal" },
     { name: "Source", data: body, weight: 400, style: "normal" }

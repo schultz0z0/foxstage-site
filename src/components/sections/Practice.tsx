@@ -12,7 +12,6 @@ export function Practice() {
           <div className="photo-card-copy"><h3>{item.title}</h3><p>{item.description}</p></div>
         </article>)}
       </div>
-      <p className="photo-note">Fotografias ilustrativas de banco de imagens.</p>
     </div>
   </section>;
 }

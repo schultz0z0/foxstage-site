@@ -22,5 +22,5 @@ export type CoursePageData = EditorialRecord & {
   practicalFacts: readonly { label: string; value: string }[];
   sections: readonly EditorialSection[];
   faq: readonly FAQItem[];
-  image: { src: string; alt: string; credit?: string; position?: string };
+  image: { src: string; alt: string; position?: string };
 };

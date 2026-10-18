@@ -94,7 +94,7 @@ Para retornar, restaurar no `.env.production` a tag anterior, que deve continuar
 
 ## Preview de compartilhamento
 
-`src/app/opengraph-image.tsx` usa a fotografia original do primeiro banner da home, a assinatura oficial intacta, fontes locais e o degradê do hero, em 1200×630. O WebP original é decodificado por Sharp para ser embutido no renderizador; não há chamada externa para gerar a imagem. A URL versionada é `/opengraph-image/hero-20261017`, usada também no Twitter Card. A fotografia continua identificada como ilustrativa gerada por IA.
+`src/app/opengraph-image.tsx` usa a fotografia original do primeiro banner da home, a assinatura oficial intacta, fontes locais e o degradê do hero, em 1200×630. O WebP original é decodificado por Sharp para ser embutido no renderizador; não há chamada externa para gerar a imagem. A URL versionada atual é `/opengraph-image/hero-20261017-v2`, usada também no Twitter Card. Por pedido do usuário, não há avisos de origem da imagem na interface nem no preview; a proveniência permanece no manifesto interno.
 
 O preview é uma imagem estática: não executa carrossel, vídeo ou animação. WhatsApp e outras plataformas podem conservar previews antigos em cache. A URL nova da imagem favorece uma nova coleta; links já enviados podem manter a miniatura anterior. Depois da publicação, testar um novo compartilhamento do domínio definitivo.
 

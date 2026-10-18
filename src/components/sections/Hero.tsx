@@ -24,7 +24,6 @@ export function Hero() {
           </div>
         </div>
       </div>
-      <p className="hero-photo-caption">{banner.credit}</p>
     </> }))} />
     <HeroGoals />
   </section>;

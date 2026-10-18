@@ -82,7 +82,6 @@ section { scroll-margin-top: 24px; }
 .hero .eyebrow { color: var(--component-hero-foreground); }
 .hero-description { margin-top: 20px; max-width: 390px; font-size: 18px; line-height: 1.5; }
 .hero-actions { display: flex; gap: 12px; flex-wrap: wrap; margin-top: 24px; }
-.hero-photo-caption { position: absolute; bottom: 18px; right: 24px; padding: 4px 9px; border-radius: 4px; background: rgba(16, 19, 20, .8); color: var(--component-hero-foreground); font-size: 12px; line-height: 1.4; }
 
 .hero-goals { background: var(--component-hero-goals-background); color: var(--component-hero-goals-foreground); border-radius: 0 0 var(--component-hero-radius) var(--component-hero-radius); padding: var(--layout-hero-goals-padding-desktop); }
 .hero-goals-inner { width: min(calc(100% - 80px), var(--layout-content-max-width)); margin-inline: auto; display: grid; grid-template-columns: var(--layout-hero-goals-desktop-columns); gap: var(--layout-hero-goals-gap-desktop); align-items: center; }
@@ -109,7 +108,6 @@ figcaption { margin-top: 10px; color: var(--semantic-color-text-muted); font-siz
 .photo-card-overlay { position: absolute; inset: 0; z-index: -1; background: var(--component-photo-card-overlay); }
 .photo-card-copy { position: absolute; inset-inline: 24px; bottom: 24px; }
 .photo-card-copy p { margin-top: 8px; font-size: 16px; line-height: 1.5; max-width: 30ch; }
-.photo-note { margin-top: 16px; font-size: var(--type-caption-font-size); line-height: 1.45; color: var(--semantic-color-text-inverse-muted); }
 
 .shortcut-grid { display: grid; grid-template-columns: repeat(var(--layout-shortcuts-columns-desktop), minmax(0, 1fr)); gap: var(--layout-shortcuts-gap); }
 .shortcut-card { display: flex; flex-direction: column; padding: var(--component-shortcut-card-padding); border-radius: var(--component-shortcut-card-radius); background: var(--component-shortcut-card-background); box-shadow: var(--component-shortcut-card-shadow); }
@@ -258,7 +256,6 @@ figcaption { margin-top: 10px; color: var(--semantic-color-text-muted); font-siz
   .hero-actions { gap: 12px; margin-top: 20px; }
   .hero-actions .button { width: fit-content; max-width: 100%; padding-inline: 18px; }
   .hero-pagination { right: 20px; bottom: 84px; }
-  .hero-photo-caption { left: 24px; right: auto; bottom: 16px; font-size: 10px; }
   .hero-goals { padding: var(--layout-hero-goals-padding-mobile); }
   .hero-goals-inner { width: calc(100% - var(--layout-hero-copy-padding-inline-mobile) * 2); }
   .hero-goals h2 { font-size: 22px; }
@@ -296,7 +293,6 @@ figcaption { margin-top: 10px; color: var(--semantic-color-text-muted); font-siz
 
 @media (max-width: 374px) {
   .hero-pagination { bottom: 14px; right: 12px; }
-  .hero-photo-caption { left: 20px; max-width: calc(100% - 132px); }
 }
 
 @media (max-width: 359px) {

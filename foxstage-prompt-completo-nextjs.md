@@ -1,10 +1,10 @@
 # Prompts para o website da Foxstage em Next.js
 
-**Conteúdo vigente:** versão 3.1.1, home preservada e páginas institucionais liberadas para publicação. Consultar a nota final desta versão antes de reutilizar especificações históricas.
+**Conteúdo vigente:** versão 3.1.2, home preservada e páginas institucionais liberadas para publicação. Consultar a nota final desta versão antes de reutilizar especificações históricas.
 
 Guia de engenharia de prompt para desenvolvimento por etapas, revisão visual e preparação para publicação.
 
-**Versão:** 3.1.1 — composição das referências, movimento aprovado e manual de marca B v1.0
+**Versão:** 3.1.2 — composição das referências, movimento aprovado e manual de marca B v1.0
 **Pesquisa pública:** 10 de outubro de 2026, horário de referência America/Sao_Paulo.  
 **Referência de estrutura:** arquivo fornecido pelo usuário, `Texto colado.txt`, com o template de sites de esquadrias e vidraçarias.  
 **Entrega deste documento:** especificação e prompts editáveis. O website será desenvolvido quando estes prompts forem executados no projeto.
@@ -1640,3 +1640,10 @@ O vídeo mantém proporção464:816, controles nativos, autoplay sem som quando3
 ## Liberação das páginas institucionais — 13 de outubro de 2026
 
 O usuário autorizou disponibilizar a versão completa na Vercel para apresentação ao cliente. As duas páginas de cursos, A Foxstage, English Day e Contato estão publicadas nos registros de conteúdo e devem aparecer no menu em produção. Esta autorização substitui as restrições históricas de prévia privada dessas páginas. Layout, copy e sistema visual permanecem como aprovados. Consulte [Publicação na Vercel](docs/PUBLICACAO-VERCEL.md) para causa, configuração e validação.
+
+
+## Avisos de mídia e submenu — 3.1.2
+
+Pedido explícito de 17 de outubro de 2026: retirar da interface e do preview social os avisos de fotografia ilustrativa, imagem gerada por IA e equivalentes. Descrições alternativas permanecem objetivas sobre o conteúdo das imagens; não atribuir fotos de composição a alunos ou professores reais. A proveniência fica no manifesto interno de assets. Esta decisão substitui instruções históricas que exigiam avisos públicos.
+
+O submenu desktop de Cursos usa links com largura completa, área mínima de 44px, cantos pequenos e transição apenas de cor e fundo na duração rápida existente. As regras são específicas para o submenu, evitando que o estilo geral inline-flex do menu reduza o destaque à largura do texto. Clique de ponteiro não deixa anel de foco; teclado, Escape e navegação sem JavaScript permanecem. A imagem social sem aviso usa a URL versionada `/opengraph-image/hero-20261017-v2`. O teste `tests/menu-media.browser.mjs` cobre a regressão.

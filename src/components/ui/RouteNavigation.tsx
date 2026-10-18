@@ -28,7 +28,7 @@ export function RouteNavigation({ entries }: { entries: readonly NavigationEntry
     {entries.map(entry => entry.kind === "link"
       ? <Link key={entry.href} href={entry.href} aria-current={pathname === entry.href ? "page" : undefined}>{entry.label}</Link>
       : <details key={entry.label} className="route-disclosure">
-        <summary className={entry.children.some(child => child.href === pathname) ? "route-parent-active" : undefined}>{entry.label}<span className="disclosure-chevron" aria-hidden="true" /></summary>
+        <summary className={entry.children.some(child => child.href === pathname) ? "route-parent-active" : undefined} onClick={event => { if (event.detail > 0) event.currentTarget.blur(); }}>{entry.label}<span className="disclosure-chevron" aria-hidden="true" /></summary>
         <div className="route-submenu">{entry.children.map(child => <Link key={child.href} href={child.href} aria-current={pathname === child.href ? "page" : undefined} onClick={() => navigation.current?.querySelectorAll("details[open]").forEach(element => element.removeAttribute("open"))}>{child.label}</Link>)}</div>
       </details>)}
   </nav>;

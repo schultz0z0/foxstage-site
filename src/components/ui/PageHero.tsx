@@ -6,7 +6,7 @@ import Link from "next/link";
 import { Icon } from "./Icon";
 import type { MessageOrigin } from "@/content/site";
 
-type PageHeroImage = { src: string; alt: string; credit: string; position?: string; mobilePosition?: string; wholeMobile?: boolean };
+type PageHeroImage = { src: string; alt: string; position?: string; mobilePosition?: string; wholeMobile?: boolean };
 /** Same photography, typography, gradients and menu geometry as the approved home. */
 export function PageHero({ titleLines, description, label, image, cta, origin, children, href }: {
   titleLines: readonly [string, string]; description: string; label: string;
@@ -23,7 +23,6 @@ export function PageHero({ titleLines, description, label, image, cta, origin, c
         <p className="hero-description">{description}</p>
         <div className="hero-actions">{href ? <Link href={href} className="button button-primary">{cta}<Icon name="arrow" /></Link> : <WhatsAppLink origin={origin}>{cta}</WhatsAppLink>}</div>
       </div></div></div>
-      <p className="hero-photo-caption">{image.credit}</p>
     </div>
     {children && <div className="page-hero-extension warm-surface">{children}</div>}
   </section>;

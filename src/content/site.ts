@@ -66,11 +66,10 @@ export const site = {
         ],
         "description": "Conversação e situações reais em aulas ao vivo. Aprenda em grupo ou escolha aulas individuais personalizadas.",
         "image": "/images/foxstage/hero-ingles.webp",
-        "alt": "Duas pessoas fictícias estudando e conversando; imagem ilustrativa gerada por IA.",
+        "alt": "Duas pessoas estudando e conversando.",
         "position": "center",
         "mobilePosition": "85% 50%",
         "mobileNarrowPosition": "78% 50%",
-        "credit": "Imagem ilustrativa gerada por IA",
         "cta": "Conhecer as aulas",
         "origin": "introduction"
       },
@@ -83,11 +82,10 @@ export const site = {
         ],
         "description": "Aqui, você pratica para conversar. O erro faz parte do aprendizado, e o inglês entra em situações do seu dia a dia.",
         "image": "/images/foxstage/curso-ingles.jpg",
-        "alt": "Pessoas trocando ideias com caderno e notebook; fotografia de banco ilustrativa.",
+        "alt": "Pessoas trocando ideias com caderno e notebook.",
         "position": "center",
         "mobilePosition": "35% 50%",
         "mobileNarrowPosition": "35% 50%",
-        "credit": "Fotografia ilustrativa",
         "cta": "Conhecer as aulas",
         "origin": "practice"
       }
@@ -134,21 +132,21 @@ export const site = {
       "title": "Conversação",
       "description": "Fala e escuta em situações do dia a dia.",
       "image": "/images/foxstage/pratica-idioma.jpg",
-      "alt": "Pessoa estudando e fazendo anotações em uma mesa; imagem de banco ilustrativa.",
+      "alt": "Pessoa estudando e fazendo anotações em uma mesa.",
       "position": "50% 35%"
     },
     {
       "title": "Aulas ao vivo",
       "description": "Aprenda online em grupo e pratique o idioma.",
       "image": "/images/foxstage/ensino-personalizado.jpg",
-      "alt": "Livros e anotações de estudo; fotografia ilustrativa.",
+      "alt": "Livros e anotações de estudo.",
       "position": "50% 50%"
     },
     {
       "title": "Ensino personalizado",
       "description": "Aulas individuais com ensino personalizado para você.",
       "image": "/images/foxstage/comunicacao-oral.jpg",
-      "alt": "Pessoa conversando à mesa com um computador; fotografia ilustrativa.",
+      "alt": "Pessoa conversando à mesa com um computador.",
       "position": "50% 35%"
     }
   ],

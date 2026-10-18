@@ -12,7 +12,7 @@ export function generateMetadata() { requirePageAccess("contact"); return buildP
 export default function Contact() {
   requirePageAccess("contact");
   return <>
-    <PageHero titleLines={["Vamos falar", "do seu inglês?"]} description={content.introduction} label="Contato com a Foxstage" image={{src:site.hero.image,alt:"Duas pessoas fictícias estudando e conversando; imagem ilustrativa gerada por IA.",credit:"Imagem ilustrativa gerada por IA",mobilePosition:"85% 50%"}} cta="Falar no WhatsApp" origin="contact" />
+    <PageHero titleLines={["Vamos falar", "do seu inglês?"]} description={content.introduction} label="Contato com a Foxstage" image={{src:site.hero.image,alt:"Duas pessoas estudando e conversando.",mobilePosition:"85% 50%"}} cta="Falar no WhatsApp" origin="contact" />
     <section className="section contact-hub page-first-section"><div className="container contact-hub-grid"><div><h2>Qual é o assunto?</h2><p className="body-copy">Escolha por onde começar. Os três caminhos chegam ao WhatsApp da escola.</p><div className="contact-destinations">
       <WhatsAppLink origin="group" className="contact-destination" arrow={false}><span><strong>Aulas em grupo</strong><span>Formato, horários e valores.</span></span><Icon name="arrow" /></WhatsAppLink>
       <WhatsAppLink origin="individual" className="contact-destination" arrow={false}><span><strong>Aulas individuais</strong><span>Seu objetivo e o ensino personalizado.</span></span><Icon name="arrow" /></WhatsAppLink>

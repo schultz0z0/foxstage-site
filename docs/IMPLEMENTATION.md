@@ -1,6 +1,6 @@
 # Implementação do contrato Foxstage 3.1.1
 
-**Conteúdo vigente:** versão 3.1.1, home preservada e páginas institucionais liberadas para publicação. Consultar a nota final desta versão antes de reutilizar especificações históricas.
+**Conteúdo vigente:** versão 3.1.2, home preservada e páginas institucionais liberadas para publicação. Consultar a nota final desta versão antes de reutilizar especificações históricas.
 
 Registro de 10 de outubro de 2026. Esta implementação preserva a composição aprovada e aplica a direção B escolhida pelo usuário, conforme o kit completo fornecido em assets. A direção é editorial para um curso de inglês, com fotografia, títulos condensados, laranja/preto/creme/branco e contato direto. Cores e fontes seguem agora o manual B v1.0 aprovado neste projeto. A pesquisa inicial do Instagram não é apresentada como origem desse manual.
 
@@ -227,3 +227,10 @@ O usuário autorizou disponibilizar a versão completa na Vercel para apresenta�
 O Next.js gera `standalone` para o Dockerfile de produção. `compose.yaml` isola o Foxstage na bridge própria `foxstage-web`, sem portas publicadas, para o Traefik existente do usuário em `network_mode: host`, com entrada `websecure` e resolver `letsencrypt`. A configuração canônica é `https://foxstage.com.br`; indexação é habilitada pelo arquivo de ambiente da VPS. Nenhuma alteração no Traefik ou nos demais projetos é necessária. Instruções e pendências em [Produção na VPS](PRODUCAO-VPS.md).
 
 A imagem de compartilhamento usa a fotografia do primeiro hero, assinatura oficial, fontes locais e degradê, em 1200×630, na URL versionada `/opengraph-image/hero-20261017`. Sharp é dependência explícita para decodificar o WebP no gerador. Open Graph e Twitter recebem a imagem; o corpo e as animações do website permanecem iguais.
+
+
+## Avisos de mídia e submenu — 3.1.2
+
+Pedido explícito de 17 de outubro de 2026: retirar da interface e do preview social os avisos de fotografia ilustrativa, imagem gerada por IA e equivalentes. Descrições alternativas permanecem objetivas sobre o conteúdo das imagens; não atribuir fotos de composição a alunos ou professores reais. A proveniência fica no manifesto interno de assets. Esta decisão substitui instruções históricas que exigiam avisos públicos.
+
+O submenu desktop de Cursos usa links com largura completa, área mínima de 44px, cantos pequenos e transição apenas de cor e fundo na duração rápida existente. As regras são específicas para o submenu, evitando que o estilo geral inline-flex do menu reduza o destaque à largura do texto. Clique de ponteiro não deixa anel de foco; teclado, Escape e navegação sem JavaScript permanecem. A imagem social sem aviso usa a URL versionada `/opengraph-image/hero-20261017-v2`. O teste `tests/menu-media.browser.mjs` cobre a regressão.

@@ -40,8 +40,7 @@ export const coursePages: Record<CourseId, CoursePageData> = {
     ],
     "image": {
       "src": "/images/foxstage/curso-ingles.jpg",
-      "alt": "Pessoas conversando com caderno e notebook; fotografia ilustrativa de banco de imagens.",
-      "credit": "Fotografia ilustrativa",
+      "alt": "Pessoas conversando com caderno e notebook.",
       "position": "center"
     },
     "sections": [
@@ -95,8 +94,7 @@ export const coursePages: Record<CourseId, CoursePageData> = {
     ],
     "image": {
       "src": "/images/foxstage/hero-ingles.webp",
-      "alt": "Duas pessoas fictícias conversando e estudando; imagem ilustrativa gerada por IA.",
-      "credit": "Imagem ilustrativa gerada por IA",
+      "alt": "Duas pessoas conversando e estudando.",
       "position": "center"
     },
     "sections": [
