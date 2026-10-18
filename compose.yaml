@@ -1,0 +1,59 @@
+name: foxstage
+
+services:
+  web:
+    image: foxstage-site:${IMAGE_TAG:-local}
+    build:
+      context: .
+      dockerfile: Dockerfile
+    restart: unless-stopped
+    init: true
+    environment:
+      NODE_ENV: production
+      HOSTNAME: 0.0.0.0
+      PORT: "3000"
+      SITE_URL: https://foxstage.com.br
+      SITE_INDEXABLE: ${SITE_INDEXABLE:-false}
+      SITE_PREVIEW_DRAFTS: "false"
+      NEXT_TELEMETRY_DISABLED: "1"
+    expose:
+      - "3000"
+    networks:
+      - web
+    read_only: true
+    tmpfs:
+      - /tmp:rw,noexec,nosuid,size=64m,uid=1001,gid=1001
+      - /app/.next/cache:rw,noexec,nosuid,size=256m,uid=1001,gid=1001
+    cap_drop:
+      - ALL
+    security_opt:
+      - no-new-privileges:true
+    mem_limit: 1g
+    cpus: 1.0
+    pids_limit: 128
+    logging:
+      driver: json-file
+      options:
+        max-size: "10m"
+        max-file: "3"
+    labels:
+      traefik.enable: "true"
+      traefik.docker.network: foxstage-web
+      traefik.http.routers.foxstage-site.rule: Host(`foxstage.com.br`) || Host(`www.foxstage.com.br`)
+      traefik.http.routers.foxstage-site.entrypoints: websecure
+      traefik.http.routers.foxstage-site.tls: "true"
+      traefik.http.routers.foxstage-site.tls.certresolver: letsencrypt
+      traefik.http.routers.foxstage-site.service: foxstage-site
+      traefik.http.routers.foxstage-site.middlewares: foxstage-www-canonical
+      traefik.http.services.foxstage-site.loadbalancer.server.port: "3000"
+      traefik.http.services.foxstage-site.loadbalancer.healthcheck.path: /api/health
+      traefik.http.services.foxstage-site.loadbalancer.healthcheck.interval: 30s
+      traefik.http.services.foxstage-site.loadbalancer.healthcheck.timeout: 5s
+      traefik.http.middlewares.foxstage-www-canonical.redirectregex.regex: ^https?://www\.foxstage\.com\.br/(.*)
+      traefik.http.middlewares.foxstage-www-canonical.redirectregex.replacement: https://foxstage.com.br/$${1}
+      traefik.http.middlewares.foxstage-www-canonical.redirectregex.permanent: "true"
+
+networks:
+  web:
+    name: foxstage-web
+    driver: bridge

@@ -4,6 +4,15 @@ import { buildPageMetadata } from '../src/lib/page-metadata.ts';
 import { getPublicationConfig } from '../src/lib/publication.ts';
 import { buildStructuredData, serializeStructuredData } from '../src/lib/structured-data.ts';
 const seo={title:'Inglês online em grupo',description:'Aulas online ao vivo, com foco em conversação.',pathname:'/cursos/ingles-em-grupo'};
+
+test('productionSharingUsesVersionedHeroAndPreservesSpecificPageImage',()=>{
+  const publication=getPublicationConfig({SITE_URL:'https://foxstage.com.br',SITE_INDEXABLE:'true'});
+  const home=buildPageMetadata({...seo,pathname:'/'},publication);
+  assert.equal(home.openGraph.images[0].url,'https://foxstage.com.br/opengraph-image/hero-20261017');
+  assert.equal(home.twitter.images[0],'https://foxstage.com.br/opengraph-image/hero-20261017');
+  const day=buildPageMetadata({...seo,pathname:'/english-day',image:'/images/foxstage/english-day-cinema.webp'},publication);
+  assert.equal(day.twitter.images[0],'https://foxstage.com.br/images/foxstage/english-day-cinema.webp');
+});
 test('previewNeverIndexesOrInventsCanonicalOrigin',()=>{
   const meta=buildPageMetadata(seo,getPublicationConfig({}));
   assert.equal(meta.robots.index,false);

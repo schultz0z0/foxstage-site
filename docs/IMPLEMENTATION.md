@@ -221,3 +221,9 @@ O vídeo mantém proporção464:816, controles nativos, autoplay sem som quando3
 ## Liberação das páginas institucionais — 13 de outubro de 2026
 
 O usuário autorizou disponibilizar a versão completa na Vercel para apresentação ao cliente. As duas páginas de cursos, A Foxstage, English Day e Contato estão publicadas nos registros de conteúdo e devem aparecer no menu em produção. Esta autorização substitui as restrições históricas de prévia privada dessas páginas. Layout, copy e sistema visual permanecem como aprovados. Consulte [Publicação na Vercel](PUBLICACAO-VERCEL.md) para causa, configuração e validação.
+
+## Preparação da VPS e imagem social — 17 de outubro de 2026
+
+O Next.js gera `standalone` para o Dockerfile de produção. `compose.yaml` isola o Foxstage na bridge própria `foxstage-web`, sem portas publicadas, para o Traefik existente do usuário em `network_mode: host`, com entrada `websecure` e resolver `letsencrypt`. A configuração canônica é `https://foxstage.com.br`; indexação é habilitada pelo arquivo de ambiente da VPS. Nenhuma alteração no Traefik ou nos demais projetos é necessária. Instruções e pendências em [Produção na VPS](PRODUCAO-VPS.md).
+
+A imagem de compartilhamento usa a fotografia do primeiro hero, assinatura oficial, fontes locais e degradê, em 1200×630, na URL versionada `/opengraph-image/hero-20261017`. Sharp é dependência explícita para decodificar o WebP no gerador. Open Graph e Twitter recebem a imagem; o corpo e as animações do website permanecem iguais.
