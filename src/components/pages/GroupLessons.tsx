@@ -13,7 +13,7 @@ export function GroupLessons({ course }: { course: CoursePageData }) {
       <div className="container group-conversation-grid">
         <figure className="conversation-scene">
           <div className="conversation-photo"><Image src="/images/foxstage/comunicacao-oral.jpg" width={1200} height={800} sizes="(max-width: 767px) calc(100vw - 48px), 55vw" alt="Duas pessoas conversando diante de um notebook." /></div>
-          <div className="conversation-example"><span>Uma pergunta abre a conversa</span><p lang="en">How was<br />your day?</p><span>Como foi o seu dia?</span></div>
+          <div className="conversation-example"><span>Uma pergunta abre a conversa</span><p lang="en">How was{" "}<br />your day?</p><span>Como foi o seu dia?</span></div>
         </figure>
         <div className="group-conversation-copy"><h2>{course.sections[0].title}</h2>{course.sections[0].paragraphs.map(p => <p className="body-copy" key={p}>{p}</p>)}<p className="group-note">O erro faz parte. A conversa continua.</p></div>
       </div>
