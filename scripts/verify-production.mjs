@@ -26,7 +26,7 @@ assert.ok(robots.includes("Allow: /"));
 assert.ok(robots.includes(new URL("/sitemap.xml", canonical).href));
 const sitemap = await (await request("/sitemap.xml")).text();
 for (const pathname of paths) assert.ok(sitemap.includes(`<loc>${new URL(pathname, canonical).href}</loc>`));
-const image = await request("/opengraph-image/hero-20261017-v2");
+const image = await request("/opengraph-image/hero-20261020-brand-v11");
 assert.ok(image.headers.get("content-type")?.includes("image/png"));
 const png = Buffer.from(await image.arrayBuffer());
 assert.equal(png.readUInt32BE(16), 1200); assert.equal(png.readUInt32BE(20), 630);
