@@ -11,8 +11,8 @@ try {
   await page.goto(base);
   const og = await page.locator('meta[property="og:image"]').first().getAttribute('content');
   const twitter = await page.locator('meta[name="twitter:image"]').first().getAttribute('content');
-  assert.ok(og.includes('/opengraph-image/hero-20261017-v2'), 'Sharing must use the versioned photographic hero');
-  assert.ok(twitter.includes('/opengraph-image/hero-20261017-v2'), 'Twitter must use the same hero');
+  assert.ok(og.includes('/opengraph-image/hero-20261020-brand-v11'), 'Sharing must use the versioned photographic hero with the approved eye');
+  assert.ok(twitter.includes('/opengraph-image/hero-20261020-brand-v11'), 'Twitter must use the same hero with the approved eye');
   // Fetch the metadata URL's path on this server so the production-domain fixture stays local.
   const response = await context.request.get(base + new URL(og, base).pathname);
   assert.equal(response.status(), 200);

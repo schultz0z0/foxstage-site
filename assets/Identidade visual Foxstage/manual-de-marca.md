@@ -1,12 +1,12 @@
 # Foxstage - Manual de marca
 
-Versão 1.0. Direção B, escolhida pelo usuário. 10 de outubro de 2026.
+Versão 1.1. Direção B, com olho afilado aprovado pelo usuário. 20 de outubro de 2026.
 
 ![Assinatura principal](logos/horizontal/foxstage-horizontal-color.svg)
 
 ## 1. Identidade
 
-Marca de uma escola de inglês. Nome: **Foxstage**, uma palavra, inicial maiúscula. Descritor: **ENGLISH COURSE**. O símbolo é um perfil de raposa com uma orelha angular e contorno amplo; sem olhos, expressão de mascote, chamas ou selo.
+Marca de uma escola de inglês. Nome: **Foxstage**, uma palavra, inicial maiúscula. Descritor: **ENGLISH COURSE**. O símbolo é um perfil de raposa com uma orelha angular e contorno amplo; com um olho em traço afilado na mesma cor do símbolo, sem pupila, expressão de mascote, chamas ou selo.
 
 A geometria foi redesenhada em SVG a partir da opção B da prancha de exploração. O logotipo usa Source Sans 3 700 com ajustes ópticos de espaçamento. Símbolo, nome e descritor estão convertidos em paths nos SVGs. Não existe raster embutido nem dependência de fonte instalada para usar as logos.
 
@@ -47,7 +47,7 @@ Escalar proporcionalmente e preservar o espaçamento entre elementos. Não incli
 | Símbolo isolado | 32 px | 10 mm |
 | Microícone de favicon | 16 px | Apenas digital |
 
-Abaixo de 360 px, preferir a compacta. O microícone tem reforço discreto de contorno e é específico para 16/32/48 px. Os tamanhos digitais foram renderizados; a impressão requer prova física no processo e papel escolhidos.
+Abaixo de 360 px, preferir a compacta. O microícone reforça discretamente o contorno e o olho, com a mesma posição e forma, para 16/32/48 px. Os tamanhos digitais foram renderizados; a impressão requer prova física no processo e papel escolhidos.
 
 ## 6. Cores
 
@@ -94,7 +94,7 @@ Favicon: favicon.ico com 16/32/48 px; SVG e PNG em 16/32/48/180/192/512 px. O ar
 
 ## 10. Imagens e composição
 
-Preferir fotografia autorizada de situações reais. Identificar imagens ilustrativas que não representem a escola. Não usar bandeiras, livros, globos, brasões ou chamas como complementos automáticos da marca.
+Preferir fotografia autorizada de situações reais. Preservar internamente a proveniência de imagens de composição, sem atribuí-las a alunos ou professores reais. Não usar bandeiras, livros, globos, brasões ou chamas como complementos automáticos da marca.
 
 Usar uma hierarquia clara de título e leitura. O laranja destaca ações e pontos de atenção; não precisa ocupar toda a composição. Sobre fotografias, usar um assento sólido quando não houver contraste e respiro suficientes.
 
@@ -108,7 +108,7 @@ As frases públicas “Aprenda inglês. Fale inglês. Viva o inglês.” podem a
 
 - Esticar, girar, espelhar, cortar ou recompor a marca.
 - Alterar cores ou espessuras fora das versões do kit.
-- Acrescentar olhos, pelos, expressão de mascote, chamas, bandeiras ou selo.
+- Remover, reposicionar ou redesenhar o olho aprovado; acrescentar pupilas, pelos, expressão de mascote, chamas, bandeiras ou selo.
 - Aplicar gradientes, sombras, brilho ou bevel.
 - Usar fundo que dissolva o contorno ou prejudique a leitura.
 - Redigitar o nome ou reconstruir o descritor com outra fonte.
@@ -119,4 +119,4 @@ SVG é o mestre para layout e ampliação. PNG é uma alternativa para ferrament
 
 O manual editável existe em Markdown e HTML. O HTML reúne os elementos visuais e fontes embutidas para gerar novamente o PDF. assets-index.json inventaria as artes; provenance.json registra a construção. Manifesto de arquivos e hashes acompanha a entrega.
 
-A migração da nova marca para o website é etapa separada: a logo anterior e o contrato implementado do site permanecem preservados nesta entrega.
+O kit 1.1 é a fonte canônica da marca. Conferir o conjunto completo antes de sincronizar seus assets com o website, preservando a composição aprovada.

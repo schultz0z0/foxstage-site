@@ -2,16 +2,21 @@
   "createdAt": "2026-10-10T22:29:37.441Z",
   "reference": "assets/brand-exploration/foxstage-logo-directions-v1.png, direction B selected by user",
   "referenceCreation": "image_gen, prompt recorded in assets/brand-exploration/generation-prompt.txt",
-  "symbol": "Manually redrawn native SVG contour based on selected B; one master path reused in all variants",
+  "symbol": "Original SVG outer contour preserved, with one native tapered eye path traced from the user-approved preview of 2026-10-20. Shared master geometry reused in every variant.",
   "lettering": "Source Sans 3 local OFL font, weight700/600 instantiated and converted to paths; optical spacing adjustments",
-  "websiteChanged": false,
   "sourceScripts": [
-    "work/build-brand-fonts.py",
-    "work/build-brand-assets.mjs"
+    "scripts/build-brand-assets.mjs",
+    "scripts/build-brand-manual.mjs",
+    "scripts/sync-brand-to-site.mjs"
   ],
   "libraries": {
     "fonttools": "4.66.1",
     "brotli": "1.2.0"
   },
-  "setupCatalogue": "setup-agent was not callable in this turn; previous consultation was inconclusive due to OAuth. No new skill/plugin/MCP was created or installed."
+  "setupCatalogue": "setup-agent was not callable in this turn; previous consultation was inconclusive due to OAuth. No new skill/plugin/MCP was created or installed.",
+  "updatedAt": "2026-10-20T12:29:35.062Z",
+  "version": "1.1.0",
+  "approvedEyeReference": "source/eye-approved-reference.png",
+  "microIcon": "Original contour reinforcement plus a 3-unit eye stroke for optical legibility at 16/32/48px.",
+  "websiteIntegration": "Website copies are synchronized only after kit verification; integration hashes and timestamps are recorded in docs/assets-manifest.json."
 }

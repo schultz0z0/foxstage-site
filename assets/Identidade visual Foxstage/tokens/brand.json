@@ -1,7 +1,7 @@
 {
-  "version": "1.0.0",
+  "version": "1.1.0",
   "direction": "B",
-  "status": "Developed from the direction selected by the user; website migration not performed",
+  "status": "User-approved direction B with tapered eye, 2026-10-20",
   "colors": {
     "orange": "#F65A0B",
     "ink": "#101314",

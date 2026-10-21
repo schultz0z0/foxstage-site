@@ -8,8 +8,8 @@ const seo={title:'Inglês online em grupo',description:'Aulas online ao vivo, co
 test('productionSharingUsesVersionedHeroAndPreservesSpecificPageImage',()=>{
   const publication=getPublicationConfig({SITE_URL:'https://foxstage.com.br',SITE_INDEXABLE:'true'});
   const home=buildPageMetadata({...seo,pathname:'/'},publication);
-  assert.equal(home.openGraph.images[0].url,'https://foxstage.com.br/opengraph-image/hero-20261017-v2');
-  assert.equal(home.twitter.images[0],'https://foxstage.com.br/opengraph-image/hero-20261017-v2');
+  assert.equal(home.openGraph.images[0].url,'https://foxstage.com.br/opengraph-image/hero-20261020-brand-v11');
+  assert.equal(home.twitter.images[0],'https://foxstage.com.br/opengraph-image/hero-20261020-brand-v11');
   const day=buildPageMetadata({...seo,pathname:'/english-day',image:'/images/foxstage/english-day-cinema.webp'},publication);
   assert.equal(day.twitter.images[0],'https://foxstage.com.br/images/foxstage/english-day-cinema.webp');
 });

@@ -1,6 +1,6 @@
 {
-  "version": "1.0.0",
-  "createdAt": "2026-10-10T22:29:39.398Z",
+  "version": "1.1.0",
+  "createdAt": "2026-10-21T00:25:32.143Z",
   "files": [
     {
       "file": "assets-index.json",
@@ -9,88 +9,88 @@
     },
     {
       "file": "avatars/foxstage-avatar-cream-1024.png",
-      "bytes": 46099,
-      "sha256": "d292ba8b737c5c20f7bea2c4b015502b3effb789661fd5c02ecfe69c379e17ac"
+      "bytes": 47272,
+      "sha256": "f6b62ab3e85acbee46654ec2309ebba6fa9833b1076684e40d8eba5701dd3c23"
     },
     {
       "file": "avatars/foxstage-avatar-cream-512.png",
-      "bytes": 16490,
-      "sha256": "34b1205a51bad748ca0d863a6d009e43dc99b366213b0ba05686d65400ecc072"
+      "bytes": 16946,
+      "sha256": "69e07a276dbcdf30a5ef269779c1514176f4707e7327c58815f7340d8d020aea"
     },
     {
       "file": "avatars/foxstage-avatar-cream.svg",
-      "bytes": 747,
-      "sha256": "a0543e23d7f6bb67f1ee1e3154e8b33aad4b47914776e81b8d54bd9c2b2d8380"
+      "bytes": 844,
+      "sha256": "32de0983f9680ca97f9245819bc960a4af1bf2f08f9c53acf28b84496a1a4fd8"
     },
     {
       "file": "avatars/foxstage-avatar-dark-1024.png",
-      "bytes": 43802,
-      "sha256": "7d61231b88174eb214b564930c664b0f31ec2d524fa45a4988c9a42e2465bb28"
+      "bytes": 44845,
+      "sha256": "c8a783464bfc335b6d612389b9c11f246231a0c341b7acd392b4207646d42184"
     },
     {
       "file": "avatars/foxstage-avatar-dark-512.png",
-      "bytes": 15519,
-      "sha256": "87b72f19b938516c4a11daadd5c133b6d96045015afd03d513f8214b3cd6e651"
+      "bytes": 15947,
+      "sha256": "29b21e8a3e033bcb4b721206b8ce52442e54bc45b20c67be273e8e8b9c62129f"
     },
     {
       "file": "avatars/foxstage-avatar-dark.svg",
-      "bytes": 746,
-      "sha256": "f96e2afcc22a24332a19ab92d39f47976c2707812631e242adbb87a0c5bbf498"
+      "bytes": 843,
+      "sha256": "085f4281f0b4c2e258c0d73d44c9d91b49c817eb7650335557af24e523d8e662"
     },
     {
       "file": "avatars/foxstage-avatar-orange-1024.png",
-      "bytes": 44759,
-      "sha256": "fd00d4176f8b292c835de756c33ab5f29a8d939479dc14dd96802ec3165eddb3"
+      "bytes": 45902,
+      "sha256": "ee7c59fe80a23ed1ffa1b1148c99f815d66161f83bf78641704adf5f99738344"
     },
     {
       "file": "avatars/foxstage-avatar-orange-512.png",
-      "bytes": 16052,
-      "sha256": "766c1fb73d667c852d81c63bd42b8391a48eeb07d0042c2d3ec8e7ab7b8727f1"
+      "bytes": 16522,
+      "sha256": "5755acd55ec2ea41df52fcbfd376be9b83cc7fe34f1a266c35e06c36cc0f4f7d"
     },
     {
       "file": "avatars/foxstage-avatar-orange.svg",
-      "bytes": 748,
-      "sha256": "40b1ebd87afa5babff0188952474478d226b2198df7d64e4fb6bcce9f7fe8b77"
+      "bytes": 845,
+      "sha256": "db30f7007e575cb95e6c4479b345dbf29733b266ff9cedeebc0fb41cfaeb4a65"
     },
     {
       "file": "favicons/favicon.ico",
-      "bytes": 2859,
-      "sha256": "abae1b3add8a3eba4d268113086d2a359a44221684f26c3cbadab26668ad24f1"
+      "bytes": 2937,
+      "sha256": "07c154c1909b96767d6d65b4e21d68ad6836e60fc79e632bf51e719a853363e8"
     },
     {
       "file": "favicons/foxstage-favicon-16.png",
-      "bytes": 452,
-      "sha256": "b703b1ba8a8c5bbf2d300ac14d87747b43593960a82a8f422a86ae08214e5d94"
+      "bytes": 461,
+      "sha256": "2a593629a6122acbb4d304a323dfcba96520217aa4efd4eceb26b2b5a1f8d906"
     },
     {
       "file": "favicons/foxstage-favicon-180.png",
-      "bytes": 5148,
-      "sha256": "56e59c14d273fd9b01b288b3c0b042819c624f0ca49cffb0a59bb8f1f8cd1160"
+      "bytes": 5355,
+      "sha256": "1bb0469a00d36c47873c67c1d53f19d4a686e8365d51b448282abb7f417a6ffd"
     },
     {
       "file": "favicons/foxstage-favicon-192.png",
-      "bytes": 5555,
-      "sha256": "354e457c987f37023ad3aeee7a9aea0640acd77bd22eee201b1da087901db4db"
+      "bytes": 5754,
+      "sha256": "59c79613e5e3ea610c6391aa7193265c1577288680b9ce3103e836f476243081"
     },
     {
       "file": "favicons/foxstage-favicon-32.png",
-      "bytes": 920,
-      "sha256": "286484937051f49a22a5065010949d6c060331468c353fffdeeb1551e93967e8"
+      "bytes": 947,
+      "sha256": "22c676a9994da0d1cd875785ec45af530903889ae1cc22290c7790e26650f8a1"
     },
     {
       "file": "favicons/foxstage-favicon-48.png",
-      "bytes": 1433,
-      "sha256": "7448ec0a77ad757d3be7303ad53e3c7e48feb0fbdd01b65e4f7c347bf773245e"
+      "bytes": 1475,
+      "sha256": "3795d0d95c5b54f283783f66c03765498c7488c808d429315202d98ac7d079ca"
     },
     {
       "file": "favicons/foxstage-favicon-512.png",
-      "bytes": 19710,
-      "sha256": "90dc70bd22e4b85edd83586b65a423c11f5737ff864effadf9b3044959a4607b"
+      "bytes": 20315,
+      "sha256": "8340882be594d3f66a683a00194701d82423143cd566aa5e4afa6ab79019c496"
     },
     {
       "file": "favicons/foxstage-favicon.svg",
-      "bytes": 808,
-      "sha256": "0920a9725cc3fbe7b48dd26e55c42bb734a96e153bdd6b5bcc3e5d8b1c418b37"
+      "bytes": 963,
+      "sha256": "efdf944cfd258af1b665afb0cd37595f64a73ad87faef6c1030c50f4a126b755"
     },
     {
       "file": "fonts/bebas-neue-latin-400-normal.woff2",
@@ -134,198 +134,198 @@
     },
     {
       "file": "icons/foxstage-icon-dark-1024.png",
-      "bytes": 33957,
-      "sha256": "9b9696f02d245b672224b6a4f37a590c250242e53edab51ad61a00535992895d"
+      "bytes": 35407,
+      "sha256": "5ff338424048277cf6b10f35c0d99ff5e8661c14c3a85e6aaf3259dd2adc4b1f"
     },
     {
       "file": "icons/foxstage-icon-dark-256.png",
-      "bytes": 6272,
-      "sha256": "38041b606e135b5bf9eb2783deec026a416e1e4d36038e0562007684a8c81c66"
+      "bytes": 6564,
+      "sha256": "b3315ae53c7f84b93281a61b618fb23f0ba4af02352ca6de44002802eaf6518e"
     },
     {
       "file": "icons/foxstage-icon-dark-512.png",
-      "bytes": 14235,
-      "sha256": "0f73021f2a6489e2c6ce6de8750ce33460dc28acf7d116b61ad72b84e50618ce"
+      "bytes": 14899,
+      "sha256": "50a4dc09768c672fbcfa6532fe181341f31abbc397eb53e13c86f5d12fa74f51"
     },
     {
       "file": "icons/foxstage-icon-dark-96.png",
-      "bytes": 2157,
-      "sha256": "5b43dc76273ab6f99fef21a590ff95d1b0fbf6318c41d74eeb16380c4cc06d1b"
+      "bytes": 2271,
+      "sha256": "2684385de82842577ca4532245f899d071bcb0bd09558905da092875206104c4"
     },
     {
       "file": "icons/foxstage-icon-dark.svg",
-      "bytes": 697,
-      "sha256": "acfbc6729baf2a1cea2a91a9c0887fbc8f5cd8cef19a58587af35d647b722460"
+      "bytes": 794,
+      "sha256": "8fbbc2764e0f8db8467bc544c9f3826feded9d3ace8772897e655641822e04f0"
     },
     {
       "file": "icons/foxstage-icon-light-1024.png",
-      "bytes": 33423,
-      "sha256": "87fb423bafa11ae0be5b9fd2e3ac4c31c52d350ebd24db7529bb5a3f5f28414c"
+      "bytes": 34904,
+      "sha256": "edca7cc352a03aeb2bbaf4edef919ad1b5b4b7208960094bc36fc99aa0208abb"
     },
     {
       "file": "icons/foxstage-icon-light-256.png",
-      "bytes": 6194,
-      "sha256": "78685ccc036e776b511a60290627f63ccedd6105cc554518ab34966dd9fc7abc"
+      "bytes": 6483,
+      "sha256": "ec2dfa0a376a8baadef087b5c752b6a3fe8acbb495ba473cac41815539274c50"
     },
     {
       "file": "icons/foxstage-icon-light-512.png",
-      "bytes": 13998,
-      "sha256": "cc3826f953fa9465175f3a475737bf332cbd4a509706398fcf5a37a9d02bd2e1"
+      "bytes": 14655,
+      "sha256": "82392aaa33d88f29de4d2f740a4f6bacfc8dcec7adfecc6762bdc1d9da6903a1"
     },
     {
       "file": "icons/foxstage-icon-light-96.png",
-      "bytes": 2144,
-      "sha256": "3e898b92ec1a92acdcbdaa790712a8b29f6840d0e199d4e4f18910ff8e99e5a7"
+      "bytes": 2236,
+      "sha256": "4db65d5ec31787dc5b62670b782b3f89a0e4e5a58e01ed856070d3cad6e3bd36"
     },
     {
       "file": "icons/foxstage-icon-light.svg",
-      "bytes": 698,
-      "sha256": "f49e9eb4eaeb66a397e5e3ed0f82b918233b219ba2375518da08edfe15faf26c"
+      "bytes": 795,
+      "sha256": "26e6328861018f8208ac005e5265fd288de0c32b356d1c555aaa50f41189bc2d"
     },
     {
       "file": "icons/foxstage-icon-orange-1024.png",
-      "bytes": 35467,
-      "sha256": "d9d58de5ff0717f1dae93c3821dba4c370e71404bdcdf04140a9ccdfeeaa3a3c"
+      "bytes": 36984,
+      "sha256": "de83af225514e3e3dfa974a57948b59bf8fefd318c7891151ad63e78d127793c"
     },
     {
       "file": "icons/foxstage-icon-orange-256.png",
-      "bytes": 6507,
-      "sha256": "bae1422123e6f8ad3ff013468e383717f9a340764cc577ca850a8e577019d239"
+      "bytes": 6802,
+      "sha256": "7bda433677a8c83573ada28ade1b825b6633b7ee0f01d70ef917e76dbdb5e892"
     },
     {
       "file": "icons/foxstage-icon-orange-512.png",
-      "bytes": 14839,
-      "sha256": "1d0c5a921fc6bb2283e7a333e5eaf2f088ab9c1fcd7094cb1f97a26d3a29147d"
+      "bytes": 15525,
+      "sha256": "00d64ebd3c2bb223e75443f0342ddb3e0e382f106013f48e9ee651f990cf67a6"
     },
     {
       "file": "icons/foxstage-icon-orange-96.png",
-      "bytes": 2232,
-      "sha256": "b1abea5761c2665c30209009e6ed72bbaa0face56cc511d30f9f479f5a3b9fa3"
+      "bytes": 2334,
+      "sha256": "b7669be09c917bea385d99605b0ee3341d143d868a33836a6e2e6fa8114f7f03"
     },
     {
       "file": "icons/foxstage-icon-orange.svg",
-      "bytes": 699,
-      "sha256": "fd9753d44f7bc1b6642f1d1c4988a8223c5846b42251599c20c879a7d5b45d4b"
+      "bytes": 796,
+      "sha256": "3f14e567d86f0f8f7db37e419bd07bb19d4ff9fcb976a45f70a21116a49bb194"
     },
     {
       "file": "logos/compact/foxstage-compact-color-1600.png",
-      "bytes": 37255,
-      "sha256": "5eaaa4e5d68bab3a1dc9962158f301001b96f4d973b4d48508edda1cd78bdfa4"
+      "bytes": 37832,
+      "sha256": "2faee8c7825cbd757e20df7df6e14d33d5529ca064fff3a0e0c37a423bff4d9e"
     },
     {
       "file": "logos/compact/foxstage-compact-color.svg",
-      "bytes": 13773,
-      "sha256": "ea40d56afcd4be011dac99f45287ca3abfb058ff0e85330b3ca286ef56ff27f2"
+      "bytes": 13870,
+      "sha256": "5987f9e5bc58f8a95785d1da313c511ff5441382dc88e70377cacdd0e81e30cd"
     },
     {
       "file": "logos/compact/foxstage-compact-mono-dark-1600.png",
-      "bytes": 34892,
-      "sha256": "3f7e3c2ea60ed324b956a81715bd16a886655a6f5c3e9744e0dd93abed4a5db2"
+      "bytes": 35332,
+      "sha256": "c9bf85169f9adf973db02f8a9c2b679975ef9fa944637599aedd12718a509d12"
     },
     {
       "file": "logos/compact/foxstage-compact-mono-dark.svg",
-      "bytes": 13777,
-      "sha256": "c586b7373d4bd690cfa886909cf2c989edacf703538995bc6e321930eb79fd8c"
+      "bytes": 13874,
+      "sha256": "6a9f9d266dccd87b746a4581d1f5422f383dd6cbfaae9facc40c9100690a1dd5"
     },
     {
       "file": "logos/compact/foxstage-compact-mono-light-1600.png",
-      "bytes": 34434,
-      "sha256": "cc0a4f1e88d6d28d7ebc329a39d400d340fa2175c013bd180dc3fc2ba20eebf5"
+      "bytes": 34872,
+      "sha256": "263a4047ef004b4301ea83784e9f776b09ae9111fe9e07db3f816808be8a7d60"
     },
     {
       "file": "logos/compact/foxstage-compact-mono-light.svg",
-      "bytes": 13778,
-      "sha256": "e65ea0260c38d83a3f746bc3d77afff571bbb54a45c97a35dd24c906b110652f"
+      "bytes": 13875,
+      "sha256": "168e643940ae7f609aa4bd5172569cde7af106dc6a7fb588671dcd8796e561ad"
     },
     {
       "file": "logos/compact/foxstage-compact-reverse-1600.png",
-      "bytes": 36738,
-      "sha256": "469093e9e937b35f213f549293aa3e9f393ec7600c62cfabff000007dfbf2700"
+      "bytes": 37315,
+      "sha256": "ac5365d90404590102d49e18d2cedb181c2124dba6944c5d4a36472f825f1563"
     },
     {
       "file": "logos/compact/foxstage-compact-reverse.svg",
-      "bytes": 13775,
-      "sha256": "40459f459b8c8b289627302274574a2f425d38cee675c2bc9222425f4dd689e9"
+      "bytes": 13872,
+      "sha256": "5e1a3f16266e4c51719762cab0832a7950ece64994235eb8ce9eb8673eeea235"
     },
     {
       "file": "logos/horizontal/foxstage-horizontal-color-1891.png",
-      "bytes": 82708,
-      "sha256": "f1af6740aec47462bae2f5be012cd748f8b44476e781fd58c1ecb911bf39e31a"
+      "bytes": 83789,
+      "sha256": "69f50be8ea50fe084a2675bc62f709b9de9fc7f823a27d86619028a8c8cda145"
     },
     {
       "file": "logos/horizontal/foxstage-horizontal-color.svg",
-      "bytes": 22971,
-      "sha256": "b72e7f9da19aa78ef49b60a81d8328f1fbe3ed5cfa197d98b621253239848e3a"
+      "bytes": 23068,
+      "sha256": "22251e954c394911085f5454a3c1d72181235d3b0f101b95c92bf6d4dc49377c"
     },
     {
       "file": "logos/horizontal/foxstage-horizontal-mono-dark-1891.png",
-      "bytes": 74988,
-      "sha256": "1ce3a6ba86cb6008658fd29a6abfc261d97a2db35c6a78d488e5a93d976260e5"
+      "bytes": 75855,
+      "sha256": "67c08e2ca5eb2abc581a6e66cbcfd81d52a08ce1bab8cbcaf7da281f05286485"
     },
     {
       "file": "logos/horizontal/foxstage-horizontal-mono-dark.svg",
-      "bytes": 22975,
-      "sha256": "687df4c69b22c2ac9bb04fa4dd2700b2c3bec198e5318e77a378f8454d3669ed"
+      "bytes": 23072,
+      "sha256": "33a1c6f4681c3f9ec32eff3e5e7afd9ca3045ed0eb0207aefe81a0dc0a3a70f2"
     },
     {
       "file": "logos/horizontal/foxstage-horizontal-mono-light-1891.png",
-      "bytes": 88117,
-      "sha256": "acbd2591c34fb6f2edbf72519018741b623f6022bbe9df779fd50a9c0e3aaa2f"
+      "bytes": 89103,
+      "sha256": "04f5a17d6228f7555052bfc4f904bb2372914337f0a1decb249f5f0d60a8067d"
     },
     {
       "file": "logos/horizontal/foxstage-horizontal-mono-light.svg",
-      "bytes": 22976,
-      "sha256": "759a20f219aee6fdb9ca1b68ab82ed6528dfc276dfb9294cfd65e2f530a38064"
+      "bytes": 23073,
+      "sha256": "063fdfb64a231b517919756b5e826517e02391ec22e624a728df633a1c4355c0"
     },
     {
       "file": "logos/horizontal/foxstage-horizontal-reverse-1891.png",
-      "bytes": 91420,
-      "sha256": "3041ddc5627ec926772f508ca73d973b24ca69bc9a4a0d2a637585cb8c45c75b"
+      "bytes": 92708,
+      "sha256": "ca8675981322adbc9fe8cecdb1c22be93546495c83acf2bf3672be9a4ab770ca"
     },
     {
       "file": "logos/horizontal/foxstage-horizontal-reverse.svg",
-      "bytes": 22973,
-      "sha256": "42d30faaaa4bd7ade01e36deba2956a1d1eab48671d15c2d65e1c6fe97d0449b"
+      "bytes": 23070,
+      "sha256": "d4ef909f74b699ec2a25fbb73ad59d8c7719ab27de7318773c7fc44639ac23ab"
     },
     {
       "file": "logos/stacked/foxstage-stacked-color-1520.png",
-      "bytes": 53197,
-      "sha256": "d35762d995fa792e8d6f4e39c0f56f364f39682b1ff9196bc7b86681172c2651"
+      "bytes": 53939,
+      "sha256": "964af56f679f160fd6b6e2dac45495f5f6b357cb0382b2f7e75f85da6613f174"
     },
     {
       "file": "logos/stacked/foxstage-stacked-color.svg",
-      "bytes": 22978,
-      "sha256": "400d4a90aeb77bb109ed39a21f880db6376320a2204430626113021dd80838df"
+      "bytes": 23075,
+      "sha256": "26299cd9849513b300b3c54b2c34d32df527e54b81924648b476104ac893e400"
     },
     {
       "file": "logos/stacked/foxstage-stacked-mono-dark-1520.png",
-      "bytes": 51964,
-      "sha256": "3b8c179de2ef38fb052247e1714aba66c2006996d1b19210b7de711e603b9336"
+      "bytes": 52663,
+      "sha256": "994e40af10bbbb5d9377baf129c5d081a5139f18bfb5c646b5c17a90f565ca93"
     },
     {
       "file": "logos/stacked/foxstage-stacked-mono-dark.svg",
-      "bytes": 22982,
-      "sha256": "16750cc758369dc4fe043ed9a1879c05c6e19a3ac38d872cb0d4b901ccd3bea8"
+      "bytes": 23079,
+      "sha256": "2225be3e4fdd14288b3441a9af846e090b7eb24292bde2e3c3e9d6d75bd49a22"
     },
     {
       "file": "logos/stacked/foxstage-stacked-mono-light-1520.png",
-      "bytes": 51383,
-      "sha256": "6f66b5c6cc6fe6deffb8f5362aacc48f310a93c4739f0d87612f872988c913a8"
+      "bytes": 52103,
+      "sha256": "c0427ff21991464ae705038cd2faa433deb5e712230c4d4581be97ee8c5273a3"
     },
     {
       "file": "logos/stacked/foxstage-stacked-mono-light.svg",
-      "bytes": 22983,
-      "sha256": "1fa97c552873879e7efdcb6627929eac05b4a797fc695e71d23accc855efebb8"
+      "bytes": 23080,
+      "sha256": "58ffb8786d278b93d78c7c227f8219a2d6b3bff8fbf96f40c3e0d515e11128b0"
     },
     {
       "file": "logos/stacked/foxstage-stacked-reverse-1520.png",
-      "bytes": 52825,
-      "sha256": "10061fe02f08cfd223e0f34182b16a9116352b31976aacb79f7a6164e5a1c2b9"
+      "bytes": 53590,
+      "sha256": "b8e2996e60b8541a65a0d3141440e1d2ded1aecbe054d833bbf384dbf155619a"
     },
     {
       "file": "logos/stacked/foxstage-stacked-reverse.svg",
-      "bytes": 22980,
-      "sha256": "b71c205b490c9a62bbc35820b5f1329a39f6333db1cb675561d2f57745c7db65"
+      "bytes": 23077,
+      "sha256": "a82ba45eebbe57e5ca17f3018f3cd296c81d1fdd88797c2b1e002160e42d9f54"
     },
     {
       "file": "logos/wordmark/foxstage-wordmark-dark-1600.png",
@@ -349,38 +349,33 @@
     },
     {
       "file": "manual-de-marca.html",
-      "bytes": 525991,
-      "sha256": "d1f11d8f5498200b0647659cdf65a5d0acb9ca18fa99d773b26bea636b0433ea"
+      "bytes": 528156,
+      "sha256": "7bcbb46748fdd8d83806852a237d4c83836262c731dfa7262514b858e42ad8aa"
     },
     {
       "file": "manual-de-marca.md",
-      "bytes": 7361,
-      "sha256": "888662fc63dd5ba4dacb4fcd72879524d2804a2a1885788f43c17cce20d79026"
+      "bytes": 7570,
+      "sha256": "e551101efef53c61dc5a63129cb66246c03ad4d4e65531d822aa079d6873cfc3"
     },
     {
       "file": "manual-de-marca.pdf",
-      "bytes": 180390,
-      "sha256": "cb6dc6405c6bc418ceaeea943225bb6f536f8cfb76c4da9b5e1dfe9611703ff7"
+      "bytes": 180853,
+      "sha256": "e85a5e8a50e11415317ab4342f580a3ddf516912cf2840d4bd361a085733100e"
     },
     {
       "file": "provenance.json",
-      "bytes": 852,
-      "sha256": "827eb9da1ee81b1a7b1bcaa13b73aafb570569765717d95690b0890eb7ec652a"
+      "bytes": 1352,
+      "sha256": "5c1c8571588a48244bfc07204f2fc6e251b092410405eaf1fe9c243d84dd6fda"
     },
     {
       "file": "README.md",
-      "bytes": 966,
-      "sha256": "0daa6cacac211835854c7cac4f97fd11a8e0f9f0db61371c0273e38d44f7db65"
+      "bytes": 1043,
+      "sha256": "1162e46120ef138f691b291b6908ecfb9333702fecf2354955c49d6e28668c0a"
     },
     {
-      "file": "reference/direcoes-originais.png",
-      "bytes": 1321364,
-      "sha256": "a7ccb049ffc2e472775eec1b7f9720a07c45bec420d233dfe1937dfb3af8e0de"
-    },
-    {
-      "file": "reference/prompt-original.txt",
-      "bytes": 3619,
-      "sha256": "e982fcc97962f4344745a4647ab506b669b2c0906e2f677e065eae7ed660f2a4"
+      "file": "source/eye-approved-reference.png",
+      "bytes": 57640,
+      "sha256": "5ee91d949880199452c87b1aa1aa16381c952ce9044cb26dfe88e9333e33f7bb"
     },
     {
       "file": "source/lettering-outlines.json",
@@ -389,8 +384,8 @@
     },
     {
       "file": "source/symbol-geometry.json",
-      "bytes": 625,
-      "sha256": "6b22b73145b3d5bc9221a012d72e4c562f86e7f4c2ebbc9c52e013fd3bdc9051"
+      "bytes": 893,
+      "sha256": "94d8e754f8cf90c3e775d4e8d2b040ea4f329e5a9113ed79cefaff5e25128348"
     },
     {
       "file": "tokens/brand.css",
@@ -399,13 +394,13 @@
     },
     {
       "file": "tokens/brand.json",
-      "bytes": 1111,
-      "sha256": "ce3865126c67a6ec8e70f7ff0e1da5a46f2b955bd18649716476e563d4e24357"
+      "bytes": 1083,
+      "sha256": "eadc6e566c48a5a6951cbd7808e8c9ea81587dacf6ab0d61d15a8d054bdce415"
     },
     {
       "file": "verification.json",
-      "bytes": 384,
-      "sha256": "8ab218aafe800006c80bd91d409104b9960258d0fd7552935cb0b5657c77ccdc"
+      "bytes": 1066,
+      "sha256": "32f520013997814bb802f0b4c29fc09dd3f8bf1b89e5dcdeef9be92f7cbc2889"
     }
   ]
 }

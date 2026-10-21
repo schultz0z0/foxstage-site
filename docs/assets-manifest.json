@@ -105,55 +105,56 @@
     "treatment": "Format conversion to WebP only; composition unchanged."
   },
   "brand": {
-    "version": "B v1.0",
+    "version": "B v1.1",
     "manual": "assets/Identidade visual Foxstage/manual-de-marca.pdf",
-    "approvedBy": "User in this conversation",
-    "websiteVersion": "2.2.0",
+    "approvedBy": "User approved tapered-eye preview and entire kit/site update, 2026-10-20",
+    "websiteVersion": "3.1.3",
     "files": [
       {
         "source": "assets/Identidade visual Foxstage/logos/horizontal/foxstage-horizontal-color.svg",
         "target": "public/images/foxstage/brand/foxstage-horizontal-color.svg",
-        "sha256": "b72e7f9da19aa78ef49b60a81d8328f1fbe3ed5cfa197d98b621253239848e3a"
+        "sha256": "22251e954c394911085f5454a3c1d72181235d3b0f101b95c92bf6d4dc49377c"
       },
       {
         "source": "assets/Identidade visual Foxstage/logos/compact/foxstage-compact-color.svg",
         "target": "public/images/foxstage/brand/foxstage-compact-color.svg",
-        "sha256": "ea40d56afcd4be011dac99f45287ca3abfb058ff0e85330b3ca286ef56ff27f2"
+        "sha256": "5987f9e5bc58f8a95785d1da313c511ff5441382dc88e70377cacdd0e81e30cd"
       },
       {
         "source": "assets/Identidade visual Foxstage/logos/horizontal/foxstage-horizontal-reverse.svg",
         "target": "public/images/foxstage/brand/foxstage-horizontal-reverse.svg",
-        "sha256": "42d30faaaa4bd7ade01e36deba2956a1d1eab48671d15c2d65e1c6fe97d0449b"
+        "sha256": "d4ef909f74b699ec2a25fbb73ad59d8c7719ab27de7318773c7fc44639ac23ab"
       },
       {
         "source": "assets/Identidade visual Foxstage/logos/compact/foxstage-compact-reverse.svg",
         "target": "public/images/foxstage/brand/foxstage-compact-reverse.svg",
-        "sha256": "40459f459b8c8b289627302274574a2f425d38cee675c2bc9222425f4dd689e9"
+        "sha256": "5e1a3f16266e4c51719762cab0832a7950ece64994235eb8ce9eb8673eeea235"
       },
       {
         "source": "assets/Identidade visual Foxstage/logos/horizontal/foxstage-horizontal-reverse-1891.png",
         "target": "public/images/foxstage/brand/foxstage-horizontal-reverse.png",
-        "sha256": "3041ddc5627ec926772f508ca73d973b24ca69bc9a4a0d2a637585cb8c45c75b"
+        "sha256": "ca8675981322adbc9fe8cecdb1c22be93546495c83acf2bf3672be9a4ab770ca"
       },
       {
         "source": "assets/Identidade visual Foxstage/favicons/favicon.ico",
         "target": "src/app/favicon.ico",
-        "sha256": "abae1b3add8a3eba4d268113086d2a359a44221684f26c3cbadab26668ad24f1"
+        "sha256": "07c154c1909b96767d6d65b4e21d68ad6836e60fc79e632bf51e719a853363e8"
       },
       {
         "source": "assets/Identidade visual Foxstage/favicons/foxstage-favicon.svg",
         "target": "src/app/icon.svg",
-        "sha256": "0920a9725cc3fbe7b48dd26e55c42bb734a96e153bdd6b5bcc3e5d8b1c418b37"
+        "sha256": "efdf944cfd258af1b665afb0cd37595f64a73ad87faef6c1030c50f4a126b755"
       },
       {
         "source": "assets/Identidade visual Foxstage/avatars/foxstage-avatar-orange-512.png",
         "target": "src/app/icon.png",
-        "sha256": "766c1fb73d667c852d81c63bd42b8391a48eeb07d0042c2d3ec8e7ab7b8727f1"
+        "sha256": "5755acd55ec2ea41df52fcbfd376be9b83cc7fe34f1a266c35e06c36cc0f4f7d"
       },
       {
         "source": "assets/Identidade visual Foxstage/avatars/foxstage-avatar-orange-512.png",
         "target": "src/app/apple-icon.png",
-        "treatment": "Proportional resize to 180px; standard symbol on orange"
+        "treatment": "Proportional resize to 180px from approved avatar",
+        "sha256": "f6574ca8503edee5c6c014c73d79b429dfbfeaeb267ecd6a0035a6b4d1acd450"
       },
       {
         "source": "assets/Identidade visual Foxstage/fonts/SourceSans3-400.ttf",
@@ -165,7 +166,9 @@
         "target": "public/fonts/BebasNeue-400.ttf",
         "sha256": "fa51b7c7e916bc2a2576ae111f6156dacafdbdd78dbebfb33c54336be3ff9c69"
       }
-    ]
+    ],
+    "kitVerifiedAt": "2026-10-20T12:29:38.516Z",
+    "synchronizedAt": "2026-10-20T12:29:39.590Z"
   },
   "heroBanners": {
     "websiteVersion": "2.3.0",

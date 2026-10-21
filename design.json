@@ -1,10 +1,10 @@
 {
   "schemaVersion": "1.0.0",
-  "designVersion": "3.1.2",
+  "designVersion": "3.1.3",
   "id": "foxstage-website",
   "language": "pt-BR",
-  "status": "user-approved-website-with-brand-manual-b-v1",
-  "updatedAt": "2026-10-17",
+  "status": "user-approved-website-with-brand-manual-b-v1.1",
+  "updatedAt": "2026-10-20",
   "format": {
     "name": "Foxstage local design contract",
     "tokenSyntax": "Typed values with $type, $value and optional $description. Aliases use {tokens.path}.",
@@ -12,7 +12,7 @@
     "units": "CSS px unless a value explicitly contains rem, ms, %, or a CSS expression",
     "precedence": [
       "Confirmed facts and explicit user instructions",
-      "User-approved brand manual B v1.0 in assets/Identidade visual Foxstage",
+      "User-approved brand manual B v1.1 in assets/Identidade visual Foxstage",
       "design.json tokens and numeric constraints",
       "design.md composition and behavior",
       "foxstage-prompt-completo-nextjs.md execution stages",
@@ -24,7 +24,7 @@
     "observedCommercialName": "Fox Stage English Course",
     "logo": {
       "source": "assets/Identidade visual Foxstage/logos/horizontal/foxstage-horizontal-color.svg",
-      "status": "Direction B approved by user; supplied complete kit applied to website",
+      "status": "Direction B with tapered eye approved by user on 2026-10-20; complete v1.1 kit verified before website synchronization",
       "treatment": "Use outlined SVG masters intact. Compact header; horizontal reversed footer at 360px; compact reversed below 480px viewport.",
       "transparentVariantAvailable": true,
       "darkVariantAvailable": true,
@@ -38,7 +38,7 @@
       }
     },
     "observedTraits": [
-      "Orange fox profile with one angular ear",
+      "Orange fox profile with one angular ear and a single tapered eye stroke",
       "Outlined Source Sans 3 wordmark",
       "Light and reversed official kit variants"
     ],

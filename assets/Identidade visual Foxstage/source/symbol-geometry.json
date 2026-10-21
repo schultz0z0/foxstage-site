@@ -10,5 +10,9 @@
     "y": 12,
     "scale": 0.93
   },
-  "microStrokeWidth": 4
+  "microStrokeWidth": 4,
+  "version": "1.1.0",
+  "eyePath": "M112 94 C126 102 140 98 154 111 C140 104 127 111 112 94 Z",
+  "microEyeStrokeWidth": 3,
+  "eyeDescription": "Single tapered curved stroke matching the symbol color; user-approved reference, 2026-10-20. Outer silhouette unchanged."
 }

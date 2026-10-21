@@ -18,7 +18,7 @@ const body = await readFile(path.join(process.cwd(), "public/fonts/SourceSans3-4
 
 // A new URL also lets sharing crawlers request the photographic version afresh.
 export function generateImageMetadata() {
-  return [{ id: "hero-20261017-v2", alt, size, contentType }];
+  return [{ id: "hero-20261020-brand-v11", alt, size, contentType }];
 }
 
 export default async function OpenGraphImage() {

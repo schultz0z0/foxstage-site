@@ -1649,3 +1649,12 @@ O usuário autorizou disponibilizar a versão completa na Vercel para apresenta�
 Pedido explícito de 17 de outubro de 2026: retirar da interface e do preview social os avisos de fotografia ilustrativa, imagem gerada por IA e equivalentes. Descrições alternativas permanecem objetivas sobre o conteúdo das imagens; não atribuir fotos de composição a alunos ou professores reais. A proveniência fica no manifesto interno de assets. Esta decisão substitui instruções históricas que exigiam avisos públicos.
 
 O submenu desktop de Cursos usa links com largura completa, área mínima de 44px, cantos pequenos e transição apenas de cor e fundo na duração rápida existente. As regras são específicas para o submenu, evitando que o estilo geral inline-flex do menu reduza o destaque à largura do texto. Clique de ponteiro não deixa anel de foco; teclado, Escape e navegação sem JavaScript permanecem. A imagem social sem aviso usa a URL versionada `/opengraph-image/hero-20261017-v2`. O teste `tests/menu-media.browser.mjs` cobre a regressão.
+
+
+## Atualização do símbolo — 3.1.3 / manual B v1.1
+
+Em 20 de outubro de 2026, o usuário aprovou a prévia do olho em traço afilado e autorizou atualizar primeiro todo o kit, depois o website. A silhueta, as cores, o lettering, as fontes e a composição do site foram preservados. O olho foi convertido em path nativo na geometria mestre, sem incorporar o raster gerado às logos.
+
+O kit completo em `assets/Identidade visual Foxstage/` foi regenerado e conferido antes da sincronização das nove artes de uso no website: assinaturas horizontal/compacta, versões colorida/invertida, PNG de compartilhamento, favicon, ícones de aba e toque. O manual Markdown/HTML/PDF passou à versão 1.1 e inclui a nova regra do olho. Os microícones têm reforço óptico do detalhe. O Open Graph/Twitter usa agora `/opengraph-image/hero-20261020-brand-v11` para renovar a URL da imagem.
+
+Manutenção: `scripts/build-brand-assets.mjs` lê os mestres de `source/`; `scripts/build-brand-manual.mjs` recompõe as 12 páginas; `scripts/verify-brand-assets.mjs` confere os derivados e atualiza os hashes; `scripts/sync-brand-to-site.mjs` recusa sincronizar um kit alterado após a verificação. Evidências do site em `docs/brand-eye-qa.json`. Backup anterior verificado em `backups/2026-10-20-pre-brand-eye/`. Não houve publicação remota nesta atualização.
